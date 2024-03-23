@@ -1,0 +1,2682 @@
+-- Typification Exporter
+
+local newTypification = {}
+
+newTypification = {
+  id = 226,
+  name = "CLF_FORGE_DAMAGE",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(226, newTypification);
+
+newTypification = {
+  id = 36,
+  name = "CLF_ICON",
+  stat = "",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1200,
+  bonusgroupID = 261,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(36, newTypification);
+
+newTypification = {
+  id = 165,
+  name = "CLF_JOB_LH",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(165, newTypification);
+
+newTypification = {
+  id = 166,
+  name = "CLF_JOB_RH",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(166, newTypification);
+
+newTypification = {
+  id = 117,
+  name = "CLF_ARM_TENERGY",
+  stat = "",
+  modreal = 700,
+  modfocus = 300,
+  modbasepoints = 200,
+  bonusgroupID = 221,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(117, newTypification);
+
+newTypification = {
+  id = 152,
+  name = "CLF_ALCHEMY_USE",
+  stat = "",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 261,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(152, newTypification);
+
+newTypification = {
+  id = 10,
+  name = "CLF_AMULET",
+  stat = "",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 261,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(10, newTypification);
+
+newTypification = {
+  id = 76,
+  name = "CLF_BELT_SKIRT",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 261,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(76, newTypification);
+
+newTypification = {
+  id = 32,
+  name = "CLF_GOLD",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 261,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(32, newTypification);
+
+newTypification = {
+  id = 38,
+  name = "CLF_JEWEL",
+  stat = "",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 261,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(38, newTypification);
+
+newTypification = {
+  id = 50,
+  name = "CLF_POTION",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 261,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(50, newTypification);
+
+newTypification = {
+  id = 51,
+  name = "CLF_REAGENT",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 261,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(51, newTypification);
+
+newTypification = {
+  id = 52,
+  name = "CLF_RECEIPE",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 261,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(52, newTypification);
+
+newTypification = {
+  id = 54,
+  name = "CLF_RING",
+  stat = "",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 261,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(54, newTypification);
+
+newTypification = {
+  id = 57,
+  name = "CLF_RUNE",
+  stat = "",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 261,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(57, newTypification);
+
+newTypification = {
+  id = 61,
+  name = "CLF_SCROLL",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 261,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(61, newTypification);
+
+newTypification = {
+  id = 70,
+  name = "CLF_TPSTONE",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 261,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(70, newTypification);
+
+newTypification = {
+  id = 169,
+  name = "CLF_JI_CARROT",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(169, newTypification);
+
+newTypification = {
+  id = 170,
+  name = "CLF_JI_CARROT",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(170, newTypification);
+
+newTypification = {
+  id = 172,
+  name = "CLF_JI_BRUSH02",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(172, newTypification);
+
+newTypification = {
+  id = 173,
+  name = "CLF_JI_BRUSH02",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(173, newTypification);
+
+newTypification = {
+  id = 174,
+  name = "CLF_JI_CHISEL",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(174, newTypification);
+
+newTypification = {
+  id = 179,
+  name = "CLF_JI_CHISEL",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(179, newTypification);
+
+newTypification = {
+  id = 180,
+  name = "CLF_JI_HAMMER",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(180, newTypification);
+
+newTypification = {
+  id = 181,
+  name = "CLF_JI_HAMMER",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(181, newTypification);
+
+newTypification = {
+  id = 182,
+  name = "CLF_JI_BARREL02",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(182, newTypification);
+
+newTypification = {
+  id = 183,
+  name = "CLF_JI_BARREL02",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(183, newTypification);
+
+newTypification = {
+  id = 184,
+  name = "CLF_JI_BOX01",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(184, newTypification);
+
+newTypification = {
+  id = 185,
+  name = "CLF_JI_BOX01",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(185, newTypification);
+
+newTypification = {
+  id = 186,
+  name = "CLF_JI_MEAT",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(186, newTypification);
+
+newTypification = {
+  id = 187,
+  name = "CLF_JI_MEAT",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(187, newTypification);
+
+newTypification = {
+  id = 188,
+  name = "CLF_JI_SAUSAGE01",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(188, newTypification);
+
+newTypification = {
+  id = 189,
+  name = "CLF_JI_SAUSAGE01",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(189, newTypification);
+
+newTypification = {
+  id = 190,
+  name = "CLF_JI_DISHES",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(190, newTypification);
+
+newTypification = {
+  id = 191,
+  name = "CLF_JI_DISHES",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(191, newTypification);
+
+newTypification = {
+  id = 192,
+  name = "CLF_JI_FORK",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(192, newTypification);
+
+newTypification = {
+  id = 193,
+  name = "CLF_JI_FORK",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(193, newTypification);
+
+newTypification = {
+  id = 194,
+  name = "CLF_JI_KNIFE",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(194, newTypification);
+
+newTypification = {
+  id = 195,
+  name = "CLF_JI_KNIFE",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(195, newTypification);
+
+newTypification = {
+  id = 196,
+  name = "CLF_JI_SPOON",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(196, newTypification);
+
+newTypification = {
+  id = 197,
+  name = "CLF_JI_SPOON",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(197, newTypification);
+
+newTypification = {
+  id = 198,
+  name = "CLF_JI_METAL_BAR",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(198, newTypification);
+
+newTypification = {
+  id = 199,
+  name = "CLF_JI_METAL_BAR",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(199, newTypification);
+
+newTypification = {
+  id = 200,
+  name = "CLF_JI_METAL_BAR_CLOTH",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(200, newTypification);
+
+newTypification = {
+  id = 201,
+  name = "CLF_JI_METAL_BAR_CLOTH",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(201, newTypification);
+
+newTypification = {
+  id = 202,
+  name = "CLF_JI_GLASS_CLEAN_CLOTH",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(202, newTypification);
+
+newTypification = {
+  id = 203,
+  name = "CLF_JI_GLASS_CLEAN_CLOTH",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(203, newTypification);
+
+newTypification = {
+  id = 204,
+  name = "CLF_JI_GLASS_CLEAN_GLASS",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(204, newTypification);
+
+newTypification = {
+  id = 205,
+  name = "CLF_JI_GLASS_CLEAN_GLASS",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(205, newTypification);
+
+newTypification = {
+  id = 206,
+  name = "CLF_JI_JEWEL",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(206, newTypification);
+
+newTypification = {
+  id = 207,
+  name = "CLF_JI_JEWEL",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(207, newTypification);
+
+newTypification = {
+  id = 208,
+  name = "CLF_JI_JEWEL_CLOTH",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(208, newTypification);
+
+newTypification = {
+  id = 209,
+  name = "CLF_JI_JEWEL_CLOTH",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(209, newTypification);
+
+newTypification = {
+  id = 210,
+  name = "CLF_JI_LUTE",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(210, newTypification);
+
+newTypification = {
+  id = 211,
+  name = "CLF_JI_LUTE",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(211, newTypification);
+
+newTypification = {
+  id = 212,
+  name = "CLF_JI_SHOWCASE_CLOTH",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(212, newTypification);
+
+newTypification = {
+  id = 213,
+  name = "CLF_JI_SHOWCASE_CLOTH",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(213, newTypification);
+
+newTypification = {
+  id = 214,
+  name = "CLF_JI_TABLE_CLOTH",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(214, newTypification);
+
+newTypification = {
+  id = 215,
+  name = "CLF_JI_TABLE_CLOTH",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(215, newTypification);
+
+newTypification = {
+  id = 216,
+  name = "CLF_JI_CHICKEN",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(216, newTypification);
+
+newTypification = {
+  id = 218,
+  name = "CLF_JI_CHICKEN",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(218, newTypification);
+
+newTypification = {
+  id = 219,
+  name = "CLF_JOB_2H",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(219, newTypification);
+
+newTypification = {
+  id = 155,
+  name = "CLF_MAGESTAFF_2H_R",
+  stat = "STAT_INT",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1130,
+  bonusgroupID = 167,
+  weapondamagespread = 90,
+  fightdistance = 35.000000,
+}
+mgr.createTypification(155, newTypification);
+
+newTypification = {
+  id = 8,
+  name = "CLF_2H_SWORD",
+  stat = "STAT_STR",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1400,
+  bonusgroupID = 91,
+  weapondamagespread = 150,
+  fightdistance = 35.000000,
+}
+mgr.createTypification(8, newTypification);
+
+newTypification = {
+  id = 6,
+  name = "CLF_2H_AXE",
+  stat = "STAT_STR",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1600,
+  bonusgroupID = 109,
+  weapondamagespread = 170,
+  fightdistance = 35.000000,
+}
+mgr.createTypification(6, newTypification);
+
+newTypification = {
+  id = 7,
+  name = "CLF_2H_HAMMER",
+  stat = "STAT_STR",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1660,
+  bonusgroupID = 110,
+  weapondamagespread = 210,
+  fightdistance = 35.000000,
+}
+mgr.createTypification(7, newTypification);
+
+newTypification = {
+  id = 225,
+  name = "CLF_SHOULDER_CLOTH_PADDED",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(225, newTypification);
+
+newTypification = {
+  id = 148,
+  name = "CLF_BRIDLE_BATTLE",
+  stat = "STAT_WIL",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 300,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(148, newTypification);
+
+newTypification = {
+  id = 149,
+  name = "CLF_BRIDLE_FIGHT",
+  stat = "STAT_WIL",
+  modreal = 600,
+  modfocus = 400,
+  modbasepoints = 300,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(149, newTypification);
+
+newTypification = {
+  id = 18,
+  name = "CLF_BRIDLE",
+  stat = "STAT_WIL",
+  modreal = 200,
+  modfocus = 800,
+  modbasepoints = 300,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(18, newTypification);
+
+newTypification = {
+  id = 47,
+  name = "CLF_PANZER",
+  stat = "STAT_WIL",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 800,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(47, newTypification);
+
+newTypification = {
+  id = 72,
+  name = "CLF_UMHANG",
+  stat = "STAT_WIL",
+  modreal = 600,
+  modfocus = 400,
+  modbasepoints = 800,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(72, newTypification);
+
+newTypification = {
+  id = 14,
+  name = "CLF_BLANKET",
+  stat = "STAT_WIL",
+  modreal = 200,
+  modfocus = 800,
+  modbasepoints = 800,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(14, newTypification);
+
+newTypification = {
+  id = 162,
+  name = "CLF_PROTECT_BATTLE",
+  stat = "STAT_WIL",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 900,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(162, newTypification);
+
+newTypification = {
+  id = 163,
+  name = "CLF_PROTECT_FIGHT",
+  stat = "STAT_WIL",
+  modreal = 600,
+  modfocus = 400,
+  modbasepoints = 900,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(163, newTypification);
+
+newTypification = {
+  id = 164,
+  name = "CLF_PROTECT_LIGHT",
+  stat = "STAT_WIL",
+  modreal = 200,
+  modfocus = 800,
+  modbasepoints = 900,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(164, newTypification);
+
+newTypification = {
+  id = 21,
+  name = "CLF_CHAINWEAPON",
+  stat = "STAT_STR",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1100,
+  bonusgroupID = 108,
+  weapondamagespread = 250,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(21, newTypification);
+
+newTypification = {
+  id = 9,
+  name = "CLF_ACTIVE",
+  stat = "STAT_WIL",
+  modreal = 750,
+  modfocus = 250,
+  modbasepoints = 240,
+  bonusgroupID = 214,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(9, newTypification);
+
+newTypification = {
+  id = 120,
+  name = "CLF_ARM_CLOTH_PADDED",
+  stat = "STAT_WIL",
+  modreal = 250,
+  modfocus = 750,
+  modbasepoints = 200,
+  bonusgroupID = 222,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(120, newTypification);
+
+newTypification = {
+  id = 118,
+  name = "CLF_ARM_CLOTH_SCALE",
+  stat = "STAT_WIL",
+  modreal = 850,
+  modfocus = 150,
+  modbasepoints = 200,
+  bonusgroupID = 215,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(118, newTypification);
+
+newTypification = {
+  id = 119,
+  name = "CLF_ARM_CLOTH_STRAP",
+  stat = "STAT_WIL",
+  modreal = 550,
+  modfocus = 450,
+  modbasepoints = 200,
+  bonusgroupID = 223,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(119, newTypification);
+
+newTypification = {
+  id = 113,
+  name = "CLF_ARM_FULL",
+  stat = "STAT_WIL",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 200,
+  bonusgroupID = 216,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(113, newTypification);
+
+newTypification = {
+  id = 116,
+  name = "CLF_ARM_ORNAMENT",
+  stat = "STAT_WIL",
+  modreal = 100,
+  modfocus = 900,
+  modbasepoints = 200,
+  bonusgroupID = 220,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(116, newTypification);
+
+newTypification = {
+  id = 115,
+  name = "CLF_ARM_PADDED",
+  stat = "STAT_WIL",
+  modreal = 400,
+  modfocus = 600,
+  modbasepoints = 200,
+  bonusgroupID = 218,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(115, newTypification);
+
+newTypification = {
+  id = 114,
+  name = "CLF_ARM_SCALE",
+  stat = "STAT_WIL",
+  modreal = 700,
+  modfocus = 300,
+  modbasepoints = 200,
+  bonusgroupID = 219,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(114, newTypification);
+
+newTypification = {
+  id = 13,
+  name = "CLF_BELT",
+  stat = "STAT_WIL",
+  modreal = 550,
+  modfocus = 450,
+  modbasepoints = 240,
+  bonusgroupID = 229,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(13, newTypification);
+
+newTypification = {
+  id = 125,
+  name = "CLF_BELT_FULL",
+  stat = "STAT_WIL",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 200,
+  bonusgroupID = 230,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(125, newTypification);
+
+newTypification = {
+  id = 128,
+  name = "CLF_BELT_ORNAMENT",
+  stat = "STAT_WIL",
+  modreal = 100,
+  modfocus = 900,
+  modbasepoints = 200,
+  bonusgroupID = 232,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(128, newTypification);
+
+newTypification = {
+  id = 127,
+  name = "CLF_BELT_PADDED",
+  stat = "STAT_WIL",
+  modreal = 400,
+  modfocus = 600,
+  modbasepoints = 200,
+  bonusgroupID = 231,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(127, newTypification);
+
+newTypification = {
+  id = 126,
+  name = "CLF_BELT_SCALE",
+  stat = "STAT_WIL",
+  modreal = 700,
+  modfocus = 300,
+  modbasepoints = 200,
+  bonusgroupID = 233,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(126, newTypification);
+
+newTypification = {
+  id = 17,
+  name = "CLF_BOOT",
+  stat = "STAT_WIL",
+  modreal = 550,
+  modfocus = 450,
+  modbasepoints = 240,
+  bonusgroupID = 234,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(17, newTypification);
+
+newTypification = {
+  id = 137,
+  name = "CLF_BOOT_FULL",
+  stat = "STAT_WIL",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 200,
+  bonusgroupID = 235,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(137, newTypification);
+
+newTypification = {
+  id = 140,
+  name = "CLF_BOOT_ORNAMENT",
+  stat = "STAT_WIL",
+  modreal = 100,
+  modfocus = 900,
+  modbasepoints = 200,
+  bonusgroupID = 238,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(140, newTypification);
+
+newTypification = {
+  id = 139,
+  name = "CLF_BOOT_PADDED",
+  stat = "STAT_WIL",
+  modreal = 400,
+  modfocus = 600,
+  modbasepoints = 200,
+  bonusgroupID = 237,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(139, newTypification);
+
+newTypification = {
+  id = 138,
+  name = "CLF_BOOT_SCALE",
+  stat = "STAT_WIL",
+  modreal = 700,
+  modfocus = 300,
+  modbasepoints = 200,
+  bonusgroupID = 236,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(138, newTypification);
+
+newTypification = {
+  id = 20,
+  name = "CLF_CHAINMAIL",
+  stat = "STAT_WIL",
+  modreal = 470,
+  modfocus = 530,
+  modbasepoints = 1200,
+  bonusgroupID = 202,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(20, newTypification);
+
+newTypification = {
+  id = 111,
+  name = "CLF_CHEST_CLOTH_PADDED",
+  stat = "STAT_WIL",
+  modreal = 250,
+  modfocus = 750,
+  modbasepoints = 1000,
+  bonusgroupID = 213,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(111, newTypification);
+
+newTypification = {
+  id = 110,
+  name = "CLF_CHEST_CLOTH_SCALE",
+  stat = "STAT_WIL",
+  modreal = 850,
+  modfocus = 150,
+  modbasepoints = 1000,
+  bonusgroupID = 209,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(110, newTypification);
+
+newTypification = {
+  id = 112,
+  name = "CLF_CHEST_CLOTH_STRAP",
+  stat = "STAT_WIL",
+  modreal = 550,
+  modfocus = 450,
+  modbasepoints = 1000,
+  bonusgroupID = 210,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(112, newTypification);
+
+newTypification = {
+  id = 104,
+  name = "CLF_CHEST_FULL",
+  stat = "STAT_WIL",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1000,
+  bonusgroupID = 205,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(104, newTypification);
+
+newTypification = {
+  id = 109,
+  name = "CLF_CHEST_ORNAMENT",
+  stat = "STAT_WIL",
+  modreal = 100,
+  modfocus = 900,
+  modbasepoints = 1000,
+  bonusgroupID = 211,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(109, newTypification);
+
+newTypification = {
+  id = 108,
+  name = "CLF_CHEST_PADDED",
+  stat = "STAT_WIL",
+  modreal = 280,
+  modfocus = 720,
+  modbasepoints = 1000,
+  bonusgroupID = 212,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(108, newTypification);
+
+newTypification = {
+  id = 105,
+  name = "CLF_CHEST_SCALE",
+  stat = "STAT_WIL",
+  modreal = 820,
+  modfocus = 180,
+  modbasepoints = 1000,
+  bonusgroupID = 206,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(105, newTypification);
+
+newTypification = {
+  id = 106,
+  name = "CLF_CHEST_SPIKED",
+  stat = "STAT_WIL",
+  modreal = 640,
+  modfocus = 360,
+  modbasepoints = 1000,
+  bonusgroupID = 208,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(106, newTypification);
+
+newTypification = {
+  id = 107,
+  name = "CLF_CHEST_STRAP",
+  stat = "STAT_WIL",
+  modreal = 460,
+  modfocus = 540,
+  modbasepoints = 1000,
+  bonusgroupID = 207,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(107, newTypification);
+
+newTypification = {
+  id = 159,
+  name = "CLF_CONTROL_BATTLE",
+  stat = "STAT_WIL",
+  modreal = 1000,
+  modfocus = 400,
+  modbasepoints = 400,
+  bonusgroupID = 254,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(159, newTypification);
+
+newTypification = {
+  id = 160,
+  name = "CLF_CONTROL_FIGHT",
+  stat = "STAT_WIL",
+  modreal = 600,
+  modfocus = 400,
+  modbasepoints = 400,
+  bonusgroupID = 256,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(160, newTypification);
+
+newTypification = {
+  id = 161,
+  name = "CLF_CONTROL_LIGHT",
+  stat = "STAT_WIL",
+  modreal = 200,
+  modfocus = 800,
+  modbasepoints = 400,
+  bonusgroupID = 255,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(161, newTypification);
+
+newTypification = {
+  id = 23,
+  name = "CLF_CRESTSHIELD",
+  stat = "STAT_STR",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 600,
+  bonusgroupID = 171,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(23, newTypification);
+
+newTypification = {
+  id = 16,
+  name = "CLF_BOOK",
+  stat = "STAT_WIL",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 100,
+  bonusgroupID = 172,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(16, newTypification);
+
+newTypification = {
+  id = 25,
+  name = "CLF_CRYSTAL",
+  stat = "STAT_WIL",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 100,
+  bonusgroupID = 173,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(25, newTypification);
+
+newTypification = {
+  id = 35,
+  name = "CLF_HAND",
+  stat = "STAT_WIL",
+  modreal = 550,
+  modfocus = 450,
+  modbasepoints = 240,
+  bonusgroupID = 224,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(35, newTypification);
+
+newTypification = {
+  id = 121,
+  name = "CLF_HAND_FULL",
+  stat = "STAT_WIL",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 200,
+  bonusgroupID = 228,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(121, newTypification);
+
+newTypification = {
+  id = 124,
+  name = "CLF_HAND_ORNAMENT",
+  stat = "STAT_WIL",
+  modreal = 100,
+  modfocus = 900,
+  modbasepoints = 200,
+  bonusgroupID = 227,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(124, newTypification);
+
+newTypification = {
+  id = 123,
+  name = "CLF_HAND_PADDED",
+  stat = "STAT_WIL",
+  modreal = 400,
+  modfocus = 600,
+  modbasepoints = 200,
+  bonusgroupID = 226,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(123, newTypification);
+
+newTypification = {
+  id = 122,
+  name = "CLF_HAND_SCALE",
+  stat = "STAT_WIL",
+  modreal = 700,
+  modfocus = 300,
+  modbasepoints = 200,
+  bonusgroupID = 225,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(122, newTypification);
+
+newTypification = {
+  id = 93,
+  name = "CLF_HEAD_CLOTH_PADDED",
+  stat = "STAT_WIL",
+  modreal = 250,
+  modfocus = 750,
+  modbasepoints = 650,
+  bonusgroupID = 186,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(93, newTypification);
+
+newTypification = {
+  id = 91,
+  name = "CLF_HEAD_CLOTH_SCALE",
+  stat = "STAT_WIL",
+  modreal = 850,
+  modfocus = 150,
+  modbasepoints = 650,
+  bonusgroupID = 185,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(91, newTypification);
+
+newTypification = {
+  id = 92,
+  name = "CLF_HEAD_CLOTH_STRAP",
+  stat = "STAT_WIL",
+  modreal = 550,
+  modfocus = 450,
+  modbasepoints = 650,
+  bonusgroupID = 187,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(92, newTypification);
+
+newTypification = {
+  id = 96,
+  name = "CLF_HEAD_TG_ENERGY",
+  stat = "STAT_WIL",
+  modreal = 250,
+  modfocus = 750,
+  modbasepoints = 650,
+  bonusgroupID = 189,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(96, newTypification);
+
+newTypification = {
+  id = 94,
+  name = "CLF_HEAD_TG_FIGHT",
+  stat = "STAT_WIL",
+  modreal = 850,
+  modfocus = 150,
+  modbasepoints = 650,
+  bonusgroupID = 190,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(94, newTypification);
+
+newTypification = {
+  id = 95,
+  name = "CLF_HEAD_TG_TECHNICS",
+  stat = "STAT_WIL",
+  modreal = 550,
+  modfocus = 450,
+  modbasepoints = 650,
+  bonusgroupID = 188,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(95, newTypification);
+
+newTypification = {
+  id = 89,
+  name = "CLF_HELMET_CROWN",
+  stat = "STAT_WIL",
+  modreal = 325,
+  modfocus = 675,
+  modbasepoints = 650,
+  bonusgroupID = 182,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(89, newTypification);
+
+newTypification = {
+  id = 86,
+  name = "CLF_HELMET_FULL",
+  stat = "STAT_WIL",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 650,
+  bonusgroupID = 162,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(86, newTypification);
+
+newTypification = {
+  id = 87,
+  name = "CLF_HELMET_OPEN",
+  stat = "STAT_WIL",
+  modreal = 775,
+  modfocus = 225,
+  modbasepoints = 650,
+  bonusgroupID = 163,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(87, newTypification);
+
+newTypification = {
+  id = 90,
+  name = "CLF_HELMET_ORNAMENT",
+  stat = "STAT_WIL",
+  modreal = 100,
+  modfocus = 900,
+  modbasepoints = 650,
+  bonusgroupID = 183,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(90, newTypification);
+
+newTypification = {
+  id = 88,
+  name = "CLF_HELMET_TOP",
+  stat = "STAT_WIL",
+  modreal = 550,
+  modfocus = 450,
+  modbasepoints = 650,
+  bonusgroupID = 184,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(88, newTypification);
+
+newTypification = {
+  id = 39,
+  name = "CLF_KAPPE",
+  stat = "STAT_WIL",
+  modreal = 675,
+  modfocus = 325,
+  modbasepoints = 750,
+  bonusgroupID = 181,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(39, newTypification);
+
+newTypification = {
+  id = 46,
+  name = "CLF_MUTZE",
+  stat = "STAT_WIL",
+  modreal = 425,
+  modfocus = 575,
+  modbasepoints = 750,
+  bonusgroupID = 179,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(46, newTypification);
+
+newTypification = {
+  id = 41,
+  name = "CLF_LEG",
+  stat = "STAT_WIL",
+  modreal = 550,
+  modfocus = 450,
+  modbasepoints = 240,
+  bonusgroupID = 239,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(41, newTypification);
+
+newTypification = {
+  id = 133,
+  name = "CLF_LEG_CLOTH_FULL",
+  stat = "STAT_WIL",
+  modreal = 850,
+  modfocus = 150,
+  modbasepoints = 200,
+  bonusgroupID = 257,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(133, newTypification);
+
+newTypification = {
+  id = 136,
+  name = "CLF_LEG_CLOTH_ORNAMENT",
+  stat = "STAT_WIL",
+  modreal = 100,
+  modfocus = 900,
+  modbasepoints = 200,
+  bonusgroupID = 260,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(136, newTypification);
+
+newTypification = {
+  id = 134,
+  name = "CLF_LEG_CLOTH_SCALE",
+  stat = "STAT_WIL",
+  modreal = 550,
+  modfocus = 450,
+  modbasepoints = 200,
+  bonusgroupID = 258,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(134, newTypification);
+
+newTypification = {
+  id = 129,
+  name = "CLF_LEG_FULL",
+  stat = "STAT_WIL",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 200,
+  bonusgroupID = 240,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(129, newTypification);
+
+newTypification = {
+  id = 132,
+  name = "CLF_LEG_ORNAMENT",
+  stat = "STAT_WIL",
+  modreal = 100,
+  modfocus = 900,
+  modbasepoints = 200,
+  bonusgroupID = 243,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(132, newTypification);
+
+newTypification = {
+  id = 131,
+  name = "CLF_LEG_PADDED",
+  stat = "STAT_WIL",
+  modreal = 400,
+  modfocus = 600,
+  modbasepoints = 200,
+  bonusgroupID = 242,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(131, newTypification);
+
+newTypification = {
+  id = 135,
+  name = "CLF_LEG_CLOTH_PADDED",
+  stat = "STAT_WIL",
+  modreal = 250,
+  modfocus = 750,
+  modbasepoints = 200,
+  bonusgroupID = 259,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(135, newTypification);
+
+newTypification = {
+  id = 130,
+  name = "CLF_LEG_SCALE",
+  stat = "STAT_WIL",
+  modreal = 700,
+  modfocus = 300,
+  modbasepoints = 200,
+  bonusgroupID = 241,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(130, newTypification);
+
+newTypification = {
+  id = 1,
+  name = "CLF_PLATEMAIL",
+  stat = "STAT_WIL",
+  modreal = 950,
+  modfocus = 50,
+  modbasepoints = 1200,
+  bonusgroupID = 199,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(1, newTypification);
+
+newTypification = {
+  id = 53,
+  name = "CLF_REIF",
+  stat = "STAT_WIL",
+  modreal = 150,
+  modfocus = 850,
+  modbasepoints = 750,
+  bonusgroupID = 180,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(53, newTypification);
+
+newTypification = {
+  id = 55,
+  name = "CLF_RINGMAIL",
+  stat = "STAT_WIL",
+  modreal = 630,
+  modfocus = 370,
+  modbasepoints = 1200,
+  bonusgroupID = 201,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(55, newTypification);
+
+newTypification = {
+  id = 3,
+  name = "CLF_ROUNDSHIELD",
+  stat = "STAT_DEX",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 400,
+  bonusgroupID = 170,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(3, newTypification);
+
+newTypification = {
+  id = 59,
+  name = "CLF_SADDLE",
+  stat = "STAT_WIL",
+  modreal = 200,
+  modfocus = 800,
+  modbasepoints = 400,
+  bonusgroupID = 251,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(59, newTypification);
+
+newTypification = {
+  id = 151,
+  name = "CLF_SADDLE_FIGHT",
+  stat = "STAT_WIL",
+  modreal = 600,
+  modfocus = 400,
+  modbasepoints = 400,
+  bonusgroupID = 253,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(151, newTypification);
+
+newTypification = {
+  id = 150,
+  name = "CLF_SADDLE_BATTLE",
+  stat = "STAT_WIL",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 400,
+  bonusgroupID = 252,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(150, newTypification);
+
+newTypification = {
+  id = 60,
+  name = "CLF_SCALEMAIL",
+  stat = "STAT_WIL",
+  modreal = 790,
+  modfocus = 210,
+  modbasepoints = 1200,
+  bonusgroupID = 200,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(60, newTypification);
+
+newTypification = {
+  id = 2,
+  name = "CLF_SHOULDER",
+  stat = "STAT_WIL",
+  modreal = 550,
+  modfocus = 450,
+  modbasepoints = 480,
+  bonusgroupID = 191,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(2, newTypification);
+
+newTypification = {
+  id = 103,
+  name = "CLF_SHOULDER_CLOTH_PADDED",
+  stat = "STAT_WIL",
+  modreal = 250,
+  modfocus = 750,
+  modbasepoints = 400,
+  bonusgroupID = 197,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(103, newTypification);
+
+newTypification = {
+  id = 101,
+  name = "CLF_SHOULDER_CLOTH_SCALE",
+  stat = "STAT_WIL",
+  modreal = 850,
+  modfocus = 150,
+  modbasepoints = 400,
+  bonusgroupID = 194,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(101, newTypification);
+
+newTypification = {
+  id = 102,
+  name = "CLF_SHOULDER_CLOTH_STRAP",
+  stat = "STAT_WIL",
+  modreal = 550,
+  modfocus = 450,
+  modbasepoints = 400,
+  bonusgroupID = 198,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(102, newTypification);
+
+newTypification = {
+  id = 97,
+  name = "CLF_SHOULDER_FULL",
+  stat = "STAT_WIL",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 400,
+  bonusgroupID = 195,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(97, newTypification);
+
+newTypification = {
+  id = 100,
+  name = "CLF_SHOULDER_ORNAMENT",
+  stat = "STAT_WIL",
+  modreal = 100,
+  modfocus = 900,
+  modbasepoints = 400,
+  bonusgroupID = 193,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(100, newTypification);
+
+newTypification = {
+  id = 99,
+  name = "CLF_SHOULDER_PADDED",
+  stat = "STAT_WIL",
+  modreal = 400,
+  modfocus = 600,
+  modbasepoints = 400,
+  bonusgroupID = 192,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(99, newTypification);
+
+newTypification = {
+  id = 98,
+  name = "CLF_SHOULDER_SCALE",
+  stat = "STAT_WIL",
+  modreal = 700,
+  modfocus = 300,
+  modbasepoints = 400,
+  bonusgroupID = 196,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(98, newTypification);
+
+newTypification = {
+  id = 157,
+  name = "CLF_SHRINKHEAD",
+  stat = "STAT_WIL",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 175,
+  bonusgroupID = 174,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(157, newTypification);
+
+newTypification = {
+  id = 147,
+  name = "CLF_SPIKEDSHIELD",
+  stat = "STAT_STR",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 800,
+  bonusgroupID = 169,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(147, newTypification);
+
+newTypification = {
+  id = 68,
+  name = "CLF_TORCH",
+  stat = "STAT_DEX",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 177,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(68, newTypification);
+
+newTypification = {
+  id = 69,
+  name = "CLF_TOWERSHIELD",
+  stat = "STAT_STR",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1000,
+  bonusgroupID = 168,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(69, newTypification);
+
+newTypification = {
+  id = 71,
+  name = "CLF_T_ENERGY",
+  stat = "STAT_WIL",
+  modreal = 500,
+  modfocus = 500,
+  modbasepoints = 240,
+  bonusgroupID = 263,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(71, newTypification);
+
+newTypification = {
+  id = 73,
+  name = "CLF_VOLLHELM",
+  stat = "STAT_WIL",
+  modreal = 950,
+  modfocus = 50,
+  modbasepoints = 750,
+  bonusgroupID = 178,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(73, newTypification);
+
+newTypification = {
+  id = 75,
+  name = "CLF_WINGS",
+  stat = "STAT_WIL",
+  modreal = 700,
+  modfocus = 300,
+  modbasepoints = 480,
+  bonusgroupID = 244,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(75, newTypification);
+
+newTypification = {
+  id = 141,
+  name = "CLF_WINGS_FIGHT",
+  stat = "STAT_WIL",
+  modreal = 850,
+  modfocus = 150,
+  modbasepoints = 400,
+  bonusgroupID = 245,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(141, newTypification);
+
+newTypification = {
+  id = 143,
+  name = "CLF_WINGS_MAGIC",
+  stat = "STAT_WIL",
+  modreal = 250,
+  modfocus = 750,
+  modbasepoints = 400,
+  bonusgroupID = 247,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(143, newTypification);
+
+newTypification = {
+  id = 142,
+  name = "CLF_WINGS_TECHNIC",
+  stat = "STAT_WIL",
+  modreal = 550,
+  modfocus = 450,
+  modbasepoints = 400,
+  bonusgroupID = 246,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(142, newTypification);
+
+newTypification = {
+  id = 11,
+  name = "CLF_AXE",
+  stat = "STAT_STR",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1000,
+  bonusgroupID = 104,
+  weapondamagespread = 135,
+  fightdistance = 35.000000,
+}
+mgr.createTypification(11, newTypification);
+
+newTypification = {
+  id = 12,
+  name = "CLF_BASTARDSWORD",
+  stat = "STAT_STR",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1100,
+  bonusgroupID = 90,
+  weapondamagespread = 170,
+  fightdistance = 35.000000,
+}
+mgr.createTypification(12, newTypification);
+
+newTypification = {
+  id = 146,
+  name = "CLF_BATTERY_ENERGY",
+  stat = "STAT_DEX",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 800,
+  bonusgroupID = 250,
+  weapondamagespread = 150,
+  fightdistance = 525.000000,
+}
+mgr.createTypification(146, newTypification);
+
+newTypification = {
+  id = 144,
+  name = "CLF_BATTERY_FIGHT",
+  stat = "STAT_DEX",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 800,
+  bonusgroupID = 248,
+  weapondamagespread = 150,
+  fightdistance = 525.000000,
+}
+mgr.createTypification(144, newTypification);
+
+newTypification = {
+  id = 145,
+  name = "CLF_BATTERY_TECHNICS",
+  stat = "STAT_DEX",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 800,
+  bonusgroupID = 249,
+  weapondamagespread = 150,
+  fightdistance = 525.000000,
+}
+mgr.createTypification(145, newTypification);
+
+newTypification = {
+  id = 156,
+  name = "CLF_BLOWGUN",
+  stat = "STAT_DEX",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 950,
+  bonusgroupID = 159,
+  weapondamagespread = 90,
+  fightdistance = 525.000000,
+}
+mgr.createTypification(156, newTypification);
+
+newTypification = {
+  id = 22,
+  name = "CLF_CLUB",
+  stat = "STAT_STR",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 960,
+  bonusgroupID = 106,
+  weapondamagespread = 150,
+  fightdistance = 35.000000,
+}
+mgr.createTypification(22, newTypification);
+
+newTypification = {
+  id = 158,
+  name = "CLF_ARTEFACT",
+  stat = "STAT_WIL",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 500,
+  bonusgroupID = 549,
+  weapondamagespread = 100,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(158, newTypification);
+
+newTypification = {
+  id = 28,
+  name = "CLF_ENERGY_WEAPON",
+  stat = "STAT_DEX",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1180,
+  bonusgroupID = 158,
+  weapondamagespread = 160,
+  fightdistance = 525.000000,
+}
+mgr.createTypification(28, newTypification);
+
+newTypification = {
+  id = 29,
+  name = "CLF_FISTWEAPON",
+  stat = "STAT_STR",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 750,
+  bonusgroupID = 127,
+  weapondamagespread = 60,
+  fightdistance = 35.000000,
+}
+mgr.createTypification(29, newTypification);
+
+newTypification = {
+  id = 83,
+  name = "CLF_FISTWEAPON_BLADE",
+  stat = "STAT_STR",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 750,
+  bonusgroupID = 129,
+  weapondamagespread = 140,
+  fightdistance = 35.000000,
+}
+mgr.createTypification(83, newTypification);
+
+newTypification = {
+  id = 82,
+  name = "CLF_FISTWEAPON_SPIKE",
+  stat = "STAT_STR",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 750,
+  bonusgroupID = 128,
+  weapondamagespread = 90,
+  fightdistance = 35.000000,
+}
+mgr.createTypification(82, newTypification);
+
+newTypification = {
+  id = 33,
+  name = "CLF_HALBERD",
+  stat = "STAT_STR",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1500,
+  bonusgroupID = 72,
+  weapondamagespread = 170,
+  fightdistance = 35.000000,
+}
+mgr.createTypification(33, newTypification);
+
+newTypification = {
+  id = 37,
+  name = "CLF_JAVELIN",
+  stat = "STAT_STR",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1400,
+  bonusgroupID = 116,
+  weapondamagespread = 110,
+  fightdistance = 35.000000,
+}
+mgr.createTypification(37, newTypification);
+
+newTypification = {
+  id = 34,
+  name = "CLF_HAMMER",
+  stat = "STAT_STR",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1040,
+  bonusgroupID = 105,
+  weapondamagespread = 170,
+  fightdistance = 35.000000,
+}
+mgr.createTypification(34, newTypification);
+
+newTypification = {
+  id = 85,
+  name = "CLF_HORSEBOW",
+  stat = "STAT_DEX",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 960,
+  bonusgroupID = 155,
+  weapondamagespread = 120,
+  fightdistance = 525.000000,
+}
+mgr.createTypification(85, newTypification);
+
+newTypification = {
+  id = 42,
+  name = "CLF_LONGBOW",
+  stat = "STAT_DEX",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1080,
+  bonusgroupID = 147,
+  weapondamagespread = 120,
+  fightdistance = 525.000000,
+}
+mgr.createTypification(42, newTypification);
+
+newTypification = {
+  id = 43,
+  name = "CLF_MAGESTAFF",
+  stat = "STAT_INT",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1000,
+  bonusgroupID = 164,
+  weapondamagespread = 80,
+  fightdistance = 35.000000,
+}
+mgr.createTypification(43, newTypification);
+
+newTypification = {
+  id = 154,
+  name = "CLF_MAGESTAFF_2H",
+  stat = "STAT_INT",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1190,
+  bonusgroupID = 166,
+  weapondamagespread = 95,
+  fightdistance = 35.000000,
+}
+mgr.createTypification(154, newTypification);
+
+newTypification = {
+  id = 153,
+  name = "CLF_MAGESTAFF_R",
+  stat = "STAT_INT",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 950,
+  bonusgroupID = 165,
+  weapondamagespread = 80,
+  fightdistance = 35.000000,
+}
+mgr.createTypification(153, newTypification);
+
+newTypification = {
+  id = 27,
+  name = "CLF_ENERGY_PISTOL",
+  stat = "STAT_DEX",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 990,
+  bonusgroupID = 157,
+  weapondamagespread = 150,
+  fightdistance = 300.000000,
+}
+mgr.createTypification(27, newTypification);
+
+newTypification = {
+  id = 84,
+  name = "CLF_RECURVEBOW",
+  stat = "STAT_DEX",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1020,
+  bonusgroupID = 149,
+  weapondamagespread = 120,
+  fightdistance = 525.000000,
+}
+mgr.createTypification(84, newTypification);
+
+newTypification = {
+  id = 58,
+  name = "CLF_SABER",
+  stat = "STAT_STR",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1000,
+  bonusgroupID = 88,
+  weapondamagespread = 110,
+  fightdistance = 35.000000,
+}
+mgr.createTypification(58, newTypification);
+
+newTypification = {
+  id = 62,
+  name = "CLF_SHORTBOW",
+  stat = "STAT_DEX",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 900,
+  bonusgroupID = 154,
+  weapondamagespread = 120,
+  fightdistance = 525.000000,
+}
+mgr.createTypification(62, newTypification);
+
+newTypification = {
+  id = 5,
+  name = "CLF_POLE",
+  stat = "STAT_DEX",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1300,
+  bonusgroupID = 115,
+  weapondamagespread = 140,
+  fightdistance = 35.000000,
+}
+mgr.createTypification(5, newTypification);
+
+newTypification = {
+  id = 64,
+  name = "CLF_SHORTSWORD",
+  stat = "STAT_DEX",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 960,
+  bonusgroupID = 87,
+  weapondamagespread = 90,
+  fightdistance = 35.000000,
+}
+mgr.createTypification(64, newTypification);
+
+newTypification = {
+  id = 4,
+  name = "CLF_SWORD",
+  stat = "STAT_STR",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1000,
+  bonusgroupID = 89,
+  weapondamagespread = 100,
+  fightdistance = 35.000000,
+}
+mgr.createTypification(4, newTypification);
+
+newTypification = {
+  id = 66,
+  name = "CLF_THROW_DRINK",
+  stat = "STAT_DEX",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 700,
+  bonusgroupID = 143,
+  weapondamagespread = 130,
+  fightdistance = 300.000000,
+}
+mgr.createTypification(66, newTypification);
+
+newTypification = {
+  id = 67,
+  name = "CLF_THROW_STAR",
+  stat = "STAT_DEX",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1050,
+  bonusgroupID = 145,
+  weapondamagespread = 110,
+  fightdistance = 300.000000,
+}
+mgr.createTypification(67, newTypification);
+
+newTypification = {
+  id = 74,
+  name = "CLF_WHIP",
+  stat = "STAT_DEX",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 900,
+  bonusgroupID = 107,
+  weapondamagespread = 80,
+  fightdistance = 35.000000,
+}
+mgr.createTypification(74, newTypification);
+
+newTypification = {
+  id = 224,
+  name = "CLF_THROW_STONE_BIG",
+  stat = "STAT_STR",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1000,
+  bonusgroupID = 145,
+  weapondamagespread = 120,
+  fightdistance = 525.000000,
+}
+mgr.createTypification(224, newTypification);
+
+newTypification = {
+  id = 220,
+  name = "CLF_THROW_STONE",
+  stat = "STAT_DEX",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 500,
+  bonusgroupID = 151,
+  weapondamagespread = 100,
+  fightdistance = 300.000000,
+}
+mgr.createTypification(220, newTypification);
+
+newTypification = {
+  id = 26,
+  name = "CLF_DAGGER",
+  stat = "STAT_DEX",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 750,
+  bonusgroupID = 69,
+  weapondamagespread = 60,
+  fightdistance = 35.000000,
+}
+mgr.createTypification(26, newTypification);
+
+newTypification = {
+  id = 56,
+  name = "CLF_ROBE",
+  stat = "STAT_WIL",
+  modreal = 150,
+  modfocus = 850,
+  modbasepoints = 1200,
+  bonusgroupID = 204,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(56, newTypification);
+
+newTypification = {
+  id = 40,
+  name = "CLF_LEATHERMAIL",
+  stat = "STAT_WIL",
+  modreal = 250,
+  modfocus = 750,
+  modbasepoints = 0,
+  bonusgroupID = 203,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(40, newTypification);
+
+newTypification = {
+  id = 65,
+  name = "CLF_THROW_DAGGER",
+  stat = "STAT_DEX",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 900,
+  bonusgroupID = 151,
+  weapondamagespread = 90,
+  fightdistance = 300.000000,
+}
+mgr.createTypification(65, newTypification);
+
+newTypification = {
+  id = 221,
+  name = "CLF_DEFAULT",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 737,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(221, newTypification);
+
+newTypification = {
+  id = 167,
+  name = "CLF_DEFAULT",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 769,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(167, newTypification);
+
+newTypification = {
+  id = 168,
+  name = "CLF_DEFAULT",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 563,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(168, newTypification);
+
+newTypification = {
+  id = 19,
+  name = "CLF_BUCKLER",
+  stat = "STAT_WIL",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 250,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(19, newTypification);
+
+newTypification = {
+  id = 44,
+  name = "CLF_MATERIAL",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 261,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(44, newTypification);
+
+newTypification = {
+  id = 48,
+  name = "CLF_PARADEDAGGER",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(48, newTypification);
+

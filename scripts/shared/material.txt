@@ -1,0 +1,1249 @@
+-- Material Exporter
+
+local newMaterial = {}
+
+newMaterial = {
+  id = 59,
+  name = "W_yew_ice",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 950,
+  allotphys = 333,
+  allotfire = 0,
+  allotice = 667,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(59, newMaterial);
+
+newMaterial = {
+  id = 60,
+  name = "W_yew_poison",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 950,
+  allotphys = 333,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 667,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(60, newMaterial);
+
+newMaterial = {
+  id = 63,
+  name = "W_horn",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1000,
+  allotphys = 900,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 100,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(63, newMaterial);
+
+newMaterial = {
+  id = 64,
+  name = "W_stone",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1000,
+  allotphys = 1000,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(64, newMaterial);
+
+newMaterial = {
+  id = 50,
+  name = "E_tech_plasma",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1000,
+  allotphys = 333,
+  allotfire = 667,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_DAMPED",
+}
+mgr.createMaterial(50, newMaterial);
+
+newMaterial = {
+  id = 49,
+  name = "E_tech_energy",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1000,
+  allotphys = 333,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 667,
+  materialsound = "SOUND_MATERIAL_DAMPED",
+}
+mgr.createMaterial(49, newMaterial);
+
+newMaterial = {
+  id = 67,
+  name = "W_liquid_ice",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1000,
+  allotphys = 0,
+  allotfire = 0,
+  allotice = 1000,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(67, newMaterial);
+
+newMaterial = {
+  id = 68,
+  name = "W_liquid_poison",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1000,
+  allotphys = 0,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 1000,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(68, newMaterial);
+
+newMaterial = {
+  id = 69,
+  name = "O_paper",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 0,
+  allotphys = 1000,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(69, newMaterial);
+
+newMaterial = {
+  id = 62,
+  name = "W_crystal",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1100,
+  allotphys = 800,
+  allotfire = 0,
+  allotice = 200,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(62, newMaterial);
+
+newMaterial = {
+  id = 70,
+  name = "O_copper",
+  modreal = 0,
+  modfocus = 1000,
+  modbasepoints = 0,
+  allotphys = 1000,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(70, newMaterial);
+
+newMaterial = {
+  id = 73,
+  name = "O_liquid",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 0,
+  allotphys = 1000,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(73, newMaterial);
+
+newMaterial = {
+  id = 61,
+  name = "W_phantasmal",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1000,
+  allotphys = 750,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 250,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(61, newMaterial);
+
+newMaterial = {
+  id = 74,
+  name = "0_default",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1000,
+  allotphys = 1000,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(74, newMaterial);
+
+newMaterial = {
+  id = 7,
+  name = "W_metal_steel",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1075,
+  allotphys = 1000,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(7, newMaterial);
+
+newMaterial = {
+  id = 6,
+  name = "W_metal_iron",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1000,
+  allotphys = 1000,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(6, newMaterial);
+
+newMaterial = {
+  id = 16,
+  name = "R_cloth",
+  modreal = 250,
+  modfocus = 750,
+  modbasepoints = 1000,
+  allotphys = 1000,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(16, newMaterial);
+
+newMaterial = {
+  id = 17,
+  name = "R_cloth_enchanted",
+  modreal = 250,
+  modfocus = 750,
+  modbasepoints = 1250,
+  allotphys = 950,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 50,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(17, newMaterial);
+
+newMaterial = {
+  id = 3,
+  name = "R_leather_arcticfur",
+  modreal = 350,
+  modfocus = 650,
+  modbasepoints = 1450,
+  allotphys = 800,
+  allotfire = 0,
+  allotice = 200,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(3, newMaterial);
+
+newMaterial = {
+  id = 26,
+  name = "R_bone_fosile",
+  modreal = 500,
+  modfocus = 500,
+  modbasepoints = 1400,
+  allotphys = 900,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 100,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(26, newMaterial);
+
+newMaterial = {
+  id = 35,
+  name = "M_mount_ornament",
+  modreal = 200,
+  modfocus = 800,
+  modbasepoints = 1000,
+  allotphys = 1000,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(35, newMaterial);
+
+newMaterial = {
+  id = 53,
+  name = "W_wood",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 975,
+  allotphys = 1000,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(53, newMaterial);
+
+newMaterial = {
+  id = 54,
+  name = "W_wood_composite",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1050,
+  allotphys = 1000,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(54, newMaterial);
+
+newMaterial = {
+  id = 55,
+  name = "W_wood_poisonash",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1000,
+  allotphys = 500,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 500,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(55, newMaterial);
+
+newMaterial = {
+  id = 57,
+  name = "W_yew_fire",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 950,
+  allotphys = 333,
+  allotfire = 667,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(57, newMaterial);
+
+newMaterial = {
+  id = 56,
+  name = "W_yew_magic",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 950,
+  allotphys = 333,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 667,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(56, newMaterial);
+
+newMaterial = {
+  id = 24,
+  name = "R_bone",
+  modreal = 550,
+  modfocus = 450,
+  modbasepoints = 1000,
+  allotphys = 1000,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(24, newMaterial);
+
+newMaterial = {
+  id = 18,
+  name = "R_cloth_arcane",
+  modreal = 200,
+  modfocus = 800,
+  modbasepoints = 1500,
+  allotphys = 900,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 100,
+  materialsound = "SOUND_MATERIAL_DAMPED",
+}
+mgr.createMaterial(18, newMaterial);
+
+newMaterial = {
+  id = 20,
+  name = "R_heavyleather",
+  modreal = 450,
+  modfocus = 550,
+  modbasepoints = 1000,
+  allotphys = 1000,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_LEATHER",
+}
+mgr.createMaterial(20, newMaterial);
+
+newMaterial = {
+  id = 22,
+  name = "R_heavyleather_dragon",
+  modreal = 400,
+  modfocus = 600,
+  modbasepoints = 1450,
+  allotphys = 1000,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_LEATHER",
+}
+mgr.createMaterial(22, newMaterial);
+
+newMaterial = {
+  id = 21,
+  name = "R_heavyleather_reptile",
+  modreal = 450,
+  modfocus = 550,
+  modbasepoints = 1200,
+  allotphys = 900,
+  allotfire = 100,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_LEATHER",
+}
+mgr.createMaterial(21, newMaterial);
+
+newMaterial = {
+  id = 19,
+  name = "R_leather_reptile",
+  modreal = 350,
+  modfocus = 650,
+  modbasepoints = 1200,
+  allotphys = 900,
+  allotfire = 100,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_LEATHER",
+}
+mgr.createMaterial(19, newMaterial);
+
+newMaterial = {
+  id = 1,
+  name = "R_leather_supple",
+  modreal = 350,
+  modfocus = 650,
+  modbasepoints = 1000,
+  allotphys = 1000,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_LEATHER",
+}
+mgr.createMaterial(1, newMaterial);
+
+newMaterial = {
+  id = 27,
+  name = "R_mail_steel",
+  modreal = 700,
+  modfocus = 300,
+  modbasepoints = 1250,
+  allotphys = 1000,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_CHAIN",
+}
+mgr.createMaterial(27, newMaterial);
+
+newMaterial = {
+  id = 4,
+  name = "R_mail_iron",
+  modreal = 700,
+  modfocus = 300,
+  modbasepoints = 1000,
+  allotphys = 1000,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_CHAIN",
+}
+mgr.createMaterial(4, newMaterial);
+
+newMaterial = {
+  id = 23,
+  name = "R_lightweight_ceramics",
+  modreal = 500,
+  modfocus = 500,
+  modbasepoints = 1400,
+  allotphys = 952,
+  allotfire = 0,
+  allotice = 24,
+  allotpoison = 0,
+  allotmagic = 24,
+  materialsound = "SOUND_MATERIAL_CHAIN",
+}
+mgr.createMaterial(23, newMaterial);
+
+newMaterial = {
+  id = 34,
+  name = "R_plate_ceramics",
+  modreal = 750,
+  modfocus = 250,
+  modbasepoints = 1400,
+  allotphys = 952,
+  allotfire = 0,
+  allotice = 24,
+  allotpoison = 0,
+  allotmagic = 24,
+  materialsound = "SOUND_MATERIAL_PLATE",
+}
+mgr.createMaterial(34, newMaterial);
+
+newMaterial = {
+  id = 32,
+  name = "R_plate_iron",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1000,
+  allotphys = 1000,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_PLATE",
+}
+mgr.createMaterial(32, newMaterial);
+
+newMaterial = {
+  id = 33,
+  name = "R_plate_steel",
+  modreal = 900,
+  modfocus = 100,
+  modbasepoints = 1250,
+  allotphys = 1000,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_PLATE",
+}
+mgr.createMaterial(33, newMaterial);
+
+newMaterial = {
+  id = 31,
+  name = "R_scale_dragon",
+  modreal = 800,
+  modfocus = 200,
+  modbasepoints = 1450,
+  allotphys = 900,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 100,
+  materialsound = "SOUND_MATERIAL_CHAIN",
+}
+mgr.createMaterial(31, newMaterial);
+
+newMaterial = {
+  id = 29,
+  name = "R_scale_iron",
+  modreal = 850,
+  modfocus = 150,
+  modbasepoints = 1000,
+  allotphys = 1000,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_PLATE",
+}
+mgr.createMaterial(29, newMaterial);
+
+newMaterial = {
+  id = 30,
+  name = "R_scale_steel",
+  modreal = 850,
+  modfocus = 15,
+  modbasepoints = 1150,
+  allotphys = 1000,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_PLATE",
+}
+mgr.createMaterial(30, newMaterial);
+
+newMaterial = {
+  id = 15,
+  name = "R_scar_pattern",
+  modreal = 100,
+  modfocus = 900,
+  modbasepoints = 1400,
+  allotphys = 1000,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_DAMPED",
+}
+mgr.createMaterial(15, newMaterial);
+
+newMaterial = {
+  id = 2,
+  name = "R_tatoo",
+  modreal = 200,
+  modfocus = 800,
+  modbasepoints = 1000,
+  allotphys = 700,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 300,
+  materialsound = "SOUND_MATERIAL_DAMPED",
+}
+mgr.createMaterial(2, newMaterial);
+
+newMaterial = {
+  id = 14,
+  name = "W_metal_elvensteel",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1150,
+  allotphys = 870,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 130,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(14, newMaterial);
+
+newMaterial = {
+  id = 75,
+  name = "R_skin",
+  modreal = 250,
+  modfocus = 750,
+  modbasepoints = 0,
+  allotphys = 1000,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_DAMPED",
+}
+mgr.createMaterial(75, newMaterial);
+
+newMaterial = {
+  id = 25,
+  name = "R_bone_enchanted",
+  modreal = 550,
+  modfocus = 450,
+  modbasepoints = 1250,
+  allotphys = 900,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 100,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(25, newMaterial);
+
+newMaterial = {
+  id = 44,
+  name = "S_shield_bone",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 750,
+  allotphys = 1000,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_WOOD",
+}
+mgr.createMaterial(44, newMaterial);
+
+newMaterial = {
+  id = 47,
+  name = "S_shield_forcefield",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1200,
+  allotphys = 850,
+  allotfire = 150,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_DAMPED",
+}
+mgr.createMaterial(47, newMaterial);
+
+newMaterial = {
+  id = 45,
+  name = "S_shield_iron",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 900,
+  allotphys = 1000,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_PLATE",
+}
+mgr.createMaterial(45, newMaterial);
+
+newMaterial = {
+  id = 42,
+  name = "S_shield_leather",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 700,
+  allotphys = 833,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 167,
+  materialsound = "SOUND_MATERIAL_LEATHER",
+}
+mgr.createMaterial(42, newMaterial);
+
+newMaterial = {
+  id = 43,
+  name = "S_shield_leather_hardened",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 800,
+  allotphys = 833,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 167,
+  materialsound = "SOUND_MATERIAL_LEATHER",
+}
+mgr.createMaterial(43, newMaterial);
+
+newMaterial = {
+  id = 46,
+  name = "S_shield_steel",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1000,
+  allotphys = 1000,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_PLATE",
+}
+mgr.createMaterial(46, newMaterial);
+
+newMaterial = {
+  id = 40,
+  name = "S_shield_wood",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 500,
+  allotphys = 1000,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_WOOD",
+}
+mgr.createMaterial(40, newMaterial);
+
+newMaterial = {
+  id = 41,
+  name = "S_shield_wood_enchanted",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 650,
+  allotphys = 833,
+  allotfire = 167,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_WOOD",
+}
+mgr.createMaterial(41, newMaterial);
+
+newMaterial = {
+  id = 48,
+  name = "E_tech_force",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1000,
+  allotphys = 1000,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_DAMPED",
+}
+mgr.createMaterial(48, newMaterial);
+
+newMaterial = {
+  id = 51,
+  name = "E_tech_powerdrain",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1000,
+  allotphys = 333,
+  allotfire = 0,
+  allotice = 667,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_DAMPED",
+}
+mgr.createMaterial(51, newMaterial);
+
+newMaterial = {
+  id = 52,
+  name = "E_tech_radiate",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1000,
+  allotphys = 333,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 667,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_DAMPED",
+}
+mgr.createMaterial(52, newMaterial);
+
+newMaterial = {
+  id = 36,
+  name = "M_mount_cloth",
+  modreal = 400,
+  modfocus = 600,
+  modbasepoints = 1000,
+  allotphys = 1000,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_DAMPED",
+}
+mgr.createMaterial(36, newMaterial);
+
+newMaterial = {
+  id = 37,
+  name = "M_mount_leather",
+  modreal = 600,
+  modfocus = 400,
+  modbasepoints = 1000,
+  allotphys = 1000,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_LEATHER",
+}
+mgr.createMaterial(37, newMaterial);
+
+newMaterial = {
+  id = 39,
+  name = "M_mount_plate",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1000,
+  allotphys = 1000,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_PLATE",
+}
+mgr.createMaterial(39, newMaterial);
+
+newMaterial = {
+  id = 38,
+  name = "M_mount_scales",
+  modreal = 800,
+  modfocus = 200,
+  modbasepoints = 1000,
+  allotphys = 1000,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_CHAIN",
+}
+mgr.createMaterial(38, newMaterial);
+
+newMaterial = {
+  id = 28,
+  name = "R_mail_elvensteel",
+  modreal = 650,
+  modfocus = 350,
+  modbasepoints = 1450,
+  allotphys = 1000,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_CHAIN",
+}
+mgr.createMaterial(28, newMaterial);
+
+newMaterial = {
+  id = 78,
+  name = "R_gem_ice",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1000,
+  allotphys = 0,
+  allotfire = 0,
+  allotice = 1000,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(78, newMaterial);
+
+newMaterial = {
+  id = 79,
+  name = "R_gem_poison",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1000,
+  allotphys = 0,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 1000,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(79, newMaterial);
+
+newMaterial = {
+  id = 77,
+  name = "R_gem_magic",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1000,
+  allotphys = 0,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 1000,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(77, newMaterial);
+
+newMaterial = {
+  id = 72,
+  name = "O_stone",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 0,
+  allotphys = 1000,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(72, newMaterial);
+
+newMaterial = {
+  id = 71,
+  name = "O_quartz_glass",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1000,
+  allotphys = 1000,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(71, newMaterial);
+
+newMaterial = {
+  id = 76,
+  name = "R_gem_fire",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1000,
+  allotphys = 0,
+  allotfire = 1000,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(76, newMaterial);
+
+newMaterial = {
+  id = 66,
+  name = "W_liquid_fire",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1000,
+  allotphys = 0,
+  allotfire = 1000,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(66, newMaterial);
+
+newMaterial = {
+  id = 65,
+  name = "W_liquid_magic",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1000,
+  allotphys = 0,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 1000,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(65, newMaterial);
+
+newMaterial = {
+  id = 80,
+  name = "W_metal_15_fire",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 950,
+  allotphys = 850,
+  allotfire = 150,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(80, newMaterial);
+
+newMaterial = {
+  id = 84,
+  name = "W_metal_40_fire",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1000,
+  allotphys = 600,
+  allotfire = 400,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(84, newMaterial);
+
+newMaterial = {
+  id = 86,
+  name = "W_metal_40_magic",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1000,
+  allotphys = 600,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 400,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(86, newMaterial);
+
+newMaterial = {
+  id = 88,
+  name = "W_metal_67_fire",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1000,
+  allotphys = 330,
+  allotfire = 670,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(88, newMaterial);
+
+newMaterial = {
+  id = 89,
+  name = "W_metal_67_ice",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1000,
+  allotphys = 330,
+  allotfire = 0,
+  allotice = 670,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(89, newMaterial);
+
+newMaterial = {
+  id = 81,
+  name = "W_metal_15_ice",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 950,
+  allotphys = 850,
+  allotfire = 0,
+  allotice = 150,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(81, newMaterial);
+
+newMaterial = {
+  id = 83,
+  name = "W_metal_15_poison",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 950,
+  allotphys = 850,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 150,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(83, newMaterial);
+
+newMaterial = {
+  id = 87,
+  name = "W_metal_40_poison",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1000,
+  allotphys = 600,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 400,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(87, newMaterial);
+
+newMaterial = {
+  id = 85,
+  name = "W_metal_40_ice",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1000,
+  allotphys = 600,
+  allotfire = 0,
+  allotice = 400,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(85, newMaterial);
+
+newMaterial = {
+  id = 90,
+  name = "W_metal_67_magic",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1000,
+  allotphys = 330,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 670,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(90, newMaterial);
+
+newMaterial = {
+  id = 91,
+  name = "W_metal_67_poison",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1000,
+  allotphys = 330,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 670,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(91, newMaterial);
+
+newMaterial = {
+  id = 82,
+  name = "W_metal_15_magic",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 950,
+  allotphys = 850,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 0,
+  allotmagic = 150,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(82, newMaterial);
+
