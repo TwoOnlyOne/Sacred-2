@@ -1,0 +1,101 @@
+---------------------------------------------------------------------
+-- AUTOEXEC.TXT FOR SACRED2
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+-- prerequisites which MUST be executed first (used in other scripts)
+---------------------------------------------------------------------
+
+if not isGameServer then
+	-- add model surfaces
+	sys.execScript("client/surface.txt")
+end
+
+
+---------------------------------------------------------------------
+-- Client & Server shared scripts
+---------------------------------------------------------------------
+
+for index,script in {
+	"shared/defines.txt",            -- skripting helper
+	"shared/itemtype.txt",                 -- add itemtypes
+	"shared/creatureInfo.txt",		          -- add creature info
+	"shared/itemInfo.txt",			            -- add item info
+	"shared/staticInfo.txt",		            -- add static info
+	"shared/spells.txt",			        -- initialize spells/moves system
+	"shared/material.txt",			            -- initialize item system
+	"shared/typification.txt",
+	"server/blueprint.txt",         -- item generating stuff
+	"server/balance.txt",	          -- set balance values
+	"server/creatures.txt",	        -- creaturemanager must exist on both server and client
+	"server/portals.txt",						-- associate portals with worldobjects
+	"shared/books.txt",							-- book definitions
+} do
+	sys.execScript( script )
+end
+
+
+---------------------------------------------------------------------
+-- client-only stuff
+---------------------------------------------------------------------
+
+if not isGameServer then
+	for index,script in {
+		"server/waypoints.txt",       -- ways and waypoints only on the client
+		"client/collision.txt",		          -- add collision volumes TODO
+		"client/miniType.txt",			          -- add miniobject types
+		"client/patches.txt",			          -- add ground patches
+		"client/soundprofile.txt",		        -- sound stuff
+	        "../locale/" .. locale.speech .. "/soundresources.txt",
+		"client/soundcluster.txt",
+		"client/animation.txt",		          -- animation overloads
+		"behaviour.txt",
+		"client/environment.txt",	    -- environment settings (watertypes, ...)
+		"client/eliza.txt",		        -- NPC dialog system
+		"client/poidata.txt",		        -- points of interest
+	} do
+		sys.execScript( script )
+	end
+
+	-- overloaded animtypes, depending on language (for cutscenes) - if available
+	sys.execScript( "../locale/" .. locale.speech .. "/animoverload.txt", false )
+
+	for index,trailer in sys.findFiles("../video/trailer/") do
+	  sys.pushMovie( trailer )
+	end
+	for index,trailer in sys.findFiles("../locale/" .. locale.language .. "/trailer/") do
+	  sys.pushMovie( trailer )
+	end
+
+end
+
+
+---------------------------------------------------------------------
+-- server-only stuff
+---------------------------------------------------------------------
+
+if isGameServer then
+	for index,script in {
+		"startPos.txt",
+		"behaviour.txt", -- ONLY FOR DEBUG HTTPD!
+		"server/faction.txt",
+		"server/weather.txt",
+		"server/weaponpool.txt",
+		"server/drop.txt",
+		"server/equipsets.txt",
+		"server/region.txt",
+		"server/triggervolumes.txt",
+		"server/quest.txt",
+		"server/worldobjects.txt",
+		"server/questscripts.txt",		-- contains all custom scripting, may be omitted
+		"server/triggerArea.txt",
+		"server/spawn.txt",
+		"server/respawn.txt"
+	} do
+		sys.execScript( script )
+	end
+end
+
+---------------------------------------------------------------------
+-- vim:ft=lua ts=2
+

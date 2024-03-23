@@ -1,0 +1,2572 @@
+---------------------------------------------------------------------
+-- creature behaviours
+---------------------------------------------------------------------
+
+local newBehaviour = {}
+newBehaviour = {
+  name         = "Invalid",
+	state0="name=cCreatureIdleAI",
+	state1="name=cFleeAI",
+	setState0="condition=onEnemyNear, feasibility=1000, state=cFleeAI, type=1, range=250",
+	defaultState="cCreatureIdleAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "FarmAnimal",
+profile = "FARMANIMAL",
+state0="name=cFarmAnimalFollowFarmerKi",
+state1="name=cFarmGrazeKi, range=300.0",
+state2="name=cCreatureIdleAI",
+state3="name=cFleeAI",
+defaultState="cFarmGrazeKi",
+setState0="condition=onGroup, feasibility=1000, state=cFarmAnimalFollowFarmerKi",
+setState1="condition=onEnemyNear, feasibility=1000, state=cFleeAI, type=1, range=250",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "WildAnimal",
+profile="FARMANIMAL",
+state0="name=cCreatureIdleAI",
+state1="name=cBaseAnimal,distance=250,walkprob=5,walkdistance=125",
+defaultState="cBaseAnimal",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "defaultBehaviour",
+	state0="name=cCreatureIdleAI",
+	state1="name=cFleeAI, range=25.0",
+	setState0="condition=onEnemyNear, feasibility=1000, state=cFleeAI, type=1, range=25.0",
+	defaultState="cCreatureIdleAI",
+
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Dragon",
+	state0="name=cFlyByAI, range=1000.0",
+	state1="name=cSpecialMoveAI",
+	defaultState="cFlyByAI",
+	setState0="condition=onEnemyNear, feasibility=1, type=716, state=cSpecialMoveAI, range=800.0, flag=512",
+	setState1="condition=onEnemyNear, feasibility=1, type=1107, state=cSpecialMoveAI, range=800.0, flag=512",
+	setState2="condition=onEnemyNear, feasibility=1, type=1108, state=cSpecialMoveAI, range=800.0, flag=512",
+	setState3="condition=onEnemyNear, feasibility=1, type=1109, state=cSpecialMoveAI, range=800.0, flag=512",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "ThrowTroll",
+	state0="name=cCreatureIdleAI",
+	state1="name=cSpecialMoveAI",
+	state2="name=cEnemyAttackAI, range=800.0, movePattern=circular:movedistance=150.0:steps=6, attackpattern=directattack, attackcondition1=area:area=[0-359]",
+	state3="name=cFarmGrazeKi, range=400.0",
+	defaultState="cCreatureIdleAI",
+	setState0="condition=onEnemyNear, feasibility=0, state=cEnemyAttackAI, range=300.0",
+	setState1="condition=onEnemyNear, feasibility=1000, state=cSpecialMoveAI, range=500.0",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOB_ARTIST",
+  state0 = "name=cSleepAI, start=0, end=8",
+  state1 = "name=cTimedInteractionAI",
+  state2 = "name=cNPCFleeAI",
+  state3 = "name=cChatPartnerAI",
+  state4 = "name=cStatistAI, type=rich, work=tint",
+  state5 = "name=cCreatureIdleAI",
+
+  setState0 = "condition=onEnemyNear, feasibility=1000, state=cNPCFleeAI, type=1",
+  setState1 = "condition=onTime, state=cStatistAI, start=16, stop=0",
+  setState2 = "condition=onTime, state=cTimedInteractionAI, start=7, stop=18",
+
+  defaultState = "cSleepAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOB_BARD",
+  state0 = "name=cSleepAI, start=4, end=7, home=pub, bed=0",
+  state1 = "name=cInteractAreaAI,interact=bard",
+  state2 = "name=cStatistAI, type=poor",
+  state3 = "name=cNPCChatAI",
+  state4 = "name=cChatPartnerAI",
+  state5 = "name=cNPCFleeAI",
+
+  setState0 = "condition=onTime, state=cInteractAreaAI, start=6, stop=16",
+  setState1 = "condition=onTime, state=cInteractAreaAI, start=20, stop=5",
+  setState2 = "condition=onTime, state=cStatistAI, start=16, stop=20",
+  setState3 = "condition=onEnemyNear, feasibility=1000, state=cNPCFleeAI, type=1",
+  
+  defaultState = "cSleepAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOB_BARMAID",
+  state0 = "name=cTimedInteractionAI, interact=barmaid",
+  state1 = "name=cNPCChatAI",
+  state2 = "name=cChatPartnerAI",
+  state3 = "name=cSleepAI, start=4, end=7, home=pub",
+  state4 = "name=cStatistAI, type=poor, work=tint",
+  state5 = "name=cNPCFleeAI",
+
+  setState0="condition=onTime, state=cStatistAI, start=12, stop=16",
+  setState1="condition=onTime, state=cTimedInteractionAI, start=6, stop=13",
+  setState2="condition=onTime, state=cTimedInteractionAI, start=16, stop=4",
+  setState3="condition=onEnemyNear, feasibility=1000, state=cNPCFleeAI, type=1",
+
+  defaultState="cSleepAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOB_BEGGAR",
+  state0 = "name=cTimedInteractionAI",
+  state1 = "name=cNPCChatAI",
+  state2 = "name=cChatPartnerAI",
+  state3 = "name=cSleepAI, start=22, end=7, home=barn, bed=0",
+  state4 = "name=cNPCFleeAI",
+
+  setState0="condition=onTime, state=cTimedInteractionAI, start=6, stop=23",
+  setState1="condition=onEnemyNear, feasibility=1000, state=cNPCFleeAI, type=1",
+
+  defaultState = "cSleepAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOB_BLACKSMITH",
+  state0="name=cInteractAreaAI,interact=black",
+  state1="name=cNPCChatAI",
+  state2="name=cChatPartnerAI",
+
+  defaultState="cInteractAreaAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOB_CASTER",
+  state0="name=cInteractAreaAI,interact=caster",
+  state1="name=cNPCChatAI",
+  state2="name=cChatPartnerAI",
+  state3="name=cSpecialMoveAI",
+
+  defaultState="cInteractAreaAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOB_CATTLEFARMER",
+  state0 = "name=cSleepAI, start=22, end=6, home=poor",
+  state1 = "name=cTimedInteractionAI",
+  state2 = "name=cStatistAI, type=poor, work=tint",
+  state3 = "name=cNPCChatAI",
+  state4 = "name=cChatPartnerAI",
+  state5 = "name=cNPCFleeAI",
+
+  setState0 = "condition=onTime, state=cTimedInteractionAI, start=5, stop=12",
+  setState1 = "condition=onTime, state=cTimedInteractionAI, start=14, stop=22",
+  setState2 = "condition=onTime, state=cStatistAI, start=12, stop=15",
+  setState3 = "condition=onEnemyNear, feasibility=1000, state=cNPCFleeAI, type=1",
+
+  defaultState = "cSleepAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOB_CHARBURNER",
+state0="name=cBaseNPCJobAI,job0=job_basic_idleatstart:start=0:end=23",
+state1="name=cNPCChatAI",
+state2="name=cChatPartnerAI",
+
+defaultState="cBaseNPCJobAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOB_FIELDWORKER",
+  state0 = "name=cSleepAI, start=22, end=6, home=poor",
+  state1 = "name=cTimedInteractionAI",
+  state2 = "name=cStatistAI, type=poor, work=tint",
+  state3 = "name=cNPCChatAI",
+  state4 = "name=cChatPartnerAI",
+  state5 = "name=cNPCFleeAI",
+
+  setState0 = "condition=onTime, state=cTimedInteractionAI, start=5, stop=12",
+  setState1 = "condition=onTime, state=cTimedInteractionAI, start=14, stop=22",
+  setState2 = "condition=onTime, state=cStatistAI, start=12, stop=15",
+  setState3 = "condition=onEnemyNear, feasibility=1000, state=cNPCFleeAI, type=1",
+
+  defaultState = "cSleepAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOB_HUNTER",
+  state0 = "name=cSleepAI, start=23, end=7",
+  state1 = "cTimedInteractionAI",
+  state2 = "name=cStatistAI, type=poor, work=tint",
+  state3 = "name=cNPCChatAI",
+  state4 = "name=cChatPartnerAI",
+  state5 = "name=cNPCFleeAI",
+
+  setState0 = "condition=onTime, state=cTimedInteractionAI, start=7, stop=21",
+  setState1 = "condition=onTime, state=cStatistAI, start=20, stop=16",
+  setState2 = "condition=onEnemyNear, feasibility=1000, state=cNPCFleeAI, type=1",
+
+  defaultState = "cSleepAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOB_INNKEEPER",
+  state0 = "name=cSleepAI, home=pub, start=4, end=7, bed=0",
+  state1 = "name=cTimedInteractionAI, prop1=66, prop2=10",
+  state2 = "name=cStatistAI, type=poor, work=tint",
+  state3 = "name=cNPCChatAI",
+  state4 = "name=cChatPartnerAI",
+
+  setState0 = "condition=onTime, state=cTimedInteractionAI, start=6, stop=12",
+  setState1 = "condition=onTime, state=cTimedInteractionAI, start=15, stop=4",
+  setState2 = "condition=onTime, state=cStatistAI, start=11, stop=16",
+
+  defaultState = "cSleepAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOB_JEWELER",
+  state0="name=cInteractAreaAI,interact=jeweler",
+  state1="name=cNPCChatAI",
+  state2="name=cChatPartnerAI",
+
+  defaultState="cInteractAreaAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOB_LUMBERMAN",
+  state0 = "name=cSleepAI, home=poor, start=22, end=6",
+  state1 = "name=cTimedInteractionAI",
+  state2 = "name=cStatistAI, type=poor, work=tint",
+  state3 = "name=cNPCChatAI",
+  state4 = "name=cChatPartnerAI",
+
+  setState0 = "condition=onTime, state=cTimedInteractionAI, start=5, stop=12",
+  setState1 = "condition=onTime, state=cTimedInteractionAI, start=14, stop=22",
+  setState2 = "condition=onTime, state=cStatistAI, start=12, stop=15",
+
+  defaultState = "cSleepAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOB_MERCENARY",
+  state0 = "name=cGuardAI, range_far=400, range_close=330, idle=20",
+  state1 = "name=cNPCChatAI",
+  state2 = "name=cChatPartnerAI",
+  state3 = "name=cEnemyCenter, distance=350.0, fearsibility=0, waitingtime=0.5, health_threshold=0, flee_probability=0, distcenter=14.0",
+  state4 = "name=cEnemyDistance, range=420, defense=cEnemyCenter",
+
+  state5 = "name=cSpecialMoveAI",
+
+  defaultState="cGuardAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOB_MINEWORKER",
+  state0 = "name=cSleepAI, home=poor, start=22, end=6",
+  state1 = "name=cTimedInteractionAI",
+  state2 = "name=cStatistAI, type=poor, work=tint",
+  state3 = "name=cNPCChatAI",
+  state4 = "name=cChatPartnerAI",
+
+  setState0 = "condition=onTime, state=cTimedInteractionAI, start=5, stop=12",
+  setState1 = "condition=onTime, state=cTimedInteractionAI, start=14, stop=22",
+  setState2 = "condition=onTime, state=cStatistAI, start=12, stop=15",
+
+  defaultState = "cSleepAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOB_NIGHT_WATCHMAN",
+  state0 = "name=cBaseNPCJobAI,job0=job_citizen_sleep:start=8:end=15, job1=job_nightwatchman_work:start=20:end=8",
+  state1 = "name=cNPCChatAI",
+  state2 = "name=cChatPartnerAI",
+  state3 = "name=cStatistAI, type=poor",
+  state4 = "name=cNPCFleeAI",
+
+  setState0="condition=onTime, state=cStatistAI, start=15, stop=19",
+  setState1="condition=onEnemyNear, feasibility=1000, state=cNPCFleeAI, type=1",
+
+  defaultState="cBaseNPCJobAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOB_POACHER",
+state0="name=cBaseNPCJobAI,job0=job_basic_idleatstart:start=0:end=23",
+state1="name=cNPCChatAI",
+state2="name=cChatPartnerAI",
+
+defaultState="cBaseNPCJobAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOB_POOR_STATIST",
+  state0 = "name=cStatistAI, type=poor",
+  state1 = "name=cNPCChatAI",
+  state2 = "name=cChatPartnerAI",
+  state3 = "name=cSleepAI, home=poor, start=0, end=8",
+  state4 = "name=cNPCFleeAI",
+
+  setState0 = "condition=onEnemyNear, feasibility=1000, state=cNPCFleeAI, type=1",
+  setState1 = "condition=onPlayerNear, if_state=cStatistAI",
+  setState2 = "condition=onTime, state=cStatistAI, start=7, stop=2",
+
+  defaultState = "cSleepAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOB_RICH_STATIST",
+  state0 = "name=cStatistAI, type=rich",
+  state1 = "name=cNPCChatAI",
+  state2 = "name=cChatPartnerAI",
+  state3 = "name=cSleepAI, start=0, end=8, home=rich, pub=40",
+  state4 = "name=cNPCFleeAI",
+  state5 = "name=cChaseAI",
+
+  defaultState = "cSleepAI",
+
+  setState0 = "condition=onEnemyNear, feasibility=1000, state=cNPCFleeAI, type=1",
+  setState1 = "condition=onPlayerNear, if_state=cStatistAI",
+  setState2 = "condition=onTime, state=cStatistAI, start=8, stop=1",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOB_PRIEST",
+  state0 = "name=cTimedInteractionAI, interact=priest",
+  state1 = "name=cNPCChatAI",
+  state2 = "name=cChatPartnerAI",
+  state3 = "name=cSleepAI, home=rich, start=0, end=8",
+  state4 = "name=cStatistAI, type=rich",
+
+  setState0="condition=onTime, state=cTimedInteractionAI, start=8, stop=21",
+  setState1="condition=onTime, state=cStatistAI, start=20, stop=1",
+
+  defaultState = "cSleepAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOB_ROBBER",
+state0="name=cBaseNPCJobAI,job0=job_basic_idleatstart:start=0:end=23",
+state1="name=cNPCChatAI",
+state2="name=cChatPartnerAI",
+
+defaultState="cBaseNPCJobAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOB_SCRIBE",
+  state0 = "name=cSleepAI, home=rich, start=0, end=7",
+  state1 = "name=cNPCChatAI",
+  state2 = "name=cChatPartnerAI",
+  state3 = "name=cStatistAI, type=rich, work=tint",
+  state4 = "name=cNPCFleeAI",
+  state5 = "name=cTimedInteractionAI, prop1=33, prop2=50",
+
+  setState0 = "condition=onEnemyNear, feasibility=1000, state=cNPCFleeAI, type=1",
+  setState1 = "condition=onTime, state=cStatistAI, start=19, stop=0",
+  setState2 = "condition=onTime, state=cTimedInteractionAI, start=6, stop=20",
+
+  defaultState="cSleepAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOB_SHEPERD",
+  state0 = "name=cSleepAI, start=22, end=6, home=poor",
+  state1 = "name=cTimedInteractionAI",
+  state2 = "name=cStatistAI, type=poor, work=tint",
+  state3 = "name=cNPCChatAI",
+  state4 = "name=cChatPartnerAI",
+  state5 = "name=cNPCFleeAI",
+
+  setState0 = "condition=onTime, state=cTimedInteractionAI, start=5, stop=12",
+  setState1 = "condition=onTime, state=cTimedInteractionAI, start=14, stop=22",
+  setState2 = "condition=onTime, state=cStatistAI, start=12, stop=15",
+  setState3 = "condition=onEnemyNear, feasibility=1000, state=cNPCFleeAI, type=1",
+
+  defaultState = "cSleepAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOB_TAILOR",
+  state0="name=cSleepAI, start=0, end=8",
+  state1="name=cNPCChatAI",
+  state2="name=cChatPartnerAI",
+  state3="name=cStatistAI, type=rich, work=tint",
+  state4="name=cTimedInteractionAI",
+
+  defaultState = "cSleepAI",
+
+  setState0="condition=onTime, state=cStatistAI, start=20, stop=0",
+  setState1="condition=onTime, state=cTimedInteractionAI, start=7, stop=21",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOB_THIEF",
+state0="name=cBaseNPCJobAI,job0=job_basic_idleatstart:start=0:end=23",
+state1="name=cNPCChatAI",
+state2="name=cChatPartnerAI",
+
+defaultState="cBaseNPCJobAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOB_TRADER",
+  state0="name=cInteractAreaAI,interact=trade",
+  state1="name=cNPCChatAI",
+  state2="name=cChatPartnerAI",
+
+  defaultState="cInteractAreaAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOB_WITCH",
+  state0="name=cInteractAreaAI,interact=witch",
+  state1="name=cNPCChatAI",
+  state2="name=cChatPartnerAI",
+
+  defaultState="cInteractAreaAI",
+
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "questCreatures",
+	state0="name=cCreatureIdleAI",
+	state1="name=cFarmAnimalFollowFarmerKi",
+	setState0="condition=onGroup, feasibility=1000, state=cFarmAnimalFollowFarmerKi",
+	defaultState="cCreatureIdleAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Pestball",
+	state0="name=cMagicMissileAI",
+	defaultState="cMagicMissileAI",
+
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "BoulderDash",
+	state0="name=cBallisticProjectileAI",
+	defaultState="cBallisticProjectileAI",
+
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "GRAZE",
+profile = "FARMANIMAL",
+state0="name=cFarmGrazeKi, range=300.0",
+state1="name=cCreatureIdleAI",
+state2="name=cFleeAI",
+defaultState="cFarmGrazeKi",
+setState0="condition=onEnemyNear, feasibility=1000, state=cFleeAI, type=1, range=250",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_giant_rat",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI, range=400.0",
+state2="name=cFleeAI, range=300.0",
+state3="name=cEnemySimple, distance=450, waitingtime=1.5",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear, feasibility=1000, state=cEnemySimple, range=500.0",
+
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_fire_elemental",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI, range=400.0",
+state2="name=cFleeAI, range=300.0",
+state3="name=cEnemySimpleExtended,distance=450,waitingtime=1.5",
+state4="name=cSpecialMoveAI",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear, feasibility=1000, state=cEnemySimpleExtended, range=500.0",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_ents",
+state0="name=cCreatureIdleAI",
+state1="name=cFarmGrazeKi, range=400.0",
+state2="name=cFleeAI, range=300.0",
+state3="name=cEnemyAttackAI, range=800.0, movePattern=circular:movedistance=150.0:steps=6, attackpattern=directattack, attackcondition1=area:area=[0-359]",
+state4="name=cEnemyFightDistAI",
+defaultState="cFarmGrazeKi",
+setState0="condition=onEnemyNear, feasibility=1000, state=cEnemyAttackAI, range=250.0",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_werewolf",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI, range=400.0",
+state2="name=cFleeAI, range=300.0",
+state3="name=cEnemySimple, distance=450, waitingtime=1.5",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear, feasibility=1000, state=cEnemySimple, range=500.0",
+
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_officer",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI, range=400.0,onAttack=cEnemySimpleExtended",
+state2="name=cFleeAI, range=300.0",
+state3="name=cEnemySimpleExtended, distance=450, waitingtime=1.5",
+state4="name=cEnemyFear",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,feasibility=1000,if_state=cEnemyFear,state=cEnemySimple,range=500.0",
+setState1="condition=onEnemyNear,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemySimpleExtended,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,feasibility=1000,state=cEnemySimpleExtended",
+
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_officer_elite",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=400.0,formation=cHordeFormation,onAttack=cEnemySimpleExtended",
+state2="name=cFleeAI,range=300.0",
+state3="name=cEnemySimpleExtended,distance=450,waitingtime=1.5,formation=cHordeFormation",
+state4="name=cSpecialMoveAI",
+state5="name=cEnemyFear",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,feasibility=1000,if_state=cEnemyFear,state=cEnemySimpleExtended,range=500.0",
+setState1="condition=onEnemyNear,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemySimpleExtended,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,feasibility=1000,state=cEnemySimpleExtended",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_shaman",
+state0 = "name=cCreatureIdleAI",
+state1 = "name=cEnemyMoveAI,range=400.0,formation=cGuardFormation,onAttack=cEnemyHealer",
+state2 = "name=cFleeAI,range=200.0",
+state3 = "name=cEnemySimpleDefence, numattack=3, distance=400",
+state4 = "name=cEnemyHealer, healmode=group, maxhealth=75",
+state5 = "name=cSpecialMoveAI",
+state6="name=cEnemyFear,onattack=cEnemySimpleDefence",
+defaultState = "cEnemyMoveAI",
+setState0="condition=onEnemyNear,if_state=cEnemyFear,feasibility=1000,state=cEnemyHealer,range=250.0",
+setState1="condition=onEnemyNear,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyHealer,fear_state=cEnemyFear,range=500.0",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_shaman_elite",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=400.0,onAttack=cEnemyHealer",
+state2="name=cFleeAI,range=200.0",
+state3="name=cEnemySimpleDefence,numattack=3,distance=400",
+state4="name=cEnemyHealer,healmode=group,maxhealth=75",
+state5="name=cSpecialMoveAI",
+state6="name=cEnemyFear,onattack=cEnemySimpleDefence",
+defaultState = "cEnemyMoveAI",
+setState0="condition=onEnemyNear,if_state=cEnemyFear,feasibility=1000,state=cEnemyHealer,range=250.0",
+setState1="condition=onEnemyNear,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyHealer,fear_state=cEnemyFear,range=500.0",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_cobold_hunter",
+state0="name=cCreatureIdleAI",
+state1="name=cFarmGrazeKi, range=400.0",
+state2="name=cFleeAI, range=300.0",
+state3="name=cEnemyAttackAI, range=800.0, movePattern=circular:movedistance=150.0:steps=6, attackpattern=directattack, attackcondition1=area:area=[0-359]",
+state4="name=cEnemyFightDistAI",
+defaultState="cFarmGrazeKi",
+setState0="condition=onEnemyNear, feasibility=1000, state=cEnemyAttackAI, range=250.0",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_highelf_officer",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI, range=400.0",
+state2="name=cFleeAI, range=300.0",
+state3="name=cEnemySimple, distance=450, waitingtime=1.5",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear, feasibility=1000, state=cEnemySimple, range=500.0",
+
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_highelf_soldier",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI, range=400.0",
+state2="name=cFleeAI, range=300.0",
+state3="name=cEnemySimple, distance=450, waitingtime=1.5",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear, feasibility=1000, state=cEnemySimple, range=500.0",
+
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_human_robber",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI, range=400.0",
+state2="name=cFleeAI, range=300.0",
+state3="name=cEnemySimple, distance=450, waitingtime=1.5",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear, feasibility=1000, state=cEnemySimple, range=500.0",
+
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_human_robber_elite",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI, range=400.0",
+state2="name=cFleeAI, range=300.0",
+state3="name=cEnemySimple, distance=450, waitingtime=1.5",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear, feasibility=1000, state=cEnemySimple, range=500.0",
+
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_lizard_shaman",
+state0 = "name=cCreatureIdleAI",
+state1 = "name=cEnemyMoveAI,range=400.0",
+state2 = "name=cFleeAI,range=200.0",
+state3 = "name=cEnemySimpleDefence, numattack=3, distance=400",
+state4 = "name=cEnemyHealer, healmode=group, maxhealth=75",
+state5 = "name=cSpecialMoveAI",
+ 
+defaultState = "cEnemyMoveAI",
+ 
+setState0 = "condition=onEnemyNear, if_state=cEnemyMoveAI, feasibility=1000, state=cEnemyHealer, range=250.0",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_lizard_warrior",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI, range=400.0",
+state2="name=cFleeAI, range=300.0",
+state3="name=cEnemySimple, distance=450, waitingtime=1.5",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear, feasibility=1000, state=cEnemySimple, range=500.0",
+
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_lizard_hunter",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI, range=400.0",
+state2="name=cFleeAI, range=300.0",
+state3="name=cEnemySimple, distance=450, waitingtime=1.5",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear, feasibility=1000, state=cEnemySimple, range=500.0",
+
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_orc_warrior",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI, range=400.0",
+state2="name=cFleeAI, range=300.0",
+state3="name=cEnemySimple, distance=450, waitingtime=1.5",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear, feasibility=1000, state=cEnemySimple, range=500.0",
+
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_boss_golem",
+  state0="name=cGolemStartAI",
+  state1="name=cGolemAlarmAI, shortrange=90, distance_c=270, distance_d=450",
+  state2="name=cSpecialMoveAI",
+
+  defaultState="cGolemStartAI",
+
+  setState0="condition=onEnemyNear, if_state=cGolemStartAI, feasibility=1000, state=cGolemAlarmAI, fear_state=cGolemAlarmAI, range=480.0",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "mountHorse",
+state0="name=cCreatureIdleAI",
+state1="name=cFarmGrazeKi, range=400.0",
+defaultState="cFarmGrazeKi",
+
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_golemspawn_earth_elemental",
+ state0="name=cCreatureIdleAI",
+ state1="name=cFarmGrazeKi, range=400.0",
+ state2="name=cFleeAI, range=250.0",
+ state3="name=cEnemyAttackAI, range=700.0, movePattern=circular:movedistance=150.0:steps=6, attackpattern=directattack, attackcondition1=area:area=[0-359]",
+state4="name=cEnemyFightDistAI, range=400.0, movePattern=circular:movedistance=400.0:steps=12, attackpattern=distanceattack:distance=400.0:spell=enemy_eelem_steinwurf:mindist=200:maxdist=600:imprdist=100, attackcondition1=area:area=[0-359]",
+ state5="name=cSpecialMoveAI",
+ state6="name=cGolemMinionDead",
+
+
+ defaultState="cFarmGrazeKi",
+ setState0="condition=onEnemyNear, feasibility=1000, state=cEnemyFightDistAI, range=630.0",
+ setState1="condition=onSwitchEnemyAI, feasibility=1000, state=cEnemyAttackAI, cond=numattack:value=1",
+ setState2="condition=onFlee, feasibility=1000, state= cEnemyFightDistAI, cond=numattack:randmin=5:randmax=8",
+ setState3="condition=onDead, feasibility=1000, state=cGolemMinionDead",
+
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "simpletrap",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyTrapAI, range=200.0,attackpattern=simpleattack,attackcondition1=area:area=[0-359]",
+state2="name=cSpecialMoveAI",
+defaultState="cCreatureIdleAI",
+setState0="condition=onEnemyNear, feasibility=1000, state=cEnemyTrapAI, range=200.0",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "walkAround",
+state0="name=cCreatureIdleAI",
+state1="name=cFarmGrazeKi, range=300.0",
+defaultState="cFarmGrazeKi",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOB_KID",
+  state0 = "name=cSleepAI, start=21, end=8",
+  state1 = "name=cKidAI",
+  state2 = "name=cNPCChatAI",
+  state3 = "name=cChatPartnerAI",
+  state4 = "name=cNPCFleeAI",
+
+  defaultState = "cSleepAI",
+
+  setState0 = "condition=onTime, state=cKidAI, start=7, stop=22",
+  setState1 = "condition=onEnemyNear, feasibility=1000, state=cNPCFleeAI, type=1",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "cat",
+  profile="FARMANIMAL",
+
+  state0="name=cCreatureIdleAI",
+  state1="name=cHuntingAnimal,distance=250,walkprob=5,walkdistance=125",
+
+  defaultState="cHuntingAnimal",
+
+  globalparam="hunt=3",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "chicken",
+profile="FARMANIMAL",
+state0="name=cCreatureIdleAI",
+state1="name=cBaseAnimal,distance=250,walkprob=5,walkdistance=125",
+defaultState="cBaseAnimal",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOB_COOK",
+  state0 = "name=cSleepAI, start=0, end=7",
+  state1 = "cTimedInteractionAI",
+  state2 = "name=cStatistAI, type=poor, work=tint",
+  state3 = "name=cNPCChatAI",
+  state4 = "name=cChatPartnerAI",
+  state5 = "name=cFleeAI",
+
+  defaultState="cSleepAI",
+
+  setState0 = "condition=onEnemyNear, feasibility=1000, state=cFleeAI, type=1, range=25",
+  setState1 = "condition=onTime, state=cStatistAI, start=20, stop=1",
+  setState2 = "condition=onTime, state=cTimedInteractionAI, start=7, stop=22",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "cow",
+  profile = "FARMANIMAL",
+
+  state0 = "name=cCreatureIdleAI",
+  state1 = "name=cFarmAnimalAreaAI,distance=250,walkprob=5,walkdistance=125",
+  state2 = "name=cFarmAnimalFollowFarmerKi, run=0, line=1",
+
+  setState0 = "condition=onGroup, feasibility=1000, state=cFarmAnimalFollowFarmerKi",
+ 
+  defaultState = "cFarmAnimalAreaAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "deer",
+profile="FARMANIMAL",
+state0="name=cCreatureIdleAI",
+state1="name=cBaseAnimal,distance=250,walkprob=5,walkdistance=125",
+defaultState="cBaseAnimal",
+
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOB_DOCKWORKER",
+  state0 = "name=cSleepAI, start=21, end=5, home=poor",
+  state1 = "name=cNPCChatAI",
+  state2 = "name=cChatPartnerAI",
+  state3 = "name=cTimedInteractionAI",
+  state4 = "name=cStatistAI, type=poor, work=tint",
+  state5 = "name=cNPCFleeAI",
+
+  setState0="condition=onTime, state=cStatistAI, start=16, stop=22",
+  setState1="condition=onTime, state=cTimedInteractionAI, start=5, stop=17",
+  setState2="condition=onEnemyNear, feasibility=1000, state=cNPCFleeAI, type=1",
+
+  defaultState = "cSleepAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "DOG",
+  profile="FARMANIMAL",
+
+  state0="name=cCreatureIdleAI",
+  state1="name=cHuntingAnimal,distance=250,walkprob=5,walkdistance=125",
+
+  defaultState="cHuntingAnimal",
+
+  globalparam="hunt=4",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "PIG",
+profile = "FARMANIMAL",
+state0="name=cCreatureIdleAI",
+state1="name=cBaseAnimal,distance=250,walkprob=5,walkdistance=125",
+defaultState="cBaseAnimal",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOB_PROCURATOR",
+  state0 = "name=cSleepAI, start=0, end=7",
+  state1 = "name=cNPCChatAI",
+  state2 = "name=cChatPartnerAI",
+  state3 = "name=cStatistAI, type=rich, work=tint",
+  state4 = "name=cTimedInteractionAI",
+
+  setState0="condition=onTime, state=cStatistAI, start=20, stop=1",
+  setState1="condition=onTime, state=cTimedInteractionAI, start=5, stop=17",
+
+  defaultState = "cSleepAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "rabbit",
+profile="FARMANIMAL",
+state0="name=cCreatureIdleAI",
+state1="name=cBaseAnimal,distance=250,walkprob=5,walkdistance=125",
+defaultState="cBaseAnimal",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "snake",
+profile="FARMANIMAL",
+state0="name=cCreatureIdleAI",
+state1="name=cBaseAnimal,distance=250,walkprob=5,walkdistance=125",
+defaultState="cBaseAnimal",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Toad",
+profile="FARMANIMAL",
+state0="name=cCreatureIdleAI",
+state1="name=cBaseAnimal,distance=250,walkprob=5,walkdistance=125",
+defaultState="cBaseAnimal",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "sheep",
+profile="FARMANIMAL",
+state0="name=cCreatureIdleAI",
+state1="name=cBaseAnimal,distance=250,walkprob=5,walkdistance=125",
+defaultState="cBaseAnimal",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_boss_kraken",
+  state0  = "name=cWaterCreatureStartAI, distance=700",
+  state1  = "name=cWaterCreatureAlarmAI, shortrange=70, longrange=675, distance_c=400, distance_d=500",
+  state2  = "name=cSpecialMoveAI",
+
+  defaultState = "cWaterCreatureStartAI",
+
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_boss_firedemon",
+  state0  = "name=cCreatureIdleAI",
+  state1  = "name=cFireDemonStart, prop_watch=20",
+  state2  = "name=cFireDemonAlarm, longrange=490, distance_c=340, formation=cHordeFormation",
+  state3  = "name=cFireDemonTeleport, maxtime=3",
+  state4  = "name=cSpecialMoveAI",
+
+  defaultState = "cFireDemonStart",
+  setState0 = "condition=onEnemyNear, if_state=cFireDemonStart, feasibility=1000, state=cFireDemonAlarm, fear_state=cFireDemonAlarm, range=700.0",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_boss_fog",
+state0="name=cFogMonsterAI,distance=250.0,waitingtime=1.2,attackprob=700",
+state1="name=cSpecialMoveAI",
+state2="name=cCreatureIdleAI",
+defaultState="cCreatureIdleAI",
+setState0="condition=onEnemyNear,if_state=cCreatureIdleAI,feasibility=1000,state=cFogMonsterAI,fear_state=cFogMonsterAI,range=500.0",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_boss_scorpion",
+state0="name=cScorpionKingAI,moveprob=40",
+state1="name=cSpecialMoveAI",
+state2="name=cCreatureIdleAI",
+defaultState="cCreatureIdleAI",
+setState0="condition=onEnemyNear,if_state=cCreatureIdleAI,feasibility=1000,state=cScorpionKingAI,fear_state=cScorpionKingAI,range=500.0",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_boss_byonic_flyer",
+state0="name=cCreatureIdleAI,onattack=cBionicFlyerAI",
+state1="name=cBionicFlyerAI,battery_state=10",
+state2="name=cSpecialMoveAI",
+defaultState="cCreatureIdleAI",
+setState0="condition=onEnemyNear,if_state=cCreatureIdleAI,feasibility=1000,state=cBionicFlyerAI,fear_state=cBionicFlyerAI,range=500.0",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_boss_crystal",
+state0="name=cCrystalMonsterAI",
+state1="name=cSpecialMoveAI",
+state2="name=cCreatureIdleAI",
+defaultState="cCreatureIdleAI",
+setState0="condition=onEnemyNear,if_state=cCreatureIdleAI,feasibility=1000,state=cCrystalMonsterAI,fear_state=cCrystalMonsterAI,range=500.0",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_boss_seraphim",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_boss_grandinquisitor",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_boss_alien",
+state0="name=cAlienAI",
+state1="name=cSpecialMoveAI",
+defaultState="cAlienAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_plant",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI, range=400.0",
+state2="name=cFleeAI, range=300.0",
+state3="name=cEnemySimple, distance=450, waitingtime=1.5",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear, feasibility=1000, state=cEnemySimple, range=500.0",
+
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "orc_female",
+state0="name=cFarmGrazeKi, range=300.0",
+state1="name=cCreatureIdleAI",
+state2="name=cFleeAI",
+defaultState="cFarmGrazeKi",
+setState0="condition=onEnemyNear, feasibility=1000, state=cFleeAI, type=1, range=250",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_warrior_simple",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cHordeFormation,onAttack=cEnemySimple",
+state2="name=cEnemySimple,distance=150.0,fearsibility=50,formation=cHordeFormation,waitingtime=1.2",
+state3="name=cSpecialMoveAI",
+state4="name=cFleeAI",
+state5="name=cEnemyFear,onattack=cEnemySimple",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,feasibility=1000,if_state=cEnemyFear,state=cEnemySimple,range=500.0",
+setState1="condition=onEnemyNear,feasibility=1000,if_state=cEnemyMoveAI,state=cEnemySimple,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,feasibility=1000,state=cEnemySimple",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_warrior_simple_triangle",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cTriangleFormation,onAttack=cEnemySimple",
+state2="name=cEnemySimple,distance=150.0,fearsibility=50,formation=cTriangleFormation,waitingtime=1.2",
+state3="name=cSpecialMoveAI",
+state4="name=cFleeAI",
+state5="name=cEnemyFear,onattack=cEnemySimple",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,feasibility=1000,if_state=cEnemyFear,state=cEnemySimple,range=500.0",
+setState1="condition=onEnemyNear,feasibility=1000,if_state=cEnemyMoveAI,state=cEnemySimple,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,feasibility=1000,state=cEnemySimple",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_warrior_simple_row",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cRowFormation,onAttack=cEnemySimple",
+state2="name=cEnemySimple,distance=150.0,fearsibility=50,formation=cRowFormation,waitingtime=1.2",
+state3="name=cSpecialMoveAI",
+state4="name=cFleeAI",
+state5="name=cEnemyFear,onattack=cEnemySimple",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,feasibility=1000,if_state=cEnemyFear,state=cEnemySimple,range=500.0",
+setState1="condition=onEnemyNear,feasibility=1000,if_state=cEnemyMoveAI,state=cEnemySimple,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,feasibility=1000,state=cEnemySimple",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_warrior_kicknrush",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cHordeFormation,onAttack=cEnemyKickNRush",
+state2="name=cEnemyKickNRush",
+state3="name=cSpecialMoveAI",
+state4="name=cFleeAI",
+state5="name=cEnemyFear,onattack=cEnemyKickNRush",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,feasibility=1000,if_state=cEnemyFear,state=cEnemyKickNRush,range=400.0",
+setState1="condition=onEnemyNear,feasibility=1000,if_state=cEnemyMoveAI,state=cEnemyKickNRush,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,feasibility=1000,state=cEnemyKickNRush",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_warrior_kicknrush_row",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cRowFormation,onAttack=cEnemyKickNRush",
+state2="name=cEnemyKickNRush",
+state3="name=cSpecialMoveAI",
+state4="name=cFleeAI",
+state5="name=cEnemyFear,onattack=cEnemyKickNRush",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,feasibility=1000,if_state=cEnemyFear,state=cEnemyKickNRush,range=400.0",
+setState1="condition=onEnemyNear,feasibility=1000,if_state=cEnemyMoveAI,state=cEnemyKickNRush,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,feasibility=1000,state=cEnemyKickNRush",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_warrior_kicknrush_triangle",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cTriangleFormation,onAttack=cEnemyKickNRush",
+state2="name=cEnemyKickNRush",
+state3="name=cSpecialMoveAI",
+state4="name=cFleeAI",
+state5="name=cEnemyFear,onattack=cEnemyKickNRush",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,feasibility=1000,if_state=cEnemyFear,state=cEnemyKickNRush,range=400.0",
+setState1="condition=onEnemyNear,feasibility=1000,if_state=cEnemyMoveAI,state=cEnemyKickNRush,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,feasibility=1000,state=cEnemyKickNRush",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_mage_triangle",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cTriangleFormation,onAttack=cEnemyMagician",
+state2="name=cFleeAI,range=200.0",
+state3="name=cEnemyMagician,defense=cEnemySimpleDefence",
+state4="name=cEnemySimpleDefence,numattack=3,distance=400",
+state5="name=cSpecialMoveAI",
+state6="name=cEnemyFear,onattack=cEnemyMagician",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,if_state=cEnemyFear,feasibility=1000,state=cEnemyMagician,range=350.0",
+setState1="condition=onEnemyNear,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyMagician,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyMagician",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_mage_guard",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cGuardFormation,onAttack=cEnemyMagician",
+state2="name=cFleeAI,range=200.0",
+state3="name=cEnemyMagician,defense=cEnemySimpleDefence",
+state4="name=cEnemySimpleDefence,numattack=3,distance=400",
+state5="name=cSpecialMoveAI",
+state6="name=cEnemyFear,onattack=cEnemySimpleDefence",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,if_state=cEnemyFear,feasibility=1000,state=cEnemyMagician,range=350.0",
+setState1="condition=onEnemyNear,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyMagician,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyMagician",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_mage_row",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cRowFormation,onAttack=cEnemyMagician",
+state2="name=cFleeAI,range=200.0",
+state3="name=cEnemyMagician,defense=cEnemySimpleDefence",
+state4="name=cEnemySimpleDefence,numattack=3,distance=400",
+state5="name=cSpecialMoveAI",
+state6="name=cEnemyFear,onattack=cEnemyMagician",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,if_state=cEnemyFear,feasibility=1000,state=cEnemyMagician,range=350.0",
+setState1="condition=onEnemyNear,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyMagician,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyMagician",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_mage",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cHordeFormation,onAttack=cEnemyMagician",
+state2="name=cFleeAI,range=200.0",
+state3="name=cEnemyMagician,defense=cEnemySimpleDefence",
+state4="name=cEnemySimpleDefence,numattack=3,distance=150",
+state5="name=cSpecialMoveAI",
+state6="name=cEnemyFear,onattack=cEnemySimpleDefence",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,if_state=cEnemyFear,feasibility=1000,state=cEnemyMagician,range=350.0",
+setState1="condition=onEnemyNear,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyMagician,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyMagician",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_hunter",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cSingleFileFormation,onAttack=cEnemyDistance",
+state2="name=cFleeAI,range=240.0",
+state3="name=cEnemyDistance,defense=cEnemySimpleDefence,formation=cSingleFileFormation",
+state4="name=cSpecialMoveAI",
+state5="name=cEnemySimpleDefence,numattacks=2,distance=250",
+state6="name=cEnemyFear,onattack=cEnemyDistance",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,if_state=cEnemyFear,feasibility=1000,state=cEnemyDistance,range=400.0",
+setState1="condition=onEnemyNear,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyDistance,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyDistance",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_hunter_triangle",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cTriangleFormation,onAttack=cEnemyDistance",
+state2="name=cFleeAI,range=240.0",
+state3="name=cEnemyDistance,defense=cEnemySimpleDefence,formation=cTriangleFormation",
+state4="name=cSpecialMoveAI",
+state5="name=cEnemySimpleDefence,numattacks=2,distance=250",
+state6="name=cEnemyFear",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,if_state=cEnemyFear,feasibility=1000,state=cEnemyDistance,range=400.0",
+setState1="condition=onEnemyNear,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyDistance,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyDistance",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_hunter_row",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cRowFormation,onAttack=cEnemyDistance",
+state2="name=cFleeAI,range=240.0",
+state3="name=cEnemyDistance,defense=cEnemySimpleDefence,formation=cRowFormation",
+state4="name=cSpecialMoveAI",
+state5="name=cEnemySimpleDefence,numattacks=2,distance=250",
+state6="name=cEnemyFear,onattack=cEnemyDistance",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,if_state=cEnemyFear,feasibility=1000,state=cEnemyDistance,range=400.0",
+setState1="condition=onEnemyNear,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyDistance,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyDistance",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_hunter_phalanx",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cPhalanxFormation,onAttack=cEnemyDistance",
+state2="name=cFleeAI,range=240.0",
+state3="name=cEnemyDistance,defense=cEnemySimpleDefence,formation=cPhalanxFormation",
+state4="name=cSpecialMoveAI",
+state5="name=cEnemySimpleDefence,numattacks=2,distance=250",
+state6="name=cEnemyFear,onattack=cEnemyDistance",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,if_state=cEnemyFear,feasibility=1000,state=cEnemyDistance,range=400.0",
+setState1="condition=onEnemyNear,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyDistance,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyDistance",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_warrior_brave",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cHordeFormation,onAttack=cEnemySimple",
+state2="name=cEnemySimple,distance=150.0,fearsibility=5,formation=cHordeFormation,waitingtime=1.2,health_threshold=0,flee_probability=0",
+state3="name=cSpecialMoveAI",
+state4="name=cFleeAI",
+state5="name=cEnemyFear,onattack=cEnemySimple",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,feasibility=1000,if_state=cEnemyFear,state=cEnemySimple,range=500.0",
+setState1="condition=onEnemyNear,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemySimple,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,feasibility=1000,state=cEnemySimple",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_warrior_coward",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cHordeFormation,onAttack=cEnemySimple",
+state2="name=cEnemySimple,distance=150.0,fearsibility=75,formation=cHordeFormation,waitingtime=1.2,health_threshold=0.5,flee_probability=0.08",
+state3="name=cSpecialMoveAI",
+state4="name=cFleeAI",
+state5="name=cEnemyFear,onattack=cEnemySimple",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,feasibility=1000,if_state=cEnemyFear,state=cEnemySimple,range=500.0",
+setState1="condition=onEnemyNear,feasibility=1000,if_state=cEnemyMoveAI,state=cEnemySimple,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,feasibility=1000,state=cEnemySimple",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_warrior_rush",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cHordeFormation,onAttack=cEnemySimpleRush",
+state2="name=cEnemySimpleRush,distance=150.0",
+state3="name=cSpecialMoveAI",
+state4="name=cFleeAI",
+state5="name=cEnemyFear,onattack=cEnemySimpleRush",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,feasibility=1000,if_state=cEnemyFear,state=cEnemySimpleRush,range=500.0",
+setState1="condition=onEnemyNear,feasibility=1000,if_state=cEnemyMoveAI,state=cEnemySimpleRush,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,feasibility=1000,state=cEnemySimpleRush",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_mage_elite",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cHordeFormation,onAttack=cEnemyMagician",
+state2="name=cFleeAI,range=200.0",
+state3="name=cEnemyMagician,defense=cEnemySimpleDefence",
+state4="name=cEnemySimpleDefence,numattack=3,distance=400",
+state5="name=cSpecialMoveAI",
+state6="name=cEnemyFear,onattack=cEnemyMagician",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,if_state=cEnemyFear,feasibility=1000,state=cEnemyMagician,range=350.0",
+setState1="condition=onEnemyNear,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyMagician,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyMagician",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_mage_elite_triangle",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cTriangleFormation,onAttack=cEnemyMagician",
+state2="name=cFleeAI,range=200.0",
+state3="name=cEnemyMagician,defense=cEnemySimpleDefence",
+state4="name=cEnemySimpleDefence,numattack=3,distance=400",
+state5="name=cSpecialMoveAI",
+state6="name=cEnemyFear,onattack=cEnemyMagician",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,if_state=cEnemyFear,feasibility=1000,state=cEnemyMagician,range=350.0",
+setState1="condition=onEnemyNear,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyMagician,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyMagician",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_mage_elite_guard",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cGuardFormation,onAttack=cEnemyMagician",
+state2="name=cFleeAI,range=200.0",
+state3="name=cEnemyMagician,defense=cEnemySimpleDefence",
+state4="name=cEnemySimpleDefence,numattack=3,distance=400",
+state5="name=cSpecialMoveAI",
+state6="name=cEnemyFear,onattack=cEnemyMagician",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,if_state=cEnemyFear,feasibility=1000,state=cEnemyMagician,range=350.0",
+setState1="condition=onEnemyNear,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyMagician,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyMagician",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_mage_elite_row",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cRowFormation,onAttack=cEnemyMagician",
+state2="name=cFleeAI,range=200.0",
+state3="name=cEnemyMagician,defense=cEnemySimpleDefence",
+state4="name=cEnemySimpleDefence,numattack=3,distance=400",
+state5="name=cSpecialMoveAI",
+state6="name=cEnemyFear,onattack=cEnemyMagician",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,if_state=cEnemyFear,feasibility=1000,state=cEnemyMagician,range=350.0",
+setState1="condition=onEnemyNear,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyMagician,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyMagician",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_mage_elite_phalanx",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cPhalanxFormation,onAttack=cEnemyMagician",
+state2="name=cFleeAI,range=200.0",
+state3="name=cEnemyMagician,defense=cEnemySimpleDefence",
+state4="name=cEnemySimpleDefence,numattack=3,distance=400",
+state5="name=cSpecialMoveAI",
+state6="name=cEnemyFear,onattack=cEnemyMagician",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,if_state=cEnemyFear,feasibility=1000,state=cEnemyMagician,range=350.0",
+setState1="condition=onEnemyNear,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyMagician,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyMagician",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_warrior_elite",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=400.0,formation=cHordeFormation,onAttack=cEnemySimpleExtended",
+state2="name=cFleeAI,range=300.0",
+state3="name=cEnemySimpleExtended,distance=450,waitingtime=1.5,formation=cHordeFormation",
+state4="name=cSpecialMoveAI",
+state5="name=cEnemyFear,onattack=cEnemySimpleExtended",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,feasibility=1000,if_state=cEnemyFear,state=cEnemySimpleExtended,range=500.0",
+setState1="condition=onEnemyNear,feasibility=1000,if_state=cEnemyMoveAI,state=cEnemySimpleExtended,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,feasibility=1000,state=cEnemySimpleExtended",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Mount_generic",
+state0="name=cCreatureIdleAI",
+state1="name=cMountMoveAI,range=600.0,attitude=coward,mobility=666.66",
+state2="name=cEnemySimple",
+defaultState="cMountMoveAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOBTEST_BS_ANVIL",
+profile = "NPC",
+               state0 ="name=cCreatureIdleAI",
+               state1 ="name=cAnchorTest, actduration=5, objecttype=CLF_STATIC_ANVIL,anim=ANIM_TYPE_HAMMER-METAL,bubble=1",
+
+               defaultState="cAnchorTest",
+
+
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOBTEST_BS_GRIND",
+profile = "NPC",
+               state0 ="name=cCreatureIdleAI",
+               state1 ="name=cAnchorTest, actduration=5, objecttype=CLF_STATIC_GRINDSTONE,anim=ANIM_TYPE_USE-GRINDSTONE,bubble=3",
+
+               defaultState="cAnchorTest",
+
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOBTEST_PRIEST_ALTAR",
+profile = "NPC",
+               state0 ="name=cCreatureIdleAI",
+               state1 ="name=cAnchorTest, actduration=5, objecttype=CLF_STATIC_ALTAR,anim=ANIM_TYPE_CLEAN_TABLE,bubble=0",
+
+               defaultState="cAnchorTest",
+
+
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOBTEST_BS_MELTING",
+profile = "NPC",
+               state0 ="name=cCreatureIdleAI",
+               state1 ="name=cAnchorTest, actduration=5, objecttype=CLF_STATIC_MELTING_FURACE,anim=ANIM_TYPE_LIGTH-FIRE,bubble=-1",
+
+               defaultState="cAnchorTest",
+
+
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOBTEST_ALL_SLEEP_BED",
+profile = "NPC",
+               state0 ="name=cCreatureIdleAI",
+               state1 ="name=cAnchorTest, actduration=5, objecttype=CLF_STATIC_BED,anim=ANIM_TYPE_LAYDOWN,bubble=-1",
+
+               defaultState="cAnchorTest",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOBTEST_ALL_SIT_CHAIR",
+profile = "NPC",
+               state0 ="name=cCreatureIdleAI",
+               state1 ="name=cAnchorTest, actduration=5, objecttype=CLF_STATIC_CHAIR,anim=ANIM_TYPE_SITDOWN,bubble=-1",
+
+               defaultState="cAnchorTest",
+
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOBTEST_COOK_CAULDRON",
+profile = "NPC",
+               state0 ="name=cCreatureIdleAI",
+               state1 ="name=cAnchorTest, actduration=5, objecttype=CLF_STATIC_CAULDRON,anim=ANIM_TYPE_USE-WOODEN-SPOON,bubble=0",
+
+               defaultState="cAnchorTest",
+
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOBTEST_ALL_CLEAN_TABLE",
+profile = "NPC",
+               state0 ="name=cCreatureIdleAI",
+               state1 ="name=cAnchorTest, actduration=5, objecttype=CLF_STATIC_TABLE,anim=ANIM_TYPE_CLEAN-TABLE,bubble=2",
+
+               defaultState="cAnchorTest",
+
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOBTEST_ALL_CLEAN_BAR",
+profile = "NPC",
+               state0 ="name=cCreatureIdleAI",
+               state1 ="name=cAnchorTest, actduration=5, objecttype=CLF_STATIC_BAR,anim=ANIM_TYPE_CLEAN-BAR,bubble=2",
+
+               defaultState="cAnchorTest",
+
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOBTEST_ALL_CLEAN_CABINET",
+profile = "NPC",
+               state0 ="name=cCreatureIdleAI",
+               state1 ="name=cAnchorTest, actduration=5, objecttype=CLF_STATIC_SHOWCASE,anim=ANIM_TYPE_CLEAN-SHOWCASE,bubble=2",
+
+               defaultState="cAnchorTest",
+
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_warrior_pack",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cHordeFormation,onAttack=cEnemyRevolve",
+state2="name=cEnemyRevolve,distance=85.0,movedistance=75,formation=cHordeFormation",
+state3="name=cSpecialMoveAI",
+state4="name=cFleeAI,range=200",
+state5="name=cEnemyFear,onattack=cEnemyRevolve",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,feasibility=1000,if_state=cEnemyFear,state=cEnemyRevolve,range=500.0",
+setState1="condition=onEnemyNear,feasibility=1000,if_state=cEnemyMoveAI,state=cEnemyRevolve,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onDead,if_state=cEnemyRevolve,feasibility=1000,state=cFleeAI,who=groupmember",
+setState3="condition=onGroupMemberAttack,state=cEnemyRevolve,feasibility=1000",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Hireling_coward",
+state0="name=cCreatureIdleAI",
+state1="name=cHirelingMoveAI,range=200.0,attitude=coward,mobility=14,fleefactor=1.5",
+state2="name=cEnemySimple",
+state3="name=cFleeAI",
+defaultState="cHirelingMoveAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Hireling_brave",
+state0="name=cCreatureIdleAI",
+state1="name=cHirelingMoveAI,range=200.0,attitude=brave,fightstate=cEnemySimple",
+state2="name=cEnemySimple,distance=300.0,fearsibility=0,waitingtime=0.5,health_threshold=0,flee_probability=0",
+setState0="condition=onGroupMemberAttack,feasibility=1000,state=cEnemySimple",
+defaultState="cHirelingMoveAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Hireling_distance",
+state0="name=cCreatureIdleAI",
+state1="name=cHirelingMoveAI,range=200.0,attitude=brave,fightstate=cEnemyDistance",
+state2="name=cEnemyDistance,range=470.0",
+state3="name=cSpecialMoveAI",
+setState0="condition=onGroupMemberAttack,feasibility=1000,state=cEnemyDistance",
+defaultState="cHirelingMoveAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_warrior_brave_row",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cRowFormation,onAttack=cEnemySimple",
+state2="name=cEnemySimple,distance=150.0,fearsibility=5,formation=cRowFormation,waitingtime=1.2,health_threshold=0,flee_probability=0",
+state3="name=cSpecialMoveAI",
+state4="name=cFleeAI",
+state5="name=cEnemyFear,onattack=cEnemySimple",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,feasibility=1000,if_state=cEnemyFear,state=cEnemySimple,range=500.0",
+setState1="condition=onEnemyNear,feasibility=1000,if_state=cEnemyMoveAI,state=cEnemySimple,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,feasibility=1000,state=cEnemySimple",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_warrior_brave_triangle",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cTriangleFormation,onAttack=cEnemySimple",
+state2="name=cEnemySimple,distance=150.0,fearsibility=5,formation=cTriangleFormation,waitingtime=1.2,health_threshold=0,flee_probability=0",
+state3="name=cSpecialMoveAI",
+state4="name=cFleeAI",
+state5="name=cEnemyFear,onattack=cEnemySimple",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,feasibility=1000,if_state=cEnemyFear,state=cEnemySimple,range=500.0",
+setState1="condition=onEnemyNear,feasibility=1000,if_state=cEnemyMoveAI,state=cEnemySimple,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,feasibility=1000,state=cEnemySimple",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "LavaCrack",
+  state0="name=cLavaCrackAI",
+  defaultState="cLavaCrackAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Eruption",
+  state0="name=cEruptionAI",
+  defaultState="cEruptionAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_officer_kicknrush",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cTriangleFormation,onAttack=cEnemyKickNRush",
+state2="name=cEnemyKickNRush",
+state3="name=cSpecialMoveAI",
+state4="name=cEnemyFear",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,feasibility=1000,if_state=cEnemyFear,state=cEnemyKickNRush,range=500.0",
+setState1="condition=onEnemyNear,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyKickNRush,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,feasibility=1000,state=cEnemySimpleExtended",
+groupbehaviour="name=cFormationTeam",
+
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_officer_elite_kicknrush",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cTriangleFormation,onAttack=cEnemyKickNRush",
+state2="name=cEnemyKickNRush",
+state3="name=cSpecialMoveAI",
+state4="name=cEnemyFear",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,feasibility=1000,if_state=cEnemyFear,state=cEnemyKickNRush,range=500.0",
+setState1="condition=onEnemyNear,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyKickNRush,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,feasibility=1000,state=cEnemySimpleExtended",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_warrior_brave_row_attacke",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cRowFormation,onAttack=cEnemySimple",
+state2="name=cEnemySimple,distance=150.0,fearsibility=5,formation=cRowFormation,waitingtime=1.2,health_threshold=0,flee_probability=0",
+state3="name=cSpecialMoveAI",
+state4="name=cFleeAI",
+state5="name=cEnemyFear,onattack=cEnemySimple",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,feasibility=1000,if_state=cEnemyFear,state=cEnemySimple,range=500.0",
+setState1="condition=onEnemyNear,feasibility=1000,if_state=cEnemyMoveAI,state=cEnemySimple,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,feasibility=1000,state=cEnemySimple",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_boss_undead_general",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cHordeFormation",
+state2="name=cUndeadGeneralAI,distance=150.0,waitingtime=1.2",
+state3="name=cSpecialMoveAI",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,if_state=cEnemyMoveAI,feasibility=1000,state=cUndeadGeneralAI,fear_state=cUndeadGeneralAI,range=500.0",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_mage_phalanx",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cPhalanxFormation,onAttack=cEnemyMagician",
+state2="name=cFleeAI,range=200.0",
+state3="name=cEnemyMagician,defense=cEnemySimpleDefence",
+state4="name=cEnemySimpleDefence,numattack=3,distance=400",
+state5="name=cSpecialMoveAI",
+state6="name=cEnemyFear,onattack=cEnemyMagician",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,if_state=cEnemyFear,feasibility=1000,state=cEnemyMagician,range=350.0",
+setState1="condition=onEnemyNear,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyMagician,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyMagician",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_warrior_simple_artillery",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cPhalanxFormation,onAttack=cEnemyDistance",
+state2="name=cFleeAI,range=240.0",
+state3="name=cEnemyDistance,defense=cEnemySimpleExtended,formation=cPhalanxFormation,agility=5",
+state4="name=cSpecialMoveAI",
+state5="name=cEnemySimpleExtended,distance=150.0,fearsibility=0,formation=cPhalanxFormation,waitingtime=1.2,health_threshold=0,flee_probability=0,followtimer=5.0",
+state6="name=cEnemyFear,onattack=cEnemyDistance",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,if_state=cEnemyFear,feasibility=1000,state=cEnemyDistance,range=400.0",
+setState1="condition=onEnemyNear,feasibility=1000,if_state=cEnemyMoveAI,state=cEnemyDistance,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyDistance",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_warrior_simple_guard_trapmagic",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cHordeFormation,onAttack=cEnemySimple",
+state2="name=cEnemySimple,distance=150.0,fearsibility=50,waitingtime=1.2,formation=cHordeFormation",
+state3="name=cSpecialMoveAI",
+state4="name=cFleeAI",
+state5="name=cEnemyFear,onattack=cEnemySimple",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,feasibility=1000,if_state=cEnemyFear,state=cEnemySimple,range=500.0",
+setState1="condition=onEnemyNear,feasibility=1000,if_state=cEnemyMoveAI,state=cEnemySimple,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,feasibility=1000,state=cEnemySimple",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_warrior_brave_ex",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cHordeFormation,onAttack=cEnemySimpleExtended",
+state2="name=cEnemySimpleExtended,distance=150.0,fearsibility=5,waitingtime=1.2,formation=cHordeFormation",
+state3="name=cSpecialMoveAI",
+state4="name=cFleeAI",
+state5="name=cEnemyFear,onattack=cEnemySimpleExtended",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,feasibility=1000,if_state=cEnemyFear,state=cEnemySimpleExtended,range=500.0",
+setState1="condition=onEnemyNear,feasibility=1000,if_state=cEnemyMoveAI,state=cEnemySimpleExtended,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,feasibility=1000,state=cEnemySimpleExtended",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_warrior_brave_row_ex",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cRowFormation,onAttack=cEnemySimpleExtended",
+state2="name=cEnemySimpleExtended,distance=150.0,fearsibility=5,formation=cRowFormation,health_threshold=0,flee_probability=0",
+state3="name=cSpecialMoveAI",
+state4="name=cFleeAI",
+state5="name=cEnemyFear,onattack=cEnemySimpleExtended",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,feasibility=1000,if_state=cEnemyFear,state=cEnemySimpleExtended,range=500.0",
+setState1="condition=onEnemyNear,feasibility=1000,if_state=cEnemyMoveAI,state=cEnemySimpleExtended,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,feasibility=1000,state=cEnemySimpleExtended",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_warrior_brave_triangle_ex",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cTriangleFormation,onAttack=cEnemySimpleExtended",
+state2="name=cEnemySimpleExtended,distance=150.0,fearsibility=5,formation=cTriangleFormation,waitingtime=1.2,health_threshold=0,flee_probability=0",
+state3="name=cSpecialMoveAI",
+state4="name=cFleeAI",
+state5="name=cEnemyFear,onattack=cEnemySimpleExtended",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,feasibility=1000,if_state=cEnemyFear,state=cEnemySimpleExtended,range=500.0",
+setState1="condition=onEnemyNear,feasibility=1000,if_state=cEnemyMoveAI,state=cEnemySimpleExtended,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,feasibility=1000,state=cEnemySimpleExtended",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_warrior_coward_ex",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cHordeFormation,onAttack=cEnemySimpleExtended",
+state2="name=cEnemySimpleExtended,distance=150.0,fearsibility=75,formation=cHordeFormation,waitingtime=1.2,health_threshold=0.5,flee_probability=0.08",
+state3="name=cSpecialMoveAI",
+state4="name=cFleeAI",
+state5="name=cEnemyFear,onattack=cEnemySimpleExtended",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,feasibility=1000,if_state=cEnemyFear,state=cEnemySimpleExtended,range=500.0",
+setState1="condition=onEnemyNear,feasibility=1000,if_state=cEnemyMoveAI,state=cEnemySimpleExtended,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,feasibility=1000,state=cEnemySimpleExtended",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_warrior_simple_ex",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cHordeFormation,onAttack=cEnemySimpleExtended",
+state2="name=cEnemySimpleExtended,distance=150.0,fearsibility=50,formation=cHordeFormation,waitingtime=1.2",
+state3="name=cSpecialMoveAI",
+state4="name=cFleeAI",
+state5="name=cEnemyFear,onattack=cEnemySimpleExtended",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,feasibility=1000,if_state=cEnemyFear,state=cEnemySimpleExtended,range=500.0",
+setState1="condition=onEnemyNear,feasibility=1000,if_state=cEnemyMoveAI,state=cEnemySimpleExtended,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,feasibility=1000,state=cEnemySimpleExtended",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_warrior_simple_row_ex",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cRowFormation,onAttack=cEnemySimpleExtended",
+state2="name=cEnemySimpleExtended,distance=150.0,fearsibility=50,formation=cRowFormation,waitingtime=1.2",
+state3="name=cSpecialMoveAI",
+state4="name=cFleeAI",
+state5="name=cEnemyFear,onattack=cEnemySimpleExtended",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,feasibility=1000,if_state=cEnemyFear,state=cEnemySimpleExtended,range=500.0",
+setState1="condition=onEnemyNear,feasibility=1000,if_state=cEnemyMoveAI,state=cEnemySimpleExtended,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,feasibility=1000,state=cEnemySimple",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_warrior_simple_triangle_ex",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cTriangleFormation,onAttack=cEnemySimpleExtended",
+state2="name=cEnemySimpleExtended,distance=150.0,fearsibility=50,formation=cTriangleFormation,waitingtime=1.2",
+state3="name=cSpecialMoveAI",
+state4="name=cFleeAI",
+state5="name=cEnemyFear,onattack=cEnemySimpleExtended",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,feasibility=1000,if_state=cEnemyFear,state=cEnemySimpleExtended,range=500.0",
+setState1="condition=onEnemyNear,feasibility=1000,if_state=cEnemyMoveAI,state=cEnemySimpleExtended,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,feasibility=1000,state=cEnemySimple",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_healer_guard",
+state0 = "name=cCreatureIdleAI",
+state1 = "name=cEnemyMoveAI,range=400.0,formation=cGuardFormation,onAttack=cEnemyHealer",
+state2 = "name=cFleeAI,range=200.0",
+state3 = "name=cEnemySimpleDefence, numattack=3, distance=400",
+state4 = "name=cEnemyHealer, healmode=group, maxhealth=50",
+state5 = "name=cSpecialMoveAI",
+state6 = "name=cEnemyFear,onattack=cEnemySimpleDefence",
+defaultState = "cEnemyMoveAI",
+setState0 = "condition=onEnemyNear, if_state=cEnemyFear, feasibility=1000, state=cEnemyHealer, range=250.0",
+setState1 = "condition=onEnemyNear,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyHealer,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,feasibility=1000,state=cEnemyHealer",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_healer_triangle",
+state0 = "name=cCreatureIdleAI",
+state1 = "name=cEnemyMoveAI,range=400.0,formation=cTriangleFormation,onAttack=cEnemyHealer",
+state2 = "name=cFleeAI,range=200.0",
+state3 = "name=cEnemySimpleDefence, numattack=3, distance=400",
+state4 = "name=cEnemyHealer, healmode=group, maxhealth=50",
+state5 = "name=cSpecialMoveAI",
+state6 = "name=cEnemyFear,onattack=cEnemySimpleDefence",
+defaultState = "cEnemyMoveAI",
+setState0="condition=onEnemyNear,if_state=cEnemyFear,feasibility=1000,state=cEnemyHealer,range=250.0",
+setState1="condition=onEnemyNear,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyHealer,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,feasibility=1000,state=cEnemyHealer",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_fire_elemental_boss",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemySimple",
+state2="name=cSpecialMoveAI",
+state3="name=cEnemyMoveAI,range=500.0,onAttack=cEnemySimple",
+state4="name=cMagicTrapAI,friendly=1,friendboss=0,targetcid=216",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,feasibility=1000,if_state=cEnemyMoveAI,state=cEnemySimple",
+setState1="condition=onGroupMemberAttack,feasibility=1000,state=cEnemySimple",
+setState2="condition=onCreatureNear,if_state=cEnemySimple,rel=friend,cid=216,range_max=350,range_min=0,feasibility=1000,state=cMagicTrapAI,health=35,me=0",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOB_COMMUNICATOR",
+  state0="name=cBaseNPCJobAI,job0=job_communicator_work:start=0:end=23,job1=job_communicator2_work:start=0:end=23",
+  state1="name=cChatPartnerAI",
+  state2="name=cNPCChatAI",
+  state3="name=cNPCFleeAI",
+
+  defaultState="cBaseNPCJobAI",
+
+  setState0="condition=onPlayerNear, if_state=cBaseNPCJobAI",
+  setState1="condition=onEnemyNear, feasibility=1000, state=cNPCFleeAI, type=1",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "QUESTJOB_KILL_POOR",
+state0="name=cBaseNPCJobAI,job0=job_kill_poor:start=0:end=23",
+defaultState="cBaseNPCJobAI",
+setState0="condition=onPlayerNear,if_state=cBaseNPCJobAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "QUESTJOB_KILL_RICH",
+state0="name=cBaseNPCJobAI,job0=job_kill_rich:start=0:end=23",
+defaultState="cBaseNPCJobAI",
+setState0="condition=onPlayerNear,if_state=cBaseNPCJobAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_warrior_simple_artillery_triangle",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cTriangleFormation,onAttack=cEnemyDistance",
+state2="name=cFleeAI,range=240.0",
+state3="name=cEnemyDistance,defense=cEnemySimpleExtended,formation=cTriangleFormation,agility=5",
+state4="name=cSpecialMoveAI",
+state5="name=cEnemySimpleExtended,distance=150.0,fearsibility=0,formation=cTriangleFormation,waitingtime=1.2,health_threshold=0,flee_probability=0,followtimer=5.0",
+state6="name=cEnemyFear,onattack=cEnemyDistance",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,if_state=cEnemyFear,feasibility=1000,state=cEnemyDistance,range=400.0",
+setState1="condition=onEnemyNear,feasibility=1000,if_state=cEnemyMoveAI,state=cEnemyDistance,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyDistance",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_warrior_simple_artillery_guard",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cGuardFormation,onAttack=cEnemyDistance",
+state2="name=cFleeAI,range=240.0",
+state3="name=cEnemyDistance,defense=cEnemySimpleExtended,formation=cGuardFormation,agility=5",
+state4="name=cSpecialMoveAI",
+state5="name=cEnemySimpleExtended,distance=150.0,fearsibility=0,formation=cGuardFormation,waitingtime=1.2,health_threshold=0,flee_probability=0,followtimer=5.0",
+state6="name=cEnemyFear,onattack=cEnemyDistance",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,if_state=cEnemyFear,feasibility=1000,state=cEnemyDistance,range=400.0",
+setState1="condition=onEnemyNear,feasibility=1000,if_state=cEnemyMoveAI,state=cEnemyDistance,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyDistance",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_warrior_simple_artillery_row",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cRowFormation,onAttack=cEnemyDistance",
+state2="name=cFleeAI,range=240.0",
+state3="name=cEnemyDistance,defense=cEnemySimpleExtended,formation=cRowFormation,agility=5",
+state4="name=cSpecialMoveAI",
+state5="name=cEnemySimpleExtended,distance=150.0,fearsibility=0,formation=cRowFormation,waitingtime=1.2,health_threshold=0,flee_probability=0,followtimer=5.0",
+state6="name=cEnemyFear,onattack=cEnemyDistance",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,if_state=cEnemyFear,feasibility=1000,state=cEnemyDistance,range=400.0",
+setState1="condition=onEnemyNear,feasibility=1000,if_state=cEnemyMoveAI,state=cEnemyDistance,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyDistance",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_warrior_simple_artillery_phalanx",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cPhalanxFormation,onAttack=cEnemyDistance",
+state2="name=cFleeAI,range=240.0",
+state3="name=cEnemyDistance,defense=cEnemySimpleExtended,formation=cPhalanxFormation,agility=5",
+state4="name=cSpecialMoveAI",
+state5="name=cEnemySimpleExtended,distance=150.0,fearsibility=0,formation=cPhalanxFormation,waitingtime=1.2,health_threshold=0,flee_probability=0,followtimer=5.0",
+state6="name=cEnemyFear,onattack=cEnemyDistance",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,if_state=cEnemyFear,feasibility=1000,state=cEnemyDistance,range=400.0",
+setState1="condition=onEnemyNear,feasibility=1000,if_state=cEnemyMoveAI,state=cEnemyDistance,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyDistance",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "dumbBehaviour",
+state0="name=cCreatureIdleAI",
+defaultState="cCreatureIdleAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOB_SENATOR",
+  state0 = "name=cSleepAI, home=rich, start=0, end=7",
+  state1 = "name=cNPCChatAI",
+  state2 = "name=cChatPartnerAI",
+  state3 = "name=cStatistAI, type=rich",
+  state4 = "name=cNPCFleeAI",
+  state5 = "name=cTimedInteractionAI, prop1=5, prop2=65",
+
+  setState0 = "condition=onEnemyNear, feasibility=1000, state=cNPCFleeAI, type=1",
+  setState1 = "condition=onTime, state=cStatistAI, start=19, stop=0",
+  setState2 = "condition=onTime, state=cTimedInteractionAI, start=8, stop=20",
+
+  defaultState = "cSleepAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOB_SENATORHELPER",
+  state0 = "name=cSleepAI, start=23, end=8",
+  state1 = "name=cBodyGuardAI,client=senator",
+  state2 = "name=cNPCChatAI",
+  state3 = "name=cChatPartnerAI",
+  state4 = "name=cEnemySimple, distance=350.0, fearsibility=0, waitingtime=0.5, health_threshold=0, flee_probability=0",
+
+  setState0 = "condition=onTime, state=cBodyGuardAI, start=7, stop=0",
+
+  defaultState = "cSleepAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOB_QUESTSTAGING",
+state0="name=cBaseNPCJobAI,job0=job_queststaging:start=0:end=23",
+defaultState="cBaseNPCJobAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Hireling_brave_ex",
+state0="name=cCreatureIdleAI",
+state1="name=cHirelingMoveAI,range=200.0,attitude=brave,fightstate=cEnemySimpleExtended",
+state2="name=cEnemySimpleExtended,distance=470.0,fearsibility=0,waitingtime=0.5,health_threshold=0,flee_probability=0",
+state3="name=cSpecialMoveAI",
+setState0="condition=onGroupMemberAttack,feasibility=1000,state=cEnemySimpleExtended",
+defaultState="cHirelingMoveAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Hireling_mage_no_defense",
+state0="name=cCreatureIdleAI",
+state1="name=cHirelingMoveAI,range=200.0,attitude=brave,fightstate=cEnemyMagician",
+state2="name=cEnemyMagician,defense=cEnemySimpleDefence,doDefense=0,forceidle=1",
+state3="name=cEnemySimpleDefence,numattack=3,distance=400",
+state4="name=cSpecialMoveAI",
+setState0="condition=onGroupMemberAttack,feasibility=1000,state=cEnemyMagician",
+defaultState="cHirelingMoveAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOB_WALKPATH",
+  state0 = "name=cWalkPathAI, idle=20",
+  state1 = "name=cNPCChatAI",
+  state2 = "name=cChatPartnerAI",
+  state3 = "name=cSleepAI, home=rich, start=21, end=8",
+  state4 = "name=cNPCFleeAI",
+
+  defaultState = "cSleepAI",
+
+  setState0="condition=onPlayerNear, if_state=cWalkPathAI",
+  setState1="condition=onTime, state=cWalkPathAI, start=7, stop=23",
+  setState2="condition=onEnemyNear, feasibility=1000, state=cNPCFleeAI, type=1",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_hunter_agile",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cSingleFileFormation,onAttack=cEnemyDistance",
+state2="name=cFleeAI,range=240.0",
+state3="name=cEnemyDistance,defense=cEnemySimpleDefence,agility=30,formation=cSingleFileFormation",
+state4="name=cSpecialMoveAI",
+state5="name=cEnemySimpleDefence,numattacks=2,distance=250",
+state6="name=cEnemyFear,onattack=cEnemyDistance",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,if_state=cEnemyFear,feasibility=1000,state=cEnemyDistance,range=400.0",
+setState1="condition=onEnemyNear,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyDistance,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyDistance",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_hunter_agile_phalanx",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cPhalanxFormation,onAttack=cEnemyDistance",
+state2="name=cFleeAI,range=240.0",
+state3="name=cEnemyDistance,defense=cEnemySimpleDefence,agility=30,formation=cPhalanxFormation",
+state4="name=cSpecialMoveAI",
+state5="name=cEnemySimpleDefence,numattacks=2,distance=250",
+state6="name=cEnemyFear,onattack=cEnemyDistance",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,if_state=cEnemyFear,feasibility=1000,state=cEnemyDistance,range=400.0",
+setState1="condition=onEnemyNear,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyDistance,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyDistance",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_hunter_agile_triangle",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cTriangleFormation,onAttack=cEnemyDistance",
+state2="name=cFleeAI,range=240.0",
+state3="name=cEnemyDistance,defense=cEnemySimpleDefence,agility=30,formation=cTriangleFormation",
+state4="name=cSpecialMoveAI",
+state5="name=cEnemySimpleDefence,numattacks=2,distance=250",
+state6="name=cEnemyFear,onattack=cEnemyDistance",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,if_state=cEnemyFear,feasibility=1000,state=cEnemyDistance,range=400.0",
+setState1="condition=onEnemyNear,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyDistance,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyDistance",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "QUEST_ORC_SON",
+state0="name=cCreatureIdleAI",
+state1="name=cHirelingMoveAI,range=400.0,attitude=coward,unconscious=40",
+state2="name=cEnemySimple",
+defaultState="cHirelingMoveAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_mage_artillery",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cHordeFormation,onAttack=cEnemyMagician",
+state2="name=cFleeAI,range=200.0",
+state3="name=cEnemyMagician,defense=cEnemySimple,staydefense=1",
+state4="name=cEnemySimple",
+state5="name=cSpecialMoveAI",
+state6="name=cEnemyFear,onattack=cEnemySimple",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,if_state=cEnemyFear,feasibility=1000,state=cEnemyMagician,range=350.0",
+setState1="condition=onEnemyNear,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyMagician,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyMagician",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOB_CAPTAIN",
+  state0="name=cInteractAreaAI,interact=captain",
+  state1="name=cNPCChatAI",
+  state2="name=cChatPartnerAI",
+
+  defaultState="cInteractAreaAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOB_TRAVELTRADER",
+  state0="name=cInteractAreaAI,interact=travel",
+  state1="name=cNPCChatAI",
+  state2="name=cChatPartnerAI",
+
+  defaultState="cInteractAreaAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOB_HORSETRADER",
+  state0="name=cInteractAreaAI,interact=horse",
+  state1="name=cNPCChatAI",
+  state2="name=cChatPartnerAI",
+
+  defaultState="cInteractAreaAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOB_DANCER",
+  state0 = "name=cBaseNPCJobAI,job0=job_dancer:start=0:end=23",
+  state1 = "name=cNPCChatAI",
+  state2 = "name=cChatPartnerAI",
+
+  defaultState = "cBaseNPCJobAI",
+
+  setState0="condition=onPlayerNear, if_state=cBaseNPCJobAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_warrior_simple_emerge",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyHideAndWaitAI,lay=1,visible=0",
+state2="name=cEnemySimple,distance=150.0,fearsibility=50,waitingtime=1.2",
+state3="name=cSpecialMoveAI",
+state4="name=cFleeAI",
+defaultState="cEnemyHideAndWaitAI",
+setState0="condition=onEnemyNear,feasibility=1000,if_state=cEnemyHideAndWaitAI,state=cEnemySimple,fear_state=cEnemySimple,range=500.0",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_warrior_brave_tenergy",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cHordeFormation,onAttack=cEnemySimpleExtended",
+state2="name=cEnemySimpleExtended,distance=150.0,fearsibility=5,formation=cHordeFormation,waitingtime=1.2,randomspell=1",
+state3="name=cSpecialMoveAI",
+state4="name=cFleeAI",
+state5="name=cEnemyFear,onattack=cEnemySimpleExtended",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,feasibility=1000,if_state=cEnemyFear,state=cEnemySimpleExtended,range=500.0",
+setState1="condition=onEnemyNear,feasibility=1000,if_state=cEnemyMoveAI,state=cEnemySimpleExtended,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,feasibility=1000,state=cEnemySimpleExtended",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_warrior_simple_cloud",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyHideAndWaitAI,lay=0,visible=0,effect=FX_SPPL_RISE",
+state2="name=cEnemySimpleExtended,distance=150.0,fearsibility=50,waitingtime=1.2",
+state3="name=cSpecialMoveAI",
+defaultState="cEnemyHideAndWaitAI",
+setState0="condition=onEnemyNear,feasibility=1000,if_state=cEnemyHideAndWaitAI,state=cEnemySimpleExtended,fear_state=cEnemySimpleExtended,range=500.0",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_trap_magic",
+state0="name=cMagicTrapAI",
+state1="name=cSpecialMoveAI",
+state2="name=cCreatureIdleAI",
+defaultState="cCreatureIdleAI",
+setState0="condition=onEnemyNear,feasibility=1000,if_state=cCreatureIdleAI,state=cMagicTrapAI,fear_state=cMagicTrapAI,range=500.0",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_trap_magic_fov",
+state0="name=cMagicTrapAI,fieldofview=4",
+state1="name=cSpecialMoveAI",
+state2="name=cCreatureIdleAI",
+defaultState="cCreatureIdleAI",
+setState0="condition=onEnemyNear,feasibility=1000,if_state=cCreatureIdleAI,state=cMagicTrapAI,fear_state=cMagicTrapAI,range=500.0",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "GenericDragon",
+state0="name=cGenericDragonAI",
+state1="name=cSpecialMoveAI",
+state2="name=cCreatureIdleAI",
+defaultState="cCreatureIdleAI",
+setState0="condition=onEnemyNear,feasibility=1000,if_state=cCreatureIdleAI,state=cGenericDragonAI,fear_state=cGenericDragonAI,range=500.0",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "test_fly",
+  state0 = "name=cCreatureIdleAI",
+  state1 = "name=cFlyPathAI",
+
+  defaultState = "cFlyPathAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOB_QUEST_STATIST",
+  profile = "NPC",
+
+  state0 = "name=cStatistAI, type=poor",
+  state1 = "name=cNPCChatAI",
+  state2 = "name=cChatPartnerAI",
+  state3 = "name=cSleepAI,job0=job_pstatist_sleep:start=0:end=8",
+  state4 = "name=cQuestCreatureAI, prop_chair=10",
+
+  setState0 = "condition=onTime, state=cStatistAI, start=7, stop=2",
+  setState1 = "condition=onQuestSymbol, state=cQuestCreatureAI",
+
+  defaultState = "cBaseNPCJobAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOB_SOLDIER",
+  state0 = "name=cGuardAI, range_far=400, range_close=330, idle=20, exercise=1",
+  state1 = "name=cNPCChatAI",
+  state2 = "name=cChatPartnerAI",
+  state3 = "name=cEnemyCenter, distance=350.0, fearsibility=0, waitingtime=0.5, health_threshold=0, flee_probability=0, distcenter=14.0",
+  state4 = "name=cEnemyDistance, range=420, defense=cEnemyCenter",
+  state5 = "name=cSpecialMoveAI",
+
+  defaultState="cGuardAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_trap_magic_friendly",
+state0="name=cMagicTrapAI,friendly=1",
+state1="name=cSpecialMoveAI",
+state2="name=cCreatureIdleAI",
+defaultState="cCreatureIdleAI",
+setState0="condition=onEnemyNear,feasibility=1000,if_state=cCreatureIdleAI,state=cMagicTrapAI,fear_state=cMagicTrapAI,range=500.0",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_boss_bigmachine",
+state0="name=cBigMachineAI",
+state1="name=cSpecialMoveAI",
+defaultState="cBigMachineAI",
+
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_warrior_dumbattacker",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cHordeFormation,onAttack=cEnemyDumbAttack",
+state2="name=cEnemyDumbAttack,distance=150.0,fearsibility=50,waitingtime=1.2",
+state3="name=cEnemyFear,onattack=cEnemyDumbAttack",
+state4="name=cSpecialMoveAI",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,feasibility=1000,if_state=cEnemyMoveAI,state=cEnemyDumbAttack,fear_state=cEnemyFear,range=500.0",
+setState1="condition=onGroupMemberAttack,feasibility=1000,state=cEnemyDumbAttack",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "BlindGuardian",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cHordeFormation,onAttack=cEnemyMagician",
+state2="name=cFleeAI,range=200.0",
+state3="name=cEnemyMagician,dodefense=0",
+state4="name=cSpecialMoveAI",
+state5="name=cEnemyFear",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,if_state=cEnemyFear,feasibility=1000,state=cEnemyMagician,range=350.0",
+setState1="condition=onEnemyNear,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyMagician,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyMagician",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_warrior_dumbattacker_lazy",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cHordeFormation,onAttack=cEnemyDumbAttack",
+state2="name=cEnemyDumbAttack,distance=150.0,fearsibility=50,waitingtime=3,hit_wait=1.5",
+state3="name=cEnemyFear,onattack=cEnemyDumbAttack",
+state4="name=cSpecialMoveAI",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,feasibility=1000,if_state=cEnemyMoveAI,state=cEnemyDumbAttack,fear_state=cEnemyFear,range=500.0",
+setState1="condition=onGroupMemberAttack,feasibility=1000,state=cEnemyDumbAttack",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOB_DRYADCOMMUNICATOR",
+  state0 = "name=cTimedInteractionAI",
+  state1 = "name=cChatPartnerAI",
+  state2 = "name=cNPCChatAI",
+
+  defaultState = "cTimedInteractionAI",
+
+  setState0 = "condition=onPlayerNear, if_state=cTimedInteractionAI",
+  setState1 = "condition=onTime, state=cTimedInteractionAI, start=0, stop=24",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "JOB_DRYADSTATIST",
+  state0 = "name=cTimedInteractionAI",
+  state1 = "name=cNPCChatAI",
+  state2 = "name=cChatPartnerAI",
+  state3 = "name=cSleepAI, start=0, end=8, home=rich, pub=40",
+  state4 = "name=cNPCFleeAI",
+  state5 = "name=cChaseAI",
+
+  defaultState = "cSleepAI",
+
+  setState0 = "condition=onEnemyNear, feasibility=1000, state=cNPCFleeAI, type=1",
+  setState1 = "condition=onPlayerNear, if_state=cTimedInteractionAI",
+  setState2 = "condition=onTime, state=cTimedInteractionAI, start=8, stop=1",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_hunter_coward",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cPhalanxFormation,onAttack=cEnemyDistance",
+state2="name=cFleeAI,range=240.0",
+state3="name=cEnemyDistance,defense=cEnemySimple,formation=cSingleFileFormation",
+state4="name=cSpecialMoveAI",
+state5="name=cEnemySimple,distance=150.0,fearsibility=75,formation=cHordeFormation,waitingtime=1.2,health_threshold=0.5,flee_probability=0.08",
+state6="name=cEnemyFear,onattack=cEnemySimple",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,if_state=cEnemyFear,feasibility=1000,state=cEnemyDistance,range=400.0",
+setState1="condition=onEnemyNear,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyDistance,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyDistance",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_trap_magic_remote",
+state0="name=cMagicTrapAI,remotecontrolled=1",
+state1="name=cSpecialMoveAI",
+state2="name=cCreatureIdleAI",
+defaultState="cCreatureIdleAI",
+setState0="condition=onEnemyNear,feasibility=1000,if_state=cCreatureIdleAI,state=cMagicTrapAI,fear_state=cMagicTrapAI,range=500.0",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_mage_no_defense",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cHordeFormation,onAttack=cEnemyMagician",
+state2="name=cFleeAI,range=200.0",
+state3="name=cEnemyMagician,doDefense=0",
+state4="name=cSpecialMoveAI",
+state5="name=cEnemyFear,onattack=cEnemyMagician",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,if_state=cEnemyFear,feasibility=1000,state=cEnemyMagician,range=350.0",
+setState1="condition=onEnemyNear,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyMagician,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,if_state=cEnemyMoveAI,feasibility=1000,state=cEnemyMagician",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_warrior_brave_retreat_heal",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cHordeFormation,onAttack=cEnemySimpleExtended",
+state2="name=cEnemySimpleExtended,fearsibility=5,waitingtime=1.2,formation=cHordeFormation",
+state3="name=cSpecialMoveAI",
+state4="name=cFleeAI",
+state5="name=cEnemyFear,onattack=cEnemySimpleExtended",
+state6="name=cEnemyRecharge,radius=300,onfear=cEnemyFear,onattack=cEnemySimpleExtended",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,feasibility=1000,if_state=cEnemyFear,state=cEnemySimpleExtended",
+setState1="condition=onEnemyNear,feasibility=1000,if_state=cEnemyMoveAI,state=cEnemySimpleExtended,fear_state=cEnemyFear",
+setState2="condition=onGroupMemberAttack,feasibility=1000,state=cEnemySimpleExtended",
+setState3="condition=onCreatureNear,rel=friend,cid=2052,range_max=700,range_min=300,feasibility=1000,state=cEnemyRecharge,health=30",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_warrior_reduced_aggro",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cHordeFormation,onAttack=cEnemySimpleExtended",
+state2="name=cEnemySimpleExtended,fearsibility=5,waitingtime=1.2,formation=cHordeFormation,range=300",
+state3="name=cSpecialMoveAI",
+state4="name=cFleeAI",
+state5="name=cEnemyFear,onattack=cEnemySimpleExtended",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,feasibility=1000,if_state=cEnemyMoveAI,state=cEnemySimpleExtended,rangeoverload=300",
+setState1="condition=onGroupMemberAttack,feasibility=1000,state=cEnemySimpleExtended",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_trap_magic_friendly_generic",
+state0="name=cMagicTrapAI,friendly=1,friendboss=0",
+state1="name=cSpecialMoveAI",
+state2="name=cCreatureIdleAI",
+defaultState="cCreatureIdleAI",
+setState0="condition=onCreatureNear,if_state=cCreatureIdleAI,rel=friend,range_max=400,range_min=0,feasibility=1000,state=cMagicTrapAI",
+
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_suicide",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cHordeFormation,onAttack=cEnemySimpleExtended",
+state2="name=cEnemySimpleExtended,fearsibility=50,formation=cHordeFormation,waitingtime=1.2,maxrangecast=100",
+state3="name=cSpecialMoveAI",
+state4="name=cFleeAI",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,feasibility=1000,if_state=cEnemyMoveAI,state=cEnemySimpleExtended",
+setState1="condition=onGroupMemberAttack,feasibility=1000,state=cEnemySimpleExtended",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "spell_wirbelwind",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cHordeFormation,onAttack=cEnemySimple",
+state2="name=cEnemySimple,range=800,attacksToChangeTarget=255,force_nearest=1",
+state3="name=cEnemyFear,onattack=cEnemySimple",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,feasibility=1000,if_state=cEnemyMoveAI,state=cEnemySimple,fear_state=cEnemySimple,rangeoverload=800",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "spell_zerstoerer",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,wait=0,alwaysrun=1",
+defaultState="cCreatureIdleAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_boss_scara",
+state0="name=cCreatureIdleAI",
+state1="name=cEnemyMoveAI,range=500.0,formation=cHordeFormation,onAttack=cEnemySimpleExtended",
+state2="name=cEnemySimpleExtended,waitingtime=1.2,formation=cHordeFormation,spcc_spell_a=1,spcc_cid_a=2045,spcc_min_a=0,spcc_max_a=10,spcc_spell_b=2,spcc_cid_b=2045,spcc_min_b=11,spcc_max_b=50",
+state3="name=cSpecialMoveAI",
+state4="name=cFleeAI",
+state5="name=cEnemyFear,onattack=cEnemySimpleExtended",
+defaultState="cEnemyMoveAI",
+setState0="condition=onEnemyNear,feasibility=1000,if_state=cEnemyFear,state=cEnemySimpleExtended,range=500.0",
+setState1="condition=onEnemyNear,feasibility=1000,if_state=cEnemyMoveAI,state=cEnemySimpleExtended,fear_state=cEnemyFear,range=500.0",
+setState2="condition=onGroupMemberAttack,feasibility=1000,state=cEnemySimpleExtended",
+groupbehaviour="name=cFormationTeam",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Enemy_boss_phoenix",
+state0="name=cCreatureIdleAI",
+state1="name=cBossPhoenixAI",
+state2="name=cSpecialMoveAI, forbidapproach=1",
+defaultState="cBossPhoenixAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+  name         = "Hireling_vertrauter",
+state0="name=cCreatureIdleAI",
+state1="name=cHirelingMoveAI,range=150,attitude=coward,mobility=14",
+state2="name=cEnemySimple",
+state3="name=cFleeAI",
+defaultState="cHirelingMoveAI",
+
+}
+mgr.createBehaviour(newBehaviour);
+

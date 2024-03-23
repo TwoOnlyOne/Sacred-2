@@ -1,0 +1,23 @@
+-- roadmap definitions
+
+
+
+roads = {}
+
+roads = {
+	
+	-- tile is patchgroup, width in no. of patches
+	highway_tile	= "Menschen/Strassen/Stein M1",
+	highway_width	= 5,
+
+	road_tile	= "Menschen/Strassen/Stein M1",
+	road_width	= 3,
+
+	path_tile	= "Menschen/Wege/Feldweg M1",
+	path_width	= 2,
+
+	trail_tile	= "Menschen/Wege/Feldweg M1",
+	trail_width	= 1	
+}
+mgr.defineRoads( roads )
+

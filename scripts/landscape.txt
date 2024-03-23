@@ -1,0 +1,564 @@
+-- Landscape Definition
+-- connect a RGB Value to a texture set
+
+
+local LandscapeDef	= {}
+
+-- #############################################################################
+
+--                                SET : W Ü S T E 
+
+-- #############################################################################
+
+-- Name: Wüste Innen / Sehr karg  (Standard Wüste, Strukturen nur aus Sand, keine Bäume oder Büsche)
+LandscapeDef	= {
+
+	noise_seed	= 7362528384,
+
+	baselayer	= "sandleute/erde/earth-stones",
+	sublayer	= "Sandleute/Fels/Fels M6",
+	sublayer_alt	= "sandleute/fels/fels m5",
+	layer1		= "Sandleute/Sand/Sand 1",
+	layer2		= "Sandleute/Sand/Sand 1 stones",
+	layer3		= "sandleute/sand/sand-dust",
+
+	layer3_cutoff	= 10,
+	layer3_base	= 0.0,
+	layer3_prob	= 0.05,
+
+	sublayer_alt_start = 90,
+	sublayer_alt_prob  = 0.75,
+
+	obj_layer_1	= "empty",
+	obj_layer_2	= "grass 13 sys desert",
+	
+	distribution	= { 70, 40 }, -- layer1 to layer2
+	density		= { 50, 50 }, -- min, max
+
+	amplitude	= 4,
+	persistence	= 0.5,
+	frequency	= 3,
+
+	-- slope cutoff value and rockiness for Layer 1 & 2
+	rockiness	= 0.0,
+	rock_cutoff	= 90, -- [0;90]
+	rock_cutoff2	= 15,
+
+	-- ecosystem info (for plants, etc. _not_ flowers)
+	-- types of trees, etc...
+	-- treetypes: <group_string>,<max_height>
+	fertility_layer_1	= 1.0, -- needed for plants and trees to grow properly
+	fertility_layer_2	= 0.9,
+
+	sun_h_day	= 12, -- more sun, more plants	
+
+	tree_prob_base	= 0.005,
+	treetypes	= {
+				["Sandleute/Kakteen"] = 2800,
+				["i_desCactus20"] = 2800,
+				["i_desCactus21"] = 2800,
+				["i_desCactus23"] = 2800,
+				["i_desCactus24"] = 2800,
+				["i_desCactus25"] = 2800,
+				["Sandleute/Baeume/JoshuaTree"] = 2800,
+				["Sandleute/Baeume/FanPalm"] = 2800,
+				["Sandleute/Baeume/MimosaTree"] = 2800,
+				["Sandleute/Baeume/Palmetto"] = 2800,
+				["Sandleute/Baeume/SpiderTree"] = 2800
+
+			}, -- end treetypes
+	-- tree group objects
+	tgroup_prob_base = 0.0,
+	treegrouptypes	= {
+				["Hochelfen/Baeume/Laubbaum32Cluster"] = 2000,
+				["Hochelfen/Baeume/Laubbaum02Cluster"] = 4000
+			},
+	
+	-- bushtypes
+	bush_prob_base	= 0.005,
+	bushtypes	= {
+				["Sandleute/Buesche/Americanboxwood_Desert"] = 4000,
+				["Sandleute/Buesche/RedYucca_Desert"] = 4000,
+				["Sandleute/Buesche/RedYucca_Desert"] = 4000,
+				["Sandleute/Buesche/Azalea_Desert"] = 4000,
+				["Sandleute/Buesche/BurfordHolly_Desert"] = 4000
+			}, -- end bushtypes
+
+	-- stones and crap
+	stone_prob_base	= 0.001,
+	stonetypes	= {
+				"d_stone_05-a"
+			}
+} -- definition for a landscape set.
+mgr.defineLandscape( 220, 96, 0, LandscapeDef )
+
+
+-- ###########################################################################################
+
+-- Name: Wüste Innen / Mehr Pflanzen  (Standard Wüste, Strukturen nur aus Sand, wenig Bäume oder Büsche)
+LandscapeDef	= {
+
+	noise_seed	= 7362528384,
+
+	baselayer	= "sandleute/erde/earth-stones",
+	sublayer	= "Sandleute/Fels/Fels M6",
+	sublayer_alt	= "sandleute/fels/fels m5",
+	layer1		= "Sandleute/Sand/Sand 1",
+	layer2		= "Sandleute/Sand/Sand 1 stones",
+	layer3		= "sandleute/sand/sand-dust",
+
+	layer3_cutoff	= 10,
+	layer3_base	= 0.0,
+	layer3_prob	= 0.05,
+
+	sublayer_alt_start = 90, -- kein sublayer_alt
+	sublayer_alt_prob  = 0.75,
+
+	obj_layer_1	= "empty",
+	obj_layer_2	= "grass 13 sys desert",
+	
+	distribution	= { 70, 40 }, -- layer1 to layer2
+	density		= { 50, 50 }, -- min, max
+
+	amplitude	= 4,
+	persistence	= 0.5,
+	frequency	= 3,
+
+	-- slope cutoff value and rockiness for Layer 1 & 2
+	rockiness	= 0.0,
+	rock_cutoff	= 90, -- [0;1]
+	rock_cutoff2	= 15,
+
+	-- ecosystem info (for plants, etc. _not_ flowers)
+	-- types of trees, etc...
+	-- treetypes: <group_string>,<max_height>
+	fertility_layer_1	= 1.0, -- needed for plants and trees to grow properly
+	fertility_layer_2	= 0.9,
+
+	sun_h_day	= 12, -- more sun, more plants	
+
+	tree_prob_base	= 0.01,
+	treetypes	= {
+				["Sandleute/Kakteen"] = 2800,
+				["i_desCactus20"] = 2800,
+				["i_desCactus21"] = 2800,
+				["i_desCactus23"] = 2800,
+				["i_desCactus24"] = 2800,
+				["i_desCactus25"] = 2800,
+				["Sandleute/Baeume/JoshuaTree"] = 2800,
+				["Sandleute/Baeume/FanPalm"] = 2800,
+				["Sandleute/Baeume/MimosaTree"] = 2800,
+				["Sandleute/Baeume/Palmetto"] = 2800,
+				["Sandleute/Baeume/SpiderTree"] = 2800
+
+			}, -- end treetypes
+	-- tree group objects
+	tgroup_prob_base = 0.0,
+	treegrouptypes	= {
+				["Hochelfen/Baeume/Laubbaum32Cluster"] = 2000,
+				["Hochelfen/Baeume/Laubbaum02Cluster"] = 4000
+			},
+	
+	-- bushtypes
+	bush_prob_base	= 0.05,
+	bushtypes	= {
+				["Sandleute/Buesche/Americanboxwood_Desert"] = 4000,
+				["Sandleute/Buesche/RedYucca_Desert"] = 4000,
+				["Sandleute/Buesche/RedYucca_Desert"] = 4000,
+				["Sandleute/Buesche/Azalea_Desert"] = 4000,
+				["Sandleute/Buesche/BurfordHolly_Desert"] = 4000
+			}, -- end bushtypes
+
+	-- stones and crap
+	stone_prob_base	= 0.001,
+	stonetypes	= {
+				"d_stone_05-a"
+			}
+} -- definition for a landscape set.
+mgr.defineLandscape( 220, 181, 0, LandscapeDef )
+
+
+
+-- ###########################################################################################
+
+
+-- Name: Wüste Rand ( Etwas felsigere Wüste, wo eher steiniger Boden mit Sand bedeckt ist anstat reinen Sandbergen, paar Büsche, Mini Gras, sehr wenige Palmen )
+LandscapeDef	= {
+
+	noise_seed	= 7362528384,
+
+	baselayer	= "sandleute/erde/earth-stones",
+	sublayer	= "Sandleute/Fels/Fels M6",
+	sublayer_alt	= "sandleute/fels/fels m5",
+	layer1		= "Sandleute/Sand/Sand 1",
+	layer2		= "Sandleute/Sand/Sand 1 stones",
+	layer3		= "sandleute/sand/sand-dust",
+
+	--baselayer	= "36B65D",
+	--sublayer	= "arktisch-standard-70949a",
+	--sublayer_alt	= "arktisch-standard-70949a",
+	--layer1		= "drachen-dungeon-8c6238",
+	--layer2		= "dryaden-dungeon-c69c6d",
+	--layer3		= "dungeon-humanoide1-ed125a",
+
+	--baselayer	= "Hochelfen/Erde/Erdboden Mediterran M3",
+	--sublayer	= "stein02",
+	--sublayer_alt	= "stein02",
+	--layer1		= "Hochelfen/Unterholz/Unterholz Mediteran M1",
+	--layer2		= "Hochelfen/Gras/Gras RasenM1",
+	--layer3		= "sandleute/sand/sand 1 dark",
+
+	layer3_cutoff	= 10,
+	layer3_base	= 0.85,
+	layer3_prob	= 0.05,
+
+	sublayer_alt_start = 75,
+	sublayer_alt_prob  = 0.75,
+
+	obj_layer_1	= "empty",
+	obj_layer_2	= "grass 13 sys desert",
+	
+	distribution	= { 70, 40 }, -- layer1 to layer2
+	density		= { 50, 50 }, -- min, max
+
+	amplitude	= 4,
+	persistence	= 0.5,
+	frequency	= 3,
+
+	-- slope cutoff value and rockiness for Layer 1 & 2
+	rockiness	= 1.0,
+	rock_cutoff	= 10, -- [0;1]
+	rock_cutoff2	= 25,
+
+	-- ecosystem info (for plants, etc. _not_ flowers)
+	-- types of trees, etc...
+	-- treetypes: <group_string>,<max_height>
+	fertility_layer_1	= 1.0, -- needed for plants and trees to grow properly
+	fertility_layer_2	= 0.9,
+
+	sun_h_day	= 12, -- more sun, more plants	
+
+	tree_prob_base	= 0.02,
+	treetypes	= {
+				["Sandleute/Kakteen"] = 2800,
+				["i_desCactus20"] = 2800,
+				["i_desCactus21"] = 2800,
+				["i_desCactus23"] = 2800,
+				["i_desCactus24"] = 2800,
+				["i_desCactus25"] = 2800,
+				["Sandleute/Baeume/JoshuaTree"] = 2800,
+				["Sandleute/Baeume/FanPalm"] = 2800,
+				["Sandleute/Baeume/MimosaTree"] = 2800,
+				["Sandleute/Baeume/Palmetto"] = 2800,
+				["Sandleute/Baeume/SpiderTree"] = 2800
+
+			}, -- end treetypes
+	-- tree group objects
+	tgroup_prob_base = 0.0,
+	treegrouptypes	= {
+				["Hochelfen/Baeume/Laubbaum32Cluster"] = 2000,
+				["Hochelfen/Baeume/Laubbaum02Cluster"] = 4000
+			},
+	
+	-- bushtypes
+	bush_prob_base	= 0.005,
+	bushtypes	= {
+				["Sandleute/Buesche/Americanboxwood_Desert"] = 4000,
+				["Sandleute/Buesche/RedYucca_Desert"] = 4000,
+				["Sandleute/Buesche/RedYucca_Desert"] = 4000,
+				["Sandleute/Buesche/BurfordHolly_Desert"] = 4000
+			}, -- end bushtypes
+
+	-- stones and crap
+	stone_prob_base	= 0.001,
+	stonetypes	= {
+				"d_stone_05-a"
+			}
+} -- definition for a landscape set.
+mgr.defineLandscape( 163, 96, 44, LandscapeDef )
+
+
+-- ###########################################################################################
+
+
+-- Name: Wüste Berge (Steinig, felsig, keine Bäume, wenig Büsche )
+LandscapeDef	= {
+
+	noise_seed	= 7362528384,
+
+	baselayer	= "sandleute/erde/earth-stones",
+	sublayer	= "Sandleute/Fels/Fels M6",
+	sublayer_alt	= "sandleute/fels/fels m5",
+	layer1		= "Sandleute/Sand/Sand 1",
+	layer2		= "Sandleute/Sand/Fels m4",
+	layer3		= "sandleute/sand/sand-dust",
+
+	--baselayer	= "36B65D",
+	--sublayer	= "arktisch-standard-70949a",
+	--sublayer_alt	= "arktisch-standard-70949a",
+	--layer1		= "drachen-dungeon-8c6238",
+	--layer2		= "dryaden-dungeon-c69c6d",
+	--layer3		= "dungeon-humanoide1-ed125a",
+
+	--baselayer	= "Hochelfen/Erde/Erdboden Mediterran M3",
+	--sublayer	= "stein02",
+	--sublayer_alt	= "stein02",
+	--layer1		= "Hochelfen/Unterholz/Unterholz Mediteran M1",
+	--layer2		= "Hochelfen/Gras/Gras RasenM1",
+	--layer3		= "sandleute/sand/sand 1 dark",
+
+	layer3_cutoff	= 10,
+	layer3_base	= 0.85,
+	layer3_prob	= 0.05,
+
+	sublayer_alt_start = 40,
+	sublayer_alt_prob  = 0.75,
+
+	obj_layer_1	= "empty",
+	obj_layer_2	= "grass 13 sys desert",
+	
+	distribution	= { 70, 40 }, -- layer1 to layer2
+	density		= { 50, 50 }, -- min, max
+
+	amplitude	= 4,
+	persistence	= 0.5,
+	frequency	= 3,
+
+	-- slope cutoff value and rockiness for Layer 1 & 2
+	rockiness	= 1.0,
+	rock_cutoff	= 25, -- [0;1]
+	rock_cutoff2	= 40,
+
+	-- ecosystem info (for plants, etc. _not_ flowers)
+	-- types of trees, etc...
+	-- treetypes: <group_string>,<max_height>
+	fertility_layer_1	= 1.0, -- needed for plants and trees to grow properly
+	fertility_layer_2	= 0.9,
+
+	sun_h_day	= 12, -- more sun, more plants	
+
+	tree_prob_base	= 0.01,
+	treetypes	= {
+
+				["i_desCactus23"] = 2800,
+				["i_desCactus24"] = 2800,
+				["i_desCactus25"] = 2800,
+				["Sandleute/Baeume/JoshuaTree"] = 2800,
+				["Sandleute/Baeume/FanPalm"] = 2800,
+				["Sandleute/Baeume/MimosaTree"] = 2800,
+				["Sandleute/Baeume/Palmetto"] = 2800,
+				["Sandleute/Baeume/SpiderTree"] = 2800
+
+			}, -- end treetypes
+	-- tree group objects
+	tgroup_prob_base = 0.0,
+	treegrouptypes	= {
+				["Hochelfen/Baeume/Laubbaum32Cluster"] = 2000,
+				["Hochelfen/Baeume/Laubbaum02Cluster"] = 4000
+			},
+	
+	-- bushtypes
+	bush_prob_base	= 0.005,
+	bushtypes	= {
+				["Sandleute/Buesche/Americanboxwood_Desert"] = 4000,
+				["Sandleute/Buesche/RedYucca_Desert"] = 4000,
+				["Sandleute/Buesche/RedYucca_Desert"] = 4000,
+				["Sandleute/Buesche/BurfordHolly_Desert"] = 4000,
+				["Sandleute/Buesche/Azalea_Desert"] = 4000
+			}, -- end bushtypes
+
+	-- stones and crap
+	stone_prob_base	= 0.001,
+	stonetypes	= {
+				"d_stone_05-a"
+			}
+} -- definition for a landscape set.
+mgr.defineLandscape( 113, 88, 69, LandscapeDef )
+
+-- ###########################################################################################
+
+-- Name: Oase ( Etwas Gras, mehr Bäume, Büsche, Mini Gras )
+LandscapeDef	= {
+
+	noise_seed	= 7362528384,
+
+	baselayer	= "Sandleute/Erde/Earth-stones",
+	sublayer	= "Sandleute/Fels/Fels M6",
+	sublayer_alt	= "emtpy",
+	layer1		= "Sandleute/Sand/Sand 1",
+	layer2		= "Sandleute/Gras/Gras M2",
+	layer3		= "Hochelfen/Gras/Gras Mediteran M5",
+
+	layer3_cutoff	= 0,
+	layer3_base	= 0,
+	layer3_prob	= 0,
+
+	sublayer_alt_start = 90, -- kein sublayer_alt
+	sublayer_alt_prob  = 0.75,
+
+	--obj_layer_1	= "empty",
+	--obj_layer_2	= "empty",
+	obj_layer_1	= "Grass 13 Sys Desert",
+	obj_layer_2	= "Grass 9 Sys",
+	
+	distribution	= { 70, 40 }, -- layer1 to layer2
+	density		= { 20, 30 }, -- min, max
+
+	amplitude	= 4,
+	persistence	= 0.5,
+	frequency	= 2,
+
+	-- slope cutoff value and rockiness for Layer 1 & 2
+	rockiness	= 1.0,
+	rock_cutoff	= 45, -- [0;90]
+	rock_cutoff2	= 25,
+
+	-- ecosystem info (for plants, etc. _not_ flowers)
+	-- types of trees, etc...
+	-- treetypes: <group_string>,<max_height>
+	fertility_layer_1	= 1.0, -- needed for plants and trees to grow properly
+	fertility_layer_2	= 0.3,
+
+	sun_h_day	= 12, -- more sun, more plants	
+
+	tree_prob_base	= 0.2,
+	treetypes	= {
+
+				["i_desCactus20"] = 2800,
+				["i_desCactus21"] = 2800,
+				["i_desCactus23"] = 2800,
+				["i_desCactus24"] = 2800,
+				["i_desCactus25"] = 2800,
+				["Sandleute/Baeume/Cercropia"] = 2800,
+				["Sandleute/Baeume/Cercropia"] = 2800,
+				["Sandleute/Baeume/JoshuaTree"] = 2800,
+				["Sandleute/Baeume/FanPalm"] = 2800,
+				["Sandleute/Baeume/MimosaTree"] = 2800,
+				["Sandleute/Baeume/MimosaTree"] = 2800,
+				["Sandleute/Baeume/Palmetto"] = 2800,
+				["Sandleute/Baeume/Palmetto"] = 2800,
+				["Sandleute/Baeume/Palmetto"] = 2800,
+				["Sandleute/Baeume/SpiderTree"] = 2800,
+				["Sandleute/Baeume/SpiderTree"] = 2800
+			}, -- end treetypes
+	-- tree group objects
+	tgroup_prob_base = 0.0,
+	treegrouptypes	= {
+				["Hochelfen/Baeume/Laubbaum32Cluster"] = 2000,
+				["Hochelfen/Baeume/Laubbaum02Cluster"] = 4000
+			},
+	
+	-- bushtypes
+	bush_prob_base	= 0.2,
+	bushtypes	= {
+				["Sandleute/Buesche/Americanboxwood_Desert"] = 4000,
+				["Sandleute/Buesche/RedYucca_Desert"] = 4000,
+				["Sandleute/Buesche/RedYucca_Desert"] = 4000,
+				["Sandleute/Buesche/RedYucca_Desert"] = 4000,
+				["Sandleute/Buesche/RedYucca_Desert"] = 4000,
+				["Sandleute/Buesche/Azalea_Desert"] = 4000,
+				["Sandleute/Buesche/BurfordHolly_Desert"] = 4000
+			}, -- end bushtypes
+
+	-- stones and crap
+	stone_prob_base	= 0.001,
+	stonetypes	= {
+				"d_stone_05-a"
+			}
+} -- definition for a landscape set.
+mgr.defineLandscape( 76, 224, 36, LandscapeDef )
+
+
+-- ###########################################################################################
+
+-- Name: Oase sehr dicht ( Viel Gras, viele Bäume, Büsche, Mini Gras )
+LandscapeDef	= {
+
+	noise_seed	= 7362528384,
+
+	baselayer	= "Sandleute/Erde/Earth-stones",
+	sublayer	= "Sandleute/Fels/Fels M6",
+	sublayer_alt	= "emtpy",
+	layer1		= "Sandleute/Sand/Sand 1",
+	layer2		= "Sandleute/Gras/Gras M2",
+	layer3		= "Hochelfen/Gras/Gras Mediteran M5",
+
+	layer3_cutoff	= 0,
+	layer3_base	= 0,
+	layer3_prob	= 0,
+
+	sublayer_alt_start = 90,
+	sublayer_alt_prob  = 0.75,
+
+	--obj_layer_1	= "empty",
+	--obj_layer_2	= "empty",
+	obj_layer_1	= "Grass 13 Sys Desert",
+	obj_layer_2	= "Grass 9 Sys",
+	
+	distribution	= { 70, 40 }, -- layer1 to layer2
+	density		= { 20, 30 }, -- min, max
+
+	amplitude	= 4,
+	persistence	= 0.5,
+	frequency	= 2,
+
+	-- slope cutoff value and rockiness for Layer 1 & 2
+	rockiness	= 1.0,
+	rock_cutoff	= 45, -- [0;1]
+	rock_cutoff2	= 25,
+
+	-- ecosystem info (for plants, etc. _not_ flowers)
+	-- types of trees, etc...
+	-- treetypes: <group_string>,<max_height>
+	fertility_layer_1	= 1.0, -- needed for plants and trees to grow properly
+	fertility_layer_2	= 0.6,
+
+	sun_h_day	= 12, -- more sun, more plants	
+
+	tree_prob_base	= 0.5,
+	treetypes	= {
+
+				["i_desCactus20"] = 2800,
+				["i_desCactus21"] = 2800,
+				["i_desCactus23"] = 2800,
+				["i_desCactus24"] = 2800,
+				["i_desCactus25"] = 2800,
+				["Sandleute/Baeume/Cercropia"] = 2800,
+				["Sandleute/Baeume/Cercropia"] = 2800,
+				["Sandleute/Baeume/JoshuaTree"] = 2800,
+				["Sandleute/Baeume/FanPalm"] = 2800,
+				["Sandleute/Baeume/MimosaTree"] = 2800,
+				["Sandleute/Baeume/MimosaTree"] = 2800,
+				["Sandleute/Baeume/Palmetto"] = 2800,
+				["Sandleute/Baeume/Palmetto"] = 2800,
+				["Sandleute/Baeume/Palmetto"] = 2800,
+				["Sandleute/Baeume/SpiderTree"] = 2800,
+				["Sandleute/Baeume/SpiderTree"] = 2800
+			}, -- end treetypes
+	-- tree group objects
+	tgroup_prob_base = 0.0,
+	treegrouptypes	= {
+				["Hochelfen/Baeume/Laubbaum32Cluster"] = 2000,
+				["Hochelfen/Baeume/Laubbaum02Cluster"] = 4000
+			},
+	
+	-- bushtypes
+	bush_prob_base	= 0.3,
+	bushtypes	= {
+				["Sandleute/Buesche/Americanboxwood_Desert"] = 4000,
+				["Sandleute/Buesche/RedYucca_Desert"] = 4000,
+				["Sandleute/Buesche/RedYucca_Desert"] = 4000,
+				["Sandleute/Buesche/RedYucca_Desert"] = 4000,
+				["Sandleute/Buesche/RedYucca_Desert"] = 4000,
+				["Sandleute/Buesche/Azalea_Desert"] = 4000,
+				["Sandleute/Buesche/BurfordHolly_Desert"] = 4000
+			}, -- end bushtypes
+
+	-- stones and crap
+	stone_prob_base	= 0.001,
+	stonetypes	= {
+				"d_stone_05-a"
+			}
+} -- definition for a landscape set.
+mgr.defineLandscape( 25, 118, 0, LandscapeDef )
+

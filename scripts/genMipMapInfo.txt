@@ -1,0 +1,54 @@
+if not isGameServer then
+
+	-- add model surfaces
+	sys.execScript("client/surface.txt")
+
+end
+
+-- add itemtypes
+sys.execScript("shared/itemtype.txt")
+-- add creature info
+sys.execScript("shared/creatureInfo.txt")
+-- add item info
+sys.execScript("shared/itemInfo.txt")
+
+if not isGameServer then
+
+	-- add ground patches
+	sys.execScript("client/patches.txt")
+
+	--launch intro movie
+	--sys.startMovie("intro_cached.motion")
+	
+	-- create item previews
+	previewInfo = {
+		targetPath = "..\\temp\\mipmapdata.txt",
+		startIndex = 1,
+		endIndex = 10000
+	}
+	sys.createMipMapData(previewInfo)
+	sys.quit()
+
+	---------------------------------------------------------------------
+	-- hero
+	---------------------------------------------------------------------
+	newGame = {
+		slotnumber = 2,
+	}
+
+	--sys.createHero(newGame)
+	sys.joinGame(newGame, 1)
+
+end
+
+if isGameServer then
+	-- set start position
+	sys.execScript("startPos.txt")
+	
+	-- das hier gibt es nicht mehr!
+	-- add item info
+	--sys.execScript("server/sector.txt")
+end
+
+
+-- sys.loglevel (3) -- 1=low, 2=normal, 3=boring
