@@ -1,0 +1,15 @@
+-- DO NOT EDIT - AUTOMATICALLY GENERATED --
+-- vim:ft=lua ts=2 nu
+-- exported by: konverter@BUILDSERVER
+-- exported at: 07/28/09 20:59:54
+-- exporter version: 1.0.0.131
+-- exported to: server/heroes/centurio.txt
+
+
+mgr.objectCreate { -- Shadow Warrior
+	timeofday = 0.100,
+	creature = 93,
+	equipset_id = 1,
+	position = {17,25,-1,1600,1700,0},
+	flags = "create_hero|create_template",
+}
