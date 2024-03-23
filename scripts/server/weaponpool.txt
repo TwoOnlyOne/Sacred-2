@@ -1,0 +1,5111 @@
+-- DO NOT EDIT - AUTOMATICALLY GENERATED --
+-- vim:ft=lua ts=2 nu
+-- exported by: konverter@BUILDSERVER
+-- exported at: 07/28/09 20:59:47
+-- exporter version: 1.0.0.131
+-- exported to: weaponpool.txt
+
+
+mgr.addWeaponPool { -- dm_dm_arms
+	dbid = 1124,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3170,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- dm_dm_chest
+	dbid = 1126,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1290,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- dm_dm_shoulder
+	dbid = 1127,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3177,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_minotaur_wpn
+	dbid = 1047,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {976,151,},
+	contentProb = {1,1,},
+}
+mgr.addWeaponPool { -- NPC_HE_story_glasses
+	dbid = 786,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1619,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_Cobold_Melee_sword
+	dbid = 1095,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {724,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_Cobold_Shield
+	dbid = 157,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {733,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- NPC_HU_energy_ghost_soldier_helmet
+	dbid = 495,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {922,},
+	contentProb = {3,},
+}
+mgr.addWeaponPool { -- NPC_HE_robber_bow_weapons
+	dbid = 449,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {988,987,989,},
+	contentProb = {1,3,2,},
+}
+mgr.addWeaponPool { -- NPC_HE_robber_easy_city_weapons
+	dbid = 444,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {983,982,},
+	contentProb = {1,1,},
+}
+mgr.addWeaponPool { -- dm_dm_boots
+	dbid = 1131,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3172,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- dm_dm_belt
+	dbid = 1130,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3171,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- dm_dm_hand
+	dbid = 1129,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3174,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- dm_dm_helmet
+	dbid = 1125,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3175,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- dm_dm_legs
+	dbid = 1128,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3176,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- Pirates_Deko
+	dbid = 406,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {732,},
+	contentProb = {10,},
+}
+mgr.addWeaponPool { -- Pirates_Weapon_1hSaber
+	dbid = 411,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {740,},
+	contentProb = {10,},
+}
+mgr.addWeaponPool { -- NPC_quest_bastardsword
+	dbid = 820,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {945,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_quest_pole
+	dbid = 821,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {585,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_quest_sword
+	dbid = 813,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {618,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_tg_sword
+	dbid = 884,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1747,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_warrior_belt_elite
+	dbid = 904,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1793,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_warrior_boots
+	dbid = 905,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1790,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_warrior_boots_elite
+	dbid = 906,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1791,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_warrior_chest
+	dbid = 907,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1788,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_Cow
+	dbid = 439,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {916,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HE_robber_GC2_weapons
+	dbid = 447,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {989,987,},
+	contentProb = {2,4,},
+}
+mgr.addWeaponPool { -- NPC_HE_robber_good_weapons
+	dbid = 446,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {985,984,},
+	contentProb = {1,7,},
+}
+mgr.addWeaponPool { -- NPC_he_story_contactperson
+	dbid = 731,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {919,},
+	contentProb = {0,},
+}
+mgr.addWeaponPool { -- NPC_HU_energy_ghost_soldier_legs
+	dbid = 488,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {938,},
+	contentProb = {3,},
+}
+mgr.addWeaponPool { -- NPC_HU_energy_ghost_soldier_officer_arms
+	dbid = 490,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {907,},
+	contentProb = {3,},
+}
+mgr.addWeaponPool { -- NPC_HU_energy_ghost_soldier_officer_cape
+	dbid = 491,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {909,},
+	contentProb = {3,},
+}
+mgr.addWeaponPool { -- NPC_HU_energy_ghost_soldier_officer_helmet
+	dbid = 492,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {918,},
+	contentProb = {3,},
+}
+mgr.addWeaponPool { -- NPC_HU_energy_ghost_soldier_officer_legs
+	dbid = 489,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {940,},
+	contentProb = {3,},
+}
+mgr.addWeaponPool { -- NPC_HU_energy_ghost_soldier_officer_shoulder
+	dbid = 493,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {931,},
+	contentProb = {3,},
+}
+mgr.addWeaponPool { -- NPC_SE_dragoncult_lead_shoulder_red
+	dbid = 689,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1459,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_SE_dragoncult_overseer_weapon
+	dbid = 683,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {},
+	contentProb = {},
+}
+mgr.addWeaponPool { -- NPC_SE_dragoncult_shield
+	dbid = 1096,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1772,},
+	contentProb = {2,},
+}
+mgr.addWeaponPool { -- NPC_flyingeye_equip_1
+	dbid = 1132,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3179,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_flyingeye_equip_2
+	dbid = 1133,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3178,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_flyingeye_equip_3
+	dbid = 1134,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3180,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_crusade_soldier_v1_arms
+	dbid = 575,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1080,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_crusade_soldier_v1_chest
+	dbid = 574,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1105,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- Tools_Blacksmith_hammer
+	dbid = 19,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {349,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Caster_feather
+	dbid = 111,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {362,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- NPC_dryade_fight_mage_arms
+	dbid = 852,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1014,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_dryade_fight_mage_boots
+	dbid = 853,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1436,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_dryade_fight_mage_hair
+	dbid = 865,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1447,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_dryade_fight_mage_torso
+	dbid = 867,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1439,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_dryade_fight_mage_wpn_elite
+	dbid = 863,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {},
+	contentProb = {},
+}
+mgr.addWeaponPool { -- NPC_dryade_fight_officer_arms
+	dbid = 862,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1431,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_dryade_fight_officer_boots
+	dbid = 861,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1437,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_dryade_fight_officer_helmet
+	dbid = 860,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1448,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_dryade_fight_officer_pelvis
+	dbid = 859,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1434,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_dryade_fight_officer_torso
+	dbid = 858,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1440,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HE_robber_handkerchief
+	dbid = 450,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {876,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_crusade_soldier_v1_helmet
+	dbid = 576,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1089,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_crusade_soldier_v1_leg
+	dbid = 573,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1100,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_mascarell_soldier_v3_arms
+	dbid = 581,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1097,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_mascarell_soldier_v3_chest
+	dbid = 583,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1107,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_mascarell_soldier_v3_helmet
+	dbid = 584,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1099,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_mascarell_soldier_v3_leg
+	dbid = 582,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1087,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_mascarell_soldier_v3_shoulder
+	dbid = 592,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1085,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_slaverobber_belt
+	dbid = 499,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {875,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_slaverobber_handkerchief
+	dbid = 500,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {874,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_stonecreature_throwstone
+	dbid = 678,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1414,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- EMPTY
+	dbid = 822,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1394,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Officer_Shield
+	dbid = 661,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1350,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- NPC_Legion_Skeleton_Warrior_Shield
+	dbid = 98,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {38,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Thief_item
+	dbid = 73,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {},
+	contentProb = {},
+}
+mgr.addWeaponPool { -- Tools_Bard_flute
+	dbid = 346,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {346,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Bard_lute
+	dbid = 18,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {113,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- NPC_SE_dragoncult_lead_shoulder_green
+	dbid = 688,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1460,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- Tools_Bard_rattle_HU
+	dbid = 891,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1756,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Fieldworker_hatchet
+	dbid = 33,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {354,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Innkeeper_barrel
+	dbid = 64,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {120,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- NPC_SE_dragoncult_lead_weapon
+	dbid = 692,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2832,2833,},
+	contentProb = {4,1,},
+}
+mgr.addWeaponPool { -- NPC_SE_dragoncult_lead_ranged
+	dbid = 693,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2833,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- Tools_Thief_dagger
+	dbid = 34,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {112,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Witch_cloth
+	dbid = 23,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {114,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_thief_Lockpicking
+	dbid = 362,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {513,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Witch_potion
+	dbid = 104,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {370,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Witch_potion2
+	dbid = 361,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {348,},
+	contentProb = {30,},
+}
+mgr.addWeaponPool { -- Tools_Witch_Spoon
+	dbid = 348,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {115,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Torch
+	dbid = 405,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {357,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Trader_Items
+	dbid = 63,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {364,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- MB_minotaur_shoulder
+	dbid = 1097,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2987,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- MB_highelf_combomaster_staff
+	dbid = 1100,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2989,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- Weapon_magic
+	dbid = 416,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {611,576,786,794,560,571,562,564,946,950,954,957,968,971,617,},
+	contentProb = {3,3,2,4,2,4,2,3,2,2,2,2,2,2,4,},
+}
+mgr.addWeaponPool { -- Weapon_normal
+	dbid = 415,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {585,792,20,788,563,892,891,888,949,970,945,945,956,953,577,134,610,618,},
+	contentProb = {4,4,3,5,4,3,2,2,1,3,3,3,3,3,2,4,3,4,},
+}
+mgr.addWeaponPool { -- Weapon_rare
+	dbid = 417,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {609,791,793,787,559,795,969,958,955,951,947,972,789,616,},
+	contentProb = {4,4,4,4,4,4,2,2,2,2,4,4,4,4,},
+}
+mgr.addWeaponPool { -- XXX Bogen
+	dbid = 8,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {},
+	contentProb = {},
+}
+mgr.addWeaponPool { -- XXX Schwerter
+	dbid = 6,
+	prefDmg = 1,
+	prefDmgProb = 100,
+	content = {},
+	contentProb = {},
+}
+mgr.addWeaponPool { -- Zombie_Gouhl
+	dbid = 85,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {},
+	contentProb = {},
+}
+mgr.addWeaponPool { -- MB_minotaur_axe
+	dbid = 1098,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2986,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- MB_soldier_sword
+	dbid = 1099,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2988,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- MB_werewolf_shoulder
+	dbid = 1102,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2990,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- Zombie_Warrior
+	dbid = 84,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {},
+	contentProb = {},
+}
+mgr.addWeaponPool { -- NPC_Legion_Skeleton_Warrior_sword
+	dbid = 97,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {34,},
+	contentProb = {50,},
+}
+mgr.addWeaponPool { -- Tools_Kid_scratch_bottom
+	dbid = 1011,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2264,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- Tools_Barmaid
+	dbid = 28,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {347,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Bard_rattle_DE
+	dbid = 890,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1755,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- NPC_HU_energy_ghost_1h_wpn
+	dbid = 485,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1006,1007,1008,},
+	contentProb = {2,2,4,},
+}
+mgr.addWeaponPool { -- npc_dryade_te_hair
+	dbid = 1066,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2229,},
+	contentProb = {2,},
+}
+mgr.addWeaponPool { -- npc_dryade_te_mage
+	dbid = 1067,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2227,},
+	contentProb = {2,},
+}
+mgr.addWeaponPool { -- npc_dryade_te_officer
+	dbid = 1068,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2249,},
+	contentProb = {2,},
+}
+mgr.addWeaponPool { -- NPC_BF_witch_collar
+	dbid = 1135,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3188,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_BF_witch_hair
+	dbid = 1136,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3187,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_BF_witch_horns
+	dbid = 1112,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3166,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- startequip_dr
+	dbid = 1049,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2424,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- XMAS_npc_bear_scarf
+	dbid = 1104,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2992,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- XMAS_npc_bear_hat
+	dbid = 1103,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2991,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_Cobold_Melee_1h_poison
+	dbid = 951,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2042,2458,},
+	contentProb = {40,10,},
+}
+mgr.addWeaponPool { -- NPC_HU_crusade_paladin_wpn
+	dbid = 663,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1364,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_BF_mastereye_equip
+	dbid = 1137,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3199,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_stonearmy_archer_meleeweapon
+	dbid = 799,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1564,1566,1563,},
+	contentProb = {1,1,1,},
+}
+mgr.addWeaponPool { -- startequip_he
+	dbid = 1052,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2425,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- startequip_inqui
+	dbid = 1051,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2426,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- startequip_se
+	dbid = 1050,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2346,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- startequip_tg
+	dbid = 1048,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2347,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- Tools_Fieldworker_Hay_carry
+	dbid = 349,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {351,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Fieldworker_scythe
+	dbid = 109,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2265,356,},
+	contentProb = {100,100,},
+}
+mgr.addWeaponPool { -- Tools_Fieldworker_Seeed
+	dbid = 359,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {359,},
+	contentProb = {10,},
+}
+mgr.addWeaponPool { -- Tools_Fieldworker_sickle
+	dbid = 1012,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2265,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_BOSS_WATERC_Arm_01
+	dbid = 428,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {849,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_BOSS_WATERC_Arm_02
+	dbid = 429,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {850,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_BOSS_WATERC_Arm_03
+	dbid = 430,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {851,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_BOSS_WATERC_Arm_04
+	dbid = 431,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {852,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_dryade_fight_officer_wpn
+	dbid = 857,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {},
+	contentProb = {},
+}
+mgr.addWeaponPool { -- NPC_dryade_fight_officer_wpn_elite
+	dbid = 855,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {},
+	contentProb = {},
+}
+mgr.addWeaponPool { -- NPC_dryade_fight_warrior_arms
+	dbid = 854,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1432,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_dryade_fight_warrior_boots
+	dbid = 871,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1438,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_dryade_fight_warrior_helmet
+	dbid = 870,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1449,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_dryade_fight_warrior_pelvis
+	dbid = 869,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1435,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_dryade_fight_warrior_torso
+	dbid = 868,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1441,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_dryade_fight_warrior_wpn
+	dbid = 856,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2244,2245,},
+	contentProb = {1,3,},
+}
+mgr.addWeaponPool { -- NPC_dryade_fight_warrior_wpn_elite
+	dbid = 872,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2245,2244,},
+	contentProb = {1,2,},
+}
+mgr.addWeaponPool { -- NPC_HU_guard_wpn
+	dbid = 662,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1362,},
+	contentProb = {5,},
+}
+mgr.addWeaponPool { -- Tools_Archer_Longrange2
+	dbid = 946,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2034,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- Tools_Archer_Longrange
+	dbid = 665,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2034,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- NPC_HU_slaverobber_bow
+	dbid = 1062,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2440,},
+	contentProb = {2,},
+}
+mgr.addWeaponPool { -- Start_HE_dagger
+	dbid = 571,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1348,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_SE_adventurer_expeditionleader_quiver
+	dbid = 702,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1443,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_Legion_Skeleton_Mage
+	dbid = 100,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {36,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- NPC_SE_adventurer_expeditionleader_hat
+	dbid = 694,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1452,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- Start_SW_shortsword
+	dbid = 402,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2266,},
+	contentProb = {10,},
+}
+mgr.addWeaponPool { -- NPC_yeti_1h
+	dbid = 1105,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {964,871,},
+	contentProb = {1,2,},
+}
+mgr.addWeaponPool { -- NPC_DE_Sandppl_Wpn
+	dbid = 1026,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2335,2337,2356,},
+	contentProb = {3,1,1,},
+}
+mgr.addWeaponPool { -- NPC_DE_Sandppl_Wpn_Elite
+	dbid = 1027,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2336,2337,},
+	contentProb = {1,2,},
+}
+mgr.addWeaponPool { -- NPC_SE_adventurer_bountyhunter_knifes
+	dbid = 699,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1445,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_DE_Sandppl_Wpn_Throw
+	dbid = 1028,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2338,},
+	contentProb = {2,},
+}
+mgr.addWeaponPool { -- NPC_SE_adventurer_bountyhunter_weapon
+	dbid = 698,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {},
+	contentProb = {},
+}
+mgr.addWeaponPool { -- NPC_SE_adventurer_dragonhunter_arm
+	dbid = 697,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1429,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_SE_adventurer_dragonhunter_quiver
+	dbid = 696,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1444,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_SE_adventurer_dragonhunter_weapon
+	dbid = 703,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {},
+	contentProb = {},
+}
+mgr.addWeaponPool { -- NPC_SE_adventurer_expeditionleader_arm
+	dbid = 701,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1428,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_SE_adventurer_expeditionleader_shoulder
+	dbid = 695,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1457,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_SE_adventurer_expeditionleader_weapon
+	dbid = 700,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {},
+	contentProb = {},
+}
+mgr.addWeaponPool { -- Start_dm_weapon
+	dbid = 1138,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3213,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_SE_adventurer_prisoner_arm
+	dbid = 707,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1427,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_SE_adventurer_prisoner_hat
+	dbid = 704,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1451,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_SE_adventurer_prisoner_quiver
+	dbid = 706,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1442,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_SE_adventurer_prisoner_shoulder
+	dbid = 705,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1456,1456,},
+	contentProb = {1,1,},
+}
+mgr.addWeaponPool { -- NPC_SE_adventurer_prisoner_weapon
+	dbid = 708,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {},
+	contentProb = {},
+}
+mgr.addWeaponPool { -- NPC_stonearmy_archer
+	dbid = 790,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1568,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_stonearmy_archer_elite
+	dbid = 789,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1568,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_stonearmy_leader
+	dbid = 792,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1565,1567,1560,},
+	contentProb = {1,1,1,},
+}
+mgr.addWeaponPool { -- Tools_Trader_Cloth
+	dbid = 62,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {114,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- NPC_HE_Energyguns
+	dbid = 1053,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {953,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_Legion_General
+	dbid = 426,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1388,},
+	contentProb = {10,},
+}
+mgr.addWeaponPool { -- NPC_Legion_Skeleton_Archer_Bow
+	dbid = 138,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {35,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_Legion_Skeleton_Archer_Sword
+	dbid = 139,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {32,},
+	contentProb = {30,},
+}
+mgr.addWeaponPool { -- NPC_Undead_Skeleton_Staff
+	dbid = 87,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {183,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_Undead_Skeleton_NK_Empty
+	dbid = 942,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2460,145,871,},
+	contentProb = {3,1,3,},
+}
+mgr.addWeaponPool { -- NPC_Undead_Skeleton_NK_elite
+	dbid = 941,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2000,145,},
+	contentProb = {2,1,},
+}
+mgr.addWeaponPool { -- NPC_Undead_Skeleton_NK
+	dbid = 86,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {145,1999,},
+	contentProb = {1,5,},
+}
+mgr.addWeaponPool { -- NPC_Undead_Skeleton_Bow
+	dbid = 939,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {519,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_DE_Sandppl_Veil_Rider
+	dbid = 1021,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1625,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_lizard_deathcult_hood_01
+	dbid = 721,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1508,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_lizard_deathcult_hood_02
+	dbid = 715,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1499,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_slaverobber_leader_shoulder
+	dbid = 469,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {899,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- XMAS_blacksmith_metal_hammer
+	dbid = 1106,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3008,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_garema_blowgun
+	dbid = 1054,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2433,},
+	contentProb = {2,},
+}
+mgr.addWeaponPool { -- NPC_Cobold_Melee_1h
+	dbid = 118,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {517,724,726,725,},
+	contentProb = {8,1,3,1,},
+}
+mgr.addWeaponPool { -- NPC_garema_spear
+	dbid = 1057,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2437,},
+	contentProb = {2,},
+}
+mgr.addWeaponPool { -- NPC_garema_dagger_sword
+	dbid = 1055,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2434,2435,},
+	contentProb = {2,4,},
+}
+mgr.addWeaponPool { -- NPC_garema_throwstar
+	dbid = 1056,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2436,},
+	contentProb = {2,},
+}
+mgr.addWeaponPool { -- NPC_lizard_familymember_shoulder
+	dbid = 719,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1504,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- saddletest
+	dbid = 1139,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3214,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_lizard_deathcult_necklace
+	dbid = 716,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1498,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_lizard_familyleader_helmet
+	dbid = 717,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1505,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_lizard_familyleader_shoulder
+	dbid = 718,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1503,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_lizard_gladiator_arm
+	dbid = 710,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1430,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_lizard_gladiator_chest
+	dbid = 709,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1446,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_lizard_gladiator_shoulder
+	dbid = 711,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1461,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_lizard_gladiator_weapon
+	dbid = 712,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {},
+	contentProb = {},
+}
+mgr.addWeaponPool { -- NPC_lizard_magestaff
+	dbid = 727,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {994,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_lizard_shield
+	dbid = 729,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1013,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_lizard_spear
+	dbid = 728,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {961,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- npc_lizard_statist_helmet
+	dbid = 1038,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2412,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- npc_lizard_statist_torso
+	dbid = 1037,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2411,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_warrior_legs
+	dbid = 909,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1784,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_warrior_wings_elite
+	dbid = 914,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1783,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_SE_dragoncult_fighter_shoulder_green
+	dbid = 713,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1462,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_SE_dragoncult_fighter_shoulder_red
+	dbid = 687,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1426,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_SE_dragoncult_fighter_weapon_ranged
+	dbid = 691,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2833,},
+	contentProb = {4,},
+}
+mgr.addWeaponPool { -- NPC_OR_STORY_SPY_1H
+	dbid = 681,
+	prefDmg = 4,
+	prefDmgProb = 0,
+	content = {616,},
+	contentProb = {10,},
+}
+mgr.addWeaponPool { -- NPC_SE_dragoncult_fighter_helmet_green
+	dbid = 684,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1455,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_SE_dragoncult_fighter_weapon_close
+	dbid = 690,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2831,2830,},
+	contentProb = {4,4,},
+}
+mgr.addWeaponPool { -- NPC_HU_slaverobber_throwdagger
+	dbid = 1061,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2439,},
+	contentProb = {2,},
+}
+mgr.addWeaponPool { -- xmas_dog_reindeer
+	dbid = 1107,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3052,},
+	contentProb = {10,},
+}
+mgr.addWeaponPool { -- NPC_dryade_fight_hunter_ranged_wpn
+	dbid = 880,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2246,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_crystal_skeleton_sword
+	dbid = 1141,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3225,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_crystal_skeleton_2hsword
+	dbid = 1142,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3226,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_crystal_skeleton_shield
+	dbid = 1140,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3224,1394,},
+	contentProb = {1,1,},
+}
+mgr.addWeaponPool { -- NPC_seraphim_spear
+	dbid = 1065,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2443,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_Seraphim_weapons
+	dbid = 1064,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2442,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_stonearmy_archer_elite_quiver
+	dbid = 794,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1571,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_stonearmy_archer_quiver
+	dbid = 793,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1570,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_stonearmy_figther
+	dbid = 787,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1561,1563,1564,1566,},
+	contentProb = {1,1,1,1,},
+}
+mgr.addWeaponPool { -- NPC_stonearmy_figther_elite
+	dbid = 788,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1566,1565,1567,1560,1566,},
+	contentProb = {1,1,1,1,1,},
+}
+mgr.addWeaponPool { -- NPC_stonearmy_leader_elite
+	dbid = 791,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1561,1559,1566,},
+	contentProb = {1,1,1,},
+}
+mgr.addWeaponPool { -- NPC_stonearmy_leader_elite_helmet
+	dbid = 798,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1558,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_stonearmy_leader_elite_shoulder
+	dbid = 796,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1556,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- shortbow
+	dbid = 1060,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {},
+	contentProb = {},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_warrior_chest_elite
+	dbid = 908,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1789,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_warrior_legs_elite
+	dbid = 910,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1785,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_warrior_shoulder
+	dbid = 911,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1786,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_warrior_shoulder_elite
+	dbid = 912,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1787,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_boss_crystal_back
+	dbid = 895,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1757,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- Books
+	dbid = 785,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1550,1549,1548,1551,},
+	contentProb = {1,1,1,1,},
+}
+mgr.addWeaponPool { -- Drop_Runen_Highelf
+	dbid = 424,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {829,828,826,825,822,815,818,819,816,817,823,824,821,820,},
+	contentProb = {5,5,5,5,5,5,5,5,5,5,5,5,5,5,},
+}
+mgr.addWeaponPool { -- NPC_HE_pirates_CC_sea_weapons_magic
+	dbid = 457,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {992,991,2045,2047,},
+	contentProb = {10,80,9,1,},
+}
+mgr.addWeaponPool { -- npc_sera_helmet_beige
+	dbid = 982,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2117,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- npc_sera_helmet_blue
+	dbid = 981,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2118,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- npc_sera_helmet_green
+	dbid = 979,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2119,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- npc_sera_pelvis_beige
+	dbid = 980,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2075,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- npc_sera_pelvis_blue
+	dbid = 978,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2077,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- npc_sera_pelvis_green
+	dbid = 977,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2076,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- npc_sera_shoulder_beige
+	dbid = 974,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2120,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- npc_sera_shoulder_blue
+	dbid = 975,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2121,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- npc_sera_shoulder_green
+	dbid = 976,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2122,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- npc_sera_wings_beige
+	dbid = 991,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2123,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- npc_sera_wings_blue
+	dbid = 993,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2124,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- npc_sera_wings_green
+	dbid = 992,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2125,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- Tools_Caster_paper
+	dbid = 110,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1699,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_fishing_rod
+	dbid = 478,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1019,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_goblin_bow
+	dbid = 648,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {941,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_goblin_chest
+	dbid = 651,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {897,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_goblin_helmet
+	dbid = 650,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {896,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_goblin_horsebow
+	dbid = 653,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {942,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_goblin_leg
+	dbid = 652,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {936,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_goblin_magestaff
+	dbid = 649,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {521,893,},
+	contentProb = {1,1,},
+}
+mgr.addWeaponPool { -- NPC_goblin_shoulder
+	dbid = 654,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {927,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HE_pirates_bow_bow
+	dbid = 953,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {993,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HE_pirates_throw_sea_weapon
+	dbid = 452,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {990,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_dryade_fight_hunter_arms
+	dbid = 873,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1432,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- Tools_Lumberman_Hat_HU
+	dbid = 1070,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2457,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- NPC_dryade_fight_hunter_quiver
+	dbid = 1072,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2157,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Dockworker_Hat_DRY
+	dbid = 1071,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2456,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Start_DR_Bow
+	dbid = 823,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2448,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_Archaeologist_good
+	dbid = 968,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2127,},
+	contentProb = {10,},
+}
+mgr.addWeaponPool { -- NPC_HE_pirates_CC_sea_weapons
+	dbid = 955,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {991,992,},
+	contentProb = {85,15,},
+}
+mgr.addWeaponPool { -- Drop_Runen_Dryade
+	dbid = 1030,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1477,1478,1479,1480,1481,1482,1484,1485,1486,1487,1483,1488,1489,1490,1491,},
+	contentProb = {2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,},
+}
+mgr.addWeaponPool { -- Drop_Runen_Seraphim_RPC
+	dbid = 1032,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1396,1398,1400,1401,1405,1409,1397,1399,1403,},
+	contentProb = {2,2,2,2,2,2,2,2,2,},
+}
+mgr.addWeaponPool { -- BG_special_Andre_Guitar
+	dbid = 830,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1713,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- BG_special_Frederik_drumstick
+	dbid = 831,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1715,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- BG_special_Hansi_mic
+	dbid = 833,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1424,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- BG_special_Marcus_guitar
+	dbid = 832,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1714,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- Drop_Chest
+	dbid = 373,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {},
+	contentProb = {},
+}
+mgr.addWeaponPool { -- Drop_Runen_Seraphim
+	dbid = 1029,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1396,1397,1398,1399,1400,1401,1402,1403,1404,1405,1406,1407,1408,1409,1410,1396,},
+	contentProb = {2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,},
+}
+mgr.addWeaponPool { -- Drop_Runen_Highelf_RPC
+	dbid = 1031,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {829,817,823,827,821,820,828,825,815,},
+	contentProb = {2,2,2,2,2,2,2,2,2,},
+}
+mgr.addWeaponPool { -- Drop_StartRegion_SW_All_Armour
+	dbid = 366,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {},
+	contentProb = {},
+}
+mgr.addWeaponPool { -- Drop_StartRegion_Potion
+	dbid = 364,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {57,58,59,},
+	contentProb = {10,90,900,},
+}
+mgr.addWeaponPool { -- Orbs
+	dbid = 882,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1737,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Drop_Runen_INQUISITOR
+	dbid = 423,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {803,801,802,800,804,807,809,805,808,806,812,813,814,811,810,},
+	contentProb = {5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,},
+}
+mgr.addWeaponPool { -- Drop_Runen_Shadowwarrior
+	dbid = 365,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {507,508,502,612,509,504,510,613,614,503,506,511,499,501,373,},
+	contentProb = {10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,},
+}
+mgr.addWeaponPool { -- Drop_Test_2BP
+	dbid = 425,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {},
+	contentProb = {},
+}
+mgr.addWeaponPool { -- NPC_Archaeologist_bad
+	dbid = 969,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2126,},
+	contentProb = {10,},
+}
+mgr.addWeaponPool { -- NPC_Archaeologist_Hat_Green
+	dbid = 1008,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2260,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_Archaeologist_Hat_Red
+	dbid = 1007,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2261,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_Archaeologist_Pickaxe
+	dbid = 1035,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2359,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- NPC_desert_guard_mage_wpn
+	dbid = 936,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1369,},
+	contentProb = {10,},
+}
+mgr.addWeaponPool { -- NPC_stonearmy_leader_helmet
+	dbid = 797,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1555,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- Tools_Captain_Bottle
+	dbid = 1013,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2333,},
+	contentProb = {10,},
+}
+mgr.addWeaponPool { -- NPC_troll_2h
+	dbid = 640,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {960,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_troll_shield
+	dbid = 641,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {934,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HE_Inqguarde_wpn
+	dbid = 664,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1362,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_troll_1h
+	dbid = 572,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {964,151,},
+	contentProb = {1,1,},
+}
+mgr.addWeaponPool { -- NPC_HU_rabbitcult_2
+	dbid = 1109,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3120,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_rabbitcult_1
+	dbid = 1108,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3119,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- npc_sera_hand_beige
+	dbid = 984,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2111,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- npc_sera_hand_blue
+	dbid = 986,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2112,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- npc_sera_hand_green
+	dbid = 983,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2113,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_BF_livingarmour_helmet_gold
+	dbid = 1115,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1394,3162,3163,},
+	contentProb = {3,3,3,},
+}
+mgr.addWeaponPool { -- NPC_troll_bow
+	dbid = 642,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1001,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_troll_magestaff
+	dbid = 639,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {997,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_BF_livingarmour_shoulder_gold
+	dbid = 1118,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1394,3155,3154,},
+	contentProb = {3,5,5,},
+}
+mgr.addWeaponPool { -- NPC_BF_livingarmour_shoulder_silver
+	dbid = 1119,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1394,3156,3157,},
+	contentProb = {3,5,5,},
+}
+mgr.addWeaponPool { -- NPC_BF_livingarmour_leg_silver
+	dbid = 1116,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1394,3153,},
+	contentProb = {1,10,},
+}
+mgr.addWeaponPool { -- NPC_BF_livingarmour_leg_gold
+	dbid = 1117,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1394,3152,},
+	contentProb = {1,10,},
+}
+mgr.addWeaponPool { -- NPC_BF_livingarmour_helmet_silver
+	dbid = 1114,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1394,3164,3165,},
+	contentProb = {3,3,3,},
+}
+mgr.addWeaponPool { -- NPC_troll_shaman_1h_staff
+	dbid = 720,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1501,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- Orc_Warrior_axe
+	dbid = 80,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {147,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Potion_heal_small
+	dbid = 167,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {57,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Robber_bh1h2h
+	dbid = 399,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {},
+	contentProb = {},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_warrior_belt
+	dbid = 903,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1792,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_leader_legs
+	dbid = 924,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1784,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_ogre_wpn_ranged
+	dbid = 1034,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {976,2358,},
+	contentProb = {1,4,},
+}
+mgr.addWeaponPool { -- npc_sera_leg_beige
+	dbid = 995,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2129,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_SE_dragoncult_overseer_whip
+	dbid = 682,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1425,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- SPECIAL_DROP_INVENTORY_ENEMY
+	dbid = 404,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {},
+	contentProb = {},
+}
+mgr.addWeaponPool { -- spell_kohorte_chest
+	dbid = 408,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {737,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- spell_kohorte_helmet
+	dbid = 409,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {736,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- spell_kohorte_sword
+	dbid = 407,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {98,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Thief_Highelf_Wpn
+	dbid = 156,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {},
+	contentProb = {},
+}
+mgr.addWeaponPool { -- npc_sera_leg_blue
+	dbid = 997,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2130,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- npc_sera_leg_green
+	dbid = 996,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2131,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- Tools_Artist_Chisel
+	dbid = 55,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {103,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Artist_Hammer
+	dbid = 25,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {109,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Caster_belt_HE
+	dbid = 804,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1586,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- Tools_Caster_belt_HU
+	dbid = 805,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1587,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- Start_SE_sword
+	dbid = 675,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2037,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- Tools_Caster_Hat_DE
+	dbid = 825,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1589,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- Start_SW_Shield
+	dbid = 403,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1418,},
+	contentProb = {10,},
+}
+mgr.addWeaponPool { -- Tools_Caster_Hat_HE
+	dbid = 806,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1588,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- Tools_Caster_Hat_HU
+	dbid = 807,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1589,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Caster_potion
+	dbid = 51,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {370,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Caster_potion2
+	dbid = 159,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {348,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_caster_rune_HE
+	dbid = 828,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1702,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_caster_rune_HU
+	dbid = 829,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1703,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- NPC_Cobold_Mage_elite
+	dbid = 410,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {735,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- NPC_Cobold_Range
+	dbid = 123,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {734,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Cattlefarmer
+	dbid = 44,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {368,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Cattlefarmer_Hay
+	dbid = 347,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {351,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Charburner_wood
+	dbid = 39,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {360,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Cook_Knife
+	dbid = 60,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {112,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Cook_Meat
+	dbid = 59,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {107,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Cook_Spoon
+	dbid = 58,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {115,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- NPC_Cobold_Range_Poison
+	dbid = 1073,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2459,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_leader_arm_elite
+	dbid = 917,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1795,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- Tools_Miner_pickax
+	dbid = 102,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {355,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Weapon_junk
+	dbid = 656,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {150,925,959,},
+	contentProb = {3,3,5,},
+}
+mgr.addWeaponPool { -- NPC_DE_Sandppl_Wpn_Second_Hand
+	dbid = 1033,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2357,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_goblin_shield
+	dbid = 655,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1130,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_horsetrader_whip
+	dbid = 1014,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1608,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- saddle_test
+	dbid = 937,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {794,1502,1836,},
+	contentProb = {1,1,1,},
+}
+mgr.addWeaponPool { -- Tools_Guard_WPN_DE
+	dbid = 898,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1763,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Caster_staff
+	dbid = 112,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1698,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Robber_throw
+	dbid = 400,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2436,},
+	contentProb = {30,},
+}
+mgr.addWeaponPool { -- Tools_Dockworker
+	dbid = 52,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {119,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- NPC_Archaeologist_shovel
+	dbid = 994,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2128,},
+	contentProb = {10,},
+}
+mgr.addWeaponPool { -- NPC_Balrog
+	dbid = 153,
+	prefDmg = 3,
+	prefDmgProb = 100,
+	content = {372,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_leader_arm
+	dbid = 901,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1794,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_leader_belt
+	dbid = 918,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1792,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_leader_belt_elite
+	dbid = 919,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1793,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_leader_boots
+	dbid = 920,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1790,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_leader_boots_elite
+	dbid = 921,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1791,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_leader_chest
+	dbid = 922,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1788,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_leader_chest_elite
+	dbid = 923,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1789,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_leader_hair
+	dbid = 915,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1732,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_leader_legs_elite
+	dbid = 925,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1785,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_leader_shoulder
+	dbid = 926,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1786,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_leader_shoulder_elite
+	dbid = 930,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1787,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_leader_wings
+	dbid = 928,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1782,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_leader_wings_elite
+	dbid = 929,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1783,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_shaman_arm
+	dbid = 958,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2052,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_shaman_belt
+	dbid = 959,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2053,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_shaman_boots
+	dbid = 960,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2054,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_shaman_chest
+	dbid = 961,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2055,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_shaman_hair
+	dbid = 916,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1731,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_shaman_legs
+	dbid = 962,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2058,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_shaman_mask
+	dbid = 964,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2056,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_shaman_shoulder
+	dbid = 963,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2059,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_shield
+	dbid = 932,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1799,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_staff
+	dbid = 1069,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2219,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_sword
+	dbid = 851,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1738,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_sword_leader
+	dbid = 931,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1796,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_warrior_arm_elite
+	dbid = 902,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1795,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_warrior_arms
+	dbid = 846,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1720,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_warrior_arms_elite
+	dbid = 835,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1721,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- Tools_Jeweller_cloth_jewell
+	dbid = 21,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {111,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Jeweller_cloth_showcase
+	dbid = 69,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {114,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Jeweller_cloth_table
+	dbid = 68,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {116,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Jeweller_jewell
+	dbid = 70,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {118,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Jeweller_jewell2
+	dbid = 357,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {118,},
+	contentProb = {10,},
+}
+mgr.addWeaponPool { -- Start_Inqui_Club
+	dbid = 422,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2334,},
+	contentProb = {10,},
+}
+mgr.addWeaponPool { -- Start_weapon_TG
+	dbid = 998,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2159,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_crusade_shield
+	dbid = 669,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1381,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_wolf_horns
+	dbid = 1110,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3144,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_panther_horns
+	dbid = 1111,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3145,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_energy_ghost_
+	dbid = 484,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {},
+	contentProb = {},
+}
+mgr.addWeaponPool { -- npc_sera_guard_arm
+	dbid = 1040,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {},
+	contentProb = {},
+}
+mgr.addWeaponPool { -- npc_sera_guard_boot
+	dbid = 1041,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {},
+	contentProb = {},
+}
+mgr.addWeaponPool { -- npc_sera_guard_chest
+	dbid = 1039,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {},
+	contentProb = {},
+}
+mgr.addWeaponPool { -- npc_sera_guard_hand
+	dbid = 1042,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {},
+	contentProb = {},
+}
+mgr.addWeaponPool { -- npc_sera_guard_helmet
+	dbid = 1043,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {},
+	contentProb = {},
+}
+mgr.addWeaponPool { -- npc_sera_guard_leg
+	dbid = 1044,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {},
+	contentProb = {},
+}
+mgr.addWeaponPool { -- npc_sera_guard_pelvis
+	dbid = 1045,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {},
+	contentProb = {},
+}
+mgr.addWeaponPool { -- npc_sera_guard_shoulder
+	dbid = 1046,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {},
+	contentProb = {},
+}
+mgr.addWeaponPool { -- NPC_SERA_sophia_wings
+	dbid = 677,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1413,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- Tools_Artist_Brush
+	dbid = 54,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {102,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Blacksmith_sword_ready
+	dbid = 363,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {364,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Innkeeper_dishes
+	dbid = 20,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {105,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Innkeeper_glass
+	dbid = 66,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {106,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Innkeeper_glass_cloth
+	dbid = 67,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {104,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Innkeeper_table_cloth
+	dbid = 65,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {116,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Jeweller_bar
+	dbid = 160,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {100,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_npc_drink
+	dbid = 75,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {106,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- NPC_DE_Sandppl_Veil_Champion_2
+	dbid = 1018,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {871,2345,},
+	contentProb = {1,2,},
+}
+mgr.addWeaponPool { -- NPC_DE_Sandppl_Veil_Champion_3
+	dbid = 1019,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {871,1622,},
+	contentProb = {1,2,},
+}
+mgr.addWeaponPool { -- NPC_DE_Sandppl_Veil_Officer_1
+	dbid = 165,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1623,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_BF_envoy_servant_equip
+	dbid = 1113,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3167,3168,3169,},
+	contentProb = {1,1,1,},
+}
+mgr.addWeaponPool { -- Tools_Blacksmith_sword
+	dbid = 113,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {350,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- NPC_BF_envoy_arm1
+	dbid = 1143,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3249,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- npc_blooddryad_ghost_belt
+	dbid = 1078,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2248,},
+	contentProb = {2,},
+}
+mgr.addWeaponPool { -- npc_blooddryad_ghost_boot
+	dbid = 1079,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2256,},
+	contentProb = {2,},
+}
+mgr.addWeaponPool { -- npc_blooddryad_ghost_hands
+	dbid = 1075,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2259,},
+	contentProb = {2,},
+}
+mgr.addWeaponPool { -- npc_blooddryad_ghost_legs
+	dbid = 1080,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2252,},
+	contentProb = {2,},
+}
+mgr.addWeaponPool { -- NPC_SE_dragoncult_shoulder
+	dbid = 680,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {},
+	contentProb = {},
+}
+mgr.addWeaponPool { -- npc_blooddryad_ghost_chest
+	dbid = 1082,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2257,},
+	contentProb = {2,},
+}
+mgr.addWeaponPool { -- NPC_orc_shield
+	dbid = 637,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {933,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- npc_blooddryad_ghost_arms
+	dbid = 1077,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2247,},
+	contentProb = {2,},
+}
+mgr.addWeaponPool { -- npc_blooddryad_ghost_hair
+	dbid = 1081,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2255,},
+	contentProb = {2,},
+}
+mgr.addWeaponPool { -- NPC_quest_axe
+	dbid = 812,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {150,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_quest_club
+	dbid = 817,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {788,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_quest_dagger
+	dbid = 818,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {20,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_quest_halberd
+	dbid = 816,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {967,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_quest_hammer
+	dbid = 814,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {792,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_quest_javelin
+	dbid = 815,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {970,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_quest_saber
+	dbid = 819,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {134,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- npc_sera_arm_beige
+	dbid = 970,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2072,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- npc_sera_arm_blue
+	dbid = 971,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2073,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- npc_sera_arm_green
+	dbid = 972,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2074,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- npc_sera_boot_beige
+	dbid = 973,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2114,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- npc_sera_boot_blue
+	dbid = 990,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2115,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- npc_sera_boot_green
+	dbid = 989,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2116,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- Tools_Caster_belt_DE
+	dbid = 824,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1658,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- npc_sera_chest_beige
+	dbid = 987,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2109,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- Tools_Cook_Ingredient01
+	dbid = 61,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {97,110,107,117,},
+	contentProb = {100,100,100,100,},
+}
+mgr.addWeaponPool { -- npc_sera_chest_blue
+	dbid = 988,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2108,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- npc_sera_chest_green
+	dbid = 985,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2110,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- npc_goblin_ghost_chest
+	dbid = 1084,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2258,},
+	contentProb = {2,},
+}
+mgr.addWeaponPool { -- npc_goblin_ghost_helmet
+	dbid = 1085,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2254,},
+	contentProb = {2,},
+}
+mgr.addWeaponPool { -- npc_goblin_ghost_shoulder
+	dbid = 1087,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2250,},
+	contentProb = {2,},
+}
+mgr.addWeaponPool { -- npc_goblin_ghost_weapon
+	dbid = 1083,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1008,1007,},
+	contentProb = {2,4,},
+}
+mgr.addWeaponPool { -- NPC_HU_demodrey_officer_v4_leg
+	dbid = 607,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1088,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- npc_goblin_ghost_leg
+	dbid = 1086,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2253,},
+	contentProb = {2,},
+}
+mgr.addWeaponPool { -- NPC_HU_crusade_mage_wpn
+	dbid = 671,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1362,1383,},
+	contentProb = {2,4,},
+}
+mgr.addWeaponPool { -- Tools_Hunter_Bow
+	dbid = 24,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {99,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Hunter_dagger
+	dbid = 47,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {363,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Hunter_meat
+	dbid = 81,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {107,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Night_Watchman_paper
+	dbid = 106,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {366,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Night_Watchman_torch
+	dbid = 72,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {357,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_npc_eat
+	dbid = 74,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {97,117,107,},
+	contentProb = {100,100,100,},
+}
+mgr.addWeaponPool { -- Tools_Poacher_Bow
+	dbid = 45,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {99,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Poacher_Knife
+	dbid = 56,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {112,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Poacher_Meat
+	dbid = 57,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {107,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Priest
+	dbid = 27,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {114,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Priest_Book
+	dbid = 353,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {367,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Robber_dagger
+	dbid = 42,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {112,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Scribe_book
+	dbid = 107,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {367,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Scribe_feather
+	dbid = 108,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {362,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Shepherd_staff
+	dbid = 37,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {},
+	contentProb = {},
+}
+mgr.addWeaponPool { -- Tools_Tailor_cloth
+	dbid = 103,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {365,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Thief_bag
+	dbid = 114,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {359,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- NPC_grottenolm_helm
+	dbid = 724,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1497,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_crusade_officer_v1_arms
+	dbid = 593,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1095,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_crusade_officer_v1_chest
+	dbid = 594,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1113,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_crusade_officer_v1_helmet
+	dbid = 595,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1116,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_crusade_officer_v1_shoulder
+	dbid = 613,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1122,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_demodrey_officer_v4_arms
+	dbid = 605,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1104,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_demodrey_officer_v4_cape
+	dbid = 608,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1084,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_demodrey_officer_v4_chest
+	dbid = 606,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1083,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_demodrey_officer_v4_helmet
+	dbid = 612,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1090,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_demodrey_officer_v4_shoulder
+	dbid = 616,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1086,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_demodrey_soldier_v4_arms
+	dbid = 585,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {903,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_demodrey_soldier_v4_chest
+	dbid = 587,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1082,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_demodrey_soldier_v4_helmet
+	dbid = 588,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {914,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_demodrey_soldier_v4_leg
+	dbid = 586,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {937,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- Tools_Tailor_Scissors
+	dbid = 355,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {},
+	contentProb = {},
+}
+mgr.addWeaponPool { -- NPC_BF_livingarmour_torso_gold
+	dbid = 1122,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3160,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- Tools_Guard
+	dbid = 668,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {618,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- NPC_BF_livingarmour_cape_gold
+	dbid = 1120,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1394,3158,},
+	contentProb = {1,5,},
+}
+mgr.addWeaponPool { -- NPC_BF_livingarmour_cape_silver
+	dbid = 1121,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1394,3159,},
+	contentProb = {1,5,},
+}
+mgr.addWeaponPool { -- NPC_BF_livingarmour_torso_silver
+	dbid = 1123,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3161,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_Buero_cbus_staff
+	dbid = 1074,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1383,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_lizard_club
+	dbid = 730,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {965,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_BF_envoy_wings
+	dbid = 1153,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3260,3261,},
+	contentProb = {1,1,},
+}
+mgr.addWeaponPool { -- Tools_Miner_Ore_Carry
+	dbid = 351,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2332,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- NPC_orc_1h_hunter
+	dbid = 1015,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {944,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_Cobold_Melee_1h_fire
+	dbid = 999,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2240,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_Cobold_Throw
+	dbid = 369,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {738,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- NPC_HU_soldier_chest
+	dbid = 620,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {913,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_throw_drink
+	dbid = 679,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1010,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_ogre_wpn_close
+	dbid = 643,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {976,966,2358,},
+	contentProb = {3,1,1,},
+}
+mgr.addWeaponPool { -- NPC_orc_elder_mask
+	dbid = 722,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1453,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_orc_elder_staff
+	dbid = 809,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1595,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_orc_magestaff
+	dbid = 638,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {999,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_tg_pistol
+	dbid = 886,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1744,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_tg_pistol_elite
+	dbid = 887,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1745,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_tg_sword_elite
+	dbid = 885,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1746,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HE_pirates_captain_weapons_magic
+	dbid = 458,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2045,},
+	contentProb = {4,},
+}
+mgr.addWeaponPool { -- NPC_HE_robber_easy_start_weapons
+	dbid = 443,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {983,981,},
+	contentProb = {1,1,},
+}
+mgr.addWeaponPool { -- NPC_HU_energy_ghost_bow
+	dbid = 487,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1003,},
+	contentProb = {3,},
+}
+mgr.addWeaponPool { -- NPC_orc_1h
+	dbid = 635,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {944,147,},
+	contentProb = {3,2,},
+}
+mgr.addWeaponPool { -- NPC_Weapon_Halberd
+	dbid = 427,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {847,},
+	contentProb = {10,},
+}
+mgr.addWeaponPool { -- Tools_Artist_Hat_HE
+	dbid = 808,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1590,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Artist_Hat_HU
+	dbid = 899,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1769,},
+	contentProb = {10,},
+}
+mgr.addWeaponPool { -- Tools_Captain_Hat_HU
+	dbid = 810,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1592,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Miner_Construct_Hammer
+	dbid = 1036,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2360,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Miner_hammer
+	dbid = 40,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {358,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Officer_Shortrange
+	dbid = 659,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {618,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- NPC_BF_schemen_helm
+	dbid = 1155,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3263,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_BF_schemen_legs
+	dbid = 1157,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3264,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_BF_schemen_shoulder
+	dbid = 1156,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3265,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_BF_schemen_torso
+	dbid = 1159,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3262,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_BF_schemen_weapon
+	dbid = 1158,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3340,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- Robber_bow
+	dbid = 401,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {},
+	contentProb = {},
+}
+mgr.addWeaponPool { -- Tools_Captain_Hat_HE
+	dbid = 811,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1591,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- NPC_HE_pirates_captain_hut
+	dbid = 460,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {741,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HE_pirates_captain_weapons
+	dbid = 954,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {991,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HE_pirates_CC_start_weapons
+	dbid = 453,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {991,},
+	contentProb = {5,},
+}
+mgr.addWeaponPool { -- NPC_HU_sheepherd_cap
+	dbid = 725,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1506,1507,},
+	contentProb = {1,1,},
+}
+mgr.addWeaponPool { -- NPC_HU_sheepherd_staff
+	dbid = 726,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1509,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_slaverobber_assassin_wpn
+	dbid = 957,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2051,2050,},
+	contentProb = {5,5,},
+}
+mgr.addWeaponPool { -- NPC_HU_soldier_arms
+	dbid = 619,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {903,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_soldier_helmet
+	dbid = 622,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {914,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_soldier_legs
+	dbid = 618,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {937,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_soldier_shoulder
+	dbid = 621,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {},
+	contentProb = {},
+}
+mgr.addWeaponPool { -- Tools_Fieldworker_Hat_HU
+	dbid = 943,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2001,},
+	contentProb = {10,},
+}
+mgr.addWeaponPool { -- NPC_garema_archer
+	dbid = 801,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1615,1652,1602,1602,1635,1613,1638,},
+	contentProb = {2,2,2,2,2,2,2,},
+}
+mgr.addWeaponPool { -- NPC_garema_warrior
+	dbid = 800,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1616,1655,1604,1637,1612,1640,},
+	contentProb = {2,2,2,2,2,2,},
+}
+mgr.addWeaponPool { -- NPC_garema_officer
+	dbid = 802,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1653,1605,1614,},
+	contentProb = {2,2,2,},
+}
+mgr.addWeaponPool { -- NPC_garema_mage
+	dbid = 803,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1618,1654,1603,1603,1636,},
+	contentProb = {2,2,2,2,2,},
+}
+mgr.addWeaponPool { -- NPC_HU_energy_ghost_soldier_arms
+	dbid = 498,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {905,},
+	contentProb = {3,},
+}
+mgr.addWeaponPool { -- NPC_dryade_fight_hunter_cc_wpn
+	dbid = 875,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2245,},
+	contentProb = {3,},
+}
+mgr.addWeaponPool { -- NPC_demon_sword_2h
+	dbid = 1089,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2938,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_demon_magestaff_2h
+	dbid = 1090,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2939,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_orc_bow
+	dbid = 1000,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2241,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_cult_longbow
+	dbid = 888,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1753,941,},
+	contentProb = {1,3,},
+}
+mgr.addWeaponPool { -- NPC_HE_pirates_hut
+	dbid = 459,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {732,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_BF_envoy_arm2
+	dbid = 1161,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3343,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_BF_envoy_arm3
+	dbid = 1162,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3344,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_BF_envoy_belt1
+	dbid = 1144,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3250,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_BF_envoy_belt2
+	dbid = 1163,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3345,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_BF_envoy_belt3
+	dbid = 1164,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3346,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_BF_envoy_boots1
+	dbid = 1145,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3251,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_BF_envoy_boots2
+	dbid = 1165,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3347,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_BF_envoy_boots3
+	dbid = 1166,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3348,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_mascarell_soldier_v3_quiver
+	dbid = 633,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1127,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_BF_envoy_chest1
+	dbid = 1146,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3252,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_BF_envoy_chest2
+	dbid = 1167,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3349,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_BF_envoy_chest3
+	dbid = 1168,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3350,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_BF_envoy_helm1
+	dbid = 1147,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3253,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_BF_envoy_helm3
+	dbid = 1170,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3353,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_BF_envoy_legs2
+	dbid = 1171,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3354,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_BF_envoy_legs3
+	dbid = 1172,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3355,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_warrior_wings
+	dbid = 913,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1782,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_dryade_fight_hunter_cc_wpn_elite
+	dbid = 874,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2245,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_dryade_fight_mage_wpn
+	dbid = 864,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {},
+	contentProb = {},
+}
+mgr.addWeaponPool { -- NPC_HU_crusade_soldier_v1_quiver
+	dbid = 617,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1126,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_demodrey_soldier_v4_quiver
+	dbid = 634,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1129,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_royal_officer_v2_arms
+	dbid = 597,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1102,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_royal_officer_v2_cape
+	dbid = 600,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1111,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_BF_envoy_shoulders2
+	dbid = 1173,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3356,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_BF_envoy_shoulders3
+	dbid = 1174,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3357,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_BF_envoy_sword
+	dbid = 1150,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3256,},
+	contentProb = {5,},
+}
+mgr.addWeaponPool { -- NPC_BF_envoy_helm2
+	dbid = 1169,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3352,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_BF_envoy_wings_elite
+	dbid = 1160,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3351,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_BF_envoy_legs1
+	dbid = 1148,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3254,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_BF_envoy_servant_dagger
+	dbid = 1152,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3259,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_BF_envoy_spear
+	dbid = 1151,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3257,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_dryade_fight_hunter_pelvis
+	dbid = 877,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2224,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_ORC_cleader_banner_red
+	dbid = 1091,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1546,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- NPC_ORC_cleader_banner_blue
+	dbid = 1093,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1547,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- NPC_HU_Hair
+	dbid = 733,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1450,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- npc_cobold_test2h
+	dbid = 676,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {619,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_goblin_1h
+	dbid = 647,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {962,1998,},
+	contentProb = {1,1,},
+}
+mgr.addWeaponPool { -- NPC_BF_envoy_shoulders1
+	dbid = 1149,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3255,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_ogre_magestaff
+	dbid = 646,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {996,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_ogre_throw
+	dbid = 644,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {995,998,},
+	contentProb = {1,1,},
+}
+mgr.addWeaponPool { -- NPC_ogre_shield
+	dbid = 645,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {932,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_warrior_belt
+	dbid = 847,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1722,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_warrior_belt_elite
+	dbid = 848,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1723,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_warrior_boot
+	dbid = 849,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1724,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_warrior_boot_elite
+	dbid = 850,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1725,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_warrior_chest
+	dbid = 842,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1726,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_warrior_chest_elite
+	dbid = 841,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1727,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_warrior_hair
+	dbid = 838,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1730,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_warrior_hands
+	dbid = 840,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1728,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_warrior_hands_elite
+	dbid = 839,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1729,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_warrior_legs
+	dbid = 844,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1733,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_warrior_legs_elite
+	dbid = 843,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1734,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_warrior_shoulder
+	dbid = 834,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1735,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_blooddryad_warrior_shoulder_elite
+	dbid = 845,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1736,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_boss_crystal_down
+	dbid = 896,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1762,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_boss_crystal_front
+	dbid = 894,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1760,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_boss_crystal_left
+	dbid = 892,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1759,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_boss_crystal_right
+	dbid = 893,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1758,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_boss_crystal_up
+	dbid = 897,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1761,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_dryade_fight_hunter_ranged_wpn_elite
+	dbid = 881,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2246,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_dryade_fight_mage_pelvis
+	dbid = 866,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1433,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_dryade_fight_hunter_chest
+	dbid = 876,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2226,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_dryade_fight_hunter_boots
+	dbid = 879,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2225,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_dryade_fight_hunter_helmet
+	dbid = 878,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2228,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_He_inquisitor_start_mug
+	dbid = 948,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2239,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HE_pirates_bow_start_weapons
+	dbid = 455,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {990,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- Boss_mainq_Inq_Mentor_staff
+	dbid = 1094,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2943,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- npc_blooddryad_ghost_shoulder
+	dbid = 1076,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2251,},
+	contentProb = {2,},
+}
+mgr.addWeaponPool { -- NPC_HU_energy_ghost_2h_wpn
+	dbid = 486,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1005,1004,},
+	contentProb = {2,3,},
+}
+mgr.addWeaponPool { -- NPC_DE_Sandppl_Tubes_Fire
+	dbid = 1022,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2339,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_DE_Sandppl_Tubes_Fire_Elite
+	dbid = 1024,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2340,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_DE_Sandppl_Tubes_Magic
+	dbid = 1023,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2341,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_DE_Sandppl_Tubes_Magic_Elite
+	dbid = 1025,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2342,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_DE_Sandppl_Veil_Alchemist
+	dbid = 1020,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2343,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_DE_Sandppl_Veil_Champion_1
+	dbid = 1017,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2344,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HE_Brigand_mainq_helmet
+	dbid = 1002,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2230,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HE_Brigand_mainq_LEAD_helmet
+	dbid = 1003,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2231,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HE_Brigand_mainq_LEAD_sh
+	dbid = 1004,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2233,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HE_Brigand_mainq_shoulder
+	dbid = 1001,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2232,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HE_cleric_spy_mainq_bag
+	dbid = 1006,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2242,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HE_crystal-smuggler_mainq_handkerchief
+	dbid = 1005,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2243,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HE_pirates_bow_bow_magic
+	dbid = 454,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {993,2048,},
+	contentProb = {9,1,},
+}
+mgr.addWeaponPool { -- NPC_HE_pirates_bow_sea_weapons
+	dbid = 456,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {990,992,},
+	contentProb = {5,1,},
+}
+mgr.addWeaponPool { -- NPC_HE_pirates_throw_start_weapons
+	dbid = 451,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {990,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HE_pirates_throw_throwdagger
+	dbid = 889,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1754,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HE_pirates_throw_throwdagger_magic
+	dbid = 956,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1754,2049,},
+	contentProb = {9,1,},
+}
+mgr.addWeaponPool { -- NPC_HE_robber_bow_bow
+	dbid = 448,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {986,},
+	contentProb = {2,},
+}
+mgr.addWeaponPool { -- NPC_HE_robber_throw_city_weapons
+	dbid = 445,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {981,982,},
+	contentProb = {1,3,},
+}
+mgr.addWeaponPool { -- NPC_HE_robber_throw_star
+	dbid = 441,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {980,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HE_robber_throw_start_weapons
+	dbid = 442,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {981,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_crusade_darkpala_helmet_01
+	dbid = 630,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1125,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_crusade_darkpala_helmet_02
+	dbid = 631,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1091,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_crusade_officer_v1_cape
+	dbid = 609,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1110,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_crusade_officer_v1_leg
+	dbid = 596,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1119,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_cult_hunter_wpn
+	dbid = 1009,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2051,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_cult_warrior_wpn
+	dbid = 1010,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2263,2262,},
+	contentProb = {1,4,},
+}
+mgr.addWeaponPool { -- Tools_caster_Vial_RH
+	dbid = 827,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1701,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- NPC_HU_crusade_wpn
+	dbid = 950,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2060,2062,2062,2036,},
+	contentProb = {3,1,9,27,},
+}
+mgr.addWeaponPool { -- NPC_HU_slaverobber_1h
+	dbid = 667,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1380,1379,},
+	contentProb = {2,4,},
+}
+mgr.addWeaponPool { -- NPC_HU_slaverobber_1h_FK
+	dbid = 1059,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1379,2438,},
+	contentProb = {2,4,},
+}
+mgr.addWeaponPool { -- NPC_HU_slaverobber_arms
+	dbid = 468,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {894,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_slaverobber_1h_lead
+	dbid = 1063,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2441,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_DE_Sandppl_Veil_Officer_2
+	dbid = 1016,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1624,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- Tools_caster_vial_LH
+	dbid = 826,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1700,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Procurator_Feather
+	dbid = 356,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {362,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Procurator_paper
+	dbid = 115,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {366,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Scribe_SBag_HU
+	dbid = 934,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1833,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Soldier
+	dbid = 421,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {577,618,},
+	contentProb = {20,20,},
+}
+mgr.addWeaponPool { -- NPC_HU_crusade_bow
+	dbid = 672,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2061,1384,},
+	contentProb = {1,9,},
+}
+mgr.addWeaponPool { -- NPC_HU_crusade_bow_fire
+	dbid = 965,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2061,},
+	contentProb = {9,},
+}
+mgr.addWeaponPool { -- NPC_HU_crusade_soldier_v1_shoulder
+	dbid = 590,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1108,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_crusade_wpn_fire
+	dbid = 966,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2062,2060,},
+	contentProb = {2,6,},
+}
+mgr.addWeaponPool { -- NPC_HU_cult_hunter_elite_mask
+	dbid = 473,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1016,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_cult_hunter_elite_shoulder
+	dbid = 475,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1017,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_cult_hunter_mask
+	dbid = 472,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1015,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_cult_hunter_shoulder
+	dbid = 474,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1011,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_cult_shaman_elite_shoulder
+	dbid = 477,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1018,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_cult_shaman_shoulder
+	dbid = 476,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1012,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_Dockcaptain
+	dbid = 674,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1387,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- NPC_HU_energy_ghost_soldier_officer_torso
+	dbid = 494,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {910,},
+	contentProb = {3,},
+}
+mgr.addWeaponPool { -- NPC_HU_energy_ghost_soldier_shoulder
+	dbid = 496,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {929,},
+	contentProb = {3,},
+}
+mgr.addWeaponPool { -- NPC_HU_energy_ghost_soldier_torso
+	dbid = 497,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {904,},
+	contentProb = {3,},
+}
+mgr.addWeaponPool { -- NPC_HU_Jester
+	dbid = 673,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1386,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- NPC_HU_royal_officer_v2_chest
+	dbid = 598,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1114,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_royal_officer_v2_helmet
+	dbid = 610,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1117,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_royal_officer_v2_leg
+	dbid = 599,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1120,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_royal_officer_v2_shoulder
+	dbid = 614,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1123,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_royal_soldier_v2_arms
+	dbid = 577,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1096,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_royal_soldier_v2_chest
+	dbid = 579,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1106,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_royal_soldier_v2_helmet
+	dbid = 580,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1098,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_royal_soldier_v2_leg
+	dbid = 578,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1101,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_royal_soldier_v2_quiver
+	dbid = 632,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1128,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_royal_soldier_v2_shoulder
+	dbid = 591,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1109,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_slaverobber_assasin_hood
+	dbid = 471,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {935,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_slaverobber_assasin_quiver
+	dbid = 467,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {898,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_slaverobber_bow_throw
+	dbid = 1058,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2440,2439,},
+	contentProb = {1,3,},
+}
+mgr.addWeaponPool { -- NPC_HU_slaverobber_leader_belt
+	dbid = 470,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {895,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_soldier_officer
+	dbid = 629,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {},
+	contentProb = {},
+}
+mgr.addWeaponPool { -- NPC_HU_soldier_officer_arms
+	dbid = 623,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {915,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_soldier_officer_cape
+	dbid = 624,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {906,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_soldier_officer_chest
+	dbid = 625,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {908,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_soldier_officer_helmet
+	dbid = 626,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {917,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_viking_captain_belt
+	dbid = 483,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {},
+	contentProb = {},
+}
+mgr.addWeaponPool { -- NPC_HU_viking_captain_helmet
+	dbid = 479,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1020,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_viking_shield
+	dbid = 482,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1024,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_viking_weapon_1h
+	dbid = 480,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1026,1023,},
+	contentProb = {3,1,},
+}
+mgr.addWeaponPool { -- NPC_HU_viking_weapon_2h
+	dbid = 481,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1022,1027,},
+	contentProb = {1,3,},
+}
+mgr.addWeaponPool { -- NPC_HU_viking_weapon_throwaxe
+	dbid = 945,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2085,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_Inquisition_Guard_HE
+	dbid = 883,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {981,988,},
+	contentProb = {1,1,},
+}
+mgr.addWeaponPool { -- NPC_Legion_Skeleton_Champ_Shield
+	dbid = 158,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {37,},
+	contentProb = {10,},
+}
+mgr.addWeaponPool { -- NPC_Legion_Skeleton_Champ_wpn
+	dbid = 144,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {40,2044,},
+	contentProb = {8,2,},
+}
+mgr.addWeaponPool { -- NPC_Legion_Skeleton_Champ_wpn_elite
+	dbid = 952,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2044,40,},
+	contentProb = {2,4,},
+}
+mgr.addWeaponPool { -- NPC_Legion_Skeleton_Officer_wpn
+	dbid = 142,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {33,2043,},
+	contentProb = {80,20,},
+}
+mgr.addWeaponPool { -- Tools_Lumberman_Axe
+	dbid = 360,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {150,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Lumberman_wood
+	dbid = 38,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {360,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Mercanary_weaponfight
+	dbid = 358,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2422,},
+	contentProb = {0,},
+}
+mgr.addWeaponPool { -- NPC_HU_demodrey_v4_shield
+	dbid = 944,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1778,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- Tools_Mercenary_longrange
+	dbid = 71,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2034,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Mercenary_paper
+	dbid = 105,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {366,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Mercenary_shortrange
+	dbid = 53,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {2422,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Tools_Archer_Shortrange
+	dbid = 666,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {610,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- NPC_orc_2h
+	dbid = 636,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {923,924,},
+	contentProb = {1,1,},
+}
+mgr.addWeaponPool { -- NPC_Cobold_Mage
+	dbid = 120,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {735,},
+	contentProb = {100,},
+}
+mgr.addWeaponPool { -- Pirates_Daggers
+	dbid = 413,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {990,},
+	contentProb = {30,},
+}
+mgr.addWeaponPool { -- Pirates_CaptainsHut
+	dbid = 412,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {741,},
+	contentProb = {10,},
+}
+mgr.addWeaponPool { -- Pirates_Bow
+	dbid = 414,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {993,},
+	contentProb = {10,},
+}
+mgr.addWeaponPool { -- NPC_orc_elder_necklace
+	dbid = 723,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1458,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_stonearmy_leader_shoulder
+	dbid = 795,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1557,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_de_cow_hat
+	dbid = 933,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1719,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_demodrey_soldier_v4_shoulder
+	dbid = 589,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {928,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_mascarell_officer_v3_arms
+	dbid = 601,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1103,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_mascarell_officer_v3_cape
+	dbid = 604,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1112,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_mascarell_officer_v3_chest
+	dbid = 603,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1115,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_mascarell_officer_v3_helmet
+	dbid = 611,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1118,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_mascarell_officer_v3_leg
+	dbid = 602,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1121,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_mascarell_officer_v3_shoulder
+	dbid = 615,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1124,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_mascarell_shield
+	dbid = 670,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {1382,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_robber_belt
+	dbid = 432,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {875,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_Robber_Handkerchief
+	dbid = 433,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {874,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_soldier_officer_leg
+	dbid = 627,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {939,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_soldier_officer_shoulder
+	dbid = 628,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {930,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_STORY_GUIDE
+	dbid = 714,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {618,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- NPC_HU_viking_equip_beard
+	dbid = 435,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {884,871,},
+	contentProb = {1,0,},
+}
+mgr.addWeaponPool { -- NPC_HU_viking_equip_belt
+	dbid = 434,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {885,871,},
+	contentProb = {1,0,},
+}
+mgr.addWeaponPool { -- NPC_HU_viking_equip_helmet
+	dbid = 437,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {886,871,},
+	contentProb = {1,0,},
+}
+mgr.addWeaponPool { -- NPC_HU_viking_equip_shoulder
+	dbid = 436,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {887,871,},
+	contentProb = {1,0,},
+}
+mgr.addWeaponPool { -- Tools_Lumberman_Saw
+	dbid = 350,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {622,},
+	contentProb = {100,},
+}

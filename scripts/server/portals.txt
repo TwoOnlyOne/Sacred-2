@@ -1,0 +1,63 @@
+                                       
+local PORTALTYPE_WORLD = 0
+local PORTALTYPE_SHIP_NORTH  = 1
+local PORTALTYPE_SHIP_SOUTH  = 2
+
+mgr.definePortal { id= 0, woid=1015902410, type=PORTALTYPE_WORLD }     -- startinsel 
+mgr.definePortal { id= 1, woid=1012607636, type=PORTALTYPE_WORLD }     -- hochelfe 
+mgr.definePortal { id= 2, woid=1019064877, type=PORTALTYPE_WORLD }     -- menschen
+mgr.definePortal { id= 3, woid=1013980245, type=PORTALTYPE_WORLD }     -- menschen 
+mgr.definePortal { id= 4, woid=1020279126, type=PORTALTYPE_WORLD }     -- menschen 
+mgr.definePortal { id= 5, woid=1018724224, type=PORTALTYPE_WORLD }     -- ork 
+mgr.definePortal { id= 6, woid=1018482588, type=PORTALTYPE_WORLD }     -- ork 
+mgr.definePortal { id= 7, woid=1018474495, type=PORTALTYPE_WORLD }     -- ork 
+mgr.definePortal { id= 8, woid=1014072699, type=PORTALTYPE_WORLD }     -- sera 
+mgr.definePortal { id= 9, woid=1020280567, type=PORTALTYPE_WORLD }     -- sera dungeon 
+mgr.definePortal { id=10, woid=1020287025, type=PORTALTYPE_WORLD }     -- sera dungeon 
+mgr.definePortal { id=11, woid=1014087296, type=PORTALTYPE_WORLD }     -- swamp 1 
+mgr.definePortal { id=12, woid=1014085807, type=PORTALTYPE_WORLD }     -- swamp 2 
+mgr.definePortal { id=13, woid=1014064281, type=PORTALTYPE_WORLD }     -- dryads 
+mgr.definePortal { id=14, woid=1013984686, type=PORTALTYPE_WORLD }     -- desert 
+mgr.definePortal { id=15, woid=1014058042, type=PORTALTYPE_WORLD }     -- wastelands
+mgr.definePortal { id=16, woid=1022454666, type=PORTALTYPE_WORLD }     -- jungle 
+mgr.definePortal { id=17, woid=1022969640, type=PORTALTYPE_WORLD }     -- wastelands
+mgr.definePortal { id=18, woid=1018407154, type=PORTALTYPE_WORLD }     -- hochelfe
+mgr.definePortal { id=19, woid=1023908396, type=PORTALTYPE_WORLD }     -- mountinsel
+mgr.definePortal { id=20, woid=1024443835, type=PORTALTYPE_WORLD }     -- dryads
+mgr.definePortal { id=21, woid=1021768156, type=PORTALTYPE_WORLD }     -- desert
+mgr.definePortal { id=22, woid=1018408989, type=PORTALTYPE_WORLD }     -- hochelfe
+mgr.definePortal { id=23, woid=1014071268, type=PORTALTYPE_WORLD }     -- menschen
+mgr.definePortal { id=24, woid=1032902342, type=PORTALTYPE_WORLD }     -- Startpunkt Dschungelregion
+mgr.definePortal { id=25, woid=1032912342, type=PORTALTYPE_WORLD }     -- Westliches Bengaresh
+mgr.definePortal { id=26, woid=1032912503, type=PORTALTYPE_WORLD }     -- Östliches Hissil´Ta
+mgr.definePortal { id=27, woid=1032913730, type=PORTALTYPE_WORLD }     -- Westliches Hissil´Ta
+mgr.definePortal { id=28, woid=1033965467, type=PORTALTYPE_WORLD }     -- Westliche Artamark
+mgr.definePortal { id=29, woid=1032916437, type=PORTALTYPE_WORLD }     -- Weitblick
+mgr.definePortal { id=30, woid=1033964574, type=PORTALTYPE_WORLD }     -- Westliches Startgebiet
+mgr.definePortal { id=31, woid=1032922423, type=PORTALTYPE_WORLD }     -- Nordwestliches Hissil´Ta
+
+mgr.definePortal { id= 1, woid=1023664860, type=PORTALTYPE_SHIP_NORTH }      -- ork 
+mgr.definePortal { id= 2, woid=1023664671, type=PORTALTYPE_SHIP_NORTH }      -- sera 
+mgr.definePortal { id= 3, woid=1023665299, type=PORTALTYPE_SHIP_NORTH }      -- ork 
+mgr.definePortal { id= 4, woid=1023731140, type=PORTALTYPE_SHIP_NORTH }      -- humans
+mgr.definePortal { id= 5, woid=1023735603, type=PORTALTYPE_SHIP_NORTH }      -- mount island 
+mgr.definePortal { id= 6, woid=1033937052, type=PORTALTYPE_SHIP_NORTH }      -- Baroness 
+mgr.definePortal { id= 7, woid=1036205106, type=PORTALTYPE_SHIP_NORTH }      -- xmas ?
+mgr.definePortal { id= 8, woid=1051307088, type=PORTALTYPE_SHIP_NORTH }      -- Kristallinsel
+mgr.definePortal { id= 9, woid=1052000829, type=PORTALTYPE_SHIP_NORTH }		 -- Ballon Mauerdurchgang
+mgr.definePortal { id= 10, woid=1052001474, type=PORTALTYPE_SHIP_NORTH }     -- Ballon Dorf im Westen
+mgr.definePortal { id= 11, woid=1052001598, type=PORTALTYPE_SHIP_NORTH }     -- Ballo Sammler Quest
+mgr.definePortal { id= 12, woid=1052001702, type=PORTALTYPE_SHIP_NORTH }     -- Ballon Vermessungsstation
+mgr.definePortal { id= 13, woid=1054588242, type=PORTALTYPE_SHIP_NORTH }     -- Ballon Eisende
+
+mgr.definePortal { id= 1, woid=1023495575, type=PORTALTYPE_SHIP_SOUTH }      -- canyon 
+mgr.definePortal { id= 2, woid=1023733159, type=PORTALTYPE_SHIP_SOUTH }      -- highelf
+mgr.definePortal { id= 3, woid=1023731395, type=PORTALTYPE_SHIP_SOUTH }      -- dryade 
+mgr.definePortal { id= 4, woid=1023732142, type=PORTALTYPE_SHIP_SOUTH }      -- jungle 
+mgr.definePortal { id= 5, woid=1023732586, type=PORTALTYPE_SHIP_SOUTH }      -- dryade
+mgr.definePortal { id= 6, woid=1033936147, type=PORTALTYPE_SHIP_SOUTH }      -- desert
+mgr.definePortal { id= 7, woid=1051305930, type=PORTALTYPE_SHIP_SOUTH }      -- Blutwald
+mgr.definePortal { id= 8, woid=1051999992, type=PORTALTYPE_SHIP_SOUTH }      -- Ballon Lager Schlachtfeld
+mgr.definePortal { id= 9, woid=1052000166, type=PORTALTYPE_SHIP_SOUTH }      -- Ballon Dorf
+mgr.definePortal { id= 10, woid=1052000350, type=PORTALTYPE_SHIP_SOUTH }     -- Ballon Festung
+mgr.definePortal { id= 11, woid=1053911360, type=PORTALTYPE_SHIP_SOUTH }     -- Ballon Schlachtfeld 2

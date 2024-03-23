@@ -1,0 +1,89 @@
+--
+-- starting positions for new main characters
+--
+-- param0 = itemtype,
+-- param1 = group-id (to group positions together)
+-- following params: sectorpos + offset
+--
+
+
+local setpos = game.setStartPosType 
+
+-- seraphim
+-- mit neuen Start Pos, stand 30.10.2007 by CA in der Startregion 
+setpos (1,0,   18,27,0,  141,1173,699 )	-- default startpos
+setpos (1, 0,  18,27,0,  372,990,703 )	--etwas daneben
+setpos (1, 0,  18,27,0,  163,1001,704 ) --etwas hoeher
+
+-- dryadin
+setpos (2, 0,   21,23,0,  2203,1445,124)	-- alle auf der Start insel, etwa sweiter auseinander
+setpos (2, 0,   21,23,0,  2144,1726,122)	-- 
+setpos (2, 0,   21,23,0,  1977,1921,118)	-- 
+setpos (2, 0,   21,23,0,  1975,2164,28)	-- 
+
+-- shadow-warrior
+setpos (3, 0,   17,24,0,  1450,2066,314)	-- Alle Oberirdisch, am Tempelausgang
+setpos (3, 0,   17,24,0,  2161,1842,124)	-- 
+setpos (3, 0,   17,24,0,  2306,2127,129)	-- 
+--setpos (3, 0,   17,24,0,  2236,2691,169)	-- 
+
+-- templeguard
+setpos (6, 0,  24,27,0,  1250,2050,1519)-- Alle an der Start pos, nah bei einander
+setpos (6, 0,  24,27,0,  1398,1926,1289)
+setpos (6, 0,   24,27,0,  1272,1785,1288)
+setpos (6, 0,  24,27,0,  1241,1678,1288)
+
+-- highelve
+setpos (5, 0,   19,24,0,  700,1050,0)	-- planeten-getriebe
+setpos (5, 0,   19,24,0,  700,1050,0)	
+setpos (5, 0,   19,24,0,  700,1050,0)	
+setpos (5, 0,   19,24,0,  700,1050,0)	
+
+-- inquisitior
+setpos (4, 0,  19,26,0,  2854,862,99)
+setpos (4, 0,  19,26,0,  2942,999,90)
+setpos (4, 0,  19,26,0,  2889,703,129)
+--setpos (4, 0,  19,26,0,  2730,936,115)
+
+
+-- Shared/Generic SpawnPosition: Arena
+-- Alle auskommentiert
+
+-- Human 
+
+--setpos (0, 1,   29,45,0,  1621,623,1408)	-- on top of mt. sacred
+--setpos (0, 1,   29,43,0,  1998,1905,159)	-- am flussquell
+--setpos (0, 1,   29,44,0,  397,8,159)		-- weg zum see
+--setpos (0, 1,   28,44,0,  2917,3054,883)	-- arschkartenposition (offenes feld)
+
+-- Dungeon
+
+--setpos (0, 2,   50,3,-1,  1291,529,0)	-- kaputter altar
+--setpos (0, 2,   50,3,-1,  939,1597,4)	-- kurve im westen
+--setpos (0, 2,   50,3,-1,  1291,529,0)	-- kaputter altar
+--setpos (0, 2,   50,2,-1,  1883,1987,-150)	-- mini-tempel
+
+
+-- Desert
+
+--setpos (0, 3,   31,16,0,  868,1392,1741)	-- gebirgspass
+--setpos (0, 3,   30,15,0,  2579,2708,2276)	-- offene wüste 1
+--setpos (0, 3,   30,15,0,  2832,2727,2312)	-- offene wüste 2
+--setpos (0, 3,   31,15,0,  45,1601,2328)	-- offene wüste 3 (nähe barriere)
+
+
+-- Highelve
+
+--setpos (0, 4,   29,26,0,  916,848,369)	-- tempel-vorplatz
+--setpos (0, 4,   28,26,0,  2713,77,90)	-- park
+--setpos (0, 4,   29,25,0,  63,908,90)	-- geysire
+--setpos (0, 4,   29,26,0,  2317,1241,431)	-- planeten-getriebe
+
+
+-- Arena
+
+--setpos (0, 5,   6,19,0,  1850,1639,-75)	-- north
+--setpos (0, 5,   6,19,0,  1676,1339,-79)	-- east
+--setpos (0, 5,   6,19,0,  1374,1562,-75)	-- south
+--setpos (0, 5,   6,19,0,  1598,1830,-75)	-- west
+

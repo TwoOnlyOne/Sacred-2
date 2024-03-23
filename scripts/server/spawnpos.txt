@@ -1,0 +1,53 @@
+-- DEPRICATED FILE - DO NOT USE ANYMORE
+-- SPAWNING IS HANDLER OVER /scripts/server/spawn per sector
+
+-- SpawnPos Initialization
+-- vers. 0.1
+
+--mgr.addSpawnPosOld (21,34,0, 2100,2100, 0);
+--mgr.addSpawnPosOld (21,34,0, 2300,2101, 0);
+--mgr.addSpawnPosOld (21,34,0, 2500,2102, 0);
+--mgr.addSpawnPosOld (21,34,0, 2700,2103, 0);
+
+
+--mgr.addSpawnPosOld (20,27,0, 2400,2500,100);
+--mgr.addSpawnPosOld (20,27,0, 2300,2501,100);
+--mgr.addSpawnPosOld (20,27,0, 2500,2302,100);
+--mgr.addSpawnPosOld (20,27,0, 2350,2553,100);
+
+-- mine-dungeon (3,6,0) -- copied from 20,20,-1
+--mgr.addSpawnPosOld (3,6,0,    2557,546,-50);
+--mgr.addSpawnPosOld (3,6,0,    2833,649,-50);
+--mgr.addSpawnPosOld (3,6,0,    2556,815,-50);
+--mgr.addSpawnPosOld (3,6,0,    2500,1048,-50);
+--mgr.addSpawnPosOld (3,6,0,    2374,1112,-50);
+--mgr.addSpawnPosOld (3,6,0,    2142,1590,-75);
+--mgr.addSpawnPosOld (3,6,0,    2708,1711,-50);
+--mgr.addSpawnPosOld (3,6,0,    2730,1840,-50);
+--mgr.addSpawnPosOld (3,6,0,    2847,1905,-20);
+--mgr.addSpawnPosOld (3,6,0,    2949,2145,-10);
+--mgr.addSpawnPosOld (3,6,0,    2872,2560,10);
+--mgr.addSpawnPosOld (3,6,0,    2207,2496,10);
+--mgr.addSpawnPosOld (3,6,0,    1650,1400,-120);
+--mgr.addSpawnPosOld (3,6,0,    1491,1467,-150);
+--mgr.addSpawnPosOld (3,6,0,    1124,2189,-50);
+
+-- mine-dungeon (20,20,-1) -- "mine"-dungeon
+--mgr.addSpawnPosOld (20,20,-1,    2557,546,-50);
+--mgr.addSpawnPosOld (20,20,-1,    2833,649,-50);
+--mgr.addSpawnPosOld (20,20,-1,    2556,815,-50);
+--mgr.addSpawnPosOld (20,20,-1,    2500,1048,-50);
+--mgr.addSpawnPosOld (20,20,-1,    2374,1112,-50);
+--mgr.addSpawnPosOld (20,20,-1,    2142,1590,-75);
+--mgr.addSpawnPosOld (20,20,-1,    2708,1711,-50);
+--mgr.addSpawnPosOld (20,20,-1,    2730,1840,-50);
+--mgr.addSpawnPosOld (20,20,-1,    2847,1905,-20);
+--mgr.addSpawnPosOld (20,20,-1,    2949,2145,-10);
+--mgr.addSpawnPosOld (20,20,-1,    2872,2560,10);
+--mgr.addSpawnPosOld (20,20,-1,    2207,2496,10);
+--mgr.addSpawnPosOld (20,20,-1,    1650,1400,-120);
+--mgr.addSpawnPosOld (20,20,-1,    1491,1467,-150);
+--mgr.addSpawnPosOld (20,20,-1,    1124,2189,-50);
+
+
+

@@ -1,0 +1,1034 @@
+-- DO NOT EDIT - AUTOMATICALLY GENERATED --
+-- vim:ft=lua ts=2 nu
+-- exported by: konverter@BUILDSERVER
+-- exported at: 07/28/09 20:59:56
+-- exporter version: 1.0.0.131
+-- exported to: region.txt
+
+
+mgr.regionSetup(125,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(126,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(127,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(128,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(129,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(130,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(131,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(133,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(134,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(135,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(136,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(137,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(138,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(139,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(140,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(141,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(142,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(143,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(144,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(145,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(146,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(171,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(150,{
+	name = "Spec. Location 11 - Multiplayer Island (0)",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 22,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(169,{
+	name = "Spec. Location 09 - Skeleton Bar (0)",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 20,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(188,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(190,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(191,{
+	name = "Region 17 - Crystal Planes (0)",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 32,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(193,{
+	name = "Region 03 - Dryads (0)",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 3,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(194,{
+	name = "Region 18 - Blood Forest (0)",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 33,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(192,{
+	name = "Region 18 - Blood Forest (0)",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 33,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(195,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(120,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(149,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(151,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(152,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(81,{
+	name = "Region 01 - Highelves (10001)",
+	minLevel = 1,
+	maxLevel = 1,
+	musicProfile = 1,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(82,{
+	name = "Region 01 - Highelves (10002)",
+	minLevel = 2,
+	maxLevel = 4,
+	musicProfile = 1,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(83,{
+	name = "Region 01 - Highelves (10003)",
+	minLevel = 3,
+	maxLevel = 4,
+	musicProfile = 1,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(84,{
+	name = "Spec. Location 01 - Highelves Capital (10004)",
+	minLevel = 3,
+	maxLevel = 5,
+	musicProfile = 10,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(85,{
+	name = "Region 01 - Highelves (10005)",
+	minLevel = 4,
+	maxLevel = 7,
+	musicProfile = 1,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(86,{
+	name = "Region 01 - Highelves (10006)",
+	minLevel = 6,
+	maxLevel = 8,
+	musicProfile = 1,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(87,{
+	name = "Region 01 - Highelves (10007)",
+	minLevel = 9,
+	maxLevel = 14,
+	musicProfile = 1,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(88,{
+	name = "Spec. Location 02 - Gnome Village (10008)",
+	minLevel = 2,
+	maxLevel = 4,
+	musicProfile = 11,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(90,{
+	name = "Region 04 - Humans (20001)",
+	minLevel = 6,
+	maxLevel = 10,
+	musicProfile = 4,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(91,{
+	name = "Spec. Location 06 - Humans Capital (20002)",
+	minLevel = 6,
+	maxLevel = 10,
+	musicProfile = 15,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(92,{
+	name = "Region 04 - Humans (20003)",
+	minLevel = 7,
+	maxLevel = 11,
+	musicProfile = 4,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(93,{
+	name = "Spec. Location 08 - Humans Evil Castle (20004)",
+	minLevel = 7,
+	maxLevel = 11,
+	musicProfile = 17,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(94,{
+	name = "Region 04 - Humans (20005)",
+	minLevel = 9,
+	maxLevel = 12,
+	musicProfile = 4,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(95,{
+	name = "Region 04 - Humans (20006)",
+	minLevel = 8,
+	maxLevel = 12,
+	musicProfile = 4,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(96,{
+	name = "Region 04 - Humans (20007)",
+	minLevel = 9,
+	maxLevel = 12,
+	musicProfile = 4,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(97,{
+	name = "Region 05 - Humans Good (20008)",
+	minLevel = 8,
+	maxLevel = 12,
+	musicProfile = 9,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(98,{
+	name = "Region 06 - Orcs (30001)",
+	minLevel = 9,
+	maxLevel = 15,
+	musicProfile = 5,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(99,{
+	name = "Region 06 - Orcs (30002)",
+	minLevel = 9,
+	maxLevel = 14,
+	musicProfile = 5,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(100,{
+	name = "Spec. Location 07 - Orc Camp (30003)",
+	minLevel = 9,
+	maxLevel = 15,
+	musicProfile = 16,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(101,{
+	name = "Region 06 - Orcs (30004)",
+	minLevel = 10,
+	maxLevel = 16,
+	musicProfile = 5,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(102,{
+	name = "Region 07 - Orcs Troll Area (30005)",
+	minLevel = 10,
+	maxLevel = 16,
+	musicProfile = 18,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(103,{
+	name = "Region 08 - Seraphim HQ (40001)",
+	minLevel = 12,
+	maxLevel = 18,
+	musicProfile = 6,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(104,{
+	name = "Region 08 - Seraphim HQ (40002)",
+	minLevel = 13,
+	maxLevel = 20,
+	musicProfile = 6,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(105,{
+	name = "Region 11 - Swamp (50001)",
+	minLevel = 15,
+	maxLevel = 22,
+	musicProfile = 8,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(106,{
+	name = "Region 11 - Swamp (50002)",
+	minLevel = 16,
+	maxLevel = 23,
+	musicProfile = 8,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(107,{
+	name = "Region 11 - Swamp (50003)",
+	minLevel = 16,
+	maxLevel = 23,
+	musicProfile = 8,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(108,{
+	name = "Region 11 - Swamp (50004)",
+	minLevel = 17,
+	maxLevel = 23,
+	musicProfile = 8,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(109,{
+	name = "Region 02 - Desert (60001)",
+	minLevel = 18,
+	maxLevel = 24,
+	musicProfile = 2,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(110,{
+	name = "Spec. Location 04 - Desert Town (60002)",
+	minLevel = 18,
+	maxLevel = 24,
+	musicProfile = 13,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(111,{
+	name = "Region 02 - Desert (60003)",
+	minLevel = 20,
+	maxLevel = 26,
+	musicProfile = 2,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(112,{
+	name = "Region 02 - Desert (60004)",
+	minLevel = 20,
+	maxLevel = 27,
+	musicProfile = 2,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(114,{
+	name = "Spec. Location 03 - Scorpion Temple (60008)",
+	minLevel = 20,
+	maxLevel = 27,
+	musicProfile = 12,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(115,{
+	name = "Region 03 - Dryads (70002)",
+	minLevel = 23,
+	maxLevel = 30,
+	musicProfile = 3,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(116,{
+	name = "Region 03 - Dryads (70003)",
+	minLevel = 25,
+	maxLevel = 30,
+	musicProfile = 3,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(117,{
+	name = "Region 03 - Dryads (80001)",
+	minLevel = 24,
+	maxLevel = 32,
+	musicProfile = 3,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(118,{
+	name = "Region 03 - Dryads (80002)",
+	minLevel = 26,
+	maxLevel = 33,
+	musicProfile = 3,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(119,{
+	name = "Region 03 - Dryads (80003)",
+	minLevel = 25,
+	maxLevel = 34,
+	musicProfile = 3,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(121,{
+	name = "Spec. Location 05 - Dryads Town (80004)",
+	minLevel = 24,
+	maxLevel = 32,
+	musicProfile = 14,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(122,{
+	name = "Region 09 - Canyon (90001)",
+	minLevel = 26,
+	maxLevel = 35,
+	musicProfile = 19,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(123,{
+	name = "Region 09 - Canyon (90003)",
+	minLevel = 27,
+	maxLevel = 38,
+	musicProfile = 19,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(124,{
+	name = "Region 10 - Big Machine Dungeon (90005)",
+	minLevel = 28,
+	maxLevel = 40,
+	musicProfile = 7,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(132,{
+	name = "Spec. Location 10 - Golem Pit (20006)",
+	minLevel = 8,
+	maxLevel = 12,
+	musicProfile = 21,
+	roomSetup =  4,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(153,{
+	name = "Spec. Location 13 - Humans Geisterwald (0)",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 24,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(170,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(172,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(156,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(173,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(174,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(159,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(175,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(176,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(177,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(162,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(163,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(164,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(165,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(166,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(167,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(168,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(178,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(179,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(180,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(181,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(182,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(113,{
+	name = "Region 03 - Dryads (70001)",
+	minLevel = 22,
+	maxLevel = 28,
+	musicProfile = 3,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(183,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(184,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(185,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(186,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(187,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(157,{
+	name = "Region 14 - Highelves Islands (0)",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 27,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(154,{
+	name = "Spec. Location 14 - Highelves Undead Harbour (0)",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 29,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(155,{
+	name = "Spec. Location 12 - Studio II Dungeon (0)",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 23,
+	roomSetup =  7,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(158,{
+	name = "Region 13 - Orcs Islands (0)",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 26,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(160,{
+	name = "Region 12 - Humans Islands (0)",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 25,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(161,{
+	name = "Region 15 - Dryads Islands (0)",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 28,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(189,{
+	name = "Region 16 - Snowland (0)",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 30,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(196,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+
+mgr.regionSetup(197,{
+	name = "",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 0,
+	roomSetup =  0,
+	dungeonSetup =  0,
+})
+

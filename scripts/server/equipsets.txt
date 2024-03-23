@@ -1,0 +1,3739 @@
+-- DO NOT EDIT - AUTOMATICALLY GENERATED --
+-- vim:ft=lua ts=2 nu
+-- exported by: konverter@BUILDSERVER
+-- exported at: 07/28/09 20:59:54
+-- exporter version: 1.0.0.131
+-- exported to: equipsets.txt
+
+
+---------------------------------------
+-- WARNING - DO NOT MODIFY THIS FILE --
+---------------------------------------
+-- reserve memory for this amount of equipsets and equipsetentries
+mgr.reserveEquipsets(369,1025)
+
+local EQUIPSLOT = {
+	AUTO = 0,
+	WEAPON_R = 1,
+	WEAPON_L = 2,
+	SHIELD_L = 3,
+	HELMET = 4,
+	SHOULDER = 5,
+	ARM = 7,
+	HAND = 8,
+	LEG = 9,
+	BOOT = 10,
+	WINGS = 11,
+	BELT = 12,
+	CLOTH_HEAD = 13,
+	CLOTH_SHOULDER = 14,
+	CLOTH_ARM = 15,
+	CLOTH_CHEST = 16,
+	CLOTH_LEG = 17,
+	BELT_SKIRT = 18,
+	RIDER = 19,
+	STIRRUP = 20,
+	GRAB = 21,
+	CHEST = 6,
+	BATTERY = 22,
+	JEWELERY_RING_1 = 23,
+	JEWELERY_RING_2 = 24,
+	JEWELERY_RING_3 = 25,
+	JEWELERY_RING_4 = 26,
+	JEWELERY_AMULET_1 = 27,
+	JEWELERY_AMULET_2 = 28,
+	DR_SHRINKHEAD = 29,
+	CLOTH_CAPE = 30,
+	ORB_1 = 31,
+	ORB_3 = 33,
+	ORB_2 = 32,
+	ORB_4 = 34,
+	ORB_5 = 35,
+	ORB_6 = 36,
+	ORB_7 = 37,
+	ORB_8 = 38,
+	ORB_9 = 39,
+	ORB_10 = 40,
+	ORB_11 = 41,
+	ORB_12 = 42,
+}
+
+-- HERO_INITIAL_SHADOWWARRIOR
+
+--[added by dbalster]
+--
+--Initial outfit and inventory of the SHADOW WARRIOR
+--
+--
+--All additional items have been added for testing purposes!
+
+mgr.createEquipset {
+	id = 1,
+	set = {
+		{ 167, EQUIPSLOT.AUTO, 0},
+		{ 167, EQUIPSLOT.AUTO, 0},
+		{ 167, EQUIPSLOT.AUTO, 0},
+		{ 402, EQUIPSLOT.AUTO, 1},
+		{ 403, EQUIPSLOT.AUTO, 1},
+	}
+}
+
+-- HERO_INITIAL_SERAPHIM
+
+--[added by dbalster]
+--
+--Initial outfit and inventory of the SERAPHIM
+--
+
+mgr.createEquipset {
+	id = 2,
+	set = {
+		{ 675, EQUIPSLOT.AUTO, 0},
+		{ 1050, EQUIPSLOT.AUTO, 0},
+		{ 167, EQUIPSLOT.AUTO, 0},
+		{ 167, EQUIPSLOT.AUTO, 0},
+		{ 167, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- HERO_INITIAL_DRYADIN
+
+--[added by dbalster]
+--
+--Initial outfit and inventory of the DRYADIN
+--
+
+mgr.createEquipset {
+	id = 3,
+	set = {
+		{ 823, EQUIPSLOT.AUTO, 0},
+		{ 167, EQUIPSLOT.AUTO, 0},
+		{ 167, EQUIPSLOT.AUTO, 0},
+		{ 167, EQUIPSLOT.AUTO, 0},
+		{ 167, EQUIPSLOT.AUTO, 0},
+		{ 167, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- HERO_INITIAL_TEMPLEGUARD
+
+--[added by dbalster]
+--
+--Initial outfit and inventory of the TEMPLE GUARDIAN
+--
+
+mgr.createEquipset {
+	id = 4,
+	set = {
+		{ 998, EQUIPSLOT.AUTO, 0},
+		{ 1048, EQUIPSLOT.AUTO, 0},
+		{ 167, EQUIPSLOT.AUTO, 0},
+		{ 167, EQUIPSLOT.AUTO, 0},
+		{ 167, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- HERO_INITIAL_HIGHELVE
+
+--[added by dbalster]
+--
+--Initial outfit and inventory of the HIGHELVE
+--
+
+mgr.createEquipset {
+	id = 5,
+	set = {
+		{ 167, EQUIPSLOT.AUTO, 0},
+		{ 167, EQUIPSLOT.AUTO, 0},
+		{ 571, EQUIPSLOT.AUTO, 0},
+		{ 167, EQUIPSLOT.AUTO, 0},
+		{ 167, EQUIPSLOT.AUTO, 0},
+		{ 167, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- HERO_INITIAL_INQUISITOR
+
+--[added by dbalster]
+--
+--Initial outfit and inventory of the INQUISITOR
+--
+
+mgr.createEquipset {
+	id = 6,
+	set = {
+		{ 1051, EQUIPSLOT.AUTO, 0},
+		{ 422, EQUIPSLOT.AUTO, 0},
+		{ 167, EQUIPSLOT.AUTO, 0},
+		{ 167, EQUIPSLOT.AUTO, 0},
+		{ 167, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- OrcArena
+mgr.createEquipset {
+	id = 7,
+	set = {
+	}
+}
+
+-- MonsterArena
+mgr.createEquipset {
+	id = 8,
+	set = {
+	}
+}
+
+-- HELF_GUARD_1
+mgr.createEquipset {
+	id = 9,
+	set = {
+	}
+}
+
+-- HELF_Hunter_1
+mgr.createEquipset {
+	id = 10,
+	set = {
+		{ 6, EQUIPSLOT.WEAPON_R, 1},
+		{ 24, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- HELF_MAGE_1
+mgr.createEquipset {
+	id = 11,
+	set = {
+		{ 6, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- UNDEAD_WARRIOR
+mgr.createEquipset {
+	id = 12,
+	set = {
+		{ 86, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- HELF_ROBBER
+mgr.createEquipset {
+	id = 13,
+	set = {
+	}
+}
+
+-- legio_archer
+
+--[added by dbalster]
+--
+--Undead Legion, Archer. Equipped with a sword and a bow.
+--
+
+mgr.createEquipset {
+	id = 14,
+	set = {
+	}
+}
+
+-- Job_Artist_He
+mgr.createEquipset {
+	id = 16,
+	set = {
+		{ 808, EQUIPSLOT.AUTO, 0},
+		{ 822, EQUIPSLOT.AUTO, 1},
+		{ 55, EQUIPSLOT.WEAPON_L, 2},
+		{ 25, EQUIPSLOT.WEAPON_R, 2},
+		{ 54, EQUIPSLOT.WEAPON_R, 3},
+	}
+}
+
+-- Job_Bard
+mgr.createEquipset {
+	id = 17,
+	set = {
+		{ 822, EQUIPSLOT.AUTO, 1},
+		{ 346, EQUIPSLOT.AUTO, 2},
+		{ 18, EQUIPSLOT.AUTO, 3},
+	}
+}
+
+-- Job_Barmaid
+mgr.createEquipset {
+	id = 18,
+	set = {
+		{ 822, EQUIPSLOT.AUTO, 1},
+		{ 28, EQUIPSLOT.WEAPON_R, 2},
+	}
+}
+
+-- Job_Beggar
+mgr.createEquipset {
+	id = 19,
+	set = {
+		{ 822, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- Job_Blacksmith
+mgr.createEquipset {
+	id = 20,
+	set = {
+		{ 822, EQUIPSLOT.AUTO, 1},
+		{ 113, EQUIPSLOT.WEAPON_L, 2},
+		{ 19, EQUIPSLOT.WEAPON_R, 3},
+		{ 113, EQUIPSLOT.WEAPON_L, 3},
+		{ 363, EQUIPSLOT.WEAPON_L, 4},
+	}
+}
+
+-- Job_Caster
+mgr.createEquipset {
+	id = 21,
+	set = {
+		{ 806, EQUIPSLOT.AUTO, 0},
+		{ 804, EQUIPSLOT.AUTO, 0},
+		{ 822, EQUIPSLOT.AUTO, 1},
+		{ 826, EQUIPSLOT.WEAPON_L, 2},
+		{ 827, EQUIPSLOT.WEAPON_R, 2},
+		{ 828, EQUIPSLOT.WEAPON_L, 3},
+		{ 110, EQUIPSLOT.WEAPON_R, 4},
+		{ 112, EQUIPSLOT.WEAPON_R, 5},
+	}
+}
+
+-- Job_Cattlefarmer
+mgr.createEquipset {
+	id = 22,
+	set = {
+		{ 44, EQUIPSLOT.AUTO, 1},
+		{ 347, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- Job_Charburner
+mgr.createEquipset {
+	id = 23,
+	set = {
+		{ 39, EQUIPSLOT.AUTO, 1},
+	}
+}
+
+-- Job_Fieldworker_HU
+mgr.createEquipset {
+	id = 24,
+	set = {
+		{ 943, EQUIPSLOT.HELMET, 0},
+		{ 109, EQUIPSLOT.WEAPON_R, 1},
+		{ 33, EQUIPSLOT.WEAPON_R, 2},
+		{ 359, EQUIPSLOT.AUTO, 3},
+		{ 349, EQUIPSLOT.AUTO, 4},
+	}
+}
+
+-- Job_Hunter
+mgr.createEquipset {
+	id = 25,
+	set = {
+		{ 24, EQUIPSLOT.AUTO, 1},
+		{ 47, EQUIPSLOT.AUTO, 2},
+		{ 81, EQUIPSLOT.AUTO, 3},
+	}
+}
+
+-- Job_Innkeeper
+mgr.createEquipset {
+	id = 26,
+	set = {
+		{ 822, EQUIPSLOT.AUTO, 1},
+		{ 65, EQUIPSLOT.WEAPON_R, 2},
+		{ 66, EQUIPSLOT.WEAPON_R, 3},
+		{ 64, EQUIPSLOT.WEAPON_R, 4},
+	}
+}
+
+-- Job_Jeweler
+mgr.createEquipset {
+	id = 27,
+	set = {
+		{ 822, EQUIPSLOT.AUTO, 1},
+		{ 68, EQUIPSLOT.WEAPON_R, 2},
+		{ 70, EQUIPSLOT.WEAPON_L, 3},
+		{ 70, EQUIPSLOT.WEAPON_L, 4},
+		{ 21, EQUIPSLOT.WEAPON_R, 4},
+	}
+}
+
+-- Job_Lumberman
+mgr.createEquipset {
+	id = 28,
+	set = {
+		{ 1070, EQUIPSLOT.AUTO, 0},
+		{ 350, EQUIPSLOT.AUTO, 1},
+		{ 360, EQUIPSLOT.AUTO, 2},
+		{ 38, EQUIPSLOT.AUTO, 3},
+	}
+}
+
+-- Job_Mercenary
+mgr.createEquipset {
+	id = 29,
+	set = {
+		{ 665, EQUIPSLOT.AUTO, 2},
+		{ 666, EQUIPSLOT.AUTO, 3},
+	}
+}
+
+-- Job_Mineworker
+mgr.createEquipset {
+	id = 30,
+	set = {
+		{ 822, EQUIPSLOT.AUTO, 1},
+		{ 102, EQUIPSLOT.WEAPON_R, 2},
+		{ 1036, EQUIPSLOT.AUTO, 3},
+		{ 351, EQUIPSLOT.AUTO, 4},
+	}
+}
+
+-- Job_Night_Watchman
+mgr.createEquipset {
+	id = 31,
+	set = {
+		{ 106, EQUIPSLOT.AUTO, 1},
+		{ 72, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- Job_Poacher
+mgr.createEquipset {
+	id = 32,
+	set = {
+		{ 45, EQUIPSLOT.AUTO, 1},
+		{ 56, EQUIPSLOT.AUTO, 2},
+		{ 57, EQUIPSLOT.AUTO, 3},
+	}
+}
+
+-- Job_Poor_Statist
+mgr.createEquipset {
+	id = 33,
+	set = {
+	}
+}
+
+-- Job_Rich_Statist
+mgr.createEquipset {
+	id = 34,
+	set = {
+	}
+}
+
+-- Job_Priest
+mgr.createEquipset {
+	id = 35,
+	set = {
+		{ 27, EQUIPSLOT.AUTO, 1},
+	}
+}
+
+-- Job_Robber
+mgr.createEquipset {
+	id = 36,
+	set = {
+		{ 42, EQUIPSLOT.AUTO, 1},
+	}
+}
+
+-- Job_Scribe
+mgr.createEquipset {
+	id = 37,
+	set = {
+		{ 822, EQUIPSLOT.AUTO, 1},
+		{ 107, EQUIPSLOT.WEAPON_L, 2},
+		{ 108, EQUIPSLOT.WEAPON_R, 2},
+		{ 110, EQUIPSLOT.WEAPON_R, 3},
+		{ 107, EQUIPSLOT.WEAPON_R, 4},
+	}
+}
+
+-- Job_Sheperd
+mgr.createEquipset {
+	id = 38,
+	set = {
+		{ 37, EQUIPSLOT.AUTO, 1},
+		{ 347, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- Job_Tailor
+mgr.createEquipset {
+	id = 39,
+	set = {
+		{ 822, EQUIPSLOT.AUTO, 1},
+		{ 103, EQUIPSLOT.WEAPON_L, 2},
+		{ 103, EQUIPSLOT.WEAPON_L, 3},
+	}
+}
+
+-- Job_Thief
+mgr.createEquipset {
+	id = 40,
+	set = {
+		{ 34, EQUIPSLOT.AUTO, 1},
+		{ 114, EQUIPSLOT.AUTO, 2},
+		{ 73, EQUIPSLOT.AUTO, 3},
+		{ 362, EQUIPSLOT.AUTO, 4},
+	}
+}
+
+-- Job_Trader
+mgr.createEquipset {
+	id = 41,
+	set = {
+		{ 822, EQUIPSLOT.AUTO, 1},
+		{ 62, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- Job_Witch
+mgr.createEquipset {
+	id = 42,
+	set = {
+		{ 348, EQUIPSLOT.WEAPON_R, 1},
+		{ 361, EQUIPSLOT.WEAPON_L, 2},
+		{ 348, EQUIPSLOT.WEAPON_R, 2},
+		{ 104, EQUIPSLOT.WEAPON_L, 3},
+		{ 23, EQUIPSLOT.AUTO, 4},
+	}
+}
+
+-- Job_Kid
+mgr.createEquipset {
+	id = 43,
+	set = {
+	}
+}
+
+-- Job_Dockworker
+mgr.createEquipset {
+	id = 44,
+	set = {
+		{ 822, EQUIPSLOT.AUTO, 1},
+		{ 64, EQUIPSLOT.WEAPON_R, 2},
+		{ 52, EQUIPSLOT.WEAPON_R, 3},
+		{ 59, EQUIPSLOT.WEAPON_R, 4},
+	}
+}
+
+-- Job_Procurator
+mgr.createEquipset {
+	id = 45,
+	set = {
+		{ 822, EQUIPSLOT.AUTO, 1},
+		{ 110, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- Job_Cook
+mgr.createEquipset {
+	id = 46,
+	set = {
+		{ 58, EQUIPSLOT.AUTO, 1},
+		{ 59, EQUIPSLOT.AUTO, 2},
+		{ 59, EQUIPSLOT.AUTO, 3},
+		{ 60, EQUIPSLOT.AUTO, 3},
+		{ 61, EQUIPSLOT.AUTO, 4},
+	}
+}
+
+-- Weapons...
+mgr.createEquipset {
+	id = 49,
+	set = {
+	}
+}
+
+-- Orc_Warrior_wpn
+mgr.createEquipset {
+	id = 51,
+	set = {
+		{ 80, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- DRYAD_BOW
+mgr.createEquipset {
+	id = 52,
+	set = {
+		{ 8, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- Zombie_Warrior_eql_Wpn
+
+--Weapon for Zombie Warrior, 1h and 2 h 
+
+mgr.createEquipset {
+	id = 53,
+	set = {
+		{ 84, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- Legion_Skeleton_Warrior
+mgr.createEquipset {
+	id = 54,
+	set = {
+		{ 97, EQUIPSLOT.AUTO, 0},
+		{ 98, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- Legion_Skeleton_Champ
+mgr.createEquipset {
+	id = 55,
+	set = {
+		{ 158, EQUIPSLOT.AUTO, 0},
+		{ 144, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- Legion_Skeleton_Mage
+mgr.createEquipset {
+	id = 56,
+	set = {
+		{ 100, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- Legion_Skeleton_Archer
+mgr.createEquipset {
+	id = 58,
+	set = {
+		{ 138, EQUIPSLOT.AUTO, 1},
+		{ 139, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- Legion_Skeleton_Officer
+mgr.createEquipset {
+	id = 59,
+	set = {
+		{ 142, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_Cobold_Mage
+mgr.createEquipset {
+	id = 60,
+	set = {
+		{ 120, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_Cobold_Mage_elite
+mgr.createEquipset {
+	id = 61,
+	set = {
+		{ 410, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_Cobold_Warrior
+mgr.createEquipset {
+	id = 62,
+	set = {
+		{ 157, EQUIPSLOT.AUTO, 1},
+		{ 1095, EQUIPSLOT.AUTO, 1},
+	}
+}
+
+-- NPC_Cobold_Hunter_Throw
+mgr.createEquipset {
+	id = 66,
+	set = {
+		{ 369, EQUIPSLOT.AUTO, 1},
+		{ 118, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- NPC_Cobold_Officer
+mgr.createEquipset {
+	id = 68,
+	set = {
+		{ 951, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- Balrog
+
+--von Markus
+
+mgr.createEquipset {
+	id = 70,
+	set = {
+		{ 153, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- Thief_Highelf_Weapon
+mgr.createEquipset {
+	id = 71,
+	set = {
+		{ 156, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- Orc_Officer1
+mgr.createEquipset {
+	id = 73,
+	set = {
+	}
+}
+
+-- Orc_Elite1
+mgr.createEquipset {
+	id = 75,
+	set = {
+	}
+}
+
+-- Orc_Warrior1
+mgr.createEquipset {
+	id = 76,
+	set = {
+	}
+}
+
+-- Oger_Snow_Shaman1
+mgr.createEquipset {
+	id = 82,
+	set = {
+	}
+}
+
+-- Oger_Snow_Champion1
+mgr.createEquipset {
+	id = 85,
+	set = {
+	}
+}
+
+-- Oger_Snow1
+mgr.createEquipset {
+	id = 86,
+	set = {
+	}
+}
+
+-- NPC_DE_Sandppl_Leader
+mgr.createEquipset {
+	id = 88,
+	set = {
+		{ 1026, EQUIPSLOT.AUTO, 0},
+		{ 165, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- GC_ES_ORC_WARRIOR
+mgr.createEquipset {
+	id = 101,
+	set = {
+	}
+}
+
+-- NPC_Cobold_Wolfrider
+mgr.createEquipset {
+	id = 124,
+	set = {
+		{ 118, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- Robber
+mgr.createEquipset {
+	id = 125,
+	set = {
+		{ 433, EQUIPSLOT.AUTO, 0},
+		{ 432, EQUIPSLOT.AUTO, 0},
+		{ 399, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_Undead_Skeleton_Mage
+mgr.createEquipset {
+	id = 126,
+	set = {
+		{ 87, EQUIPSLOT.AUTO, 1},
+	}
+}
+
+-- NPC_Undead_Skeleton_Warrior
+mgr.createEquipset {
+	id = 127,
+	set = {
+		{ 86, EQUIPSLOT.AUTO, 1},
+	}
+}
+
+-- NPC_Undead_Skeleton_Hunter
+mgr.createEquipset {
+	id = 128,
+	set = {
+		{ 939, EQUIPSLOT.AUTO, 1},
+		{ 86, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- Highelf_Priest1
+mgr.createEquipset {
+	id = 129,
+	set = {
+	}
+}
+
+-- Highelf_Soldier_1
+mgr.createEquipset {
+	id = 130,
+	set = {
+		{ 402, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- STartSeraSetQuestgiver
+mgr.createEquipset {
+	id = 132,
+	set = {
+	}
+}
+
+-- Robber_bow
+mgr.createEquipset {
+	id = 133,
+	set = {
+		{ 401, EQUIPSLOT.AUTO, 1},
+		{ 399, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- Robber_throw
+mgr.createEquipset {
+	id = 134,
+	set = {
+		{ 400, EQUIPSLOT.AUTO, 1},
+		{ 399, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- Kohorte_Default
+
+--Default equipment for creatures created by spell kohorte
+
+mgr.createEquipset {
+	id = 136,
+	set = {
+		{ 403, EQUIPSLOT.AUTO, 0},
+		{ 409, EQUIPSLOT.HELMET, 0},
+		{ 408, EQUIPSLOT.CLOTH_CAPE, 0},
+		{ 407, EQUIPSLOT.WEAPON_R, 1},
+	}
+}
+
+-- Pirates_Melee
+mgr.createEquipset {
+	id = 137,
+	set = {
+		{ 411, EQUIPSLOT.AUTO, 0},
+		{ 406, EQUIPSLOT.HELMET, 0},
+	}
+}
+
+-- NPC_Cobold_Hunter_Bow
+mgr.createEquipset {
+	id = 143,
+	set = {
+		{ 123, EQUIPSLOT.AUTO, 1},
+		{ 118, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- Pirates_Captain
+mgr.createEquipset {
+	id = 144,
+	set = {
+		{ 411, EQUIPSLOT.AUTO, 0},
+		{ 412, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- Pirates_Throw
+mgr.createEquipset {
+	id = 145,
+	set = {
+		{ 413, EQUIPSLOT.AUTO, 0},
+		{ 406, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- Pirates_Bow
+mgr.createEquipset {
+	id = 146,
+	set = {
+		{ 406, EQUIPSLOT.AUTO, 0},
+		{ 414, EQUIPSLOT.AUTO, 1},
+		{ 411, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- Job_Soldier
+mgr.createEquipset {
+	id = 147,
+	set = {
+	}
+}
+
+-- Legion_General_eq
+mgr.createEquipset {
+	id = 148,
+	set = {
+		{ 426, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_Guard
+mgr.createEquipset {
+	id = 149,
+	set = {
+		{ 427, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_BOSS_WATERC_Arm
+mgr.createEquipset {
+	id = 150,
+	set = {
+		{ 431, EQUIPSLOT.AUTO, 0},
+		{ 430, EQUIPSLOT.AUTO, 0},
+		{ 429, EQUIPSLOT.AUTO, 0},
+		{ 428, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_HU_VIKING_Equipzeugs
+mgr.createEquipset {
+	id = 151,
+	set = {
+		{ 436, EQUIPSLOT.AUTO, 0},
+		{ 437, EQUIPSLOT.AUTO, 0},
+		{ 435, EQUIPSLOT.AUTO, 0},
+		{ 434, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- Robber_2wk
+mgr.createEquipset {
+	id = 152,
+	set = {
+		{ 413, EQUIPSLOT.WEAPON_R, 1},
+		{ 413, EQUIPSLOT.WEAPON_L, 1},
+	}
+}
+
+-- NPC_cow
+mgr.createEquipset {
+	id = 154,
+	set = {
+		{ 439, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_HE_robber_throw_start_eq
+mgr.createEquipset {
+	id = 155,
+	set = {
+		{ 450, EQUIPSLOT.AUTO, 0},
+		{ 441, EQUIPSLOT.AUTO, 1},
+		{ 442, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- NPC_HE_robber_easy_start_eq
+mgr.createEquipset {
+	id = 156,
+	set = {
+		{ 443, EQUIPSLOT.AUTO, 0},
+		{ 450, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_HE_robber_good_start_eq
+mgr.createEquipset {
+	id = 157,
+	set = {
+		{ 443, EQUIPSLOT.AUTO, 0},
+		{ 450, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_HE_robber_GC2_eq
+mgr.createEquipset {
+	id = 158,
+	set = {
+		{ 450, EQUIPSLOT.AUTO, 0},
+		{ 447, EQUIPSLOT.AUTO, 1},
+		{ 447, EQUIPSLOT.AUTO, 1},
+	}
+}
+
+-- NPC_HE_robber_bow
+mgr.createEquipset {
+	id = 159,
+	set = {
+		{ 450, EQUIPSLOT.AUTO, 0},
+		{ 448, EQUIPSLOT.AUTO, 1},
+		{ 449, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- NPC_HE_robber_easy_city_eq
+mgr.createEquipset {
+	id = 160,
+	set = {
+		{ 444, EQUIPSLOT.AUTO, 0},
+		{ 450, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_HE_robber_throw_city_eq
+mgr.createEquipset {
+	id = 161,
+	set = {
+		{ 450, EQUIPSLOT.AUTO, 0},
+		{ 441, EQUIPSLOT.AUTO, 1},
+		{ 445, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- NPC_HE_robber_good_city_eq
+mgr.createEquipset {
+	id = 162,
+	set = {
+		{ 446, EQUIPSLOT.AUTO, 0},
+		{ 450, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_HE_pirates_throw_start_eq
+mgr.createEquipset {
+	id = 163,
+	set = {
+		{ 459, EQUIPSLOT.AUTO, 0},
+		{ 889, EQUIPSLOT.AUTO, 1},
+		{ 451, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- NPC_HE_pirates_throw_sea_eq
+mgr.createEquipset {
+	id = 164,
+	set = {
+		{ 459, EQUIPSLOT.AUTO, 0},
+		{ 889, EQUIPSLOT.AUTO, 1},
+		{ 452, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- NPC_HE_pirates_cc_start_eq
+mgr.createEquipset {
+	id = 165,
+	set = {
+		{ 459, EQUIPSLOT.AUTO, 0},
+		{ 453, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_HE_pirates_cc_sea_eq_magic
+mgr.createEquipset {
+	id = 166,
+	set = {
+		{ 457, EQUIPSLOT.AUTO, 0},
+		{ 459, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_HE_pirates_bow_start_eq
+mgr.createEquipset {
+	id = 167,
+	set = {
+		{ 459, EQUIPSLOT.AUTO, 0},
+		{ 454, EQUIPSLOT.AUTO, 1},
+		{ 455, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- NPC_HE_pirates_bow_sea_eq
+mgr.createEquipset {
+	id = 168,
+	set = {
+		{ 459, EQUIPSLOT.AUTO, 0},
+		{ 953, EQUIPSLOT.AUTO, 1},
+		{ 456, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- NPC_HE_pirates_captain_eq
+mgr.createEquipset {
+	id = 169,
+	set = {
+		{ 458, EQUIPSLOT.AUTO, 0},
+		{ 460, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_HU_cult_hunter_nk_eq
+mgr.createEquipset {
+	id = 176,
+	set = {
+		{ 1010, EQUIPSLOT.AUTO, 0},
+		{ 474, EQUIPSLOT.AUTO, 0},
+		{ 472, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_HU_cult_hunter_fk_eq
+mgr.createEquipset {
+	id = 177,
+	set = {
+		{ 474, EQUIPSLOT.AUTO, 0},
+		{ 472, EQUIPSLOT.AUTO, 0},
+		{ 888, EQUIPSLOT.AUTO, 1},
+		{ 1009, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- NPC_HU_cult_shaman_earth_eq
+mgr.createEquipset {
+	id = 178,
+	set = {
+		{ 476, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_HU_cult_hunter_fk_elite_eq
+mgr.createEquipset {
+	id = 179,
+	set = {
+		{ 475, EQUIPSLOT.AUTO, 0},
+		{ 473, EQUIPSLOT.AUTO, 0},
+		{ 888, EQUIPSLOT.AUTO, 1},
+		{ 1009, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- NPC_HU_cult_hunter_nk_elite_eq
+mgr.createEquipset {
+	id = 180,
+	set = {
+		{ 1010, EQUIPSLOT.AUTO, 0},
+		{ 475, EQUIPSLOT.AUTO, 0},
+		{ 473, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_HU_cult_shaman_earth_elite_eq
+mgr.createEquipset {
+	id = 181,
+	set = {
+		{ 477, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_HU_cult_shaman_fire_eq
+mgr.createEquipset {
+	id = 182,
+	set = {
+		{ 476, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_HU_cult_shaman_fire_elite_eq
+mgr.createEquipset {
+	id = 183,
+	set = {
+		{ 477, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- Tools_fisher
+mgr.createEquipset {
+	id = 184,
+	set = {
+		{ 478, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_HU_viking_seaman
+mgr.createEquipset {
+	id = 185,
+	set = {
+		{ 437, EQUIPSLOT.AUTO, 0},
+		{ 434, EQUIPSLOT.AUTO, 0},
+		{ 435, EQUIPSLOT.AUTO, 0},
+		{ 436, EQUIPSLOT.AUTO, 0},
+		{ 480, EQUIPSLOT.AUTO, 1},
+		{ 482, EQUIPSLOT.AUTO, 1},
+	}
+}
+
+-- NPC_HU_viking_captain
+mgr.createEquipset {
+	id = 186,
+	set = {
+		{ 480, EQUIPSLOT.AUTO, 0},
+		{ 479, EQUIPSLOT.AUTO, 0},
+		{ 483, EQUIPSLOT.AUTO, 0},
+		{ 436, EQUIPSLOT.AUTO, 1},
+		{ 435, EQUIPSLOT.AUTO, 1},
+	}
+}
+
+-- NPC_HU_viking_fireraiser
+mgr.createEquipset {
+	id = 187,
+	set = {
+		{ 436, EQUIPSLOT.AUTO, 0},
+		{ 437, EQUIPSLOT.AUTO, 0},
+		{ 434, EQUIPSLOT.AUTO, 1},
+		{ 435, EQUIPSLOT.AUTO, 1},
+		{ 945, EQUIPSLOT.AUTO, 1},
+		{ 480, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- NPC_HU_ghost_soldier_nk_eq
+mgr.createEquipset {
+	id = 188,
+	set = {
+		{ 497, EQUIPSLOT.AUTO, 0},
+		{ 496, EQUIPSLOT.AUTO, 0},
+		{ 496, EQUIPSLOT.AUTO, 0},
+		{ 488, EQUIPSLOT.AUTO, 0},
+		{ 495, EQUIPSLOT.AUTO, 0},
+		{ 498, EQUIPSLOT.AUTO, 0},
+		{ 485, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_HU_ghost_soldier_officer_eq
+mgr.createEquipset {
+	id = 189,
+	set = {
+		{ 494, EQUIPSLOT.AUTO, 0},
+		{ 493, EQUIPSLOT.AUTO, 0},
+		{ 489, EQUIPSLOT.AUTO, 0},
+		{ 492, EQUIPSLOT.AUTO, 0},
+		{ 491, EQUIPSLOT.AUTO, 0},
+		{ 490, EQUIPSLOT.AUTO, 0},
+		{ 486, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_HU_slaverobber_eq_NK
+mgr.createEquipset {
+	id = 190,
+	set = {
+		{ 667, EQUIPSLOT.AUTO, 0},
+		{ 500, EQUIPSLOT.AUTO, 0},
+		{ 499, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_HU_slaverobber_assasin_eq
+mgr.createEquipset {
+	id = 191,
+	set = {
+		{ 957, EQUIPSLOT.AUTO, 0},
+		{ 471, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_HU_slaverobber_leader_eq
+mgr.createEquipset {
+	id = 192,
+	set = {
+		{ 1063, EQUIPSLOT.AUTO, 0},
+		{ 469, EQUIPSLOT.AUTO, 0},
+		{ 470, EQUIPSLOT.AUTO, 0},
+		{ 468, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- human_weapon
+mgr.createEquipset {
+	id = 193,
+	set = {
+		{ 399, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_troll_warrior
+mgr.createEquipset {
+	id = 195,
+	set = {
+		{ 572, EQUIPSLOT.AUTO, 0},
+		{ 641, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- ANPC_He_Job_Trader_M
+
+--Head, Hat, Hair and Trader items for 
+--
+--HE Trader MALE
+
+mgr.createEquipset {
+	id = 198,
+	set = {
+	}
+}
+
+-- ANPC_He_Job_Procurator
+
+--Hair, Head, Hat, Special and Tools for
+--
+--HE MALE Procurator
+
+mgr.createEquipset {
+	id = 206,
+	set = {
+	}
+}
+
+-- Job_Caster_HU
+
+--Hat and tools for
+--
+--HE Caster
+
+mgr.createEquipset {
+	id = 216,
+	set = {
+		{ 805, EQUIPSLOT.AUTO, 0},
+		{ 807, EQUIPSLOT.AUTO, 0},
+		{ 822, EQUIPSLOT.AUTO, 1},
+		{ 827, EQUIPSLOT.WEAPON_R, 2},
+		{ 826, EQUIPSLOT.WEAPON_L, 2},
+		{ 829, EQUIPSLOT.WEAPON_L, 3},
+		{ 110, EQUIPSLOT.WEAPON_R, 4},
+		{ 112, EQUIPSLOT.WEAPON_L, 5},
+	}
+}
+
+-- NPC_HU_crusade_soldier_v1_nk
+mgr.createEquipset {
+	id = 219,
+	set = {
+		{ 669, EQUIPSLOT.AUTO, 0},
+		{ 950, EQUIPSLOT.AUTO, 0},
+		{ 590, EQUIPSLOT.AUTO, 0},
+		{ 573, EQUIPSLOT.AUTO, 0},
+		{ 576, EQUIPSLOT.AUTO, 0},
+		{ 574, EQUIPSLOT.AUTO, 0},
+		{ 575, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_HU_crusade_soldier_v1_fk
+mgr.createEquipset {
+	id = 220,
+	set = {
+		{ 617, EQUIPSLOT.AUTO, 0},
+		{ 590, EQUIPSLOT.AUTO, 0},
+		{ 573, EQUIPSLOT.AUTO, 0},
+		{ 576, EQUIPSLOT.AUTO, 0},
+		{ 575, EQUIPSLOT.AUTO, 0},
+		{ 965, EQUIPSLOT.AUTO, 1},
+		{ 950, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- NPC_HU_royal_soldier_v2_nk
+mgr.createEquipset {
+	id = 221,
+	set = {
+		{ 662, EQUIPSLOT.AUTO, 0},
+		{ 591, EQUIPSLOT.AUTO, 0},
+		{ 578, EQUIPSLOT.AUTO, 0},
+		{ 580, EQUIPSLOT.AUTO, 0},
+		{ 579, EQUIPSLOT.AUTO, 0},
+		{ 577, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_HU_royal_soldier_v2_fk
+mgr.createEquipset {
+	id = 222,
+	set = {
+		{ 580, EQUIPSLOT.AUTO, 0},
+		{ 632, EQUIPSLOT.AUTO, 0},
+		{ 591, EQUIPSLOT.AUTO, 0},
+		{ 578, EQUIPSLOT.AUTO, 0},
+		{ 577, EQUIPSLOT.AUTO, 0},
+		{ 401, EQUIPSLOT.AUTO, 1},
+		{ 662, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- NPC_HU_mascarell_soldier_v3_nk
+mgr.createEquipset {
+	id = 223,
+	set = {
+		{ 670, EQUIPSLOT.AUTO, 0},
+		{ 662, EQUIPSLOT.AUTO, 0},
+		{ 592, EQUIPSLOT.AUTO, 0},
+		{ 582, EQUIPSLOT.AUTO, 0},
+		{ 584, EQUIPSLOT.AUTO, 0},
+		{ 583, EQUIPSLOT.AUTO, 0},
+		{ 581, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_HU_mascarell_soldier_v3_fk
+mgr.createEquipset {
+	id = 224,
+	set = {
+		{ 633, EQUIPSLOT.AUTO, 0},
+		{ 582, EQUIPSLOT.AUTO, 0},
+		{ 584, EQUIPSLOT.AUTO, 0},
+		{ 581, EQUIPSLOT.AUTO, 0},
+		{ 592, EQUIPSLOT.AUTO, 0},
+		{ 401, EQUIPSLOT.AUTO, 1},
+		{ 662, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- NPC_HU_demodrey_soldier_v4_nk
+mgr.createEquipset {
+	id = 225,
+	set = {
+		{ 589, EQUIPSLOT.AUTO, 0},
+		{ 586, EQUIPSLOT.AUTO, 0},
+		{ 588, EQUIPSLOT.AUTO, 0},
+		{ 587, EQUIPSLOT.AUTO, 0},
+		{ 585, EQUIPSLOT.AUTO, 0},
+		{ 662, EQUIPSLOT.AUTO, 0},
+		{ 944, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_HU_demodrey_soldier_v4_fk
+mgr.createEquipset {
+	id = 226,
+	set = {
+		{ 634, EQUIPSLOT.AUTO, 0},
+		{ 589, EQUIPSLOT.AUTO, 0},
+		{ 586, EQUIPSLOT.AUTO, 0},
+		{ 588, EQUIPSLOT.AUTO, 0},
+		{ 585, EQUIPSLOT.AUTO, 0},
+		{ 672, EQUIPSLOT.AUTO, 1},
+		{ 662, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- NPC_HU_crusade_officer_v1
+mgr.createEquipset {
+	id = 227,
+	set = {
+		{ 663, EQUIPSLOT.AUTO, 0},
+		{ 631, EQUIPSLOT.AUTO, 0},
+		{ 613, EQUIPSLOT.AUTO, 0},
+		{ 596, EQUIPSLOT.AUTO, 0},
+		{ 594, EQUIPSLOT.AUTO, 0},
+		{ 593, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_HU_royal_officer_v2
+mgr.createEquipset {
+	id = 228,
+	set = {
+		{ 662, EQUIPSLOT.AUTO, 0},
+		{ 614, EQUIPSLOT.AUTO, 0},
+		{ 599, EQUIPSLOT.AUTO, 0},
+		{ 610, EQUIPSLOT.AUTO, 0},
+		{ 598, EQUIPSLOT.AUTO, 0},
+		{ 597, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_HU_mascarell_officer_v3
+mgr.createEquipset {
+	id = 229,
+	set = {
+		{ 662, EQUIPSLOT.AUTO, 0},
+		{ 615, EQUIPSLOT.AUTO, 0},
+		{ 602, EQUIPSLOT.AUTO, 0},
+		{ 611, EQUIPSLOT.AUTO, 0},
+		{ 603, EQUIPSLOT.AUTO, 0},
+		{ 601, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_HU_demodrey_officer_v4
+mgr.createEquipset {
+	id = 230,
+	set = {
+		{ 616, EQUIPSLOT.AUTO, 0},
+		{ 607, EQUIPSLOT.AUTO, 0},
+		{ 612, EQUIPSLOT.AUTO, 0},
+		{ 606, EQUIPSLOT.AUTO, 0},
+		{ 605, EQUIPSLOT.AUTO, 0},
+		{ 662, EQUIPSLOT.AUTO, 0},
+		{ 944, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_HU_soldier_nk
+mgr.createEquipset {
+	id = 231,
+	set = {
+		{ 621, EQUIPSLOT.AUTO, 0},
+		{ 618, EQUIPSLOT.AUTO, 0},
+		{ 622, EQUIPSLOT.AUTO, 0},
+		{ 620, EQUIPSLOT.AUTO, 0},
+		{ 619, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_HU_soldier_officer
+mgr.createEquipset {
+	id = 232,
+	set = {
+		{ 628, EQUIPSLOT.AUTO, 0},
+		{ 627, EQUIPSLOT.AUTO, 0},
+		{ 626, EQUIPSLOT.AUTO, 0},
+		{ 625, EQUIPSLOT.AUTO, 0},
+		{ 624, EQUIPSLOT.AUTO, 0},
+		{ 623, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_goblin_warrior
+mgr.createEquipset {
+	id = 233,
+	set = {
+		{ 647, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_goblin_hunter
+mgr.createEquipset {
+	id = 234,
+	set = {
+		{ 648, EQUIPSLOT.AUTO, 1},
+		{ 647, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- NPC_goblin_officer
+mgr.createEquipset {
+	id = 235,
+	set = {
+		{ 655, EQUIPSLOT.AUTO, 0},
+		{ 647, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_goblin_light
+mgr.createEquipset {
+	id = 236,
+	set = {
+		{ 647, EQUIPSLOT.AUTO, 0},
+		{ 654, EQUIPSLOT.AUTO, 0},
+		{ 652, EQUIPSLOT.AUTO, 0},
+		{ 650, EQUIPSLOT.AUTO, 0},
+		{ 651, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_goblin_shaman
+mgr.createEquipset {
+	id = 237,
+	set = {
+		{ 649, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_goblin_boarrider_hunter
+mgr.createEquipset {
+	id = 238,
+	set = {
+		{ 653, EQUIPSLOT.AUTO, 1},
+		{ 647, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- NPC_orc_warrior
+mgr.createEquipset {
+	id = 239,
+	set = {
+		{ 637, EQUIPSLOT.AUTO, 1},
+		{ 635, EQUIPSLOT.AUTO, 1},
+	}
+}
+
+-- NPC_orc_shaman
+mgr.createEquipset {
+	id = 241,
+	set = {
+		{ 638, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_orc_hunter
+mgr.createEquipset {
+	id = 242,
+	set = {
+		{ 1000, EQUIPSLOT.AUTO, 1},
+		{ 1015, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- NPC_orc_champ
+mgr.createEquipset {
+	id = 243,
+	set = {
+		{ 636, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_orc_armoured
+mgr.createEquipset {
+	id = 244,
+	set = {
+		{ 636, EQUIPSLOT.AUTO, 1},
+	}
+}
+
+-- NPC_troll_hunter
+mgr.createEquipset {
+	id = 245,
+	set = {
+		{ 642, EQUIPSLOT.AUTO, 1},
+		{ 572, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- NPC_troll_shaman
+mgr.createEquipset {
+	id = 246,
+	set = {
+		{ 720, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_ogre_warrior
+mgr.createEquipset {
+	id = 247,
+	set = {
+		{ 643, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_ogre_champ
+mgr.createEquipset {
+	id = 248,
+	set = {
+		{ 643, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_ogre_hunter
+mgr.createEquipset {
+	id = 249,
+	set = {
+		{ 644, EQUIPSLOT.AUTO, 1},
+		{ 1034, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- NPC_ogre_shaman
+mgr.createEquipset {
+	id = 250,
+	set = {
+		{ 646, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_story_healer_eq
+mgr.createEquipset {
+	id = 252,
+	set = {
+		{ 822, EQUIPSLOT.AUTO, 1},
+		{ 65, EQUIPSLOT.WEAPON_R, 2},
+	}
+}
+
+-- Job_Guard_Officer
+mgr.createEquipset {
+	id = 253,
+	set = {
+		{ 659, EQUIPSLOT.WEAPON_R, 1},
+		{ 661, EQUIPSLOT.SHIELD_L, 1},
+	}
+}
+
+-- NPC_HE_Inqiguard
+mgr.createEquipset {
+	id = 254,
+	set = {
+		{ 664, EQUIPSLOT.WEAPON_R, 1},
+		{ 664, EQUIPSLOT.WEAPON_L, 1},
+	}
+}
+
+-- Job_Guard_Archer
+mgr.createEquipset {
+	id = 255,
+	set = {
+		{ 665, EQUIPSLOT.AUTO, 2},
+		{ 666, EQUIPSLOT.AUTO, 3},
+	}
+}
+
+-- Job_Guard
+mgr.createEquipset {
+	id = 256,
+	set = {
+		{ 659, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- NPC_HU_crusade_mage
+mgr.createEquipset {
+	id = 257,
+	set = {
+		{ 671, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_HU_Jester
+mgr.createEquipset {
+	id = 258,
+	set = {
+		{ 673, EQUIPSLOT.AUTO, 0},
+		{ 346, EQUIPSLOT.AUTO, 1},
+		{ 18, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- NPC_HU_Dockcaptain
+mgr.createEquipset {
+	id = 259,
+	set = {
+		{ 674, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_stonecreature_throw
+mgr.createEquipset {
+	id = 260,
+	set = {
+		{ 678, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- COBOLD_TEST2h
+mgr.createEquipset {
+	id = 261,
+	set = {
+		{ 676, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- cobo_test_wings
+mgr.createEquipset {
+	id = 262,
+	set = {
+		{ 677, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_sera_sophia
+mgr.createEquipset {
+	id = 264,
+	set = {
+		{ 677, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- Throwtest
+mgr.createEquipset {
+	id = 265,
+	set = {
+		{ 679, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_OR_STORY_SPY_1H
+mgr.createEquipset {
+	id = 267,
+	set = {
+		{ 681, EQUIPSLOT.WEAPON_R, 1},
+	}
+}
+
+-- NPC_QUEST_SHAMAN
+mgr.createEquipset {
+	id = 268,
+	set = {
+	}
+}
+
+-- NPC_SE_dragoncult_fighter_green_close
+mgr.createEquipset {
+	id = 269,
+	set = {
+		{ 713, EQUIPSLOT.AUTO, 0},
+		{ 690, EQUIPSLOT.AUTO, 0},
+		{ 684, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_SE_dragoncult_fighter_green_ranged
+mgr.createEquipset {
+	id = 270,
+	set = {
+		{ 713, EQUIPSLOT.AUTO, 0},
+		{ 684, EQUIPSLOT.AUTO, 0},
+		{ 691, EQUIPSLOT.AUTO, 1},
+		{ 690, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- NPC_SE_dragoncult_lead_green
+mgr.createEquipset {
+	id = 271,
+	set = {
+		{ 692, EQUIPSLOT.AUTO, 0},
+		{ 688, EQUIPSLOT.AUTO, 0},
+		{ 693, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_SE_dragoncult_fighter_red_close
+mgr.createEquipset {
+	id = 272,
+	set = {
+		{ 690, EQUIPSLOT.AUTO, 0},
+		{ 687, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_SE_dragoncult_fighter_red_ranged
+mgr.createEquipset {
+	id = 273,
+	set = {
+		{ 687, EQUIPSLOT.AUTO, 0},
+		{ 691, EQUIPSLOT.AUTO, 1},
+		{ 690, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- NPC_SE_dragoncult_lead_red
+mgr.createEquipset {
+	id = 274,
+	set = {
+		{ 689, EQUIPSLOT.AUTO, 0},
+		{ 692, EQUIPSLOT.AUTO, 1},
+		{ 690, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- NPC_SE_dragoncult_overseer
+mgr.createEquipset {
+	id = 275,
+	set = {
+		{ 682, EQUIPSLOT.AUTO, 0},
+		{ 683, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_SE_adventurer_expeditionleader
+mgr.createEquipset {
+	id = 276,
+	set = {
+		{ 700, EQUIPSLOT.AUTO, 0},
+		{ 695, EQUIPSLOT.AUTO, 0},
+		{ 702, EQUIPSLOT.AUTO, 0},
+		{ 694, EQUIPSLOT.AUTO, 0},
+		{ 701, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_SE_adventurer_prisoner
+mgr.createEquipset {
+	id = 277,
+	set = {
+		{ 708, EQUIPSLOT.AUTO, 0},
+		{ 705, EQUIPSLOT.AUTO, 0},
+		{ 706, EQUIPSLOT.AUTO, 0},
+		{ 704, EQUIPSLOT.AUTO, 0},
+		{ 707, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_SE_adventurer_bountyhunter
+mgr.createEquipset {
+	id = 278,
+	set = {
+		{ 698, EQUIPSLOT.AUTO, 0},
+		{ 699, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_SE_adventurer_dragonhunter
+mgr.createEquipset {
+	id = 279,
+	set = {
+		{ 703, EQUIPSLOT.AUTO, 0},
+		{ 696, EQUIPSLOT.AUTO, 0},
+		{ 697, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_lizard_hunter
+mgr.createEquipset {
+	id = 280,
+	set = {
+		{ 441, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_lizard_warrior
+mgr.createEquipset {
+	id = 281,
+	set = {
+		{ 729, EQUIPSLOT.AUTO, 1},
+		{ 730, EQUIPSLOT.AUTO, 1},
+	}
+}
+
+-- NPC_lizard_priest
+mgr.createEquipset {
+	id = 282,
+	set = {
+		{ 727, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_lizard_officer
+mgr.createEquipset {
+	id = 283,
+	set = {
+		{ 728, EQUIPSLOT.AUTO, 1},
+	}
+}
+
+-- NPC_lizard_gladiator
+mgr.createEquipset {
+	id = 284,
+	set = {
+		{ 715, EQUIPSLOT.AUTO, 0},
+		{ 712, EQUIPSLOT.AUTO, 0},
+		{ 711, EQUIPSLOT.AUTO, 0},
+		{ 709, EQUIPSLOT.AUTO, 0},
+		{ 710, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_HU_STORY_GUIDE
+mgr.createEquipset {
+	id = 285,
+	set = {
+		{ 714, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_lizard_deathcult_warrior
+mgr.createEquipset {
+	id = 286,
+	set = {
+		{ 730, EQUIPSLOT.AUTO, 0},
+		{ 729, EQUIPSLOT.AUTO, 0},
+		{ 709, EQUIPSLOT.AUTO, 0},
+		{ 715, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_lizard_deathcult_hunter
+mgr.createEquipset {
+	id = 287,
+	set = {
+		{ 715, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_lizard_deathcult_priest
+mgr.createEquipset {
+	id = 288,
+	set = {
+		{ 727, EQUIPSLOT.AUTO, 0},
+		{ 716, EQUIPSLOT.AUTO, 0},
+		{ 721, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_lizard_deathcult_officer
+mgr.createEquipset {
+	id = 289,
+	set = {
+		{ 710, EQUIPSLOT.AUTO, 0},
+		{ 716, EQUIPSLOT.AUTO, 0},
+		{ 728, EQUIPSLOT.AUTO, 0},
+		{ 721, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_lich
+mgr.createEquipset {
+	id = 293,
+	set = {
+	}
+}
+
+-- NPC_orc_elder
+mgr.createEquipset {
+	id = 297,
+	set = {
+		{ 723, EQUIPSLOT.AUTO, 0},
+		{ 722, EQUIPSLOT.AUTO, 0},
+		{ 809, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_grottenolm_elite
+mgr.createEquipset {
+	id = 298,
+	set = {
+		{ 724, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_HU_sheepherd
+mgr.createEquipset {
+	id = 299,
+	set = {
+		{ 726, EQUIPSLOT.AUTO, 0},
+		{ 725, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_lizard_familymember
+mgr.createEquipset {
+	id = 305,
+	set = {
+		{ 719, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_lizard_familyleader
+mgr.createEquipset {
+	id = 306,
+	set = {
+		{ 718, EQUIPSLOT.AUTO, 0},
+		{ 717, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_he_story_contactperson
+mgr.createEquipset {
+	id = 307,
+	set = {
+		{ 731, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- LeeresEquipsetnurfuerfelix
+mgr.createEquipset {
+	id = 308,
+	set = {
+	}
+}
+
+-- NPC_HU_royal_guard_nk
+mgr.createEquipset {
+	id = 309,
+	set = {
+		{ 668, EQUIPSLOT.AUTO, 0},
+		{ 591, EQUIPSLOT.AUTO, 0},
+		{ 578, EQUIPSLOT.AUTO, 0},
+		{ 580, EQUIPSLOT.AUTO, 0},
+		{ 579, EQUIPSLOT.AUTO, 0},
+		{ 577, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_HU_royal_guard_fk
+mgr.createEquipset {
+	id = 310,
+	set = {
+		{ 733, EQUIPSLOT.AUTO, 0},
+		{ 577, EQUIPSLOT.AUTO, 0},
+		{ 591, EQUIPSLOT.AUTO, 0},
+		{ 632, EQUIPSLOT.AUTO, 0},
+		{ 578, EQUIPSLOT.AUTO, 0},
+		{ 665, EQUIPSLOT.AUTO, 1},
+		{ 666, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- NPC_garema_warrior
+mgr.createEquipset {
+	id = 318,
+	set = {
+		{ 1055, EQUIPSLOT.AUTO, 0},
+		{ 800, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_garema_hunter
+mgr.createEquipset {
+	id = 319,
+	set = {
+		{ 1054, EQUIPSLOT.AUTO, 0},
+		{ 801, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_garema_officer
+mgr.createEquipset {
+	id = 320,
+	set = {
+		{ 1055, EQUIPSLOT.AUTO, 0},
+		{ 802, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_garema_shaman
+mgr.createEquipset {
+	id = 321,
+	set = {
+		{ 803, EQUIPSLOT.AUTO, 0},
+		{ 1056, EQUIPSLOT.AUTO, 1},
+		{ 1055, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- Stagingtest_JU
+mgr.createEquipset {
+	id = 322,
+	set = {
+		{ 70, EQUIPSLOT.AUTO, 1},
+	}
+}
+
+-- NPC_story_blackhammer
+mgr.createEquipset {
+	id = 323,
+	set = {
+		{ 786, EQUIPSLOT.AUTO, 0},
+		{ 733, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_stonearmy_leader
+mgr.createEquipset {
+	id = 324,
+	set = {
+		{ 795, EQUIPSLOT.AUTO, 0},
+		{ 797, EQUIPSLOT.AUTO, 0},
+		{ 792, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_stonearmy_leader_elite
+mgr.createEquipset {
+	id = 325,
+	set = {
+		{ 796, EQUIPSLOT.AUTO, 0},
+		{ 798, EQUIPSLOT.AUTO, 0},
+		{ 791, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_stonearmy_archer
+mgr.createEquipset {
+	id = 326,
+	set = {
+		{ 793, EQUIPSLOT.AUTO, 0},
+		{ 790, EQUIPSLOT.AUTO, 1},
+		{ 799, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- NPC_stonearmy_archer_elite
+mgr.createEquipset {
+	id = 327,
+	set = {
+		{ 794, EQUIPSLOT.AUTO, 0},
+		{ 789, EQUIPSLOT.AUTO, 1},
+		{ 799, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- NPC_stonearmy_figther
+mgr.createEquipset {
+	id = 328,
+	set = {
+		{ 787, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- NPC_stonearmy_figther_elite
+mgr.createEquipset {
+	id = 329,
+	set = {
+		{ 788, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- Job_Captain_HU
+mgr.createEquipset {
+	id = 330,
+	set = {
+		{ 810, EQUIPSLOT.AUTO, 0},
+		{ 822, EQUIPSLOT.AUTO, 1},
+		{ 1013, EQUIPSLOT.WEAPON_R, 2},
+	}
+}
+
+-- Job_Captain_HE
+mgr.createEquipset {
+	id = 331,
+	set = {
+		{ 811, EQUIPSLOT.AUTO, 0},
+		{ 822, EQUIPSLOT.AUTO, 1},
+		{ 1013, EQUIPSLOT.WEAPON_R, 2},
+	}
+}
+
+-- NPC_garema_hunter_elite
+mgr.createEquipset {
+	id = 332,
+	set = {
+		{ 1054, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_garema_officer_elite
+mgr.createEquipset {
+	id = 333,
+	set = {
+		{ 1057, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_garema_warrior_elite
+mgr.createEquipset {
+	id = 334,
+	set = {
+		{ 1055, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_garema_shaman_elite
+mgr.createEquipset {
+	id = 335,
+	set = {
+		{ 1056, EQUIPSLOT.AUTO, 1},
+		{ 1055, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- NPC_quest_sword
+mgr.createEquipset {
+	id = 336,
+	set = {
+		{ 813, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_quest_hammer
+mgr.createEquipset {
+	id = 337,
+	set = {
+		{ 814, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_quest_dagger
+mgr.createEquipset {
+	id = 338,
+	set = {
+		{ 818, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_quest_pole
+mgr.createEquipset {
+	id = 339,
+	set = {
+		{ 821, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_quest_saber
+mgr.createEquipset {
+	id = 340,
+	set = {
+		{ 819, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_quest_club
+mgr.createEquipset {
+	id = 341,
+	set = {
+		{ 817, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_quest_axe
+mgr.createEquipset {
+	id = 343,
+	set = {
+		{ 812, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_quest_javelin
+mgr.createEquipset {
+	id = 344,
+	set = {
+		{ 815, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_quest_halberd
+mgr.createEquipset {
+	id = 345,
+	set = {
+		{ 816, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_quest_bastardsword
+mgr.createEquipset {
+	id = 346,
+	set = {
+		{ 820, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- Job_Blacksmith_ORC
+mgr.createEquipset {
+	id = 347,
+	set = {
+		{ 822, EQUIPSLOT.AUTO, 1},
+		{ 113, EQUIPSLOT.WEAPON_L, 2},
+		{ 19, EQUIPSLOT.WEAPON_R, 3},
+		{ 113, EQUIPSLOT.WEAPON_L, 3},
+		{ 363, EQUIPSLOT.WEAPON_L, 4},
+	}
+}
+
+-- Job_Caster_DE
+mgr.createEquipset {
+	id = 348,
+	set = {
+		{ 824, EQUIPSLOT.AUTO, 0},
+		{ 822, EQUIPSLOT.AUTO, 1},
+		{ 827, EQUIPSLOT.WEAPON_R, 2},
+		{ 826, EQUIPSLOT.WEAPON_L, 2},
+		{ 829, EQUIPSLOT.WEAPON_L, 3},
+		{ 110, EQUIPSLOT.WEAPON_R, 4},
+		{ 112, EQUIPSLOT.WEAPON_R, 5},
+	}
+}
+
+-- EmptyEquipset
+mgr.createEquipset {
+	id = 349,
+	set = {
+	}
+}
+
+-- BG_special_frederik
+mgr.createEquipset {
+	id = 350,
+	set = {
+		{ 831, EQUIPSLOT.WEAPON_R, 1},
+		{ 831, EQUIPSLOT.WEAPON_L, 1},
+	}
+}
+
+-- BG_special_Hansi
+mgr.createEquipset {
+	id = 351,
+	set = {
+		{ 833, EQUIPSLOT.WEAPON_R, 1},
+		{ 822, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- BG_special_Andre
+mgr.createEquipset {
+	id = 352,
+	set = {
+		{ 830, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- BG_special_Markus
+mgr.createEquipset {
+	id = 353,
+	set = {
+		{ 832, EQUIPSLOT.WEAPON_R, 1},
+	}
+}
+
+-- NPC_blooddryade_warrior
+mgr.createEquipset {
+	id = 354,
+	set = {
+		{ 851, EQUIPSLOT.AUTO, 0},
+		{ 932, EQUIPSLOT.AUTO, 0},
+		{ 846, EQUIPSLOT.AUTO, 0},
+		{ 847, EQUIPSLOT.AUTO, 0},
+		{ 849, EQUIPSLOT.AUTO, 0},
+		{ 842, EQUIPSLOT.AUTO, 0},
+		{ 838, EQUIPSLOT.AUTO, 0},
+		{ 840, EQUIPSLOT.AUTO, 0},
+		{ 844, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_blooddryade_warrior_elite
+mgr.createEquipset {
+	id = 355,
+	set = {
+		{ 851, EQUIPSLOT.AUTO, 0},
+		{ 932, EQUIPSLOT.AUTO, 0},
+		{ 835, EQUIPSLOT.AUTO, 0},
+		{ 848, EQUIPSLOT.AUTO, 0},
+		{ 850, EQUIPSLOT.AUTO, 0},
+		{ 841, EQUIPSLOT.AUTO, 0},
+		{ 838, EQUIPSLOT.AUTO, 0},
+		{ 839, EQUIPSLOT.AUTO, 0},
+		{ 843, EQUIPSLOT.AUTO, 0},
+		{ 845, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_blooddryade_berserk
+mgr.createEquipset {
+	id = 356,
+	set = {
+		{ 850, EQUIPSLOT.AUTO, 0},
+		{ 851, EQUIPSLOT.WEAPON_R, 0},
+		{ 851, EQUIPSLOT.WEAPON_L, 0},
+		{ 841, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_dryade_fight_warrior
+mgr.createEquipset {
+	id = 357,
+	set = {
+		{ 856, EQUIPSLOT.AUTO, 0},
+		{ 868, EQUIPSLOT.AUTO, 0},
+		{ 869, EQUIPSLOT.AUTO, 0},
+		{ 870, EQUIPSLOT.AUTO, 0},
+		{ 871, EQUIPSLOT.AUTO, 0},
+		{ 854, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_dryade_fight_officer_elite
+mgr.createEquipset {
+	id = 358,
+	set = {
+		{ 855, EQUIPSLOT.AUTO, 0},
+		{ 858, EQUIPSLOT.AUTO, 0},
+		{ 859, EQUIPSLOT.AUTO, 0},
+		{ 860, EQUIPSLOT.AUTO, 0},
+		{ 861, EQUIPSLOT.AUTO, 0},
+		{ 862, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_dryade_fight_hunter_elite
+mgr.createEquipset {
+	id = 359,
+	set = {
+		{ 877, EQUIPSLOT.AUTO, 0},
+		{ 878, EQUIPSLOT.AUTO, 0},
+		{ 876, EQUIPSLOT.AUTO, 0},
+		{ 879, EQUIPSLOT.AUTO, 0},
+		{ 881, EQUIPSLOT.AUTO, 1},
+		{ 874, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- NPC_dryade_fight_hunter
+mgr.createEquipset {
+	id = 360,
+	set = {
+		{ 1072, EQUIPSLOT.AUTO, 0},
+		{ 877, EQUIPSLOT.AUTO, 0},
+		{ 878, EQUIPSLOT.AUTO, 0},
+		{ 876, EQUIPSLOT.AUTO, 0},
+		{ 879, EQUIPSLOT.AUTO, 0},
+		{ 880, EQUIPSLOT.AUTO, 1},
+		{ 875, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- NPC_dryade_fight_mage_elite
+mgr.createEquipset {
+	id = 361,
+	set = {
+		{ 863, EQUIPSLOT.AUTO, 0},
+		{ 867, EQUIPSLOT.AUTO, 0},
+		{ 866, EQUIPSLOT.AUTO, 0},
+		{ 865, EQUIPSLOT.AUTO, 0},
+		{ 853, EQUIPSLOT.AUTO, 0},
+		{ 852, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_dryade_fight_mage
+mgr.createEquipset {
+	id = 362,
+	set = {
+		{ 864, EQUIPSLOT.AUTO, 0},
+		{ 867, EQUIPSLOT.AUTO, 0},
+		{ 865, EQUIPSLOT.AUTO, 0},
+		{ 853, EQUIPSLOT.AUTO, 0},
+		{ 852, EQUIPSLOT.AUTO, 0},
+		{ 866, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_dryade_fight_warrior_elite
+mgr.createEquipset {
+	id = 363,
+	set = {
+		{ 854, EQUIPSLOT.AUTO, 0},
+		{ 872, EQUIPSLOT.AUTO, 0},
+		{ 868, EQUIPSLOT.AUTO, 0},
+		{ 869, EQUIPSLOT.AUTO, 0},
+		{ 870, EQUIPSLOT.AUTO, 0},
+		{ 871, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_dryade_fight_officer
+mgr.createEquipset {
+	id = 364,
+	set = {
+		{ 857, EQUIPSLOT.AUTO, 0},
+		{ 858, EQUIPSLOT.AUTO, 0},
+		{ 859, EQUIPSLOT.AUTO, 0},
+		{ 860, EQUIPSLOT.AUTO, 0},
+		{ 861, EQUIPSLOT.AUTO, 0},
+		{ 862, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_Inquisition_Guard_HE
+mgr.createEquipset {
+	id = 365,
+	set = {
+		{ 883, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_tg_warrior
+mgr.createEquipset {
+	id = 366,
+	set = {
+		{ 884, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_tg_warrior_elite
+mgr.createEquipset {
+	id = 367,
+	set = {
+		{ 885, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_tg_ranged
+mgr.createEquipset {
+	id = 368,
+	set = {
+		{ 886, EQUIPSLOT.WEAPON_R, 1},
+		{ 884, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- NPC_tg_ranged_elite
+mgr.createEquipset {
+	id = 369,
+	set = {
+		{ 887, EQUIPSLOT.WEAPON_R, 1},
+		{ 885, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- Job_Bard_DE
+mgr.createEquipset {
+	id = 370,
+	set = {
+		{ 890, EQUIPSLOT.AUTO, 0},
+		{ 822, EQUIPSLOT.AUTO, 1},
+		{ 346, EQUIPSLOT.AUTO, 2},
+		{ 18, EQUIPSLOT.AUTO, 3},
+	}
+}
+
+-- Job_Bard_HU
+mgr.createEquipset {
+	id = 371,
+	set = {
+		{ 891, EQUIPSLOT.AUTO, 0},
+		{ 822, EQUIPSLOT.AUTO, 1},
+		{ 346, EQUIPSLOT.AUTO, 2},
+		{ 18, EQUIPSLOT.AUTO, 3},
+	}
+}
+
+-- NPC_boss_crystal_eq
+mgr.createEquipset {
+	id = 372,
+	set = {
+		{ 897, EQUIPSLOT.AUTO, 0},
+		{ 893, EQUIPSLOT.AUTO, 0},
+		{ 892, EQUIPSLOT.AUTO, 0},
+		{ 894, EQUIPSLOT.AUTO, 0},
+		{ 896, EQUIPSLOT.AUTO, 0},
+		{ 895, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_DE_guard_nk
+mgr.createEquipset {
+	id = 373,
+	set = {
+		{ 898, EQUIPSLOT.WEAPON_R, 0},
+	}
+}
+
+-- NPC_DE_guard_fk
+mgr.createEquipset {
+	id = 374,
+	set = {
+		{ 666, EQUIPSLOT.AUTO, 0},
+		{ 665, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- Job_Artist_HU
+mgr.createEquipset {
+	id = 375,
+	set = {
+		{ 899, EQUIPSLOT.AUTO, 0},
+		{ 822, EQUIPSLOT.WEAPON_R, 1},
+		{ 55, EQUIPSLOT.AUTO, 2},
+		{ 25, EQUIPSLOT.AUTO, 2},
+		{ 54, EQUIPSLOT.WEAPON_R, 3},
+	}
+}
+
+-- npc_blooddryad_shaman
+mgr.createEquipset {
+	id = 376,
+	set = {
+		{ 963, EQUIPSLOT.AUTO, 0},
+		{ 962, EQUIPSLOT.AUTO, 0},
+		{ 916, EQUIPSLOT.AUTO, 0},
+		{ 961, EQUIPSLOT.AUTO, 0},
+		{ 960, EQUIPSLOT.AUTO, 0},
+		{ 959, EQUIPSLOT.AUTO, 0},
+		{ 958, EQUIPSLOT.AUTO, 0},
+		{ 1069, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- npc_blooddryad_shaman_elite
+mgr.createEquipset {
+	id = 377,
+	set = {
+		{ 958, EQUIPSLOT.AUTO, 0},
+		{ 959, EQUIPSLOT.AUTO, 0},
+		{ 960, EQUIPSLOT.AUTO, 0},
+		{ 961, EQUIPSLOT.AUTO, 0},
+		{ 962, EQUIPSLOT.AUTO, 0},
+		{ 964, EQUIPSLOT.AUTO, 0},
+		{ 963, EQUIPSLOT.AUTO, 0},
+		{ 1069, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_blooddryad_leader
+mgr.createEquipset {
+	id = 380,
+	set = {
+		{ 901, EQUIPSLOT.AUTO, 0},
+		{ 918, EQUIPSLOT.AUTO, 0},
+		{ 920, EQUIPSLOT.AUTO, 0},
+		{ 922, EQUIPSLOT.AUTO, 0},
+		{ 915, EQUIPSLOT.AUTO, 0},
+		{ 924, EQUIPSLOT.AUTO, 0},
+		{ 926, EQUIPSLOT.AUTO, 0},
+		{ 928, EQUIPSLOT.AUTO, 0},
+		{ 851, EQUIPSLOT.WEAPON_R, 1},
+		{ 851, EQUIPSLOT.WEAPON_L, 1},
+	}
+}
+
+-- NPC_blooddryad_leader_elite
+mgr.createEquipset {
+	id = 381,
+	set = {
+		{ 917, EQUIPSLOT.AUTO, 0},
+		{ 919, EQUIPSLOT.AUTO, 0},
+		{ 921, EQUIPSLOT.AUTO, 0},
+		{ 923, EQUIPSLOT.AUTO, 0},
+		{ 915, EQUIPSLOT.AUTO, 0},
+		{ 925, EQUIPSLOT.AUTO, 0},
+		{ 930, EQUIPSLOT.AUTO, 0},
+		{ 929, EQUIPSLOT.AUTO, 0},
+		{ 931, EQUIPSLOT.WEAPON_R, 1},
+		{ 931, EQUIPSLOT.WEAPON_L, 1},
+	}
+}
+
+-- NPC_de_story_alchemist
+
+--Mainquest Desert -> Alchemist
+
+mgr.createEquipset {
+	id = 383,
+	set = {
+		{ 822, EQUIPSLOT.AUTO, 1},
+		{ 826, EQUIPSLOT.WEAPON_L, 2},
+		{ 827, EQUIPSLOT.WEAPON_R, 2},
+		{ 828, EQUIPSLOT.WEAPON_L, 3},
+		{ 110, EQUIPSLOT.WEAPON_R, 4},
+		{ 112, EQUIPSLOT.WEAPON_R, 5},
+	}
+}
+
+-- NPC_de_cow
+mgr.createEquipset {
+	id = 384,
+	set = {
+		{ 933, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- Job_Scribe_HU
+mgr.createEquipset {
+	id = 385,
+	set = {
+		{ 934, EQUIPSLOT.AUTO, 0},
+		{ 822, EQUIPSLOT.AUTO, 1},
+		{ 107, EQUIPSLOT.WEAPON_L, 2},
+		{ 108, EQUIPSLOT.WEAPON_R, 2},
+		{ 110, EQUIPSLOT.WEAPON_R, 3},
+		{ 107, EQUIPSLOT.WEAPON_R, 4},
+	}
+}
+
+-- NPC_DE_guard_mage
+mgr.createEquipset {
+	id = 386,
+	set = {
+		{ 936, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- saddletest
+mgr.createEquipset {
+	id = 387,
+	set = {
+		{ 937, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_Undead_Skeleton_Warrior_elite
+mgr.createEquipset {
+	id = 388,
+	set = {
+		{ 941, EQUIPSLOT.AUTO, 1},
+	}
+}
+
+-- NPC_Undead_Skeleton_Warrior_empty
+mgr.createEquipset {
+	id = 389,
+	set = {
+		{ 942, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- Job_Fieldworker
+mgr.createEquipset {
+	id = 390,
+	set = {
+		{ 109, EQUIPSLOT.WEAPON_R, 1},
+		{ 33, EQUIPSLOT.WEAPON_R, 2},
+		{ 359, EQUIPSLOT.AUTO, 3},
+		{ 349, EQUIPSLOT.AUTO, 4},
+	}
+}
+
+-- NPC_He_inquisitor_start
+mgr.createEquipset {
+	id = 391,
+	set = {
+		{ 822, EQUIPSLOT.AUTO, 1},
+		{ 948, EQUIPSLOT.WEAPON_R, 2},
+	}
+}
+
+-- NPC_he_helf_stat_start
+mgr.createEquipset {
+	id = 392,
+	set = {
+		{ 110, EQUIPSLOT.WEAPON_R, 1},
+	}
+}
+
+-- NPC_DE_Sandppl_Alchemist_Fire
+mgr.createEquipset {
+	id = 393,
+	set = {
+		{ 1022, EQUIPSLOT.AUTO, 0},
+		{ 1028, EQUIPSLOT.AUTO, 1},
+		{ 1026, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- Legion_Skeleton_Champ_Elite
+mgr.createEquipset {
+	id = 395,
+	set = {
+		{ 158, EQUIPSLOT.AUTO, 0},
+		{ 952, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_HE_pirates_bow_sea_eq_magic
+mgr.createEquipset {
+	id = 396,
+	set = {
+		{ 459, EQUIPSLOT.AUTO, 0},
+		{ 454, EQUIPSLOT.AUTO, 1},
+		{ 456, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- NPC_HE_pirates_cc_sea_eq
+mgr.createEquipset {
+	id = 397,
+	set = {
+		{ 459, EQUIPSLOT.AUTO, 0},
+		{ 955, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_HE_pirates_throw_sea_eq_magic
+mgr.createEquipset {
+	id = 398,
+	set = {
+		{ 459, EQUIPSLOT.AUTO, 0},
+		{ 956, EQUIPSLOT.AUTO, 1},
+		{ 452, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- NPC_HU_crusade_soldier_v1_fk_elite
+mgr.createEquipset {
+	id = 399,
+	set = {
+		{ 590, EQUIPSLOT.AUTO, 0},
+		{ 573, EQUIPSLOT.AUTO, 0},
+		{ 576, EQUIPSLOT.AUTO, 0},
+		{ 617, EQUIPSLOT.AUTO, 0},
+		{ 575, EQUIPSLOT.AUTO, 0},
+		{ 965, EQUIPSLOT.AUTO, 1},
+		{ 950, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- NPC_HU_crusade_soldier_v1_nk_elite
+mgr.createEquipset {
+	id = 400,
+	set = {
+		{ 966, EQUIPSLOT.AUTO, 0},
+		{ 669, EQUIPSLOT.AUTO, 0},
+		{ 590, EQUIPSLOT.AUTO, 0},
+		{ 573, EQUIPSLOT.AUTO, 0},
+		{ 576, EQUIPSLOT.AUTO, 0},
+		{ 574, EQUIPSLOT.AUTO, 0},
+		{ 575, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_helf_archaeologist_mainq_BAD
+mgr.createEquipset {
+	id = 401,
+	set = {
+		{ 1007, EQUIPSLOT.AUTO, 0},
+		{ 969, EQUIPSLOT.SHOULDER, 0},
+		{ 994, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_helf_archaeologist_mainq_good
+mgr.createEquipset {
+	id = 402,
+	set = {
+		{ 1008, EQUIPSLOT.AUTO, 0},
+		{ 968, EQUIPSLOT.SHOULDER, 0},
+		{ 994, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- npc_sera_green_eq
+mgr.createEquipset {
+	id = 403,
+	set = {
+		{ 972, EQUIPSLOT.AUTO, 0},
+		{ 989, EQUIPSLOT.AUTO, 0},
+		{ 985, EQUIPSLOT.AUTO, 0},
+		{ 983, EQUIPSLOT.AUTO, 0},
+		{ 979, EQUIPSLOT.AUTO, 0},
+		{ 977, EQUIPSLOT.AUTO, 0},
+		{ 976, EQUIPSLOT.AUTO, 0},
+		{ 992, EQUIPSLOT.AUTO, 0},
+		{ 996, EQUIPSLOT.AUTO, 0},
+		{ 1065, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- npc_sera_blue_eq
+mgr.createEquipset {
+	id = 404,
+	set = {
+		{ 971, EQUIPSLOT.AUTO, 0},
+		{ 990, EQUIPSLOT.AUTO, 0},
+		{ 988, EQUIPSLOT.AUTO, 0},
+		{ 986, EQUIPSLOT.AUTO, 0},
+		{ 981, EQUIPSLOT.AUTO, 0},
+		{ 978, EQUIPSLOT.AUTO, 0},
+		{ 975, EQUIPSLOT.AUTO, 0},
+		{ 993, EQUIPSLOT.AUTO, 0},
+		{ 997, EQUIPSLOT.AUTO, 0},
+		{ 1064, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- npc_sera_beige_eq
+mgr.createEquipset {
+	id = 405,
+	set = {
+		{ 970, EQUIPSLOT.AUTO, 0},
+		{ 973, EQUIPSLOT.AUTO, 0},
+		{ 987, EQUIPSLOT.AUTO, 0},
+		{ 984, EQUIPSLOT.AUTO, 0},
+		{ 982, EQUIPSLOT.AUTO, 0},
+		{ 980, EQUIPSLOT.AUTO, 0},
+		{ 974, EQUIPSLOT.AUTO, 0},
+		{ 991, EQUIPSLOT.AUTO, 0},
+		{ 995, EQUIPSLOT.AUTO, 0},
+		{ 1064, EQUIPSLOT.WEAPON_L, 0},
+		{ 1064, EQUIPSLOT.WEAPON_R, 0},
+	}
+}
+
+-- NPC_HE_Soldier_Tutorial_wpn
+mgr.createEquipset {
+	id = 406,
+	set = {
+		{ 946, EQUIPSLOT.AUTO, 1},
+		{ 659, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- NPC_Cobold_Mage_elite_fire
+mgr.createEquipset {
+	id = 408,
+	set = {
+		{ 999, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_HE_story_Brigand
+mgr.createEquipset {
+	id = 409,
+	set = {
+		{ 444, EQUIPSLOT.AUTO, 0},
+		{ 1001, EQUIPSLOT.AUTO, 0},
+		{ 1002, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_HE_story_Brigand_LEAD
+mgr.createEquipset {
+	id = 410,
+	set = {
+		{ 444, EQUIPSLOT.AUTO, 0},
+		{ 1004, EQUIPSLOT.AUTO, 0},
+		{ 1003, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_HE_mainq_Crystalsmuggler
+mgr.createEquipset {
+	id = 411,
+	set = {
+		{ 1005, EQUIPSLOT.HELMET, 0},
+		{ 822, EQUIPSLOT.AUTO, 1},
+		{ 827, EQUIPSLOT.WEAPON_R, 2},
+	}
+}
+
+-- NPC_HE_mainq_ClericSpy
+mgr.createEquipset {
+	id = 412,
+	set = {
+		{ 1006, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- EMPTY
+mgr.createEquipset {
+	id = 413,
+	set = {
+	}
+}
+
+-- Job_Caster_ORK
+mgr.createEquipset {
+	id = 414,
+	set = {
+		{ 822, EQUIPSLOT.AUTO, 1},
+		{ 826, EQUIPSLOT.WEAPON_L, 2},
+		{ 827, EQUIPSLOT.WEAPON_R, 2},
+		{ 829, EQUIPSLOT.WEAPON_L, 3},
+		{ 112, EQUIPSLOT.WEAPON_L, 5},
+	}
+}
+
+-- Job_Caster_DRY
+mgr.createEquipset {
+	id = 415,
+	set = {
+		{ 822, EQUIPSLOT.AUTO, 1},
+		{ 827, EQUIPSLOT.WEAPON_R, 2},
+		{ 826, EQUIPSLOT.WEAPON_L, 2},
+		{ 829, EQUIPSLOT.WEAPON_L, 3},
+		{ 110, EQUIPSLOT.WEAPON_R, 4},
+		{ 112, EQUIPSLOT.WEAPON_R, 5},
+	}
+}
+
+-- NPC_HU_confused_archeologist
+mgr.createEquipset {
+	id = 416,
+	set = {
+		{ 1014, EQUIPSLOT.AUTO, 0},
+		{ 704, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_DE_Sandppl_Alchemist_Fire_elite
+mgr.createEquipset {
+	id = 417,
+	set = {
+		{ 1024, EQUIPSLOT.AUTO, 0},
+		{ 1028, EQUIPSLOT.AUTO, 1},
+		{ 1026, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- NPC_DE_Sandppl_Alchemist_Magic
+mgr.createEquipset {
+	id = 418,
+	set = {
+		{ 1023, EQUIPSLOT.AUTO, 0},
+		{ 1028, EQUIPSLOT.AUTO, 1},
+		{ 1026, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- NPC_DE_Sandppl_Alchemist_Magic_elite
+mgr.createEquipset {
+	id = 419,
+	set = {
+		{ 1025, EQUIPSLOT.AUTO, 0},
+		{ 1028, EQUIPSLOT.AUTO, 1},
+		{ 1026, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- NPC_DE_Sandppl_Leader_elite
+mgr.createEquipset {
+	id = 420,
+	set = {
+		{ 1027, EQUIPSLOT.AUTO, 0},
+		{ 1016, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_DE_Sandppl_Warrior_elite
+mgr.createEquipset {
+	id = 421,
+	set = {
+		{ 1017, EQUIPSLOT.AUTO, 0},
+		{ 1033, EQUIPSLOT.WEAPON_L, 1},
+		{ 1027, EQUIPSLOT.WEAPON_R, 1},
+	}
+}
+
+-- NPC_DE_Sandppl_Warrior_2
+mgr.createEquipset {
+	id = 422,
+	set = {
+		{ 1026, EQUIPSLOT.AUTO, 0},
+		{ 1018, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_DE_Sandppl_Warrior_3
+mgr.createEquipset {
+	id = 423,
+	set = {
+		{ 1026, EQUIPSLOT.AUTO, 0},
+		{ 1019, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_DE_Sandppl_Rider
+mgr.createEquipset {
+	id = 424,
+	set = {
+		{ 1021, EQUIPSLOT.AUTO, 0},
+		{ 1026, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_story_aussenposten_cj
+mgr.createEquipset {
+	id = 426,
+	set = {
+		{ 822, EQUIPSLOT.AUTO, 1},
+		{ 357, EQUIPSLOT.WEAPON_L, 2},
+	}
+}
+
+-- NPC_TG_startscene_hack
+mgr.createEquipset {
+	id = 427,
+	set = {
+		{ 822, EQUIPSLOT.AUTO, 0},
+		{ 1035, EQUIPSLOT.WEAPON_R, 2},
+	}
+}
+
+-- NPC_Archerer_barons_daughter
+mgr.createEquipset {
+	id = 428,
+	set = {
+		{ 1062, EQUIPSLOT.AUTO, 1},
+	}
+}
+
+-- NPC_de_statist_talent
+mgr.createEquipset {
+	id = 429,
+	set = {
+		{ 898, EQUIPSLOT.WEAPON_R, 0},
+		{ 822, EQUIPSLOT.AUTO, 1},
+	}
+}
+
+-- npc_lizard_statist
+mgr.createEquipset {
+	id = 430,
+	set = {
+		{ 1037, EQUIPSLOT.AUTO, 0},
+		{ 1038, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_Sera_Guard
+mgr.createEquipset {
+	id = 431,
+	set = {
+	}
+}
+
+-- Job_fieldworker_HU_FEMALE
+mgr.createEquipset {
+	id = 432,
+	set = {
+		{ 822, EQUIPSLOT.AUTO, 1},
+		{ 33, EQUIPSLOT.WEAPON_R, 2},
+		{ 359, EQUIPSLOT.AUTO, 3},
+		{ 349, EQUIPSLOT.AUTO, 4},
+		{ 109, EQUIPSLOT.WEAPON_R, 5},
+	}
+}
+
+-- NPC_minotaur
+mgr.createEquipset {
+	id = 433,
+	set = {
+		{ 1047, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- Tenergy-distance
+mgr.createEquipset {
+	id = 434,
+	set = {
+		{ 1053, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_HU_slaverobber_eq_FK_lead_bow
+mgr.createEquipset {
+	id = 435,
+	set = {
+		{ 500, EQUIPSLOT.AUTO, 0},
+		{ 499, EQUIPSLOT.AUTO, 0},
+		{ 1062, EQUIPSLOT.AUTO, 1},
+		{ 667, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- NPC_HU_slaverobber_eq_FK_bow_throw
+mgr.createEquipset {
+	id = 436,
+	set = {
+		{ 499, EQUIPSLOT.AUTO, 0},
+		{ 1058, EQUIPSLOT.AUTO, 1},
+		{ 1059, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- NPC_HU_slaverobber_eq_FK_throw
+mgr.createEquipset {
+	id = 437,
+	set = {
+		{ 500, EQUIPSLOT.AUTO, 0},
+		{ 499, EQUIPSLOT.AUTO, 0},
+		{ 1061, EQUIPSLOT.AUTO, 1},
+		{ 1059, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- NPC_HU_slaverobber_leader_eq_elite
+mgr.createEquipset {
+	id = 438,
+	set = {
+		{ 469, EQUIPSLOT.AUTO, 0},
+		{ 470, EQUIPSLOT.AUTO, 0},
+		{ 468, EQUIPSLOT.AUTO, 0},
+		{ 1062, EQUIPSLOT.AUTO, 1},
+		{ 1063, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- Job_Dockworker_DRY
+mgr.createEquipset {
+	id = 439,
+	set = {
+		{ 1071, EQUIPSLOT.AUTO, 0},
+		{ 822, EQUIPSLOT.AUTO, 1},
+		{ 64, EQUIPSLOT.WEAPON_R, 2},
+		{ 52, EQUIPSLOT.WEAPON_R, 3},
+		{ 59, EQUIPSLOT.WEAPON_R, 4},
+	}
+}
+
+-- NPC_Cobold_Warrior_Poison
+mgr.createEquipset {
+	id = 440,
+	set = {
+		{ 157, EQUIPSLOT.AUTO, 1},
+		{ 951, EQUIPSLOT.AUTO, 1},
+	}
+}
+
+-- NPC_Cobold_Hunter_Bow_Poison
+mgr.createEquipset {
+	id = 441,
+	set = {
+		{ 1073, EQUIPSLOT.AUTO, 1},
+		{ 118, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- NPC_Buero_cbus_staff
+mgr.createEquipset {
+	id = 442,
+	set = {
+		{ 1074, EQUIPSLOT.WEAPON_R, 1},
+	}
+}
+
+-- npc_blooddryad_ghost
+mgr.createEquipset {
+	id = 443,
+	set = {
+		{ 851, EQUIPSLOT.AUTO, 0},
+		{ 1077, EQUIPSLOT.AUTO, 0},
+		{ 1078, EQUIPSLOT.AUTO, 0},
+		{ 1079, EQUIPSLOT.AUTO, 0},
+		{ 1082, EQUIPSLOT.AUTO, 0},
+		{ 1081, EQUIPSLOT.AUTO, 0},
+		{ 1075, EQUIPSLOT.AUTO, 0},
+		{ 1080, EQUIPSLOT.AUTO, 0},
+		{ 1076, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- npc_goblin_ghost
+mgr.createEquipset {
+	id = 444,
+	set = {
+		{ 1083, EQUIPSLOT.AUTO, 0},
+		{ 1087, EQUIPSLOT.AUTO, 0},
+		{ 1086, EQUIPSLOT.AUTO, 0},
+		{ 1085, EQUIPSLOT.AUTO, 0},
+		{ 1084, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- CS_dryade_klon
+mgr.createEquipset {
+	id = 445,
+	set = {
+		{ 823, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_demon_warrior_elite
+mgr.createEquipset {
+	id = 447,
+	set = {
+		{ 1089, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_demon_mage_elite
+mgr.createEquipset {
+	id = 448,
+	set = {
+		{ 1090, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_ORC_cleader_banner_red
+mgr.createEquipset {
+	id = 449,
+	set = {
+		{ 1091, EQUIPSLOT.AUTO, 0},
+		{ 80, EQUIPSLOT.WEAPON_R, 1},
+	}
+}
+
+-- NPC_ORC_cleader_banner_blue
+mgr.createEquipset {
+	id = 450,
+	set = {
+		{ 1093, EQUIPSLOT.AUTO, 0},
+		{ 80, EQUIPSLOT.WEAPON_R, 1},
+	}
+}
+
+-- Boss_mainq_Inq_Mentor_staff
+mgr.createEquipset {
+	id = 451,
+	set = {
+		{ 1094, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- MB_minotaur
+mgr.createEquipset {
+	id = 452,
+	set = {
+		{ 1097, EQUIPSLOT.AUTO, 0},
+		{ 1098, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- MB_highelf_mage_healer
+mgr.createEquipset {
+	id = 453,
+	set = {
+		{ 1100, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- MB_highelf_soldier
+mgr.createEquipset {
+	id = 454,
+	set = {
+		{ 1099, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- MB_werewolf
+mgr.createEquipset {
+	id = 455,
+	set = {
+		{ 1102, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_helf_Verlobte
+mgr.createEquipset {
+	id = 456,
+	set = {
+		{ 822, EQUIPSLOT.AUTO, 1},
+		{ 827, EQUIPSLOT.WEAPON_R, 2},
+	}
+}
+
+-- NPC_lizard_deathcult_quest
+mgr.createEquipset {
+	id = 457,
+	set = {
+		{ 721, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- XMAS_npc_bear_boss
+mgr.createEquipset {
+	id = 458,
+	set = {
+		{ 1104, EQUIPSLOT.AUTO, 0},
+		{ 1103, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_yeti_warrior
+mgr.createEquipset {
+	id = 459,
+	set = {
+		{ 1105, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- XMAS_Gundulph
+mgr.createEquipset {
+	id = 460,
+	set = {
+		{ 1106, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- xmas_dog_reindeer
+mgr.createEquipset {
+	id = 461,
+	set = {
+		{ 1107, EQUIPSLOT.HELMET, 0},
+	}
+}
+
+-- XMAS_ghost_wpn_nk
+mgr.createEquipset {
+	id = 462,
+	set = {
+		{ 486, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- XMAS_ghost_wpn_mage
+mgr.createEquipset {
+	id = 463,
+	set = {
+		{ 485, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- XMAS_ghost_wpn_bow
+mgr.createEquipset {
+	id = 464,
+	set = {
+		{ 487, EQUIPSLOT.AUTO, 1},
+		{ 485, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- NPC_Cobold_Warrior_lowpoly
+mgr.createEquipset {
+	id = 465,
+	set = {
+		{ 1095, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_HU_rabbitcult_1
+mgr.createEquipset {
+	id = 466,
+	set = {
+		{ 1108, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_HU_rabbitcult_2
+mgr.createEquipset {
+	id = 467,
+	set = {
+		{ 1109, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_troll_warrior_proto
+mgr.createEquipset {
+	id = 468,
+	set = {
+		{ 572, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_wolf_horns
+mgr.createEquipset {
+	id = 469,
+	set = {
+		{ 1110, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_panther_horns
+mgr.createEquipset {
+	id = 470,
+	set = {
+		{ 1111, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_BF_witch
+mgr.createEquipset {
+	id = 471,
+	set = {
+		{ 1112, EQUIPSLOT.AUTO, 0},
+		{ 1136, EQUIPSLOT.AUTO, 0},
+		{ 1135, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_BF_envoy_servant_equip
+mgr.createEquipset {
+	id = 472,
+	set = {
+		{ 1152, EQUIPSLOT.AUTO, 0},
+		{ 1113, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_BF_livingarmour_gold
+mgr.createEquipset {
+	id = 473,
+	set = {
+		{ 950, EQUIPSLOT.AUTO, 0},
+		{ 1122, EQUIPSLOT.AUTO, 0},
+		{ 1118, EQUIPSLOT.AUTO, 0},
+		{ 1117, EQUIPSLOT.AUTO, 0},
+		{ 1115, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_BF_livingarmour_silver
+mgr.createEquipset {
+	id = 474,
+	set = {
+		{ 950, EQUIPSLOT.AUTO, 0},
+		{ 1123, EQUIPSLOT.AUTO, 0},
+		{ 1119, EQUIPSLOT.AUTO, 0},
+		{ 1116, EQUIPSLOT.AUTO, 0},
+		{ 1114, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- HERO_INITIAL_DRAGONMAGE
+mgr.createEquipset {
+	id = 475,
+	set = {
+		{ 1126, EQUIPSLOT.AUTO, 0},
+		{ 1138, EQUIPSLOT.AUTO, 0},
+		{ 167, EQUIPSLOT.AUTO, 0},
+		{ 167, EQUIPSLOT.AUTO, 0},
+		{ 167, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_flyingeye_equip
+mgr.createEquipset {
+	id = 476,
+	set = {
+		{ 1134, EQUIPSLOT.AUTO, 0},
+		{ 1133, EQUIPSLOT.AUTO, 0},
+		{ 1132, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_BF_mastereye_equip
+mgr.createEquipset {
+	id = 477,
+	set = {
+		{ 1137, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- saddlebtest
+mgr.createEquipset {
+	id = 478,
+	set = {
+		{ 1139, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_crystal_skeleton
+mgr.createEquipset {
+	id = 479,
+	set = {
+		{ 1141, EQUIPSLOT.AUTO, 0},
+		{ 1140, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_crystal_skeleton_elite
+mgr.createEquipset {
+	id = 480,
+	set = {
+		{ 1142, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_BF_envoy
+mgr.createEquipset {
+	id = 481,
+	set = {
+		{ 1153, EQUIPSLOT.AUTO, 0},
+		{ 1151, EQUIPSLOT.AUTO, 0},
+		{ 1146, EQUIPSLOT.AUTO, 0},
+		{ 1145, EQUIPSLOT.AUTO, 0},
+		{ 1144, EQUIPSLOT.AUTO, 0},
+		{ 1143, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_BF_envoy_elite
+mgr.createEquipset {
+	id = 482,
+	set = {
+		{ 1160, EQUIPSLOT.AUTO, 0},
+		{ 1174, EQUIPSLOT.AUTO, 0},
+		{ 1172, EQUIPSLOT.AUTO, 0},
+		{ 1170, EQUIPSLOT.AUTO, 0},
+		{ 1168, EQUIPSLOT.AUTO, 0},
+		{ 1166, EQUIPSLOT.AUTO, 0},
+		{ 1164, EQUIPSLOT.AUTO, 0},
+		{ 1162, EQUIPSLOT.AUTO, 0},
+		{ 1150, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_Classquest_DM_DM
+mgr.createEquipset {
+	id = 483,
+	set = {
+		{ 417, EQUIPSLOT.AUTO, 0},
+		{ 1127, EQUIPSLOT.AUTO, 0},
+		{ 1128, EQUIPSLOT.AUTO, 0},
+		{ 1125, EQUIPSLOT.AUTO, 0},
+		{ 1129, EQUIPSLOT.AUTO, 0},
+		{ 1126, EQUIPSLOT.AUTO, 0},
+		{ 1131, EQUIPSLOT.AUTO, 0},
+		{ 1130, EQUIPSLOT.AUTO, 0},
+		{ 1124, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_BF_schemen_blue
+mgr.createEquipset {
+	id = 484,
+	set = {
+		{ 1158, EQUIPSLOT.AUTO, 0},
+		{ 1159, EQUIPSLOT.AUTO, 0},
+		{ 1156, EQUIPSLOT.AUTO, 0},
+		{ 1157, EQUIPSLOT.AUTO, 0},
+		{ 1155, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_BF_envoy_servant_equip_hunter
+mgr.createEquipset {
+	id = 485,
+	set = {
+		{ 1113, EQUIPSLOT.AUTO, 0},
+		{ 1054, EQUIPSLOT.AUTO, 1},
+		{ 1152, EQUIPSLOT.AUTO, 2},
+	}
+}
+
+-- NPC_BF_envoy_servant_equip_elite
+mgr.createEquipset {
+	id = 486,
+	set = {
+		{ 1150, EQUIPSLOT.AUTO, 0},
+		{ 1113, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- NPC_BF_envoy_boss
+mgr.createEquipset {
+	id = 487,
+	set = {
+		{ 1150, EQUIPSLOT.WEAPON_L, 0},
+		{ 1150, EQUIPSLOT.WEAPON_R, 0},
+		{ 1173, EQUIPSLOT.AUTO, 0},
+		{ 1171, EQUIPSLOT.AUTO, 0},
+		{ 1169, EQUIPSLOT.AUTO, 0},
+		{ 1167, EQUIPSLOT.AUTO, 0},
+		{ 1165, EQUIPSLOT.AUTO, 0},
+		{ 1163, EQUIPSLOT.AUTO, 0},
+		{ 1161, EQUIPSLOT.AUTO, 0},
+		{ 1160, EQUIPSLOT.AUTO, 0},
+	}
+}
+
+-- npc_sera_ingenieur
+mgr.createEquipset {
+	id = 488,
+	set = {
+		{ 986, EQUIPSLOT.AUTO, 0},
+		{ 971, EQUIPSLOT.AUTO, 0},
+		{ 990, EQUIPSLOT.AUTO, 0},
+		{ 988, EQUIPSLOT.AUTO, 0},
+		{ 981, EQUIPSLOT.AUTO, 0},
+		{ 997, EQUIPSLOT.AUTO, 0},
+		{ 978, EQUIPSLOT.AUTO, 0},
+		{ 975, EQUIPSLOT.AUTO, 0},
+		{ 993, EQUIPSLOT.AUTO, 0},
+		{ 19, EQUIPSLOT.AUTO, 0},
+	}
+}
+

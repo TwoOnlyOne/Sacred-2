@@ -1,0 +1,8249 @@
+-- DO NOT EDIT - AUTOMATICALLY GENERATED --
+-- vim:ft=lua ts=2 nu
+-- exported by: konverter@BUILDSERVER
+-- exported at: 07/28/09 20:59:59
+-- exporter version: 1.0.0.131
+-- exported to: faction.txt
+
+
+mgr.addFaction { 
+	id = 1,
+	name = "FACTION_INVALID",
+}
+
+mgr.addFaction { 
+	id = 5,
+	name = "FACTION_ATMO",
+}
+
+mgr.addFaction { 
+	id = 8,
+	name = "FACTION_HERO_GOOD",
+}
+
+mgr.addFaction { 
+	id = 9,
+	name = "FACTION_HERO_BAD",
+}
+
+mgr.addFaction { 
+	id = 10,
+	name = "FACTION_ANIMAL_ATMO",
+}
+
+mgr.addFaction { 
+	id = 12,
+	name = "FACTION_HUMAN",
+}
+
+mgr.addFaction { 
+	id = 14,
+	name = "FACTION_HIGHELVE",
+}
+
+mgr.addFaction { 
+	id = 16,
+	name = "FACTION_ORC",
+}
+
+mgr.addFaction { 
+	id = 18,
+	name = "FACTION_MECHANICAL",
+}
+
+mgr.addFaction { 
+	id = 19,
+	name = "FACTION_UNDEAD",
+}
+
+mgr.addFaction { 
+	id = 20,
+	name = "FACTION_T-MUTATION",
+}
+
+mgr.addFaction { 
+	id = 100,
+	name = "FACTION_GODSPELL",
+}
+
+mgr.addFaction { 
+	id = 23,
+	name = "FACTION_DRAGON",
+}
+
+mgr.addFaction { 
+	id = 24,
+	name = "FACTION_DEMON",
+}
+
+mgr.addFaction { 
+	id = 26,
+	name = "FACTION_ENERGY",
+}
+
+mgr.addFaction { 
+	id = 27,
+	name = "FACTION_MONSTER",
+}
+
+mgr.addFaction { 
+	id = 30,
+	name = "FACTION_SANDPEOPLE",
+}
+
+mgr.addFaction { 
+	id = 31,
+	name = "FACTION_DESERTHUMAN",
+}
+
+mgr.addFaction { 
+	id = 32,
+	name = "FACTION_LIZARD",
+}
+
+mgr.addFaction { 
+	id = 33,
+	name = "FACTION_UNDEADLEGION",
+}
+
+mgr.addFaction { 
+	id = 36,
+	name = "FACTION_NUKNUK",
+}
+
+mgr.addFaction { 
+	id = 37,
+	name = "FACTION_COBOLD",
+}
+
+mgr.addFaction { 
+	id = 47,
+	name = "FACTION_SERAPHIM",
+}
+
+mgr.addFaction { 
+	id = 46,
+	name = "FACTION_TROLL",
+}
+
+mgr.addFaction { 
+	id = 17,
+	name = "FACTION_DRYAD",
+}
+
+mgr.addFaction { 
+	id = 54,
+	name = "FACTION_ELEMENTALS",
+}
+
+mgr.addFaction { 
+	id = 41,
+	name = "FACTION_HIGHELVE_PRIEST",
+}
+
+mgr.addFaction { 
+	id = 56,
+	name = "FACTION_GCENEMYTOPLAYER",
+}
+
+mgr.addFaction { 
+	id = 42,
+	name = "FACTION_ENEMY_ALL",
+}
+
+mgr.addFaction { 
+	id = 59,
+	name = "FACTION_ENEMY_HERO_BAD",
+}
+
+mgr.addFaction { 
+	id = 58,
+	name = "FACTION_ENEMY_HERO_GOOD",
+}
+
+mgr.addFaction { 
+	id = 66,
+	name = "FACTION_FRIEND_HERO_ALL",
+}
+
+mgr.addFaction { 
+	id = 69,
+	name = "FACTION_ATMO_HUNT_SMALL",
+}
+
+mgr.addFaction { 
+	id = 70,
+	name = "FACTION_ATMO_HUNT_MED",
+}
+
+mgr.addFaction { 
+	id = 71,
+	name = "FACTION_ATMO_HUNT_LARGE",
+}
+
+mgr.addFaction { 
+	id = 72,
+	name = "FACTION_ATMO_NO_HUNT",
+}
+
+mgr.addFaction { 
+	id = 7,
+	name = "FACTION_ANIMAL_WILD",
+}
+
+mgr.addFaction { 
+	id = 73,
+	name = "FACTION_AWILD_HUNTER_SM",
+}
+
+mgr.addFaction { 
+	id = 74,
+	name = "FACTION_AWILD_HUNTER_MED",
+}
+
+mgr.addFaction { 
+	id = 75,
+	name = "FACTION_AWILD_HUNTER_LARGE",
+}
+
+mgr.addFaction { 
+	id = 76,
+	name = "FACTION_DESERTHU_GUARDS",
+}
+
+mgr.addFaction { 
+	id = 77,
+	name = "FACTION_DESERTHU_REBELS",
+}
+
+mgr.addFaction { 
+	id = 78,
+	name = "FACTION_DRAGON_ARMY",
+}
+
+mgr.addFaction { 
+	id = 79,
+	name = "FACTION_DRAGON_REBELS",
+}
+
+mgr.addFaction { 
+	id = 80,
+	name = "FACTION_DRYAD_GUARD",
+}
+
+mgr.addFaction { 
+	id = 81,
+	name = "FACTION_DRYAD_BLOOD",
+}
+
+mgr.addFaction { 
+	id = 82,
+	name = "FACTION_DRYAD_BRIGANT",
+}
+
+mgr.addFaction { 
+	id = 83,
+	name = "FACTION_HIGHELVE_GUARD",
+}
+
+mgr.addFaction { 
+	id = 84,
+	name = "FACTION_HUMAN_GUARD",
+}
+
+mgr.addFaction { 
+	id = 85,
+	name = "FACTION_HUMAN_CRUSADE",
+}
+
+mgr.addFaction { 
+	id = 86,
+	name = "FACTION_HUMAN_CULT",
+}
+
+mgr.addFaction { 
+	id = 87,
+	name = "FACTION_LIZARD_NEUTRAL_GUARD",
+}
+
+mgr.addFaction { 
+	id = 88,
+	name = "FACTION_LIZARD_NEUTRAL",
+}
+
+mgr.addFaction { 
+	id = 89,
+	name = "FACTION_LIZARD_GOOD",
+}
+
+mgr.addFaction { 
+	id = 40,
+	name = "FACTION_LIZARD_BAD",
+}
+
+mgr.addFaction { 
+	id = 90,
+	name = "FACTION_ORC_NEUTRAL_GUARD",
+}
+
+mgr.addFaction { 
+	id = 91,
+	name = "FACTION_ORC_NEUTRAL",
+}
+
+mgr.addFaction { 
+	id = 34,
+	name = "FACTION_ORC_GOOD",
+}
+
+mgr.addFaction { 
+	id = 35,
+	name = "FACTION_ORC_BAD",
+}
+
+mgr.addFaction { 
+	id = 67,
+	name = "FACTION_OUTLAW_ROBBERS",
+}
+
+mgr.addFaction { 
+	id = 92,
+	name = "FACTION_OUTLAW_PIRATE",
+}
+
+mgr.addFaction { 
+	id = 93,
+	name = "FACTION_GUARD_GOOD",
+}
+
+mgr.addFaction { 
+	id = 94,
+	name = "FACTION_GUARD_BAD",
+}
+
+mgr.addFaction { 
+	id = 95,
+	name = "FACTION_JOB_HUNTER",
+}
+
+mgr.addFaction { 
+	id = 96,
+	name = "FACTION_WEREWOLF_SWAMP",
+}
+
+mgr.addFaction { 
+	id = 57,
+	name = "FACTION_ENEMY_HERO",
+}
+
+mgr.addFaction { 
+	id = 97,
+	name = "FACTION_QUEST_VICTIM",
+}
+
+mgr.addFaction { 
+	id = 98,
+	name = "FACTION_QUEST_ENEMY",
+}
+
+mgr.addFaction { 
+	id = 99,
+	name = "FACTION_HUMAN_MASC",
+}
+
+mgr.addFactionRelation { 
+	id1 = 41,
+	id2 = 72,
+	f1name = "FACTION_HIGHELVE_PRIEST",
+	f2name = "FACTION_ATMO_NO_HUNT",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 72,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_ATMO_NO_HUNT",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 71,
+	id2 = 75,
+	f1name = "FACTION_ATMO_HUNT_LARGE",
+	f2name = "FACTION_AWILD_HUNTER_LARGE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 70,
+	id2 = 75,
+	f1name = "FACTION_ATMO_HUNT_MED",
+	f2name = "FACTION_AWILD_HUNTER_LARGE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 69,
+	id2 = 75,
+	f1name = "FACTION_ATMO_HUNT_SMALL",
+	f2name = "FACTION_AWILD_HUNTER_LARGE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 75,
+	id2 = 75,
+	f1name = "FACTION_AWILD_HUNTER_LARGE",
+	f2name = "FACTION_AWILD_HUNTER_LARGE",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 76,
+	id2 = 75,
+	f1name = "FACTION_DESERTHU_GUARDS",
+	f2name = "FACTION_AWILD_HUNTER_LARGE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 80,
+	id2 = 75,
+	f1name = "FACTION_DRYAD_GUARD",
+	f2name = "FACTION_AWILD_HUNTER_LARGE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 75,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_AWILD_HUNTER_LARGE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 75,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_AWILD_HUNTER_LARGE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 94,
+	id2 = 75,
+	f1name = "FACTION_GUARD_BAD",
+	f2name = "FACTION_AWILD_HUNTER_LARGE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 93,
+	id2 = 75,
+	f1name = "FACTION_GUARD_GOOD",
+	f2name = "FACTION_AWILD_HUNTER_LARGE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 9,
+	id2 = 75,
+	f1name = "FACTION_HERO_BAD",
+	f2name = "FACTION_AWILD_HUNTER_LARGE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 8,
+	id2 = 75,
+	f1name = "FACTION_HERO_GOOD",
+	f2name = "FACTION_AWILD_HUNTER_LARGE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 83,
+	id2 = 75,
+	f1name = "FACTION_HIGHELVE_GUARD",
+	f2name = "FACTION_AWILD_HUNTER_LARGE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 84,
+	id2 = 75,
+	f1name = "FACTION_HUMAN_GUARD",
+	f2name = "FACTION_AWILD_HUNTER_LARGE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 87,
+	id2 = 75,
+	f1name = "FACTION_LIZARD_NEUTRAL_GUARD",
+	f2name = "FACTION_AWILD_HUNTER_LARGE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 90,
+	id2 = 75,
+	f1name = "FACTION_ORC_NEUTRAL_GUARD",
+	f2name = "FACTION_AWILD_HUNTER_LARGE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 75,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_AWILD_HUNTER_LARGE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 70,
+	id2 = 74,
+	f1name = "FACTION_ATMO_HUNT_MED",
+	f2name = "FACTION_AWILD_HUNTER_MED",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 69,
+	id2 = 74,
+	f1name = "FACTION_ATMO_HUNT_SMALL",
+	f2name = "FACTION_AWILD_HUNTER_MED",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 74,
+	id2 = 74,
+	f1name = "FACTION_AWILD_HUNTER_MED",
+	f2name = "FACTION_AWILD_HUNTER_MED",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 76,
+	id2 = 74,
+	f1name = "FACTION_DESERTHU_GUARDS",
+	f2name = "FACTION_AWILD_HUNTER_MED",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 80,
+	id2 = 74,
+	f1name = "FACTION_DRYAD_GUARD",
+	f2name = "FACTION_AWILD_HUNTER_MED",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 74,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_AWILD_HUNTER_MED",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 74,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_AWILD_HUNTER_MED",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 94,
+	id2 = 74,
+	f1name = "FACTION_GUARD_BAD",
+	f2name = "FACTION_AWILD_HUNTER_MED",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 93,
+	id2 = 74,
+	f1name = "FACTION_GUARD_GOOD",
+	f2name = "FACTION_AWILD_HUNTER_MED",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 9,
+	id2 = 74,
+	f1name = "FACTION_HERO_BAD",
+	f2name = "FACTION_AWILD_HUNTER_MED",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 8,
+	id2 = 74,
+	f1name = "FACTION_HERO_GOOD",
+	f2name = "FACTION_AWILD_HUNTER_MED",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 83,
+	id2 = 74,
+	f1name = "FACTION_HIGHELVE_GUARD",
+	f2name = "FACTION_AWILD_HUNTER_MED",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 84,
+	id2 = 74,
+	f1name = "FACTION_HUMAN_GUARD",
+	f2name = "FACTION_AWILD_HUNTER_MED",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 10,
+	id2 = 10,
+	f1name = "FACTION_ANIMAL_ATMO",
+	f2name = "FACTION_ANIMAL_ATMO",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 10,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_ANIMAL_ATMO",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 10,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_ANIMAL_ATMO",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 7,
+	id2 = 7,
+	f1name = "FACTION_ANIMAL_WILD",
+	f2name = "FACTION_ANIMAL_WILD",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 76,
+	id2 = 7,
+	f1name = "FACTION_DESERTHU_GUARDS",
+	f2name = "FACTION_ANIMAL_WILD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 80,
+	id2 = 7,
+	f1name = "FACTION_DRYAD_GUARD",
+	f2name = "FACTION_ANIMAL_WILD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 7,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_ANIMAL_WILD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 7,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_ANIMAL_WILD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 94,
+	id2 = 7,
+	f1name = "FACTION_GUARD_BAD",
+	f2name = "FACTION_ANIMAL_WILD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 93,
+	id2 = 7,
+	f1name = "FACTION_GUARD_GOOD",
+	f2name = "FACTION_ANIMAL_WILD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 9,
+	id2 = 7,
+	f1name = "FACTION_HERO_BAD",
+	f2name = "FACTION_ANIMAL_WILD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 8,
+	id2 = 7,
+	f1name = "FACTION_HERO_GOOD",
+	f2name = "FACTION_ANIMAL_WILD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 83,
+	id2 = 7,
+	f1name = "FACTION_HIGHELVE_GUARD",
+	f2name = "FACTION_ANIMAL_WILD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 87,
+	id2 = 7,
+	f1name = "FACTION_LIZARD_NEUTRAL_GUARD",
+	f2name = "FACTION_ANIMAL_WILD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 90,
+	id2 = 7,
+	f1name = "FACTION_ORC_NEUTRAL_GUARD",
+	f2name = "FACTION_ANIMAL_WILD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 5,
+	id2 = 5,
+	f1name = "FACTION_ATMO",
+	f2name = "FACTION_ATMO",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 5,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_ATMO",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 71,
+	id2 = 71,
+	f1name = "FACTION_ATMO_HUNT_LARGE",
+	f2name = "FACTION_ATMO_HUNT_LARGE",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 71,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_ATMO_HUNT_LARGE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 71,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_ATMO_HUNT_LARGE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 71,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_ATMO_HUNT_LARGE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 70,
+	id2 = 70,
+	f1name = "FACTION_ATMO_HUNT_MED",
+	f2name = "FACTION_ATMO_HUNT_MED",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 70,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_ATMO_HUNT_MED",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 70,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_ATMO_HUNT_MED",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 70,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_ATMO_HUNT_MED",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 69,
+	id2 = 69,
+	f1name = "FACTION_ATMO_HUNT_SMALL",
+	f2name = "FACTION_ATMO_HUNT_SMALL",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 69,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_ATMO_HUNT_SMALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 69,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_ATMO_HUNT_SMALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 69,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_ATMO_HUNT_SMALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 72,
+	id2 = 72,
+	f1name = "FACTION_ATMO_NO_HUNT",
+	f2name = "FACTION_ATMO_NO_HUNT",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 72,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_ATMO_NO_HUNT",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 72,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_ATMO_NO_HUNT",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 95,
+	id2 = 74,
+	f1name = "FACTION_JOB_HUNTER",
+	f2name = "FACTION_AWILD_HUNTER_MED",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 40,
+	id2 = 74,
+	f1name = "FACTION_LIZARD_BAD",
+	f2name = "FACTION_AWILD_HUNTER_MED",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 87,
+	id2 = 74,
+	f1name = "FACTION_LIZARD_NEUTRAL_GUARD",
+	f2name = "FACTION_AWILD_HUNTER_MED",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 90,
+	id2 = 74,
+	f1name = "FACTION_ORC_NEUTRAL_GUARD",
+	f2name = "FACTION_AWILD_HUNTER_MED",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 74,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_AWILD_HUNTER_MED",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 69,
+	id2 = 73,
+	f1name = "FACTION_ATMO_HUNT_SMALL",
+	f2name = "FACTION_AWILD_HUNTER_SM",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 73,
+	id2 = 73,
+	f1name = "FACTION_AWILD_HUNTER_SM",
+	f2name = "FACTION_AWILD_HUNTER_SM",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 76,
+	id2 = 73,
+	f1name = "FACTION_DESERTHU_GUARDS",
+	f2name = "FACTION_AWILD_HUNTER_SM",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 80,
+	id2 = 73,
+	f1name = "FACTION_DRYAD_GUARD",
+	f2name = "FACTION_AWILD_HUNTER_SM",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 73,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_AWILD_HUNTER_SM",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 73,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_AWILD_HUNTER_SM",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 94,
+	id2 = 73,
+	f1name = "FACTION_GUARD_BAD",
+	f2name = "FACTION_AWILD_HUNTER_SM",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 93,
+	id2 = 73,
+	f1name = "FACTION_GUARD_GOOD",
+	f2name = "FACTION_AWILD_HUNTER_SM",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 9,
+	id2 = 73,
+	f1name = "FACTION_HERO_BAD",
+	f2name = "FACTION_AWILD_HUNTER_SM",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 8,
+	id2 = 73,
+	f1name = "FACTION_HERO_GOOD",
+	f2name = "FACTION_AWILD_HUNTER_SM",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 83,
+	id2 = 73,
+	f1name = "FACTION_HIGHELVE_GUARD",
+	f2name = "FACTION_AWILD_HUNTER_SM",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 84,
+	id2 = 73,
+	f1name = "FACTION_HUMAN_GUARD",
+	f2name = "FACTION_AWILD_HUNTER_SM",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 95,
+	id2 = 73,
+	f1name = "FACTION_JOB_HUNTER",
+	f2name = "FACTION_AWILD_HUNTER_SM",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 87,
+	id2 = 73,
+	f1name = "FACTION_LIZARD_NEUTRAL_GUARD",
+	f2name = "FACTION_AWILD_HUNTER_SM",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 90,
+	id2 = 73,
+	f1name = "FACTION_ORC_NEUTRAL_GUARD",
+	f2name = "FACTION_AWILD_HUNTER_SM",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 73,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_AWILD_HUNTER_SM",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 37,
+	id2 = 37,
+	f1name = "FACTION_COBOLD",
+	f2name = "FACTION_COBOLD",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 37,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_COBOLD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 37,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_COBOLD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 94,
+	id2 = 37,
+	f1name = "FACTION_GUARD_BAD",
+	f2name = "FACTION_COBOLD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 93,
+	id2 = 37,
+	f1name = "FACTION_GUARD_GOOD",
+	f2name = "FACTION_COBOLD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 9,
+	id2 = 37,
+	f1name = "FACTION_HERO_BAD",
+	f2name = "FACTION_COBOLD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 8,
+	id2 = 37,
+	f1name = "FACTION_HERO_GOOD",
+	f2name = "FACTION_COBOLD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 83,
+	id2 = 37,
+	f1name = "FACTION_HIGHELVE_GUARD",
+	f2name = "FACTION_COBOLD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 95,
+	id2 = 37,
+	f1name = "FACTION_JOB_HUNTER",
+	f2name = "FACTION_COBOLD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 35,
+	id2 = 37,
+	f1name = "FACTION_ORC_BAD",
+	f2name = "FACTION_COBOLD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 34,
+	id2 = 37,
+	f1name = "FACTION_ORC_GOOD",
+	f2name = "FACTION_COBOLD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 91,
+	id2 = 37,
+	f1name = "FACTION_ORC_NEUTRAL",
+	f2name = "FACTION_COBOLD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 90,
+	id2 = 37,
+	f1name = "FACTION_ORC_NEUTRAL_GUARD",
+	f2name = "FACTION_COBOLD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 92,
+	id2 = 37,
+	f1name = "FACTION_OUTLAW_PIRATE",
+	f2name = "FACTION_COBOLD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 67,
+	id2 = 37,
+	f1name = "FACTION_OUTLAW_ROBBERS",
+	f2name = "FACTION_COBOLD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 37,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_COBOLD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 33,
+	id2 = 37,
+	f1name = "FACTION_UNDEADLEGION",
+	f2name = "FACTION_COBOLD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 7,
+	id2 = 24,
+	f1name = "FACTION_ANIMAL_WILD",
+	f2name = "FACTION_DEMON",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 71,
+	id2 = 24,
+	f1name = "FACTION_ATMO_HUNT_LARGE",
+	f2name = "FACTION_DEMON",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 70,
+	id2 = 24,
+	f1name = "FACTION_ATMO_HUNT_MED",
+	f2name = "FACTION_DEMON",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 69,
+	id2 = 24,
+	f1name = "FACTION_ATMO_HUNT_SMALL",
+	f2name = "FACTION_DEMON",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 75,
+	id2 = 24,
+	f1name = "FACTION_AWILD_HUNTER_LARGE",
+	f2name = "FACTION_DEMON",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 74,
+	id2 = 24,
+	f1name = "FACTION_AWILD_HUNTER_MED",
+	f2name = "FACTION_DEMON",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 73,
+	id2 = 24,
+	f1name = "FACTION_AWILD_HUNTER_SM",
+	f2name = "FACTION_DEMON",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 24,
+	id2 = 24,
+	f1name = "FACTION_DEMON",
+	f2name = "FACTION_DEMON",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 24,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_DEMON",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 59,
+	id2 = 24,
+	f1name = "FACTION_ENEMY_HERO_BAD",
+	f2name = "FACTION_DEMON",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 58,
+	id2 = 24,
+	f1name = "FACTION_ENEMY_HERO_GOOD",
+	f2name = "FACTION_DEMON",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 24,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_DEMON",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 94,
+	id2 = 24,
+	f1name = "FACTION_GUARD_BAD",
+	f2name = "FACTION_DEMON",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 93,
+	id2 = 24,
+	f1name = "FACTION_GUARD_GOOD",
+	f2name = "FACTION_DEMON",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 9,
+	id2 = 24,
+	f1name = "FACTION_HERO_BAD",
+	f2name = "FACTION_DEMON",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 8,
+	id2 = 24,
+	f1name = "FACTION_HERO_GOOD",
+	f2name = "FACTION_DEMON",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 18,
+	id2 = 24,
+	f1name = "FACTION_MECHANICAL",
+	f2name = "FACTION_DEMON",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 36,
+	id2 = 24,
+	f1name = "FACTION_NUKNUK",
+	f2name = "FACTION_DEMON",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 24,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_DEMON",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 7,
+	id2 = 76,
+	f1name = "FACTION_ANIMAL_WILD",
+	f2name = "FACTION_DESERTHU_GUARDS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 75,
+	id2 = 76,
+	f1name = "FACTION_AWILD_HUNTER_LARGE",
+	f2name = "FACTION_DESERTHU_GUARDS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 74,
+	id2 = 76,
+	f1name = "FACTION_AWILD_HUNTER_MED",
+	f2name = "FACTION_DESERTHU_GUARDS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 73,
+	id2 = 76,
+	f1name = "FACTION_AWILD_HUNTER_SM",
+	f2name = "FACTION_DESERTHU_GUARDS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 76,
+	id2 = 76,
+	f1name = "FACTION_DESERTHU_GUARDS",
+	f2name = "FACTION_DESERTHU_GUARDS",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 77,
+	id2 = 76,
+	f1name = "FACTION_DESERTHU_REBELS",
+	f2name = "FACTION_DESERTHU_GUARDS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 76,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_DESERTHU_GUARDS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 57,
+	id2 = 76,
+	f1name = "FACTION_ENEMY_HERO",
+	f2name = "FACTION_DESERTHU_GUARDS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 59,
+	id2 = 76,
+	f1name = "FACTION_ENEMY_HERO_BAD",
+	f2name = "FACTION_DESERTHU_GUARDS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 58,
+	id2 = 76,
+	f1name = "FACTION_ENEMY_HERO_GOOD",
+	f2name = "FACTION_DESERTHU_GUARDS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 26,
+	id2 = 76,
+	f1name = "FACTION_ENERGY",
+	f2name = "FACTION_DESERTHU_GUARDS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 76,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_DESERTHU_GUARDS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 94,
+	id2 = 76,
+	f1name = "FACTION_GUARD_BAD",
+	f2name = "FACTION_DESERTHU_GUARDS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 40,
+	id2 = 76,
+	f1name = "FACTION_LIZARD_BAD",
+	f2name = "FACTION_DESERTHU_GUARDS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 27,
+	id2 = 76,
+	f1name = "FACTION_MONSTER",
+	f2name = "FACTION_DESERTHU_GUARDS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 36,
+	id2 = 76,
+	f1name = "FACTION_NUKNUK",
+	f2name = "FACTION_DESERTHU_GUARDS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 92,
+	id2 = 76,
+	f1name = "FACTION_OUTLAW_PIRATE",
+	f2name = "FACTION_DESERTHU_GUARDS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 67,
+	id2 = 76,
+	f1name = "FACTION_OUTLAW_ROBBERS",
+	f2name = "FACTION_DESERTHU_GUARDS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 30,
+	id2 = 76,
+	f1name = "FACTION_SANDPEOPLE",
+	f2name = "FACTION_DESERTHU_GUARDS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 76,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_DESERTHU_GUARDS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 19,
+	id2 = 76,
+	f1name = "FACTION_UNDEAD",
+	f2name = "FACTION_DESERTHU_GUARDS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 31,
+	id2 = 31,
+	f1name = "FACTION_DESERTHUMAN",
+	f2name = "FACTION_DESERTHUMAN",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 31,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_DESERTHUMAN",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 76,
+	id2 = 77,
+	f1name = "FACTION_DESERTHU_GUARDS",
+	f2name = "FACTION_DESERTHU_REBELS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 77,
+	id2 = 77,
+	f1name = "FACTION_DESERTHU_REBELS",
+	f2name = "FACTION_DESERTHU_REBELS",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 77,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_DESERTHU_REBELS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 77,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_DESERTHU_REBELS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 94,
+	id2 = 77,
+	f1name = "FACTION_GUARD_BAD",
+	f2name = "FACTION_DESERTHU_REBELS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 93,
+	id2 = 77,
+	f1name = "FACTION_GUARD_GOOD",
+	f2name = "FACTION_DESERTHU_REBELS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 9,
+	id2 = 77,
+	f1name = "FACTION_HERO_BAD",
+	f2name = "FACTION_DESERTHU_REBELS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 8,
+	id2 = 77,
+	f1name = "FACTION_HERO_GOOD",
+	f2name = "FACTION_DESERTHU_REBELS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 83,
+	id2 = 77,
+	f1name = "FACTION_HIGHELVE_GUARD",
+	f2name = "FACTION_DESERTHU_REBELS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 84,
+	id2 = 77,
+	f1name = "FACTION_HUMAN_GUARD",
+	f2name = "FACTION_DESERTHU_REBELS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 40,
+	id2 = 77,
+	f1name = "FACTION_LIZARD_BAD",
+	f2name = "FACTION_DESERTHU_REBELS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 36,
+	id2 = 77,
+	f1name = "FACTION_NUKNUK",
+	f2name = "FACTION_DESERTHU_REBELS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 30,
+	id2 = 77,
+	f1name = "FACTION_SANDPEOPLE",
+	f2name = "FACTION_DESERTHU_REBELS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 77,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_DESERTHU_REBELS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 23,
+	id2 = 23,
+	f1name = "FACTION_DRAGON",
+	f2name = "FACTION_DRAGON",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 79,
+	id2 = 23,
+	f1name = "FACTION_DRAGON_REBELS",
+	f2name = "FACTION_DRAGON",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 23,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_DRAGON",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 23,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_DRAGON",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 94,
+	id2 = 23,
+	f1name = "FACTION_GUARD_BAD",
+	f2name = "FACTION_DRAGON",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 93,
+	id2 = 23,
+	f1name = "FACTION_GUARD_GOOD",
+	f2name = "FACTION_DRAGON",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 9,
+	id2 = 23,
+	f1name = "FACTION_HERO_BAD",
+	f2name = "FACTION_DRAGON",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 8,
+	id2 = 23,
+	f1name = "FACTION_HERO_GOOD",
+	f2name = "FACTION_DRAGON",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 18,
+	id2 = 23,
+	f1name = "FACTION_MECHANICAL",
+	f2name = "FACTION_DRAGON",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 23,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_DRAGON",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 78,
+	id2 = 78,
+	f1name = "FACTION_DRAGON_ARMY",
+	f2name = "FACTION_DRAGON_ARMY",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 79,
+	id2 = 78,
+	f1name = "FACTION_DRAGON_REBELS",
+	f2name = "FACTION_DRAGON_ARMY",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 78,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_DRAGON_ARMY",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 78,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_DRAGON_ARMY",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 94,
+	id2 = 78,
+	f1name = "FACTION_GUARD_BAD",
+	f2name = "FACTION_DRAGON_ARMY",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 93,
+	id2 = 78,
+	f1name = "FACTION_GUARD_GOOD",
+	f2name = "FACTION_DRAGON_ARMY",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 9,
+	id2 = 78,
+	f1name = "FACTION_HERO_BAD",
+	f2name = "FACTION_DRAGON_ARMY",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 8,
+	id2 = 78,
+	f1name = "FACTION_HERO_GOOD",
+	f2name = "FACTION_DRAGON_ARMY",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 78,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_DRAGON_ARMY",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 23,
+	id2 = 79,
+	f1name = "FACTION_DRAGON",
+	f2name = "FACTION_DRAGON_REBELS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 78,
+	id2 = 79,
+	f1name = "FACTION_DRAGON_ARMY",
+	f2name = "FACTION_DRAGON_REBELS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 79,
+	id2 = 79,
+	f1name = "FACTION_DRAGON_REBELS",
+	f2name = "FACTION_DRAGON_REBELS",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 79,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_DRAGON_REBELS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 79,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_DRAGON_REBELS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 94,
+	id2 = 79,
+	f1name = "FACTION_GUARD_BAD",
+	f2name = "FACTION_DRAGON_REBELS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 9,
+	id2 = 79,
+	f1name = "FACTION_HERO_BAD",
+	f2name = "FACTION_DRAGON_REBELS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 79,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_DRAGON_REBELS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 17,
+	id2 = 17,
+	f1name = "FACTION_DRYAD",
+	f2name = "FACTION_DRYAD",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 81,
+	id2 = 81,
+	f1name = "FACTION_DRYAD_BLOOD",
+	f2name = "FACTION_DRYAD_BLOOD",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 82,
+	id2 = 81,
+	f1name = "FACTION_DRYAD_BRIGANT",
+	f2name = "FACTION_DRYAD_BLOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 80,
+	id2 = 81,
+	f1name = "FACTION_DRYAD_GUARD",
+	f2name = "FACTION_DRYAD_BLOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 81,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_DRYAD_BLOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 81,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_DRYAD_BLOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 93,
+	id2 = 81,
+	f1name = "FACTION_GUARD_GOOD",
+	f2name = "FACTION_DRYAD_BLOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 9,
+	id2 = 81,
+	f1name = "FACTION_HERO_BAD",
+	f2name = "FACTION_DRYAD_BLOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 8,
+	id2 = 81,
+	f1name = "FACTION_HERO_GOOD",
+	f2name = "FACTION_DRYAD_BLOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 81,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_DRYAD_BLOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 81,
+	id2 = 82,
+	f1name = "FACTION_DRYAD_BLOOD",
+	f2name = "FACTION_DRYAD_BRIGANT",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 82,
+	id2 = 82,
+	f1name = "FACTION_DRYAD_BRIGANT",
+	f2name = "FACTION_DRYAD_BRIGANT",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 80,
+	id2 = 82,
+	f1name = "FACTION_DRYAD_GUARD",
+	f2name = "FACTION_DRYAD_BRIGANT",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 82,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_DRYAD_BRIGANT",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 82,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_DRYAD_BRIGANT",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 93,
+	id2 = 82,
+	f1name = "FACTION_GUARD_GOOD",
+	f2name = "FACTION_DRYAD_BRIGANT",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 8,
+	id2 = 82,
+	f1name = "FACTION_HERO_GOOD",
+	f2name = "FACTION_DRYAD_BRIGANT",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 82,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_DRYAD_BRIGANT",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 7,
+	id2 = 80,
+	f1name = "FACTION_ANIMAL_WILD",
+	f2name = "FACTION_DRYAD_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 71,
+	id2 = 80,
+	f1name = "FACTION_ATMO_HUNT_LARGE",
+	f2name = "FACTION_DRYAD_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 75,
+	id2 = 80,
+	f1name = "FACTION_AWILD_HUNTER_LARGE",
+	f2name = "FACTION_DRYAD_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 74,
+	id2 = 80,
+	f1name = "FACTION_AWILD_HUNTER_MED",
+	f2name = "FACTION_DRYAD_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 73,
+	id2 = 80,
+	f1name = "FACTION_AWILD_HUNTER_SM",
+	f2name = "FACTION_DRYAD_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 81,
+	id2 = 80,
+	f1name = "FACTION_DRYAD_BLOOD",
+	f2name = "FACTION_DRYAD_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 82,
+	id2 = 80,
+	f1name = "FACTION_DRYAD_BRIGANT",
+	f2name = "FACTION_DRYAD_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 80,
+	id2 = 80,
+	f1name = "FACTION_DRYAD_GUARD",
+	f2name = "FACTION_DRYAD_GUARD",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 80,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_DRYAD_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 57,
+	id2 = 80,
+	f1name = "FACTION_ENEMY_HERO",
+	f2name = "FACTION_DRYAD_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 59,
+	id2 = 80,
+	f1name = "FACTION_ENEMY_HERO_BAD",
+	f2name = "FACTION_DRYAD_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 58,
+	id2 = 80,
+	f1name = "FACTION_ENEMY_HERO_GOOD",
+	f2name = "FACTION_DRYAD_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 26,
+	id2 = 80,
+	f1name = "FACTION_ENERGY",
+	f2name = "FACTION_DRYAD_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 80,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_DRYAD_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 94,
+	id2 = 80,
+	f1name = "FACTION_GUARD_BAD",
+	f2name = "FACTION_DRYAD_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 27,
+	id2 = 80,
+	f1name = "FACTION_MONSTER",
+	f2name = "FACTION_DRYAD_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 92,
+	id2 = 80,
+	f1name = "FACTION_OUTLAW_PIRATE",
+	f2name = "FACTION_DRYAD_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 67,
+	id2 = 80,
+	f1name = "FACTION_OUTLAW_ROBBERS",
+	f2name = "FACTION_DRYAD_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 80,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_DRYAD_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 19,
+	id2 = 80,
+	f1name = "FACTION_UNDEAD",
+	f2name = "FACTION_DRYAD_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 7,
+	id2 = 42,
+	f1name = "FACTION_ANIMAL_WILD",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 71,
+	id2 = 42,
+	f1name = "FACTION_ATMO_HUNT_LARGE",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 70,
+	id2 = 42,
+	f1name = "FACTION_ATMO_HUNT_MED",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 69,
+	id2 = 42,
+	f1name = "FACTION_ATMO_HUNT_SMALL",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 72,
+	id2 = 42,
+	f1name = "FACTION_ATMO_NO_HUNT",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 75,
+	id2 = 42,
+	f1name = "FACTION_AWILD_HUNTER_LARGE",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 74,
+	id2 = 42,
+	f1name = "FACTION_AWILD_HUNTER_MED",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 73,
+	id2 = 42,
+	f1name = "FACTION_AWILD_HUNTER_SM",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 37,
+	id2 = 42,
+	f1name = "FACTION_COBOLD",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 24,
+	id2 = 42,
+	f1name = "FACTION_DEMON",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 76,
+	id2 = 42,
+	f1name = "FACTION_DESERTHU_GUARDS",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 77,
+	id2 = 42,
+	f1name = "FACTION_DESERTHU_REBELS",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 23,
+	id2 = 42,
+	f1name = "FACTION_DRAGON",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 78,
+	id2 = 42,
+	f1name = "FACTION_DRAGON_ARMY",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 79,
+	id2 = 42,
+	f1name = "FACTION_DRAGON_REBELS",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 81,
+	id2 = 42,
+	f1name = "FACTION_DRYAD_BLOOD",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 82,
+	id2 = 42,
+	f1name = "FACTION_DRYAD_BRIGANT",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 80,
+	id2 = 42,
+	f1name = "FACTION_DRYAD_GUARD",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 42,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 57,
+	id2 = 42,
+	f1name = "FACTION_ENEMY_HERO",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 59,
+	id2 = 42,
+	f1name = "FACTION_ENEMY_HERO_BAD",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 58,
+	id2 = 42,
+	f1name = "FACTION_ENEMY_HERO_GOOD",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 26,
+	id2 = 42,
+	f1name = "FACTION_ENERGY",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 66,
+	id2 = 42,
+	f1name = "FACTION_FRIEND_HERO_ALL",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 42,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 94,
+	id2 = 42,
+	f1name = "FACTION_GUARD_BAD",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 93,
+	id2 = 42,
+	f1name = "FACTION_GUARD_GOOD",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 9,
+	id2 = 42,
+	f1name = "FACTION_HERO_BAD",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 8,
+	id2 = 42,
+	f1name = "FACTION_HERO_GOOD",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 83,
+	id2 = 42,
+	f1name = "FACTION_HIGHELVE_GUARD",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 85,
+	id2 = 42,
+	f1name = "FACTION_HUMAN_CRUSADE",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 86,
+	id2 = 42,
+	f1name = "FACTION_HUMAN_CULT",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 84,
+	id2 = 42,
+	f1name = "FACTION_HUMAN_GUARD",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 95,
+	id2 = 42,
+	f1name = "FACTION_JOB_HUNTER",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 40,
+	id2 = 42,
+	f1name = "FACTION_LIZARD_BAD",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 89,
+	id2 = 42,
+	f1name = "FACTION_LIZARD_GOOD",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 88,
+	id2 = 42,
+	f1name = "FACTION_LIZARD_NEUTRAL",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 87,
+	id2 = 42,
+	f1name = "FACTION_LIZARD_NEUTRAL_GUARD",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 18,
+	id2 = 42,
+	f1name = "FACTION_MECHANICAL",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 27,
+	id2 = 42,
+	f1name = "FACTION_MONSTER",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 36,
+	id2 = 42,
+	f1name = "FACTION_NUKNUK",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 35,
+	id2 = 42,
+	f1name = "FACTION_ORC_BAD",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 34,
+	id2 = 42,
+	f1name = "FACTION_ORC_GOOD",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 91,
+	id2 = 42,
+	f1name = "FACTION_ORC_NEUTRAL",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 90,
+	id2 = 42,
+	f1name = "FACTION_ORC_NEUTRAL_GUARD",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 92,
+	id2 = 42,
+	f1name = "FACTION_OUTLAW_PIRATE",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 67,
+	id2 = 42,
+	f1name = "FACTION_OUTLAW_ROBBERS",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 30,
+	id2 = 42,
+	f1name = "FACTION_SANDPEOPLE",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 47,
+	id2 = 42,
+	f1name = "FACTION_SERAPHIM",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 42,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 19,
+	id2 = 42,
+	f1name = "FACTION_UNDEAD",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 33,
+	id2 = 42,
+	f1name = "FACTION_UNDEADLEGION",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 96,
+	id2 = 42,
+	f1name = "FACTION_WEREWOLF_SWAMP",
+	f2name = "FACTION_ENEMY_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 76,
+	id2 = 57,
+	f1name = "FACTION_DESERTHU_GUARDS",
+	f2name = "FACTION_ENEMY_HERO",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 80,
+	id2 = 57,
+	f1name = "FACTION_DRYAD_GUARD",
+	f2name = "FACTION_ENEMY_HERO",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 57,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_ENEMY_HERO",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 57,
+	id2 = 57,
+	f1name = "FACTION_ENEMY_HERO",
+	f2name = "FACTION_ENEMY_HERO",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 57,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_ENEMY_HERO",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 94,
+	id2 = 57,
+	f1name = "FACTION_GUARD_BAD",
+	f2name = "FACTION_ENEMY_HERO",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 93,
+	id2 = 57,
+	f1name = "FACTION_GUARD_GOOD",
+	f2name = "FACTION_ENEMY_HERO",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 9,
+	id2 = 57,
+	f1name = "FACTION_HERO_BAD",
+	f2name = "FACTION_ENEMY_HERO",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 8,
+	id2 = 57,
+	f1name = "FACTION_HERO_GOOD",
+	f2name = "FACTION_ENEMY_HERO",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 83,
+	id2 = 57,
+	f1name = "FACTION_HIGHELVE_GUARD",
+	f2name = "FACTION_ENEMY_HERO",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 84,
+	id2 = 57,
+	f1name = "FACTION_HUMAN_GUARD",
+	f2name = "FACTION_ENEMY_HERO",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 87,
+	id2 = 57,
+	f1name = "FACTION_LIZARD_NEUTRAL_GUARD",
+	f2name = "FACTION_ENEMY_HERO",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 90,
+	id2 = 57,
+	f1name = "FACTION_ORC_NEUTRAL_GUARD",
+	f2name = "FACTION_ENEMY_HERO",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 57,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_ENEMY_HERO",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 24,
+	id2 = 59,
+	f1name = "FACTION_DEMON",
+	f2name = "FACTION_ENEMY_HERO_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 76,
+	id2 = 59,
+	f1name = "FACTION_DESERTHU_GUARDS",
+	f2name = "FACTION_ENEMY_HERO_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 59,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_ENEMY_HERO_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 59,
+	id2 = 59,
+	f1name = "FACTION_ENEMY_HERO_BAD",
+	f2name = "FACTION_ENEMY_HERO_BAD",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 58,
+	id2 = 59,
+	f1name = "FACTION_ENEMY_HERO_GOOD",
+	f2name = "FACTION_ENEMY_HERO_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 59,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_ENEMY_HERO_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 94,
+	id2 = 59,
+	f1name = "FACTION_GUARD_BAD",
+	f2name = "FACTION_ENEMY_HERO_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 9,
+	id2 = 59,
+	f1name = "FACTION_HERO_BAD",
+	f2name = "FACTION_ENEMY_HERO_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 83,
+	id2 = 59,
+	f1name = "FACTION_HIGHELVE_GUARD",
+	f2name = "FACTION_ENEMY_HERO_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 59,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_ENEMY_HERO_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 24,
+	id2 = 58,
+	f1name = "FACTION_DEMON",
+	f2name = "FACTION_ENEMY_HERO_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 76,
+	id2 = 58,
+	f1name = "FACTION_DESERTHU_GUARDS",
+	f2name = "FACTION_ENEMY_HERO_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 58,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_ENEMY_HERO_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 59,
+	id2 = 58,
+	f1name = "FACTION_ENEMY_HERO_BAD",
+	f2name = "FACTION_ENEMY_HERO_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 58,
+	id2 = 58,
+	f1name = "FACTION_ENEMY_HERO_GOOD",
+	f2name = "FACTION_ENEMY_HERO_GOOD",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 58,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_ENEMY_HERO_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 93,
+	id2 = 58,
+	f1name = "FACTION_GUARD_GOOD",
+	f2name = "FACTION_ENEMY_HERO_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 8,
+	id2 = 58,
+	f1name = "FACTION_HERO_GOOD",
+	f2name = "FACTION_ENEMY_HERO_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 83,
+	id2 = 58,
+	f1name = "FACTION_HIGHELVE_GUARD",
+	f2name = "FACTION_ENEMY_HERO_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 58,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_ENEMY_HERO_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 76,
+	id2 = 26,
+	f1name = "FACTION_DESERTHU_GUARDS",
+	f2name = "FACTION_ENERGY",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 80,
+	id2 = 26,
+	f1name = "FACTION_DRYAD_GUARD",
+	f2name = "FACTION_ENERGY",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 26,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_ENERGY",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 26,
+	id2 = 26,
+	f1name = "FACTION_ENERGY",
+	f2name = "FACTION_ENERGY",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 26,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_ENERGY",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 94,
+	id2 = 26,
+	f1name = "FACTION_GUARD_BAD",
+	f2name = "FACTION_ENERGY",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 9,
+	id2 = 26,
+	f1name = "FACTION_HERO_BAD",
+	f2name = "FACTION_ENERGY",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 8,
+	id2 = 26,
+	f1name = "FACTION_HERO_GOOD",
+	f2name = "FACTION_ENERGY",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 83,
+	id2 = 26,
+	f1name = "FACTION_HIGHELVE_GUARD",
+	f2name = "FACTION_ENERGY",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 85,
+	id2 = 26,
+	f1name = "FACTION_HUMAN_CRUSADE",
+	f2name = "FACTION_ENERGY",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 86,
+	id2 = 26,
+	f1name = "FACTION_HUMAN_CULT",
+	f2name = "FACTION_ENERGY",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 84,
+	id2 = 26,
+	f1name = "FACTION_HUMAN_GUARD",
+	f2name = "FACTION_ENERGY",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 87,
+	id2 = 26,
+	f1name = "FACTION_LIZARD_NEUTRAL_GUARD",
+	f2name = "FACTION_ENERGY",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 90,
+	id2 = 26,
+	f1name = "FACTION_ORC_NEUTRAL_GUARD",
+	f2name = "FACTION_ENERGY",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 26,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_ENERGY",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 66,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_FRIEND_HERO_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 66,
+	id2 = 66,
+	f1name = "FACTION_FRIEND_HERO_ALL",
+	f2name = "FACTION_FRIEND_HERO_ALL",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 9,
+	id2 = 66,
+	f1name = "FACTION_HERO_BAD",
+	f2name = "FACTION_FRIEND_HERO_ALL",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 8,
+	id2 = 66,
+	f1name = "FACTION_HERO_GOOD",
+	f2name = "FACTION_FRIEND_HERO_ALL",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 66,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_FRIEND_HERO_ALL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 7,
+	id2 = 100,
+	f1name = "FACTION_ANIMAL_WILD",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 71,
+	id2 = 100,
+	f1name = "FACTION_ATMO_HUNT_LARGE",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 70,
+	id2 = 100,
+	f1name = "FACTION_ATMO_HUNT_MED",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 69,
+	id2 = 100,
+	f1name = "FACTION_ATMO_HUNT_SMALL",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 72,
+	id2 = 100,
+	f1name = "FACTION_ATMO_NO_HUNT",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 75,
+	id2 = 100,
+	f1name = "FACTION_AWILD_HUNTER_LARGE",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 74,
+	id2 = 100,
+	f1name = "FACTION_AWILD_HUNTER_MED",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 73,
+	id2 = 100,
+	f1name = "FACTION_AWILD_HUNTER_SM",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 37,
+	id2 = 100,
+	f1name = "FACTION_COBOLD",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 24,
+	id2 = 100,
+	f1name = "FACTION_DEMON",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 76,
+	id2 = 100,
+	f1name = "FACTION_DESERTHU_GUARDS",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 77,
+	id2 = 100,
+	f1name = "FACTION_DESERTHU_REBELS",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 23,
+	id2 = 100,
+	f1name = "FACTION_DRAGON",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 78,
+	id2 = 100,
+	f1name = "FACTION_DRAGON_ARMY",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 79,
+	id2 = 100,
+	f1name = "FACTION_DRAGON_REBELS",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 81,
+	id2 = 100,
+	f1name = "FACTION_DRYAD_BLOOD",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 82,
+	id2 = 100,
+	f1name = "FACTION_DRYAD_BRIGANT",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 80,
+	id2 = 100,
+	f1name = "FACTION_DRYAD_GUARD",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 54,
+	id2 = 100,
+	f1name = "FACTION_ELEMENTALS",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 100,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 57,
+	id2 = 100,
+	f1name = "FACTION_ENEMY_HERO",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 59,
+	id2 = 100,
+	f1name = "FACTION_ENEMY_HERO_BAD",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 58,
+	id2 = 100,
+	f1name = "FACTION_ENEMY_HERO_GOOD",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 26,
+	id2 = 100,
+	f1name = "FACTION_ENERGY",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 66,
+	id2 = 100,
+	f1name = "FACTION_FRIEND_HERO_ALL",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 100,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 94,
+	id2 = 100,
+	f1name = "FACTION_GUARD_BAD",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 93,
+	id2 = 100,
+	f1name = "FACTION_GUARD_GOOD",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 9,
+	id2 = 100,
+	f1name = "FACTION_HERO_BAD",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 8,
+	id2 = 100,
+	f1name = "FACTION_HERO_GOOD",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 83,
+	id2 = 100,
+	f1name = "FACTION_HIGHELVE_GUARD",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 85,
+	id2 = 100,
+	f1name = "FACTION_HUMAN_CRUSADE",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 86,
+	id2 = 100,
+	f1name = "FACTION_HUMAN_CULT",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 84,
+	id2 = 100,
+	f1name = "FACTION_HUMAN_GUARD",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 99,
+	id2 = 100,
+	f1name = "FACTION_HUMAN_MASC",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 95,
+	id2 = 100,
+	f1name = "FACTION_JOB_HUNTER",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 32,
+	id2 = 100,
+	f1name = "FACTION_LIZARD",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 40,
+	id2 = 100,
+	f1name = "FACTION_LIZARD_BAD",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 89,
+	id2 = 100,
+	f1name = "FACTION_LIZARD_GOOD",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 88,
+	id2 = 100,
+	f1name = "FACTION_LIZARD_NEUTRAL",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 87,
+	id2 = 100,
+	f1name = "FACTION_LIZARD_NEUTRAL_GUARD",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 18,
+	id2 = 100,
+	f1name = "FACTION_MECHANICAL",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 27,
+	id2 = 100,
+	f1name = "FACTION_MONSTER",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 36,
+	id2 = 100,
+	f1name = "FACTION_NUKNUK",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 16,
+	id2 = 100,
+	f1name = "FACTION_ORC",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 35,
+	id2 = 100,
+	f1name = "FACTION_ORC_BAD",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 34,
+	id2 = 100,
+	f1name = "FACTION_ORC_GOOD",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 91,
+	id2 = 100,
+	f1name = "FACTION_ORC_NEUTRAL",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 90,
+	id2 = 100,
+	f1name = "FACTION_ORC_NEUTRAL_GUARD",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 92,
+	id2 = 100,
+	f1name = "FACTION_OUTLAW_PIRATE",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 67,
+	id2 = 100,
+	f1name = "FACTION_OUTLAW_ROBBERS",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 98,
+	id2 = 100,
+	f1name = "FACTION_QUEST_ENEMY",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 30,
+	id2 = 100,
+	f1name = "FACTION_SANDPEOPLE",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 47,
+	id2 = 100,
+	f1name = "FACTION_SERAPHIM",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 100,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 19,
+	id2 = 100,
+	f1name = "FACTION_UNDEAD",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 33,
+	id2 = 100,
+	f1name = "FACTION_UNDEADLEGION",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 96,
+	id2 = 100,
+	f1name = "FACTION_WEREWOLF_SWAMP",
+	f2name = "FACTION_GODSPELL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 7,
+	id2 = 94,
+	f1name = "FACTION_ANIMAL_WILD",
+	f2name = "FACTION_GUARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 75,
+	id2 = 94,
+	f1name = "FACTION_AWILD_HUNTER_LARGE",
+	f2name = "FACTION_GUARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 74,
+	id2 = 94,
+	f1name = "FACTION_AWILD_HUNTER_MED",
+	f2name = "FACTION_GUARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 73,
+	id2 = 94,
+	f1name = "FACTION_AWILD_HUNTER_SM",
+	f2name = "FACTION_GUARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 37,
+	id2 = 94,
+	f1name = "FACTION_COBOLD",
+	f2name = "FACTION_GUARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 24,
+	id2 = 94,
+	f1name = "FACTION_DEMON",
+	f2name = "FACTION_GUARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 76,
+	id2 = 94,
+	f1name = "FACTION_DESERTHU_GUARDS",
+	f2name = "FACTION_GUARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 77,
+	id2 = 94,
+	f1name = "FACTION_DESERTHU_REBELS",
+	f2name = "FACTION_GUARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 23,
+	id2 = 94,
+	f1name = "FACTION_DRAGON",
+	f2name = "FACTION_GUARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 78,
+	id2 = 94,
+	f1name = "FACTION_DRAGON_ARMY",
+	f2name = "FACTION_GUARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 79,
+	id2 = 94,
+	f1name = "FACTION_DRAGON_REBELS",
+	f2name = "FACTION_GUARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 80,
+	id2 = 94,
+	f1name = "FACTION_DRYAD_GUARD",
+	f2name = "FACTION_GUARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 94,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_GUARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 57,
+	id2 = 94,
+	f1name = "FACTION_ENEMY_HERO",
+	f2name = "FACTION_GUARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 59,
+	id2 = 94,
+	f1name = "FACTION_ENEMY_HERO_BAD",
+	f2name = "FACTION_GUARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 26,
+	id2 = 94,
+	f1name = "FACTION_ENERGY",
+	f2name = "FACTION_GUARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 94,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_GUARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 94,
+	id2 = 94,
+	f1name = "FACTION_GUARD_BAD",
+	f2name = "FACTION_GUARD_BAD",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 93,
+	id2 = 94,
+	f1name = "FACTION_GUARD_GOOD",
+	f2name = "FACTION_GUARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 8,
+	id2 = 94,
+	f1name = "FACTION_HERO_GOOD",
+	f2name = "FACTION_GUARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 83,
+	id2 = 94,
+	f1name = "FACTION_HIGHELVE_GUARD",
+	f2name = "FACTION_GUARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 84,
+	id2 = 94,
+	f1name = "FACTION_HUMAN_GUARD",
+	f2name = "FACTION_GUARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 99,
+	id2 = 94,
+	f1name = "FACTION_HUMAN_MASC",
+	f2name = "FACTION_GUARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 89,
+	id2 = 94,
+	f1name = "FACTION_LIZARD_GOOD",
+	f2name = "FACTION_GUARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 88,
+	id2 = 94,
+	f1name = "FACTION_LIZARD_NEUTRAL",
+	f2name = "FACTION_GUARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 87,
+	id2 = 94,
+	f1name = "FACTION_LIZARD_NEUTRAL_GUARD",
+	f2name = "FACTION_GUARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 18,
+	id2 = 94,
+	f1name = "FACTION_MECHANICAL",
+	f2name = "FACTION_GUARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 27,
+	id2 = 94,
+	f1name = "FACTION_MONSTER",
+	f2name = "FACTION_GUARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 36,
+	id2 = 94,
+	f1name = "FACTION_NUKNUK",
+	f2name = "FACTION_GUARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 34,
+	id2 = 94,
+	f1name = "FACTION_ORC_GOOD",
+	f2name = "FACTION_GUARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 91,
+	id2 = 94,
+	f1name = "FACTION_ORC_NEUTRAL",
+	f2name = "FACTION_GUARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 90,
+	id2 = 94,
+	f1name = "FACTION_ORC_NEUTRAL_GUARD",
+	f2name = "FACTION_GUARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 92,
+	id2 = 94,
+	f1name = "FACTION_OUTLAW_PIRATE",
+	f2name = "FACTION_GUARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 67,
+	id2 = 94,
+	f1name = "FACTION_OUTLAW_ROBBERS",
+	f2name = "FACTION_GUARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 30,
+	id2 = 94,
+	f1name = "FACTION_SANDPEOPLE",
+	f2name = "FACTION_GUARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 47,
+	id2 = 94,
+	f1name = "FACTION_SERAPHIM",
+	f2name = "FACTION_GUARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 94,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_GUARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 19,
+	id2 = 94,
+	f1name = "FACTION_UNDEAD",
+	f2name = "FACTION_GUARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 33,
+	id2 = 94,
+	f1name = "FACTION_UNDEADLEGION",
+	f2name = "FACTION_GUARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 96,
+	id2 = 94,
+	f1name = "FACTION_WEREWOLF_SWAMP",
+	f2name = "FACTION_GUARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 7,
+	id2 = 93,
+	f1name = "FACTION_ANIMAL_WILD",
+	f2name = "FACTION_GUARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 75,
+	id2 = 93,
+	f1name = "FACTION_AWILD_HUNTER_LARGE",
+	f2name = "FACTION_GUARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 74,
+	id2 = 93,
+	f1name = "FACTION_AWILD_HUNTER_MED",
+	f2name = "FACTION_GUARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 73,
+	id2 = 93,
+	f1name = "FACTION_AWILD_HUNTER_SM",
+	f2name = "FACTION_GUARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 37,
+	id2 = 93,
+	f1name = "FACTION_COBOLD",
+	f2name = "FACTION_GUARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 24,
+	id2 = 93,
+	f1name = "FACTION_DEMON",
+	f2name = "FACTION_GUARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 77,
+	id2 = 93,
+	f1name = "FACTION_DESERTHU_REBELS",
+	f2name = "FACTION_GUARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 23,
+	id2 = 93,
+	f1name = "FACTION_DRAGON",
+	f2name = "FACTION_GUARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 78,
+	id2 = 93,
+	f1name = "FACTION_DRAGON_ARMY",
+	f2name = "FACTION_GUARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 81,
+	id2 = 93,
+	f1name = "FACTION_DRYAD_BLOOD",
+	f2name = "FACTION_GUARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 82,
+	id2 = 93,
+	f1name = "FACTION_DRYAD_BRIGANT",
+	f2name = "FACTION_GUARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 93,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_GUARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 57,
+	id2 = 93,
+	f1name = "FACTION_ENEMY_HERO",
+	f2name = "FACTION_GUARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 58,
+	id2 = 93,
+	f1name = "FACTION_ENEMY_HERO_GOOD",
+	f2name = "FACTION_GUARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 26,
+	id2 = 93,
+	f1name = "FACTION_ENERGY",
+	f2name = "FACTION_GUARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 93,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_GUARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 94,
+	id2 = 93,
+	f1name = "FACTION_GUARD_BAD",
+	f2name = "FACTION_GUARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 93,
+	id2 = 93,
+	f1name = "FACTION_GUARD_GOOD",
+	f2name = "FACTION_GUARD_GOOD",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 9,
+	id2 = 93,
+	f1name = "FACTION_HERO_BAD",
+	f2name = "FACTION_GUARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 85,
+	id2 = 93,
+	f1name = "FACTION_HUMAN_CRUSADE",
+	f2name = "FACTION_GUARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 86,
+	id2 = 93,
+	f1name = "FACTION_HUMAN_CULT",
+	f2name = "FACTION_GUARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 40,
+	id2 = 93,
+	f1name = "FACTION_LIZARD_BAD",
+	f2name = "FACTION_GUARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 88,
+	id2 = 93,
+	f1name = "FACTION_LIZARD_NEUTRAL",
+	f2name = "FACTION_GUARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 87,
+	id2 = 93,
+	f1name = "FACTION_LIZARD_NEUTRAL_GUARD",
+	f2name = "FACTION_GUARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 18,
+	id2 = 93,
+	f1name = "FACTION_MECHANICAL",
+	f2name = "FACTION_GUARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 27,
+	id2 = 93,
+	f1name = "FACTION_MONSTER",
+	f2name = "FACTION_GUARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 36,
+	id2 = 93,
+	f1name = "FACTION_NUKNUK",
+	f2name = "FACTION_GUARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 35,
+	id2 = 93,
+	f1name = "FACTION_ORC_BAD",
+	f2name = "FACTION_GUARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 91,
+	id2 = 93,
+	f1name = "FACTION_ORC_NEUTRAL",
+	f2name = "FACTION_GUARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 90,
+	id2 = 93,
+	f1name = "FACTION_ORC_NEUTRAL_GUARD",
+	f2name = "FACTION_GUARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 92,
+	id2 = 93,
+	f1name = "FACTION_OUTLAW_PIRATE",
+	f2name = "FACTION_GUARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 67,
+	id2 = 93,
+	f1name = "FACTION_OUTLAW_ROBBERS",
+	f2name = "FACTION_GUARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 30,
+	id2 = 93,
+	f1name = "FACTION_SANDPEOPLE",
+	f2name = "FACTION_GUARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 93,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_GUARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 19,
+	id2 = 93,
+	f1name = "FACTION_UNDEAD",
+	f2name = "FACTION_GUARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 33,
+	id2 = 93,
+	f1name = "FACTION_UNDEADLEGION",
+	f2name = "FACTION_GUARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 96,
+	id2 = 93,
+	f1name = "FACTION_WEREWOLF_SWAMP",
+	f2name = "FACTION_GUARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 7,
+	id2 = 9,
+	f1name = "FACTION_ANIMAL_WILD",
+	f2name = "FACTION_HERO_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 75,
+	id2 = 9,
+	f1name = "FACTION_AWILD_HUNTER_LARGE",
+	f2name = "FACTION_HERO_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 74,
+	id2 = 9,
+	f1name = "FACTION_AWILD_HUNTER_MED",
+	f2name = "FACTION_HERO_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 73,
+	id2 = 9,
+	f1name = "FACTION_AWILD_HUNTER_SM",
+	f2name = "FACTION_HERO_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 37,
+	id2 = 9,
+	f1name = "FACTION_COBOLD",
+	f2name = "FACTION_HERO_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 24,
+	id2 = 9,
+	f1name = "FACTION_DEMON",
+	f2name = "FACTION_HERO_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 77,
+	id2 = 9,
+	f1name = "FACTION_DESERTHU_REBELS",
+	f2name = "FACTION_HERO_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 23,
+	id2 = 9,
+	f1name = "FACTION_DRAGON",
+	f2name = "FACTION_HERO_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 78,
+	id2 = 9,
+	f1name = "FACTION_DRAGON_ARMY",
+	f2name = "FACTION_HERO_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 79,
+	id2 = 9,
+	f1name = "FACTION_DRAGON_REBELS",
+	f2name = "FACTION_HERO_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 81,
+	id2 = 9,
+	f1name = "FACTION_DRYAD_BLOOD",
+	f2name = "FACTION_HERO_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 82,
+	id2 = 9,
+	f1name = "FACTION_DRYAD_BRIGANT",
+	f2name = "FACTION_HERO_BAD",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 9,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_HERO_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 57,
+	id2 = 9,
+	f1name = "FACTION_ENEMY_HERO",
+	f2name = "FACTION_HERO_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 59,
+	id2 = 9,
+	f1name = "FACTION_ENEMY_HERO_BAD",
+	f2name = "FACTION_HERO_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 26,
+	id2 = 9,
+	f1name = "FACTION_ENERGY",
+	f2name = "FACTION_HERO_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 9,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_HERO_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 93,
+	id2 = 9,
+	f1name = "FACTION_GUARD_GOOD",
+	f2name = "FACTION_HERO_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 9,
+	id2 = 9,
+	f1name = "FACTION_HERO_BAD",
+	f2name = "FACTION_HERO_BAD",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 8,
+	id2 = 9,
+	f1name = "FACTION_HERO_GOOD",
+	f2name = "FACTION_HERO_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 85,
+	id2 = 9,
+	f1name = "FACTION_HUMAN_CRUSADE",
+	f2name = "FACTION_HERO_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 86,
+	id2 = 9,
+	f1name = "FACTION_HUMAN_CULT",
+	f2name = "FACTION_HERO_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 89,
+	id2 = 9,
+	f1name = "FACTION_LIZARD_GOOD",
+	f2name = "FACTION_HERO_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 88,
+	id2 = 9,
+	f1name = "FACTION_LIZARD_NEUTRAL",
+	f2name = "FACTION_HERO_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 18,
+	id2 = 9,
+	f1name = "FACTION_MECHANICAL",
+	f2name = "FACTION_HERO_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 27,
+	id2 = 9,
+	f1name = "FACTION_MONSTER",
+	f2name = "FACTION_HERO_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 36,
+	id2 = 9,
+	f1name = "FACTION_NUKNUK",
+	f2name = "FACTION_HERO_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 34,
+	id2 = 9,
+	f1name = "FACTION_ORC_GOOD",
+	f2name = "FACTION_HERO_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 91,
+	id2 = 9,
+	f1name = "FACTION_ORC_NEUTRAL",
+	f2name = "FACTION_HERO_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 92,
+	id2 = 9,
+	f1name = "FACTION_OUTLAW_PIRATE",
+	f2name = "FACTION_HERO_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 67,
+	id2 = 9,
+	f1name = "FACTION_OUTLAW_ROBBERS",
+	f2name = "FACTION_HERO_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 98,
+	id2 = 9,
+	f1name = "FACTION_QUEST_ENEMY",
+	f2name = "FACTION_HERO_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 97,
+	id2 = 9,
+	f1name = "FACTION_QUEST_VICTIM",
+	f2name = "FACTION_HERO_BAD",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 30,
+	id2 = 9,
+	f1name = "FACTION_SANDPEOPLE",
+	f2name = "FACTION_HERO_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 9,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_HERO_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 19,
+	id2 = 9,
+	f1name = "FACTION_UNDEAD",
+	f2name = "FACTION_HERO_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 33,
+	id2 = 9,
+	f1name = "FACTION_UNDEADLEGION",
+	f2name = "FACTION_HERO_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 96,
+	id2 = 9,
+	f1name = "FACTION_WEREWOLF_SWAMP",
+	f2name = "FACTION_HERO_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 7,
+	id2 = 8,
+	f1name = "FACTION_ANIMAL_WILD",
+	f2name = "FACTION_HERO_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 75,
+	id2 = 8,
+	f1name = "FACTION_AWILD_HUNTER_LARGE",
+	f2name = "FACTION_HERO_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 74,
+	id2 = 8,
+	f1name = "FACTION_AWILD_HUNTER_MED",
+	f2name = "FACTION_HERO_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 73,
+	id2 = 8,
+	f1name = "FACTION_AWILD_HUNTER_SM",
+	f2name = "FACTION_HERO_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 37,
+	id2 = 8,
+	f1name = "FACTION_COBOLD",
+	f2name = "FACTION_HERO_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 24,
+	id2 = 8,
+	f1name = "FACTION_DEMON",
+	f2name = "FACTION_HERO_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 77,
+	id2 = 8,
+	f1name = "FACTION_DESERTHU_REBELS",
+	f2name = "FACTION_HERO_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 23,
+	id2 = 8,
+	f1name = "FACTION_DRAGON",
+	f2name = "FACTION_HERO_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 78,
+	id2 = 8,
+	f1name = "FACTION_DRAGON_ARMY",
+	f2name = "FACTION_HERO_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 81,
+	id2 = 8,
+	f1name = "FACTION_DRYAD_BLOOD",
+	f2name = "FACTION_HERO_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 82,
+	id2 = 8,
+	f1name = "FACTION_DRYAD_BRIGANT",
+	f2name = "FACTION_HERO_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 8,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_HERO_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 57,
+	id2 = 8,
+	f1name = "FACTION_ENEMY_HERO",
+	f2name = "FACTION_HERO_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 58,
+	id2 = 8,
+	f1name = "FACTION_ENEMY_HERO_GOOD",
+	f2name = "FACTION_HERO_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 26,
+	id2 = 8,
+	f1name = "FACTION_ENERGY",
+	f2name = "FACTION_HERO_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 8,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_HERO_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 94,
+	id2 = 8,
+	f1name = "FACTION_GUARD_BAD",
+	f2name = "FACTION_HERO_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 9,
+	id2 = 8,
+	f1name = "FACTION_HERO_BAD",
+	f2name = "FACTION_HERO_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 8,
+	id2 = 8,
+	f1name = "FACTION_HERO_GOOD",
+	f2name = "FACTION_HERO_GOOD",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 85,
+	id2 = 8,
+	f1name = "FACTION_HUMAN_CRUSADE",
+	f2name = "FACTION_HERO_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 86,
+	id2 = 8,
+	f1name = "FACTION_HUMAN_CULT",
+	f2name = "FACTION_HERO_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 40,
+	id2 = 8,
+	f1name = "FACTION_LIZARD_BAD",
+	f2name = "FACTION_HERO_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 88,
+	id2 = 8,
+	f1name = "FACTION_LIZARD_NEUTRAL",
+	f2name = "FACTION_HERO_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 18,
+	id2 = 8,
+	f1name = "FACTION_MECHANICAL",
+	f2name = "FACTION_HERO_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 27,
+	id2 = 8,
+	f1name = "FACTION_MONSTER",
+	f2name = "FACTION_HERO_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 36,
+	id2 = 8,
+	f1name = "FACTION_NUKNUK",
+	f2name = "FACTION_HERO_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 35,
+	id2 = 8,
+	f1name = "FACTION_ORC_BAD",
+	f2name = "FACTION_HERO_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 91,
+	id2 = 8,
+	f1name = "FACTION_ORC_NEUTRAL",
+	f2name = "FACTION_HERO_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 92,
+	id2 = 8,
+	f1name = "FACTION_OUTLAW_PIRATE",
+	f2name = "FACTION_HERO_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 67,
+	id2 = 8,
+	f1name = "FACTION_OUTLAW_ROBBERS",
+	f2name = "FACTION_HERO_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 98,
+	id2 = 8,
+	f1name = "FACTION_QUEST_ENEMY",
+	f2name = "FACTION_HERO_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 97,
+	id2 = 8,
+	f1name = "FACTION_QUEST_VICTIM",
+	f2name = "FACTION_HERO_GOOD",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 30,
+	id2 = 8,
+	f1name = "FACTION_SANDPEOPLE",
+	f2name = "FACTION_HERO_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 8,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_HERO_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 19,
+	id2 = 8,
+	f1name = "FACTION_UNDEAD",
+	f2name = "FACTION_HERO_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 33,
+	id2 = 8,
+	f1name = "FACTION_UNDEADLEGION",
+	f2name = "FACTION_HERO_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 96,
+	id2 = 8,
+	f1name = "FACTION_WEREWOLF_SWAMP",
+	f2name = "FACTION_HERO_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 14,
+	id2 = 14,
+	f1name = "FACTION_HIGHELVE",
+	f2name = "FACTION_HIGHELVE",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 41,
+	id2 = 14,
+	f1name = "FACTION_HIGHELVE_PRIEST",
+	f2name = "FACTION_HIGHELVE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 7,
+	id2 = 83,
+	f1name = "FACTION_ANIMAL_WILD",
+	f2name = "FACTION_HIGHELVE_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 75,
+	id2 = 83,
+	f1name = "FACTION_AWILD_HUNTER_LARGE",
+	f2name = "FACTION_HIGHELVE_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 74,
+	id2 = 83,
+	f1name = "FACTION_AWILD_HUNTER_MED",
+	f2name = "FACTION_HIGHELVE_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 73,
+	id2 = 83,
+	f1name = "FACTION_AWILD_HUNTER_SM",
+	f2name = "FACTION_HIGHELVE_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 37,
+	id2 = 83,
+	f1name = "FACTION_COBOLD",
+	f2name = "FACTION_HIGHELVE_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 77,
+	id2 = 83,
+	f1name = "FACTION_DESERTHU_REBELS",
+	f2name = "FACTION_HIGHELVE_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 83,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_HIGHELVE_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 57,
+	id2 = 83,
+	f1name = "FACTION_ENEMY_HERO",
+	f2name = "FACTION_HIGHELVE_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 59,
+	id2 = 83,
+	f1name = "FACTION_ENEMY_HERO_BAD",
+	f2name = "FACTION_HIGHELVE_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 58,
+	id2 = 83,
+	f1name = "FACTION_ENEMY_HERO_GOOD",
+	f2name = "FACTION_HIGHELVE_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 26,
+	id2 = 83,
+	f1name = "FACTION_ENERGY",
+	f2name = "FACTION_HIGHELVE_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 83,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_HIGHELVE_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 94,
+	id2 = 83,
+	f1name = "FACTION_GUARD_BAD",
+	f2name = "FACTION_HIGHELVE_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 83,
+	id2 = 83,
+	f1name = "FACTION_HIGHELVE_GUARD",
+	f2name = "FACTION_HIGHELVE_GUARD",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 27,
+	id2 = 83,
+	f1name = "FACTION_MONSTER",
+	f2name = "FACTION_HIGHELVE_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 92,
+	id2 = 83,
+	f1name = "FACTION_OUTLAW_PIRATE",
+	f2name = "FACTION_HIGHELVE_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 67,
+	id2 = 83,
+	f1name = "FACTION_OUTLAW_ROBBERS",
+	f2name = "FACTION_HIGHELVE_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 30,
+	id2 = 83,
+	f1name = "FACTION_SANDPEOPLE",
+	f2name = "FACTION_HIGHELVE_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 83,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_HIGHELVE_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 19,
+	id2 = 83,
+	f1name = "FACTION_UNDEAD",
+	f2name = "FACTION_HIGHELVE_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 33,
+	id2 = 83,
+	f1name = "FACTION_UNDEADLEGION",
+	f2name = "FACTION_HIGHELVE_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 14,
+	id2 = 41,
+	f1name = "FACTION_HIGHELVE",
+	f2name = "FACTION_HIGHELVE_PRIEST",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 41,
+	id2 = 41,
+	f1name = "FACTION_HIGHELVE_PRIEST",
+	f2name = "FACTION_HIGHELVE_PRIEST",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 12,
+	id2 = 12,
+	f1name = "FACTION_HUMAN",
+	f2name = "FACTION_HUMAN",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 85,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_HUMAN_CRUSADE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 26,
+	id2 = 85,
+	f1name = "FACTION_ENERGY",
+	f2name = "FACTION_HUMAN_CRUSADE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 85,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_HUMAN_CRUSADE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 93,
+	id2 = 85,
+	f1name = "FACTION_GUARD_GOOD",
+	f2name = "FACTION_HUMAN_CRUSADE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 9,
+	id2 = 85,
+	f1name = "FACTION_HERO_BAD",
+	f2name = "FACTION_HUMAN_CRUSADE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 8,
+	id2 = 85,
+	f1name = "FACTION_HERO_GOOD",
+	f2name = "FACTION_HUMAN_CRUSADE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 85,
+	id2 = 85,
+	f1name = "FACTION_HUMAN_CRUSADE",
+	f2name = "FACTION_HUMAN_CRUSADE",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 86,
+	id2 = 85,
+	f1name = "FACTION_HUMAN_CULT",
+	f2name = "FACTION_HUMAN_CRUSADE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 84,
+	id2 = 85,
+	f1name = "FACTION_HUMAN_GUARD",
+	f2name = "FACTION_HUMAN_CRUSADE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 99,
+	id2 = 85,
+	f1name = "FACTION_HUMAN_MASC",
+	f2name = "FACTION_HUMAN_CRUSADE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 35,
+	id2 = 85,
+	f1name = "FACTION_ORC_BAD",
+	f2name = "FACTION_HUMAN_CRUSADE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 34,
+	id2 = 85,
+	f1name = "FACTION_ORC_GOOD",
+	f2name = "FACTION_HUMAN_CRUSADE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 91,
+	id2 = 85,
+	f1name = "FACTION_ORC_NEUTRAL",
+	f2name = "FACTION_HUMAN_CRUSADE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 90,
+	id2 = 85,
+	f1name = "FACTION_ORC_NEUTRAL_GUARD",
+	f2name = "FACTION_HUMAN_CRUSADE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 92,
+	id2 = 85,
+	f1name = "FACTION_OUTLAW_PIRATE",
+	f2name = "FACTION_HUMAN_CRUSADE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 85,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_HUMAN_CRUSADE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 86,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_HUMAN_CULT",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 26,
+	id2 = 86,
+	f1name = "FACTION_ENERGY",
+	f2name = "FACTION_HUMAN_CULT",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 86,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_HUMAN_CULT",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 93,
+	id2 = 86,
+	f1name = "FACTION_GUARD_GOOD",
+	f2name = "FACTION_HUMAN_CULT",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 9,
+	id2 = 86,
+	f1name = "FACTION_HERO_BAD",
+	f2name = "FACTION_HUMAN_CULT",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 8,
+	id2 = 86,
+	f1name = "FACTION_HERO_GOOD",
+	f2name = "FACTION_HUMAN_CULT",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 85,
+	id2 = 86,
+	f1name = "FACTION_HUMAN_CRUSADE",
+	f2name = "FACTION_HUMAN_CULT",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 86,
+	id2 = 86,
+	f1name = "FACTION_HUMAN_CULT",
+	f2name = "FACTION_HUMAN_CULT",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 84,
+	id2 = 86,
+	f1name = "FACTION_HUMAN_GUARD",
+	f2name = "FACTION_HUMAN_CULT",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 35,
+	id2 = 86,
+	f1name = "FACTION_ORC_BAD",
+	f2name = "FACTION_HUMAN_CULT",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 34,
+	id2 = 86,
+	f1name = "FACTION_ORC_GOOD",
+	f2name = "FACTION_HUMAN_CULT",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 91,
+	id2 = 86,
+	f1name = "FACTION_ORC_NEUTRAL",
+	f2name = "FACTION_HUMAN_CULT",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 90,
+	id2 = 86,
+	f1name = "FACTION_ORC_NEUTRAL_GUARD",
+	f2name = "FACTION_HUMAN_CULT",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 67,
+	id2 = 86,
+	f1name = "FACTION_OUTLAW_ROBBERS",
+	f2name = "FACTION_HUMAN_CULT",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 86,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_HUMAN_CULT",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 7,
+	id2 = 84,
+	f1name = "FACTION_ANIMAL_WILD",
+	f2name = "FACTION_HUMAN_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 75,
+	id2 = 84,
+	f1name = "FACTION_AWILD_HUNTER_LARGE",
+	f2name = "FACTION_HUMAN_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 74,
+	id2 = 84,
+	f1name = "FACTION_AWILD_HUNTER_MED",
+	f2name = "FACTION_HUMAN_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 73,
+	id2 = 84,
+	f1name = "FACTION_AWILD_HUNTER_SM",
+	f2name = "FACTION_HUMAN_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 84,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_HUMAN_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 57,
+	id2 = 84,
+	f1name = "FACTION_ENEMY_HERO",
+	f2name = "FACTION_HUMAN_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 59,
+	id2 = 84,
+	f1name = "FACTION_ENEMY_HERO_BAD",
+	f2name = "FACTION_HUMAN_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 58,
+	id2 = 84,
+	f1name = "FACTION_ENEMY_HERO_GOOD",
+	f2name = "FACTION_HUMAN_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 26,
+	id2 = 84,
+	f1name = "FACTION_ENERGY",
+	f2name = "FACTION_HUMAN_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 84,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_HUMAN_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 94,
+	id2 = 84,
+	f1name = "FACTION_GUARD_BAD",
+	f2name = "FACTION_HUMAN_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 85,
+	id2 = 84,
+	f1name = "FACTION_HUMAN_CRUSADE",
+	f2name = "FACTION_HUMAN_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 86,
+	id2 = 84,
+	f1name = "FACTION_HUMAN_CULT",
+	f2name = "FACTION_HUMAN_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 84,
+	id2 = 84,
+	f1name = "FACTION_HUMAN_GUARD",
+	f2name = "FACTION_HUMAN_GUARD",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 27,
+	id2 = 84,
+	f1name = "FACTION_MONSTER",
+	f2name = "FACTION_HUMAN_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 35,
+	id2 = 84,
+	f1name = "FACTION_ORC_BAD",
+	f2name = "FACTION_HUMAN_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 34,
+	id2 = 84,
+	f1name = "FACTION_ORC_GOOD",
+	f2name = "FACTION_HUMAN_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 91,
+	id2 = 84,
+	f1name = "FACTION_ORC_NEUTRAL",
+	f2name = "FACTION_HUMAN_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 90,
+	id2 = 84,
+	f1name = "FACTION_ORC_NEUTRAL_GUARD",
+	f2name = "FACTION_HUMAN_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 92,
+	id2 = 84,
+	f1name = "FACTION_OUTLAW_PIRATE",
+	f2name = "FACTION_HUMAN_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 67,
+	id2 = 84,
+	f1name = "FACTION_OUTLAW_ROBBERS",
+	f2name = "FACTION_HUMAN_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 84,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_HUMAN_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 19,
+	id2 = 84,
+	f1name = "FACTION_UNDEAD",
+	f2name = "FACTION_HUMAN_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 99,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_HUMAN_MASC",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 94,
+	id2 = 99,
+	f1name = "FACTION_GUARD_BAD",
+	f2name = "FACTION_HUMAN_MASC",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 85,
+	id2 = 99,
+	f1name = "FACTION_HUMAN_CRUSADE",
+	f2name = "FACTION_HUMAN_MASC",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 27,
+	id2 = 99,
+	f1name = "FACTION_MONSTER",
+	f2name = "FACTION_HUMAN_MASC",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 1,
+	id2 = 1,
+	f1name = "FACTION_INVALID",
+	f2name = "FACTION_INVALID",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 71,
+	id2 = 95,
+	f1name = "FACTION_ATMO_HUNT_LARGE",
+	f2name = "FACTION_JOB_HUNTER",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 70,
+	id2 = 95,
+	f1name = "FACTION_ATMO_HUNT_MED",
+	f2name = "FACTION_JOB_HUNTER",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 69,
+	id2 = 95,
+	f1name = "FACTION_ATMO_HUNT_SMALL",
+	f2name = "FACTION_JOB_HUNTER",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 74,
+	id2 = 95,
+	f1name = "FACTION_AWILD_HUNTER_MED",
+	f2name = "FACTION_JOB_HUNTER",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 73,
+	id2 = 95,
+	f1name = "FACTION_AWILD_HUNTER_SM",
+	f2name = "FACTION_JOB_HUNTER",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 37,
+	id2 = 95,
+	f1name = "FACTION_COBOLD",
+	f2name = "FACTION_JOB_HUNTER",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 95,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_JOB_HUNTER",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 95,
+	id2 = 95,
+	f1name = "FACTION_JOB_HUNTER",
+	f2name = "FACTION_JOB_HUNTER",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 95,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_JOB_HUNTER",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 32,
+	id2 = 32,
+	f1name = "FACTION_LIZARD",
+	f2name = "FACTION_LIZARD",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 76,
+	id2 = 40,
+	f1name = "FACTION_DESERTHU_GUARDS",
+	f2name = "FACTION_LIZARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 77,
+	id2 = 40,
+	f1name = "FACTION_DESERTHU_REBELS",
+	f2name = "FACTION_LIZARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 40,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_LIZARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 40,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_LIZARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 93,
+	id2 = 40,
+	f1name = "FACTION_GUARD_GOOD",
+	f2name = "FACTION_LIZARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 8,
+	id2 = 40,
+	f1name = "FACTION_HERO_GOOD",
+	f2name = "FACTION_LIZARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 40,
+	id2 = 40,
+	f1name = "FACTION_LIZARD_BAD",
+	f2name = "FACTION_LIZARD_BAD",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 89,
+	id2 = 40,
+	f1name = "FACTION_LIZARD_GOOD",
+	f2name = "FACTION_LIZARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 88,
+	id2 = 40,
+	f1name = "FACTION_LIZARD_NEUTRAL",
+	f2name = "FACTION_LIZARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 87,
+	id2 = 40,
+	f1name = "FACTION_LIZARD_NEUTRAL_GUARD",
+	f2name = "FACTION_LIZARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 30,
+	id2 = 40,
+	f1name = "FACTION_SANDPEOPLE",
+	f2name = "FACTION_LIZARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 40,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_LIZARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 96,
+	id2 = 40,
+	f1name = "FACTION_WEREWOLF_SWAMP",
+	f2name = "FACTION_LIZARD_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 89,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_LIZARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 89,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_LIZARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 94,
+	id2 = 89,
+	f1name = "FACTION_GUARD_BAD",
+	f2name = "FACTION_LIZARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 9,
+	id2 = 89,
+	f1name = "FACTION_HERO_BAD",
+	f2name = "FACTION_LIZARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 40,
+	id2 = 89,
+	f1name = "FACTION_LIZARD_BAD",
+	f2name = "FACTION_LIZARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 89,
+	id2 = 89,
+	f1name = "FACTION_LIZARD_GOOD",
+	f2name = "FACTION_LIZARD_GOOD",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 88,
+	id2 = 89,
+	f1name = "FACTION_LIZARD_NEUTRAL",
+	f2name = "FACTION_LIZARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 30,
+	id2 = 89,
+	f1name = "FACTION_SANDPEOPLE",
+	f2name = "FACTION_LIZARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 89,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_LIZARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 46,
+	id2 = 89,
+	f1name = "FACTION_TROLL",
+	f2name = "FACTION_LIZARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 19,
+	id2 = 89,
+	f1name = "FACTION_UNDEAD",
+	f2name = "FACTION_LIZARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 96,
+	id2 = 89,
+	f1name = "FACTION_WEREWOLF_SWAMP",
+	f2name = "FACTION_LIZARD_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 88,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_LIZARD_NEUTRAL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 88,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_LIZARD_NEUTRAL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 94,
+	id2 = 88,
+	f1name = "FACTION_GUARD_BAD",
+	f2name = "FACTION_LIZARD_NEUTRAL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 93,
+	id2 = 88,
+	f1name = "FACTION_GUARD_GOOD",
+	f2name = "FACTION_LIZARD_NEUTRAL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 9,
+	id2 = 88,
+	f1name = "FACTION_HERO_BAD",
+	f2name = "FACTION_LIZARD_NEUTRAL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 8,
+	id2 = 88,
+	f1name = "FACTION_HERO_GOOD",
+	f2name = "FACTION_LIZARD_NEUTRAL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 40,
+	id2 = 88,
+	f1name = "FACTION_LIZARD_BAD",
+	f2name = "FACTION_LIZARD_NEUTRAL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 89,
+	id2 = 88,
+	f1name = "FACTION_LIZARD_GOOD",
+	f2name = "FACTION_LIZARD_NEUTRAL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 88,
+	id2 = 88,
+	f1name = "FACTION_LIZARD_NEUTRAL",
+	f2name = "FACTION_LIZARD_NEUTRAL",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 30,
+	id2 = 88,
+	f1name = "FACTION_SANDPEOPLE",
+	f2name = "FACTION_LIZARD_NEUTRAL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 88,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_LIZARD_NEUTRAL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 19,
+	id2 = 88,
+	f1name = "FACTION_UNDEAD",
+	f2name = "FACTION_LIZARD_NEUTRAL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 96,
+	id2 = 88,
+	f1name = "FACTION_WEREWOLF_SWAMP",
+	f2name = "FACTION_LIZARD_NEUTRAL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 7,
+	id2 = 87,
+	f1name = "FACTION_ANIMAL_WILD",
+	f2name = "FACTION_LIZARD_NEUTRAL_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 75,
+	id2 = 87,
+	f1name = "FACTION_AWILD_HUNTER_LARGE",
+	f2name = "FACTION_LIZARD_NEUTRAL_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 74,
+	id2 = 87,
+	f1name = "FACTION_AWILD_HUNTER_MED",
+	f2name = "FACTION_LIZARD_NEUTRAL_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 73,
+	id2 = 87,
+	f1name = "FACTION_AWILD_HUNTER_SM",
+	f2name = "FACTION_LIZARD_NEUTRAL_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 87,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_LIZARD_NEUTRAL_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 57,
+	id2 = 87,
+	f1name = "FACTION_ENEMY_HERO",
+	f2name = "FACTION_LIZARD_NEUTRAL_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 59,
+	id2 = 87,
+	f1name = "FACTION_ENEMY_HERO_BAD",
+	f2name = "FACTION_LIZARD_NEUTRAL_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 58,
+	id2 = 87,
+	f1name = "FACTION_ENEMY_HERO_GOOD",
+	f2name = "FACTION_LIZARD_NEUTRAL_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 26,
+	id2 = 87,
+	f1name = "FACTION_ENERGY",
+	f2name = "FACTION_LIZARD_NEUTRAL_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 87,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_LIZARD_NEUTRAL_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 94,
+	id2 = 87,
+	f1name = "FACTION_GUARD_BAD",
+	f2name = "FACTION_LIZARD_NEUTRAL_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 93,
+	id2 = 87,
+	f1name = "FACTION_GUARD_GOOD",
+	f2name = "FACTION_LIZARD_NEUTRAL_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 40,
+	id2 = 87,
+	f1name = "FACTION_LIZARD_BAD",
+	f2name = "FACTION_LIZARD_NEUTRAL_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 89,
+	id2 = 87,
+	f1name = "FACTION_LIZARD_GOOD",
+	f2name = "FACTION_LIZARD_NEUTRAL_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 87,
+	id2 = 87,
+	f1name = "FACTION_LIZARD_NEUTRAL_GUARD",
+	f2name = "FACTION_LIZARD_NEUTRAL_GUARD",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 27,
+	id2 = 87,
+	f1name = "FACTION_MONSTER",
+	f2name = "FACTION_LIZARD_NEUTRAL_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 92,
+	id2 = 87,
+	f1name = "FACTION_OUTLAW_PIRATE",
+	f2name = "FACTION_LIZARD_NEUTRAL_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 67,
+	id2 = 87,
+	f1name = "FACTION_OUTLAW_ROBBERS",
+	f2name = "FACTION_LIZARD_NEUTRAL_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 30,
+	id2 = 87,
+	f1name = "FACTION_SANDPEOPLE",
+	f2name = "FACTION_LIZARD_NEUTRAL_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 87,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_LIZARD_NEUTRAL_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 19,
+	id2 = 87,
+	f1name = "FACTION_UNDEAD",
+	f2name = "FACTION_LIZARD_NEUTRAL_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 96,
+	id2 = 87,
+	f1name = "FACTION_WEREWOLF_SWAMP",
+	f2name = "FACTION_LIZARD_NEUTRAL_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 24,
+	id2 = 18,
+	f1name = "FACTION_DEMON",
+	f2name = "FACTION_MECHANICAL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 23,
+	id2 = 18,
+	f1name = "FACTION_DRAGON",
+	f2name = "FACTION_MECHANICAL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 18,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_MECHANICAL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 18,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_MECHANICAL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 94,
+	id2 = 18,
+	f1name = "FACTION_GUARD_BAD",
+	f2name = "FACTION_MECHANICAL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 93,
+	id2 = 18,
+	f1name = "FACTION_GUARD_GOOD",
+	f2name = "FACTION_MECHANICAL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 9,
+	id2 = 18,
+	f1name = "FACTION_HERO_BAD",
+	f2name = "FACTION_MECHANICAL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 8,
+	id2 = 18,
+	f1name = "FACTION_HERO_GOOD",
+	f2name = "FACTION_MECHANICAL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 18,
+	id2 = 18,
+	f1name = "FACTION_MECHANICAL",
+	f2name = "FACTION_MECHANICAL",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 18,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_MECHANICAL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 76,
+	id2 = 27,
+	f1name = "FACTION_DESERTHU_GUARDS",
+	f2name = "FACTION_MONSTER",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 80,
+	id2 = 27,
+	f1name = "FACTION_DRYAD_GUARD",
+	f2name = "FACTION_MONSTER",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 27,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_MONSTER",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 27,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_MONSTER",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 94,
+	id2 = 27,
+	f1name = "FACTION_GUARD_BAD",
+	f2name = "FACTION_MONSTER",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 93,
+	id2 = 27,
+	f1name = "FACTION_GUARD_GOOD",
+	f2name = "FACTION_MONSTER",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 9,
+	id2 = 27,
+	f1name = "FACTION_HERO_BAD",
+	f2name = "FACTION_MONSTER",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 8,
+	id2 = 27,
+	f1name = "FACTION_HERO_GOOD",
+	f2name = "FACTION_MONSTER",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 83,
+	id2 = 27,
+	f1name = "FACTION_HIGHELVE_GUARD",
+	f2name = "FACTION_MONSTER",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 84,
+	id2 = 27,
+	f1name = "FACTION_HUMAN_GUARD",
+	f2name = "FACTION_MONSTER",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 99,
+	id2 = 27,
+	f1name = "FACTION_HUMAN_MASC",
+	f2name = "FACTION_MONSTER",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 87,
+	id2 = 27,
+	f1name = "FACTION_LIZARD_NEUTRAL_GUARD",
+	f2name = "FACTION_MONSTER",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 27,
+	id2 = 27,
+	f1name = "FACTION_MONSTER",
+	f2name = "FACTION_MONSTER",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 35,
+	id2 = 27,
+	f1name = "FACTION_ORC_BAD",
+	f2name = "FACTION_MONSTER",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 34,
+	id2 = 27,
+	f1name = "FACTION_ORC_GOOD",
+	f2name = "FACTION_MONSTER",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 91,
+	id2 = 27,
+	f1name = "FACTION_ORC_NEUTRAL",
+	f2name = "FACTION_MONSTER",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 90,
+	id2 = 27,
+	f1name = "FACTION_ORC_NEUTRAL_GUARD",
+	f2name = "FACTION_MONSTER",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 92,
+	id2 = 27,
+	f1name = "FACTION_OUTLAW_PIRATE",
+	f2name = "FACTION_MONSTER",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 67,
+	id2 = 27,
+	f1name = "FACTION_OUTLAW_ROBBERS",
+	f2name = "FACTION_MONSTER",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 27,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_MONSTER",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 24,
+	id2 = 36,
+	f1name = "FACTION_DEMON",
+	f2name = "FACTION_NUKNUK",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 76,
+	id2 = 36,
+	f1name = "FACTION_DESERTHU_GUARDS",
+	f2name = "FACTION_NUKNUK",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 77,
+	id2 = 36,
+	f1name = "FACTION_DESERTHU_REBELS",
+	f2name = "FACTION_NUKNUK",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 36,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_NUKNUK",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 36,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_NUKNUK",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 9,
+	id2 = 36,
+	f1name = "FACTION_HERO_BAD",
+	f2name = "FACTION_NUKNUK",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 8,
+	id2 = 36,
+	f1name = "FACTION_HERO_GOOD",
+	f2name = "FACTION_NUKNUK",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 36,
+	id2 = 36,
+	f1name = "FACTION_NUKNUK",
+	f2name = "FACTION_NUKNUK",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 92,
+	id2 = 36,
+	f1name = "FACTION_OUTLAW_PIRATE",
+	f2name = "FACTION_NUKNUK",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 67,
+	id2 = 36,
+	f1name = "FACTION_OUTLAW_ROBBERS",
+	f2name = "FACTION_NUKNUK",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 30,
+	id2 = 36,
+	f1name = "FACTION_SANDPEOPLE",
+	f2name = "FACTION_NUKNUK",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 36,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_NUKNUK",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 16,
+	id2 = 16,
+	f1name = "FACTION_ORC",
+	f2name = "FACTION_ORC",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 37,
+	id2 = 35,
+	f1name = "FACTION_COBOLD",
+	f2name = "FACTION_ORC_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 35,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_ORC_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 35,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_ORC_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 93,
+	id2 = 35,
+	f1name = "FACTION_GUARD_GOOD",
+	f2name = "FACTION_ORC_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 8,
+	id2 = 35,
+	f1name = "FACTION_HERO_GOOD",
+	f2name = "FACTION_ORC_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 85,
+	id2 = 35,
+	f1name = "FACTION_HUMAN_CRUSADE",
+	f2name = "FACTION_ORC_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 86,
+	id2 = 35,
+	f1name = "FACTION_HUMAN_CULT",
+	f2name = "FACTION_ORC_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 84,
+	id2 = 35,
+	f1name = "FACTION_HUMAN_GUARD",
+	f2name = "FACTION_ORC_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 27,
+	id2 = 35,
+	f1name = "FACTION_MONSTER",
+	f2name = "FACTION_ORC_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 35,
+	id2 = 35,
+	f1name = "FACTION_ORC_BAD",
+	f2name = "FACTION_ORC_BAD",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 34,
+	id2 = 35,
+	f1name = "FACTION_ORC_GOOD",
+	f2name = "FACTION_ORC_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 90,
+	id2 = 35,
+	f1name = "FACTION_ORC_NEUTRAL_GUARD",
+	f2name = "FACTION_ORC_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 92,
+	id2 = 35,
+	f1name = "FACTION_OUTLAW_PIRATE",
+	f2name = "FACTION_ORC_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 67,
+	id2 = 35,
+	f1name = "FACTION_OUTLAW_ROBBERS",
+	f2name = "FACTION_ORC_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 35,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_ORC_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 19,
+	id2 = 35,
+	f1name = "FACTION_UNDEAD",
+	f2name = "FACTION_ORC_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 37,
+	id2 = 34,
+	f1name = "FACTION_COBOLD",
+	f2name = "FACTION_ORC_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 34,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_ORC_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 34,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_ORC_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 94,
+	id2 = 34,
+	f1name = "FACTION_GUARD_BAD",
+	f2name = "FACTION_ORC_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 9,
+	id2 = 34,
+	f1name = "FACTION_HERO_BAD",
+	f2name = "FACTION_ORC_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 85,
+	id2 = 34,
+	f1name = "FACTION_HUMAN_CRUSADE",
+	f2name = "FACTION_ORC_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 86,
+	id2 = 34,
+	f1name = "FACTION_HUMAN_CULT",
+	f2name = "FACTION_ORC_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 84,
+	id2 = 34,
+	f1name = "FACTION_HUMAN_GUARD",
+	f2name = "FACTION_ORC_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 27,
+	id2 = 34,
+	f1name = "FACTION_MONSTER",
+	f2name = "FACTION_ORC_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 35,
+	id2 = 34,
+	f1name = "FACTION_ORC_BAD",
+	f2name = "FACTION_ORC_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 34,
+	id2 = 34,
+	f1name = "FACTION_ORC_GOOD",
+	f2name = "FACTION_ORC_GOOD",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 90,
+	id2 = 34,
+	f1name = "FACTION_ORC_NEUTRAL_GUARD",
+	f2name = "FACTION_ORC_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 92,
+	id2 = 34,
+	f1name = "FACTION_OUTLAW_PIRATE",
+	f2name = "FACTION_ORC_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 67,
+	id2 = 34,
+	f1name = "FACTION_OUTLAW_ROBBERS",
+	f2name = "FACTION_ORC_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 34,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_ORC_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 19,
+	id2 = 34,
+	f1name = "FACTION_UNDEAD",
+	f2name = "FACTION_ORC_GOOD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 37,
+	id2 = 91,
+	f1name = "FACTION_COBOLD",
+	f2name = "FACTION_ORC_NEUTRAL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 91,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_ORC_NEUTRAL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 91,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_ORC_NEUTRAL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 94,
+	id2 = 91,
+	f1name = "FACTION_GUARD_BAD",
+	f2name = "FACTION_ORC_NEUTRAL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 93,
+	id2 = 91,
+	f1name = "FACTION_GUARD_GOOD",
+	f2name = "FACTION_ORC_NEUTRAL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 9,
+	id2 = 91,
+	f1name = "FACTION_HERO_BAD",
+	f2name = "FACTION_ORC_NEUTRAL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 8,
+	id2 = 91,
+	f1name = "FACTION_HERO_GOOD",
+	f2name = "FACTION_ORC_NEUTRAL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 85,
+	id2 = 91,
+	f1name = "FACTION_HUMAN_CRUSADE",
+	f2name = "FACTION_ORC_NEUTRAL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 86,
+	id2 = 91,
+	f1name = "FACTION_HUMAN_CULT",
+	f2name = "FACTION_ORC_NEUTRAL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 84,
+	id2 = 91,
+	f1name = "FACTION_HUMAN_GUARD",
+	f2name = "FACTION_ORC_NEUTRAL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 27,
+	id2 = 91,
+	f1name = "FACTION_MONSTER",
+	f2name = "FACTION_ORC_NEUTRAL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 91,
+	id2 = 91,
+	f1name = "FACTION_ORC_NEUTRAL",
+	f2name = "FACTION_ORC_NEUTRAL",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 92,
+	id2 = 91,
+	f1name = "FACTION_OUTLAW_PIRATE",
+	f2name = "FACTION_ORC_NEUTRAL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 67,
+	id2 = 91,
+	f1name = "FACTION_OUTLAW_ROBBERS",
+	f2name = "FACTION_ORC_NEUTRAL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 91,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_ORC_NEUTRAL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 19,
+	id2 = 91,
+	f1name = "FACTION_UNDEAD",
+	f2name = "FACTION_ORC_NEUTRAL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 7,
+	id2 = 90,
+	f1name = "FACTION_ANIMAL_WILD",
+	f2name = "FACTION_ORC_NEUTRAL_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 75,
+	id2 = 90,
+	f1name = "FACTION_AWILD_HUNTER_LARGE",
+	f2name = "FACTION_ORC_NEUTRAL_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 74,
+	id2 = 90,
+	f1name = "FACTION_AWILD_HUNTER_MED",
+	f2name = "FACTION_ORC_NEUTRAL_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 73,
+	id2 = 90,
+	f1name = "FACTION_AWILD_HUNTER_SM",
+	f2name = "FACTION_ORC_NEUTRAL_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 37,
+	id2 = 90,
+	f1name = "FACTION_COBOLD",
+	f2name = "FACTION_ORC_NEUTRAL_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 90,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_ORC_NEUTRAL_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 57,
+	id2 = 90,
+	f1name = "FACTION_ENEMY_HERO",
+	f2name = "FACTION_ORC_NEUTRAL_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 59,
+	id2 = 90,
+	f1name = "FACTION_ENEMY_HERO_BAD",
+	f2name = "FACTION_ORC_NEUTRAL_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 58,
+	id2 = 90,
+	f1name = "FACTION_ENEMY_HERO_GOOD",
+	f2name = "FACTION_ORC_NEUTRAL_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 26,
+	id2 = 90,
+	f1name = "FACTION_ENERGY",
+	f2name = "FACTION_ORC_NEUTRAL_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 90,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_ORC_NEUTRAL_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 94,
+	id2 = 90,
+	f1name = "FACTION_GUARD_BAD",
+	f2name = "FACTION_ORC_NEUTRAL_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 93,
+	id2 = 90,
+	f1name = "FACTION_GUARD_GOOD",
+	f2name = "FACTION_ORC_NEUTRAL_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 85,
+	id2 = 90,
+	f1name = "FACTION_HUMAN_CRUSADE",
+	f2name = "FACTION_ORC_NEUTRAL_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 86,
+	id2 = 90,
+	f1name = "FACTION_HUMAN_CULT",
+	f2name = "FACTION_ORC_NEUTRAL_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 84,
+	id2 = 90,
+	f1name = "FACTION_HUMAN_GUARD",
+	f2name = "FACTION_ORC_NEUTRAL_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 27,
+	id2 = 90,
+	f1name = "FACTION_MONSTER",
+	f2name = "FACTION_ORC_NEUTRAL_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 35,
+	id2 = 90,
+	f1name = "FACTION_ORC_BAD",
+	f2name = "FACTION_ORC_NEUTRAL_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 34,
+	id2 = 90,
+	f1name = "FACTION_ORC_GOOD",
+	f2name = "FACTION_ORC_NEUTRAL_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 90,
+	id2 = 90,
+	f1name = "FACTION_ORC_NEUTRAL_GUARD",
+	f2name = "FACTION_ORC_NEUTRAL_GUARD",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 92,
+	id2 = 90,
+	f1name = "FACTION_OUTLAW_PIRATE",
+	f2name = "FACTION_ORC_NEUTRAL_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 67,
+	id2 = 90,
+	f1name = "FACTION_OUTLAW_ROBBERS",
+	f2name = "FACTION_ORC_NEUTRAL_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 90,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_ORC_NEUTRAL_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 19,
+	id2 = 90,
+	f1name = "FACTION_UNDEAD",
+	f2name = "FACTION_ORC_NEUTRAL_GUARD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 37,
+	id2 = 92,
+	f1name = "FACTION_COBOLD",
+	f2name = "FACTION_OUTLAW_PIRATE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 76,
+	id2 = 92,
+	f1name = "FACTION_DESERTHU_GUARDS",
+	f2name = "FACTION_OUTLAW_PIRATE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 80,
+	id2 = 92,
+	f1name = "FACTION_DRYAD_GUARD",
+	f2name = "FACTION_OUTLAW_PIRATE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 92,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_OUTLAW_PIRATE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 92,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_OUTLAW_PIRATE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 94,
+	id2 = 92,
+	f1name = "FACTION_GUARD_BAD",
+	f2name = "FACTION_OUTLAW_PIRATE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 93,
+	id2 = 92,
+	f1name = "FACTION_GUARD_GOOD",
+	f2name = "FACTION_OUTLAW_PIRATE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 9,
+	id2 = 92,
+	f1name = "FACTION_HERO_BAD",
+	f2name = "FACTION_OUTLAW_PIRATE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 8,
+	id2 = 92,
+	f1name = "FACTION_HERO_GOOD",
+	f2name = "FACTION_OUTLAW_PIRATE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 83,
+	id2 = 92,
+	f1name = "FACTION_HIGHELVE_GUARD",
+	f2name = "FACTION_OUTLAW_PIRATE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 85,
+	id2 = 92,
+	f1name = "FACTION_HUMAN_CRUSADE",
+	f2name = "FACTION_OUTLAW_PIRATE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 84,
+	id2 = 92,
+	f1name = "FACTION_HUMAN_GUARD",
+	f2name = "FACTION_OUTLAW_PIRATE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 87,
+	id2 = 92,
+	f1name = "FACTION_LIZARD_NEUTRAL_GUARD",
+	f2name = "FACTION_OUTLAW_PIRATE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 36,
+	id2 = 92,
+	f1name = "FACTION_NUKNUK",
+	f2name = "FACTION_OUTLAW_PIRATE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 35,
+	id2 = 92,
+	f1name = "FACTION_ORC_BAD",
+	f2name = "FACTION_OUTLAW_PIRATE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 34,
+	id2 = 92,
+	f1name = "FACTION_ORC_GOOD",
+	f2name = "FACTION_OUTLAW_PIRATE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 91,
+	id2 = 92,
+	f1name = "FACTION_ORC_NEUTRAL",
+	f2name = "FACTION_OUTLAW_PIRATE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 90,
+	id2 = 92,
+	f1name = "FACTION_ORC_NEUTRAL_GUARD",
+	f2name = "FACTION_OUTLAW_PIRATE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 92,
+	id2 = 92,
+	f1name = "FACTION_OUTLAW_PIRATE",
+	f2name = "FACTION_OUTLAW_PIRATE",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 92,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_OUTLAW_PIRATE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 19,
+	id2 = 92,
+	f1name = "FACTION_UNDEAD",
+	f2name = "FACTION_OUTLAW_PIRATE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 33,
+	id2 = 92,
+	f1name = "FACTION_UNDEADLEGION",
+	f2name = "FACTION_OUTLAW_PIRATE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 37,
+	id2 = 67,
+	f1name = "FACTION_COBOLD",
+	f2name = "FACTION_OUTLAW_ROBBERS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 76,
+	id2 = 67,
+	f1name = "FACTION_DESERTHU_GUARDS",
+	f2name = "FACTION_OUTLAW_ROBBERS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 80,
+	id2 = 67,
+	f1name = "FACTION_DRYAD_GUARD",
+	f2name = "FACTION_OUTLAW_ROBBERS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 67,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_OUTLAW_ROBBERS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 67,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_OUTLAW_ROBBERS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 94,
+	id2 = 67,
+	f1name = "FACTION_GUARD_BAD",
+	f2name = "FACTION_OUTLAW_ROBBERS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 93,
+	id2 = 67,
+	f1name = "FACTION_GUARD_GOOD",
+	f2name = "FACTION_OUTLAW_ROBBERS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 9,
+	id2 = 67,
+	f1name = "FACTION_HERO_BAD",
+	f2name = "FACTION_OUTLAW_ROBBERS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 8,
+	id2 = 67,
+	f1name = "FACTION_HERO_GOOD",
+	f2name = "FACTION_OUTLAW_ROBBERS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 83,
+	id2 = 67,
+	f1name = "FACTION_HIGHELVE_GUARD",
+	f2name = "FACTION_OUTLAW_ROBBERS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 86,
+	id2 = 67,
+	f1name = "FACTION_HUMAN_CULT",
+	f2name = "FACTION_OUTLAW_ROBBERS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 84,
+	id2 = 67,
+	f1name = "FACTION_HUMAN_GUARD",
+	f2name = "FACTION_OUTLAW_ROBBERS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 87,
+	id2 = 67,
+	f1name = "FACTION_LIZARD_NEUTRAL_GUARD",
+	f2name = "FACTION_OUTLAW_ROBBERS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 36,
+	id2 = 67,
+	f1name = "FACTION_NUKNUK",
+	f2name = "FACTION_OUTLAW_ROBBERS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 35,
+	id2 = 67,
+	f1name = "FACTION_ORC_BAD",
+	f2name = "FACTION_OUTLAW_ROBBERS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 34,
+	id2 = 67,
+	f1name = "FACTION_ORC_GOOD",
+	f2name = "FACTION_OUTLAW_ROBBERS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 91,
+	id2 = 67,
+	f1name = "FACTION_ORC_NEUTRAL",
+	f2name = "FACTION_OUTLAW_ROBBERS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 90,
+	id2 = 67,
+	f1name = "FACTION_ORC_NEUTRAL_GUARD",
+	f2name = "FACTION_OUTLAW_ROBBERS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 67,
+	id2 = 67,
+	f1name = "FACTION_OUTLAW_ROBBERS",
+	f2name = "FACTION_OUTLAW_ROBBERS",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 67,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_OUTLAW_ROBBERS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 19,
+	id2 = 67,
+	f1name = "FACTION_UNDEAD",
+	f2name = "FACTION_OUTLAW_ROBBERS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 33,
+	id2 = 67,
+	f1name = "FACTION_UNDEADLEGION",
+	f2name = "FACTION_OUTLAW_ROBBERS",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 9,
+	id2 = 98,
+	f1name = "FACTION_HERO_BAD",
+	f2name = "FACTION_QUEST_ENEMY",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 8,
+	id2 = 98,
+	f1name = "FACTION_HERO_GOOD",
+	f2name = "FACTION_QUEST_ENEMY",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 98,
+	id2 = 98,
+	f1name = "FACTION_QUEST_ENEMY",
+	f2name = "FACTION_QUEST_ENEMY",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 97,
+	id2 = 98,
+	f1name = "FACTION_QUEST_VICTIM",
+	f2name = "FACTION_QUEST_ENEMY",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 9,
+	id2 = 97,
+	f1name = "FACTION_HERO_BAD",
+	f2name = "FACTION_QUEST_VICTIM",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 8,
+	id2 = 97,
+	f1name = "FACTION_HERO_GOOD",
+	f2name = "FACTION_QUEST_VICTIM",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 98,
+	id2 = 97,
+	f1name = "FACTION_QUEST_ENEMY",
+	f2name = "FACTION_QUEST_VICTIM",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 97,
+	id2 = 97,
+	f1name = "FACTION_QUEST_VICTIM",
+	f2name = "FACTION_QUEST_VICTIM",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 76,
+	id2 = 30,
+	f1name = "FACTION_DESERTHU_GUARDS",
+	f2name = "FACTION_SANDPEOPLE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 77,
+	id2 = 30,
+	f1name = "FACTION_DESERTHU_REBELS",
+	f2name = "FACTION_SANDPEOPLE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 30,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_SANDPEOPLE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 30,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_SANDPEOPLE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 94,
+	id2 = 30,
+	f1name = "FACTION_GUARD_BAD",
+	f2name = "FACTION_SANDPEOPLE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 93,
+	id2 = 30,
+	f1name = "FACTION_GUARD_GOOD",
+	f2name = "FACTION_SANDPEOPLE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 9,
+	id2 = 30,
+	f1name = "FACTION_HERO_BAD",
+	f2name = "FACTION_SANDPEOPLE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 8,
+	id2 = 30,
+	f1name = "FACTION_HERO_GOOD",
+	f2name = "FACTION_SANDPEOPLE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 83,
+	id2 = 30,
+	f1name = "FACTION_HIGHELVE_GUARD",
+	f2name = "FACTION_SANDPEOPLE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 40,
+	id2 = 30,
+	f1name = "FACTION_LIZARD_BAD",
+	f2name = "FACTION_SANDPEOPLE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 89,
+	id2 = 30,
+	f1name = "FACTION_LIZARD_GOOD",
+	f2name = "FACTION_SANDPEOPLE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 88,
+	id2 = 30,
+	f1name = "FACTION_LIZARD_NEUTRAL",
+	f2name = "FACTION_SANDPEOPLE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 87,
+	id2 = 30,
+	f1name = "FACTION_LIZARD_NEUTRAL_GUARD",
+	f2name = "FACTION_SANDPEOPLE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 36,
+	id2 = 30,
+	f1name = "FACTION_NUKNUK",
+	f2name = "FACTION_SANDPEOPLE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 30,
+	id2 = 30,
+	f1name = "FACTION_SANDPEOPLE",
+	f2name = "FACTION_SANDPEOPLE",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 30,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_SANDPEOPLE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 19,
+	id2 = 30,
+	f1name = "FACTION_UNDEAD",
+	f2name = "FACTION_SANDPEOPLE",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 47,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_SERAPHIM",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 47,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_SERAPHIM",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 94,
+	id2 = 47,
+	f1name = "FACTION_GUARD_BAD",
+	f2name = "FACTION_SERAPHIM",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 47,
+	id2 = 47,
+	f1name = "FACTION_SERAPHIM",
+	f2name = "FACTION_SERAPHIM",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 47,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_SERAPHIM",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 7,
+	id2 = 20,
+	f1name = "FACTION_ANIMAL_WILD",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 71,
+	id2 = 20,
+	f1name = "FACTION_ATMO_HUNT_LARGE",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 70,
+	id2 = 20,
+	f1name = "FACTION_ATMO_HUNT_MED",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 69,
+	id2 = 20,
+	f1name = "FACTION_ATMO_HUNT_SMALL",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 72,
+	id2 = 20,
+	f1name = "FACTION_ATMO_NO_HUNT",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 75,
+	id2 = 20,
+	f1name = "FACTION_AWILD_HUNTER_LARGE",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 74,
+	id2 = 20,
+	f1name = "FACTION_AWILD_HUNTER_MED",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 73,
+	id2 = 20,
+	f1name = "FACTION_AWILD_HUNTER_SM",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 37,
+	id2 = 20,
+	f1name = "FACTION_COBOLD",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 24,
+	id2 = 20,
+	f1name = "FACTION_DEMON",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 76,
+	id2 = 20,
+	f1name = "FACTION_DESERTHU_GUARDS",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 77,
+	id2 = 20,
+	f1name = "FACTION_DESERTHU_REBELS",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 23,
+	id2 = 20,
+	f1name = "FACTION_DRAGON",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 78,
+	id2 = 20,
+	f1name = "FACTION_DRAGON_ARMY",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 79,
+	id2 = 20,
+	f1name = "FACTION_DRAGON_REBELS",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 81,
+	id2 = 20,
+	f1name = "FACTION_DRYAD_BLOOD",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 82,
+	id2 = 20,
+	f1name = "FACTION_DRYAD_BRIGANT",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 80,
+	id2 = 20,
+	f1name = "FACTION_DRYAD_GUARD",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 20,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 57,
+	id2 = 20,
+	f1name = "FACTION_ENEMY_HERO",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 59,
+	id2 = 20,
+	f1name = "FACTION_ENEMY_HERO_BAD",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 58,
+	id2 = 20,
+	f1name = "FACTION_ENEMY_HERO_GOOD",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 26,
+	id2 = 20,
+	f1name = "FACTION_ENERGY",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 66,
+	id2 = 20,
+	f1name = "FACTION_FRIEND_HERO_ALL",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 20,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 94,
+	id2 = 20,
+	f1name = "FACTION_GUARD_BAD",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 93,
+	id2 = 20,
+	f1name = "FACTION_GUARD_GOOD",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 9,
+	id2 = 20,
+	f1name = "FACTION_HERO_BAD",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 8,
+	id2 = 20,
+	f1name = "FACTION_HERO_GOOD",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 83,
+	id2 = 20,
+	f1name = "FACTION_HIGHELVE_GUARD",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 85,
+	id2 = 20,
+	f1name = "FACTION_HUMAN_CRUSADE",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 86,
+	id2 = 20,
+	f1name = "FACTION_HUMAN_CULT",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 84,
+	id2 = 20,
+	f1name = "FACTION_HUMAN_GUARD",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 95,
+	id2 = 20,
+	f1name = "FACTION_JOB_HUNTER",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 40,
+	id2 = 20,
+	f1name = "FACTION_LIZARD_BAD",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 89,
+	id2 = 20,
+	f1name = "FACTION_LIZARD_GOOD",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 88,
+	id2 = 20,
+	f1name = "FACTION_LIZARD_NEUTRAL",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 87,
+	id2 = 20,
+	f1name = "FACTION_LIZARD_NEUTRAL_GUARD",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 18,
+	id2 = 20,
+	f1name = "FACTION_MECHANICAL",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 27,
+	id2 = 20,
+	f1name = "FACTION_MONSTER",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 36,
+	id2 = 20,
+	f1name = "FACTION_NUKNUK",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 35,
+	id2 = 20,
+	f1name = "FACTION_ORC_BAD",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 34,
+	id2 = 20,
+	f1name = "FACTION_ORC_GOOD",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 91,
+	id2 = 20,
+	f1name = "FACTION_ORC_NEUTRAL",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 90,
+	id2 = 20,
+	f1name = "FACTION_ORC_NEUTRAL_GUARD",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 92,
+	id2 = 20,
+	f1name = "FACTION_OUTLAW_PIRATE",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 67,
+	id2 = 20,
+	f1name = "FACTION_OUTLAW_ROBBERS",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 30,
+	id2 = 20,
+	f1name = "FACTION_SANDPEOPLE",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 47,
+	id2 = 20,
+	f1name = "FACTION_SERAPHIM",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 20,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 19,
+	id2 = 20,
+	f1name = "FACTION_UNDEAD",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 33,
+	id2 = 20,
+	f1name = "FACTION_UNDEADLEGION",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 96,
+	id2 = 20,
+	f1name = "FACTION_WEREWOLF_SWAMP",
+	f2name = "FACTION_T-MUTATION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 46,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_TROLL",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 46,
+	id2 = 46,
+	f1name = "FACTION_TROLL",
+	f2name = "FACTION_TROLL",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 76,
+	id2 = 19,
+	f1name = "FACTION_DESERTHU_GUARDS",
+	f2name = "FACTION_UNDEAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 80,
+	id2 = 19,
+	f1name = "FACTION_DRYAD_GUARD",
+	f2name = "FACTION_UNDEAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 19,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_UNDEAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 19,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_UNDEAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 94,
+	id2 = 19,
+	f1name = "FACTION_GUARD_BAD",
+	f2name = "FACTION_UNDEAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 93,
+	id2 = 19,
+	f1name = "FACTION_GUARD_GOOD",
+	f2name = "FACTION_UNDEAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 9,
+	id2 = 19,
+	f1name = "FACTION_HERO_BAD",
+	f2name = "FACTION_UNDEAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 8,
+	id2 = 19,
+	f1name = "FACTION_HERO_GOOD",
+	f2name = "FACTION_UNDEAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 83,
+	id2 = 19,
+	f1name = "FACTION_HIGHELVE_GUARD",
+	f2name = "FACTION_UNDEAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 84,
+	id2 = 19,
+	f1name = "FACTION_HUMAN_GUARD",
+	f2name = "FACTION_UNDEAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 89,
+	id2 = 19,
+	f1name = "FACTION_LIZARD_GOOD",
+	f2name = "FACTION_UNDEAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 88,
+	id2 = 19,
+	f1name = "FACTION_LIZARD_NEUTRAL",
+	f2name = "FACTION_UNDEAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 87,
+	id2 = 19,
+	f1name = "FACTION_LIZARD_NEUTRAL_GUARD",
+	f2name = "FACTION_UNDEAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 35,
+	id2 = 19,
+	f1name = "FACTION_ORC_BAD",
+	f2name = "FACTION_UNDEAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 34,
+	id2 = 19,
+	f1name = "FACTION_ORC_GOOD",
+	f2name = "FACTION_UNDEAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 91,
+	id2 = 19,
+	f1name = "FACTION_ORC_NEUTRAL",
+	f2name = "FACTION_UNDEAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 90,
+	id2 = 19,
+	f1name = "FACTION_ORC_NEUTRAL_GUARD",
+	f2name = "FACTION_UNDEAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 92,
+	id2 = 19,
+	f1name = "FACTION_OUTLAW_PIRATE",
+	f2name = "FACTION_UNDEAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 67,
+	id2 = 19,
+	f1name = "FACTION_OUTLAW_ROBBERS",
+	f2name = "FACTION_UNDEAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 30,
+	id2 = 19,
+	f1name = "FACTION_SANDPEOPLE",
+	f2name = "FACTION_UNDEAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 19,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_UNDEAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 19,
+	id2 = 19,
+	f1name = "FACTION_UNDEAD",
+	f2name = "FACTION_UNDEAD",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 96,
+	id2 = 19,
+	f1name = "FACTION_WEREWOLF_SWAMP",
+	f2name = "FACTION_UNDEAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 37,
+	id2 = 33,
+	f1name = "FACTION_COBOLD",
+	f2name = "FACTION_UNDEADLEGION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 33,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_UNDEADLEGION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 33,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_UNDEADLEGION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 94,
+	id2 = 33,
+	f1name = "FACTION_GUARD_BAD",
+	f2name = "FACTION_UNDEADLEGION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 93,
+	id2 = 33,
+	f1name = "FACTION_GUARD_GOOD",
+	f2name = "FACTION_UNDEADLEGION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 9,
+	id2 = 33,
+	f1name = "FACTION_HERO_BAD",
+	f2name = "FACTION_UNDEADLEGION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 8,
+	id2 = 33,
+	f1name = "FACTION_HERO_GOOD",
+	f2name = "FACTION_UNDEADLEGION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 83,
+	id2 = 33,
+	f1name = "FACTION_HIGHELVE_GUARD",
+	f2name = "FACTION_UNDEADLEGION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 92,
+	id2 = 33,
+	f1name = "FACTION_OUTLAW_PIRATE",
+	f2name = "FACTION_UNDEADLEGION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 67,
+	id2 = 33,
+	f1name = "FACTION_OUTLAW_ROBBERS",
+	f2name = "FACTION_UNDEADLEGION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 33,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_UNDEADLEGION",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 33,
+	id2 = 33,
+	f1name = "FACTION_UNDEADLEGION",
+	f2name = "FACTION_UNDEADLEGION",
+	relation = "FRT_FRIENDLY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 42,
+	id2 = 96,
+	f1name = "FACTION_ENEMY_ALL",
+	f2name = "FACTION_WEREWOLF_SWAMP",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 100,
+	id2 = 96,
+	f1name = "FACTION_GODSPELL",
+	f2name = "FACTION_WEREWOLF_SWAMP",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 94,
+	id2 = 96,
+	f1name = "FACTION_GUARD_BAD",
+	f2name = "FACTION_WEREWOLF_SWAMP",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 93,
+	id2 = 96,
+	f1name = "FACTION_GUARD_GOOD",
+	f2name = "FACTION_WEREWOLF_SWAMP",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 9,
+	id2 = 96,
+	f1name = "FACTION_HERO_BAD",
+	f2name = "FACTION_WEREWOLF_SWAMP",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 8,
+	id2 = 96,
+	f1name = "FACTION_HERO_GOOD",
+	f2name = "FACTION_WEREWOLF_SWAMP",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 40,
+	id2 = 96,
+	f1name = "FACTION_LIZARD_BAD",
+	f2name = "FACTION_WEREWOLF_SWAMP",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 89,
+	id2 = 96,
+	f1name = "FACTION_LIZARD_GOOD",
+	f2name = "FACTION_WEREWOLF_SWAMP",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 88,
+	id2 = 96,
+	f1name = "FACTION_LIZARD_NEUTRAL",
+	f2name = "FACTION_WEREWOLF_SWAMP",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 87,
+	id2 = 96,
+	f1name = "FACTION_LIZARD_NEUTRAL_GUARD",
+	f2name = "FACTION_WEREWOLF_SWAMP",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 20,
+	id2 = 96,
+	f1name = "FACTION_T-MUTATION",
+	f2name = "FACTION_WEREWOLF_SWAMP",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 19,
+	id2 = 96,
+	f1name = "FACTION_UNDEAD",
+	f2name = "FACTION_WEREWOLF_SWAMP",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation { 
+	id1 = 96,
+	id2 = 96,
+	f1name = "FACTION_WEREWOLF_SWAMP",
+	f2name = "FACTION_WEREWOLF_SWAMP",
+	relation = "FRT_FRIENDLY",
+}
+
