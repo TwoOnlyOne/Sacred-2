@@ -3,13 +3,13 @@
 -- exported by: konverter@BUILDSERVER
 -- exported at: 07/28/09 20:59:54
 -- exporter version: 1.0.0.131
--- exported to: server/heroes/centurio.txt
+-- exported to: server/heroes/templeguard.txt
 
 
-mgr.objectCreate { -- Shadow Warrior
-	timeofday = 0.100,
-	creature = 93,
-	equipset_id = 1,
-	position = {17,25,-1,1600,1700,0},
+mgr.objectCreate { -- Templeguard
+	timeofday = 0.290,
+	creature = 210,
+	equipset_id = 4,
+	position = {24,27,0,1350,2050,0},
 	flags = "create_hero|create_template",
 }
