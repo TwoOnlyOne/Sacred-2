@@ -1,0 +1,88 @@
+local CT_FOREST = 1
+local CT_STREAM = 2
+local CT_RIVER_SMALL = 3
+local CT_RIVER_BIG = 4
+local CT_POND = 5
+local CT_LAKE = 6
+local CT_OCEAN = 7
+local CT_LAVA_LIQUID = 8
+local CT_LAVA_SOLID = 9
+local CT_POISON = 10
+local CT_TENERGY = 11
+
+local newClusterDesc = {}
+
+
+newClusterDesc = {
+      clusterId    = CT_OCEAN,
+      range        = 1000,
+      namePattern  = "W1|W2"
+}
+mgr.editorAddClusterDesc(newClusterDesc);
+
+newClusterDesc = {
+      clusterId    = CT_POND,
+      range        = 500,
+      namePattern  = "W3|W4|W5|W6|W7|W8|W9|W10|W11"
+}
+mgr.editorAddClusterDesc(newClusterDesc);
+
+newClusterDesc = {
+      clusterId    = CT_LAVA_LIQUID,
+      range        = 1000,
+      namePattern  = "W12"
+}
+mgr.editorAddClusterDesc(newClusterDesc);
+
+newClusterDesc = {
+      clusterId    = CT_LAVA_SOLID,
+      range        = 1000,
+      namePattern  = "W13"
+}
+mgr.editorAddClusterDesc(newClusterDesc);
+
+newClusterDesc = {
+      clusterId    = CT_TENERGY,
+      range        = 1000,
+      namePattern  = "W14"
+}
+mgr.editorAddClusterDesc(newClusterDesc);
+
+newClusterDesc = {
+      clusterId    = CT_RIVER_BIG,
+      range        = 1000,
+      namePattern  = "W16|W19|W22|W25"
+}
+mgr.editorAddClusterDesc(newClusterDesc);
+
+newClusterDesc = {
+      clusterId    = CT_RIVER_SMALL,
+      range        = 1000,
+      namePattern  = "W17|W20|W23|W26|W28"
+}
+mgr.editorAddClusterDesc(newClusterDesc);
+
+newClusterDesc = {
+      clusterId    = CT_STREAM,
+      range        = 1000,
+      namePattern  = "W18|W21|W24|W27|W29"
+}
+mgr.editorAddClusterDesc(newClusterDesc);
+
+newClusterDesc = {
+      clusterId    = CT_FOREST,
+      range        = 1000,
+      namePattern  = "*Baeume/*"
+}
+mgr.editorAddClusterDesc(newClusterDesc);
+
+newClusterDesc = {
+      clusterId    = CT_TENERGY,
+      range        = 1000,
+      namePattern  = "*T-Energie/*"
+}
+mgr.editorAddClusterDesc(newClusterDesc);
+
+
+
+

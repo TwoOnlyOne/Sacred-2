@@ -1,0 +1,2061 @@
+-- Note: See renderGlobals.h, currently max 50 watertypes!!!
+
+local newWaterType = {}
+
+local TYPE_WATER = 0
+local TYPE_LAVA = 1
+local TYPE_PLASMA = 2
+local TYPE_TENERGY = 3
+
+
+newWaterType =
+{
+-- general water parameters
+subtype                        = TYPE_WATER,
+generate_waves                 = 1,
+wave_crest_foam                = 0,
+viscosity                      = 000.750,
+curvature                      = 000.060,
+color                          = { 000.090, 000.410, 000.470 },
+view_depth                     = 000.960,
+fresnel_min                    = 000.000,
+fresnel_max                    = 000.150,
+specular_coefficient           = 500.000,
+refraction_strength            = 024.000,
+transparency_fadein_depth      = 005.600,
+transparency_min               = 000.000,
+foam_displacement_factors      = { 000.010, 000.005 },
+foam_scale_factors             = { 000.012, 000.004 },
+foam_fadein_depth              = { 000.400, 000.250 },
+
+-- these values are used  for automatic wave generation
+amplitude_median               = 000.011,
+amplitude_deviation            = 000.000,
+wavelength_median              = 002.740,
+wavelength_deviation           = 000.340,
+sharpness_median               = 000.000,
+sharpness_deviation            = 000.000,
+speed_median                   = 000.040,
+speed_deviation                = 000.040,
+age_median                     = 005.600,
+age_deviation                  = 003.400,
+
+-- used textures
+bump0            = "fx/water_bump7.dds",
+bump1            = "fx/water_bump7.dds",
+bump2            = "fx/water_bump7.dds",
+bump3            = "fx/water_bump7.dds",
+foam0            = "fx/foam_soft.dds",
+foam1            = "fx/foam_hard.dds",
+
+-- vertex wave parameters (currently 2 sets making 8 waves total defined)
+vx_amplitude0   = { 000.011,	000.011,	000.011,	000.011 },
+vx_wavelength0  = { 002.881,	003.034,	002.804,	003.004 },
+vx_sharpness0   = { 000.000,	000.000,	000.000,	000.000 },
+vx_speed0       = { 000.053,	000.070,	000.066,	000.043 },
+vx_rotation0    = { 014.894,	-00.352,	-00.411,	003.030 },
+vx_amplitude1   = { 000.011,	000.011,	000.011,	000.011 },
+vx_wavelength1  = { 002.771,	002.981,	002.760,	002.878 },
+vx_sharpness1   = { 000.000,	000.000,	000.000,	000.000 },
+vx_speed1       = { 000.062,	000.073,	000.054,	000.063 },
+vx_rotation1    = { 008.662,	002.552,	-02.731,	000.824 },
+
+-- pixel wave parameters (currently only 1 set defined)
+px_scale0       = { 000.596,	000.211,	000.211,	002.136 },
+px_speed0       = { 000.280,	000.240,	000.160,	000.440 },
+px_rotation0    = { 000.000,	000.000,	176.400,	201.600 }
+}
+
+mgr.waterTypeCreate( 0, newWaterType );
+
+
+newWaterType =
+{
+-- general water parameters
+subtype                        = TYPE_WATER,
+generate_waves                 = 1,
+wave_crest_foam                = 1,
+viscosity                      = 005.100,
+curvature                      = 000.090,
+color                          = { 000.270, 000.610, 000.660 },
+view_depth                     = 000.630,
+fresnel_min                    = 000.050,
+fresnel_max                    = 000.230,
+specular_coefficient           = 500.000,
+refraction_strength            = 023.000,
+transparency_fadein_depth      = 009.800,
+transparency_min               = 000.240,
+foam_displacement_factors      = { 000.050, 000.035 },
+foam_scale_factors             = { 000.003, 000.005 },
+foam_fadein_depth              = { 000.550, 000.800 },
+
+-- these values are used  for automatic wave generation
+amplitude_median               = 000.035,
+amplitude_deviation            = 000.035,
+wavelength_median              = 010.840,
+wavelength_deviation           = 006.940,
+sharpness_median               = 001.080,
+sharpness_deviation            = 000.180,
+speed_median                   = 000.680,
+speed_deviation                = 000.280,
+age_median                     = 006.400,
+age_deviation                  = 001.900,
+
+-- used textures
+bump0            = "fx/water_bump7.dds",
+bump1            = "fx/water_bump7.dds",
+bump2            = "fx/water_bump7.dds",
+bump3            = "fx/water_bump7.dds",
+foam0            = "fx/foam_soft.dds",
+foam1            = "fx/foam_hard.dds",
+
+-- vertex wave parameters (currently 2 sets making 8 waves total defined)
+vx_amplitude0   = { 000.059,	000.035,	000.067,	000.044 },
+vx_wavelength0  = { 013.431,	013.265,	016.224,	016.327 },
+vx_sharpness0   = { 001.214,	001.216,	001.256,	001.087 },
+vx_speed0       = { 000.916,	000.840,	000.897,	000.797 },
+vx_rotation0    = { -00.513,	000.881,	-03.705,	-05.211 },
+vx_amplitude1   = { 000.035,	000.048,	000.052,	000.065 },
+vx_wavelength1  = { 017.290,	017.359,	016.533,	016.283 },
+vx_sharpness1   = { 001.176,	001.197,	001.124,	001.173 },
+vx_speed1       = { 000.920,	000.685,	000.808,	000.768 },
+vx_rotation1    = { 000.909,	000.089,	-07.343,	002.356 },
+
+-- pixel wave parameters (currently only 1 set defined)
+px_scale0       = { 000.141,	000.211,	000.106,	000.456 },
+px_speed0       = { 000.280,	000.160,	000.240,	000.120 },
+px_rotation0    = { 000.000,	180.000,	014.400,	190.800 }
+}
+
+mgr.waterTypeCreate( 1, newWaterType );
+
+
+
+newWaterType =
+{
+-- general water parameters
+subtype                        = TYPE_WATER,
+generate_waves                 = 1,
+wave_crest_foam                = 1,
+viscosity                      = 001.600,
+curvature                      = 000.060,
+color                          = { 000.160, 000.390, 000.460 },
+view_depth                     = 000.690,
+fresnel_min                    = 000.000,
+fresnel_max                    = 000.130,
+specular_coefficient           = 500.000,
+refraction_strength            = 023.000,
+transparency_fadein_depth      = 009.800,
+transparency_min               = 000.240,
+foam_displacement_factors      = { 000.050, 000.035 },
+foam_scale_factors             = { 000.003, 000.005 },
+foam_fadein_depth              = { 000.850, 001.400 },
+
+-- these values are used  for automatic wave generation
+amplitude_median               = 000.053,
+amplitude_deviation            = 000.044,
+wavelength_median              = 010.840,
+wavelength_deviation           = 006.940,
+sharpness_median               = 000.720,
+sharpness_deviation            = 000.180,
+speed_median                   = 001.440,
+speed_deviation                = 000.400,
+age_median                     = 006.400,
+age_deviation                  = 001.900,
+
+-- used textures
+bump0            = "fx/water_bump7.dds",
+bump1            = "fx/water_bump7.dds",
+bump2            = "fx/water_bump7.dds",
+bump3            = "fx/water_bump7.dds",
+foam0            = "fx/foam_soft.dds",
+foam1            = "fx/foam_hard.dds",
+
+-- vertex wave parameters (currently 2 sets making 8 waves total defined)
+vx_amplitude0   = { 000.096,	000.092,	000.073,	000.063 },
+vx_wavelength0  = { 012.774,	011.012,	012.765,	015.516 },
+vx_sharpness0   = { 000.874,	000.782,	000.820,	000.762 },
+vx_speed0       = { 001.566,	001.447,	001.576,	001.831 },
+vx_rotation0    = { 006.872,	003.734,	-02.280,	000.398 },
+vx_amplitude1   = { 000.069,	000.094,	000.080,	000.054 },
+vx_wavelength1  = { 015.848,	014.594,	017.694,	014.391 },
+vx_sharpness1   = { 000.812,	000.829,	000.838,	000.727 },
+vx_speed1       = { 001.520,	001.816,	001.634,	001.617 },
+vx_rotation1    = { -03.961,	003.466,	000.205,	-00.671 },
+
+-- pixel wave parameters (currently only 1 set defined)
+px_scale0       = { 000.106,	000.246,	000.106,	000.036 },
+px_speed0       = { 000.400,	000.280,	000.360,	000.160 },
+px_rotation0    = { 000.000,	180.000,	014.400,	190.800 }
+}
+
+mgr.waterTypeCreate( 2, newWaterType );
+
+
+
+newWaterType =
+{
+-- general water parameters
+subtype                        = TYPE_WATER,
+generate_waves                 = 1,
+wave_crest_foam                = 0,
+viscosity                      = 001.200,
+curvature                      = 000.060,
+color                          = { 000.130, 000.780, 000.730 },
+view_depth                     = 000.210,
+fresnel_min                    = 000.000,
+fresnel_max                    = 000.310,
+specular_coefficient           = 500.000,
+refraction_strength            = 015.000,
+transparency_fadein_depth      = 008.800,
+transparency_min               = 000.160,
+foam_displacement_factors      = { 000.060, 000.005 },
+foam_scale_factors             = { 000.015, 000.004 },
+foam_fadein_depth              = { 000.100, 000.050 },
+
+-- these values are used  for automatic wave generation
+amplitude_median               = 000.011,
+amplitude_deviation            = 000.008,
+wavelength_median              = 003.940,
+wavelength_deviation           = 000.340,
+sharpness_median               = 000.220,
+sharpness_deviation            = 000.220,
+speed_median                   = 000.000,
+speed_deviation                = 000.000,
+age_median                     = 002.000,
+age_deviation                  = 000.800,
+
+-- used textures
+bump0            = "fx/water_bump7.dds",
+bump1            = "fx/water_bump7.dds",
+bump2            = "fx/water_bump7.dds",
+bump3            = "fx/water_bump7.dds",
+foam0            = "fx/foam_soft.dds",
+foam1            = "fx/foam_hard.dds",
+
+-- vertex wave parameters (currently 2 sets making 8 waves total defined)
+vx_amplitude0   = { 000.016,	000.016,	000.015,	000.014 },
+vx_wavelength0  = { 003.967,	004.149,	003.975,	004.245 },
+vx_sharpness0   = { 000.315,	000.426,	000.262,	000.404 },
+vx_speed0       = { 000.000,	000.000,	000.000,	000.000 },
+vx_rotation0    = { 006.718,	007.757,	-11.918,	-13.984 },
+vx_amplitude1   = { 000.011,	000.016,	000.014,	000.011 },
+vx_wavelength1  = { 003.975,	003.952,	004.030,	003.961 },
+vx_sharpness1   = { 000.424,	000.244,	000.395,	000.248 },
+vx_speed1       = { 000.000,	000.000,	000.000,	000.000 },
+vx_rotation1    = { 013.592,	002.490,	-04.103,	013.333 },
+
+-- pixel wave parameters (currently only 1 set defined)
+px_scale0       = { 000.666,	000.316,	001.821,	000.666 },
+px_speed0       = { 000.040,	000.120,	000.640,	000.160 },
+px_rotation0    = { 133.200,	345.600,	072.000,	313.200 }
+}
+
+mgr.waterTypeCreate( 3, newWaterType );
+
+newWaterType =
+{
+-- general water parameters
+subtype                        = TYPE_WATER,
+generate_waves                 = 1,
+wave_crest_foam                = 0,
+viscosity                      = 000.700,
+curvature                      = 000.060,
+color                          = { 000.000, 000.490, 000.570 },
+view_depth                     = 000.300,
+fresnel_min                    = 000.000,
+fresnel_max                    = 000.390,
+specular_coefficient           = 500.000,
+refraction_strength            = 017.000,
+transparency_fadein_depth      = 008.000,
+transparency_min               = 000.690,
+foam_displacement_factors      = { 000.050, 000.020 },
+foam_scale_factors             = { 000.015, 000.017 },
+foam_fadein_depth              = { 000.000, 000.000 },
+
+-- these values are used  for automatic wave generation
+amplitude_median               = 000.001,
+amplitude_deviation            = 000.000,
+wavelength_median              = 002.140,
+wavelength_deviation           = 000.340,
+sharpness_median               = 000.220,
+sharpness_deviation            = 000.220,
+speed_median                   = 000.000,
+speed_deviation                = 000.000,
+age_median                     = 003.700,
+age_deviation                  = 000.800,
+
+-- used textures
+bump0            = "fx/water_bump7.dds",
+bump1            = "fx/water_bump7.dds",
+bump2            = "fx/water_bump7.dds",
+bump3            = "fx/water_bump7.dds",
+foam0            = "fx/foam_soft.dds",
+foam1            = "fx/foam_hard.dds",
+
+-- vertex wave parameters (currently 2 sets making 8 waves total defined)
+vx_amplitude0   = { 000.000,	000.000,	000.000,	000.000 },
+vx_wavelength0  = { 002.250,	002.160,	002.215,	002.414 },
+vx_sharpness0   = { 000.439,	000.414,	000.291,	000.230 },
+vx_speed0       = { 000.000,	000.000,	000.000,	000.000 },
+vx_rotation0    = { -02.704,	001.115,	012.576,	-00.592 },
+vx_amplitude1   = { 000.000,	000.000,	000.000,	000.000 },
+vx_wavelength1  = { 002.422,	002.361,	002.373,	002.175 },
+vx_sharpness1   = { 000.321,	000.289,	000.424,	000.250 },
+vx_speed1       = { 000.000,	000.000,	000.000,	000.000 },
+vx_rotation1    = { -00.890,	-06.516,	007.099,	002.172 },
+
+-- pixel wave parameters (currently only 1 set defined)
+px_scale0       = { 000.351,	001.261,	001.261,	000.561 },
+px_speed0       = { 000.240,	000.400,	000.440,	000.240 },
+px_rotation0    = { 000.000,	050.400,	205.200,	183.600 }
+}
+
+mgr.waterTypeCreate( 4, newWaterType );
+
+newWaterType =
+{
+-- general water parameters
+subtype                        = TYPE_WATER,
+generate_waves                 = 1,
+wave_crest_foam                = 0,
+viscosity                      = 000.700,
+curvature                      = 000.040,
+color                          = { 000.000, 000.120, 000.150 },
+view_depth                     = 000.780,
+fresnel_min                    = 000.000,
+fresnel_max                    = 000.170,
+specular_coefficient           = 500.000,
+refraction_strength            = 032.000,
+transparency_fadein_depth      = 005.600,
+transparency_min               = 000.090,
+foam_displacement_factors      = { 000.100, 000.100 },
+foam_scale_factors             = { 000.012, 000.011 },
+foam_fadein_depth              = { 000.000, 000.000 },
+
+-- these values are used  for automatic wave generation
+amplitude_median               = 000.001,
+amplitude_deviation            = 000.000,
+wavelength_median              = 029.740,
+wavelength_deviation           = 002.740,
+sharpness_median               = 000.340,
+sharpness_deviation            = 000.300,
+speed_median                   = 000.280,
+speed_deviation                = 000.280,
+age_median                     = 004.100,
+age_deviation                  = 000.300,
+
+-- used textures
+bump0            = "fx/water_bump7.dds",
+bump1            = "fx/water_bump7.dds",
+bump2            = "fx/water_bump7.dds",
+bump3            = "fx/water_bump7.dds",
+foam0            = "fx/foam_soft.dds",
+foam1            = "fx/foam_hard.dds",
+
+-- vertex wave parameters (currently 2 sets making 8 waves total defined)
+vx_amplitude0   = { 000.000,	000.000,	000.000,	000.000 },
+vx_wavelength0  = { 030.555,	030.485,	032.333,	032.275 },
+vx_sharpness0   = { 000.385,	000.498,	000.356,	000.367 },
+vx_speed0       = { 000.305,	000.342,	000.408,	000.366 },
+vx_rotation0    = { 000.873,	014.929,	-03.842,	001.843 },
+vx_amplitude1   = { 000.000,	000.000,	000.000,	000.000 },
+vx_wavelength1  = { 031.375,	029.951,	030.084,	031.335 },
+vx_sharpness1   = { 000.490,	000.493,	000.382,	000.437 },
+vx_speed1       = { 000.441,	000.462,	000.316,	000.419 },
+vx_rotation1    = { 014.935,	008.843,	010.102,	-01.930 },
+
+-- pixel wave parameters (currently only 1 set defined)
+px_scale0       = { 000.316,	000.701,	000.946,	000.491 },
+px_speed0       = { 000.280,	000.240,	000.440,	000.400 },
+px_rotation0    = { 093.600,	082.800,	273.600,	273.600 }
+}
+
+mgr.waterTypeCreate( 5, newWaterType );
+
+
+
+newWaterType =
+{
+-- general water parameters
+subtype                        = TYPE_WATER,
+generate_waves                 = 1,
+wave_crest_foam                = 1,
+viscosity                      = 000.800,
+curvature                      = 000.070,
+color                          = { 000.000, 000.720, 001.000 },
+view_depth                     = 000.120,
+fresnel_min                    = 000.000,
+fresnel_max                    = 000.200,
+specular_coefficient           = 500.000,
+refraction_strength            = 024.000,
+transparency_fadein_depth      = 005.600,
+transparency_min               = 000.170,
+foam_displacement_factors      = { 000.045, 000.045 },
+foam_scale_factors             = { 000.013, 000.006 },
+foam_fadein_depth              = { 000.250, 000.350 },
+
+-- these values are used  for automatic wave generation
+amplitude_median               = 000.005,
+amplitude_deviation            = 000.002,
+wavelength_median              = 014.440,
+wavelength_deviation           = 008.140,
+sharpness_median               = 000.000,
+sharpness_deviation            = 000.000,
+speed_median                   = 000.400,
+speed_deviation                = 000.280,
+age_median                     = 007.700,
+age_deviation                  = 000.300,
+
+-- used textures
+bump0            = "fx/water_bump7.dds",
+bump1            = "fx/water_bump7.dds",
+bump2            = "fx/water_bump7.dds",
+bump3            = "fx/water_bump7.dds",
+foam0            = "fx/foam_soft.dds",
+foam1            = "fx/foam_hard.dds",
+
+-- vertex wave parameters (currently 2 sets making 8 waves total defined)
+vx_amplitude0   = { 000.006,	000.006,	000.005,	000.005 },
+vx_wavelength0  = { 021.515,	014.979,	018.455,	017.084 },
+vx_sharpness0   = { 000.000,	000.000,	000.000,	000.000 },
+vx_speed0       = { 000.520,	000.546,	000.631,	000.674 },
+vx_rotation0    = { -02.707,	-06.993,	005.200,	-00.111 },
+vx_amplitude1   = { 000.005,	000.005,	000.006,	000.005 },
+vx_wavelength1  = { 022.459,	018.152,	018.276,	017.119 },
+vx_sharpness1   = { 000.000,	000.000,	000.000,	000.000 },
+vx_speed1       = { 000.458,	000.549,	000.471,	000.649 },
+vx_rotation1    = { 000.505,	000.942,	011.975,	-01.865 },
+
+-- pixel wave parameters (currently only 1 set defined)
+px_scale0       = { 000.701,	000.806,	000.211,	000.911 },
+px_speed0       = { 000.280,	000.280,	000.160,	000.360 },
+px_rotation0    = { 003.600,	014.400,	158.400,	183.600 }
+}
+
+mgr.waterTypeCreate( 6, newWaterType );
+
+
+
+newWaterType =
+{
+-- general water parameters
+subtype                        = TYPE_WATER,
+generate_waves                 = 1,
+wave_crest_foam                = 0,
+viscosity                      = 001.350,
+curvature                      = 000.060,
+color                          = { 000.000, 000.220, 000.200 },
+view_depth                     = 002.040,
+fresnel_min                    = 000.070,
+fresnel_max                    = 000.220,
+specular_coefficient           = 500.000,
+refraction_strength            = 031.000,
+transparency_fadein_depth      = 005.600,
+transparency_min               = 000.460,
+foam_displacement_factors      = { 000.100, 000.000 },
+foam_scale_factors             = { 000.013, 000.006 },
+foam_fadein_depth              = { 000.000, 000.000 },
+
+-- these values are used  for automatic wave generation
+amplitude_median               = 000.001,
+amplitude_deviation            = 000.000,
+wavelength_median              = 029.740,
+wavelength_deviation           = 001.540,
+sharpness_median               = 000.000,
+sharpness_deviation            = 000.000,
+speed_median                   = 000.000,
+speed_deviation                = 000.000,
+age_median                     = 007.700,
+age_deviation                  = 000.300,
+
+-- used textures
+bump0            = "fx/water_bump7.dds",
+bump1            = "fx/water_bump7.dds",
+bump2            = "fx/water_bump7.dds",
+bump3            = "fx/water_bump7.dds",
+foam0            = "fx/foam_soft.dds",
+foam1            = "fx/foam_hard.dds",
+
+-- vertex wave parameters (currently 2 sets making 8 waves total defined)
+vx_amplitude0   = { 000.000,	000.000,	000.000,	000.000 },
+vx_wavelength0  = { 029.863,	030.480,	030.408,	031.143 },
+vx_sharpness0   = { 000.000,	000.000,	000.000,	000.000 },
+vx_speed0       = { 000.000,	000.000,	000.000,	000.000 },
+vx_rotation0    = { -13.659,	014.215,	-09.078,	-13.792 },
+vx_amplitude1   = { 000.000,	000.000,	000.000,	000.000 },
+vx_wavelength1  = { 030.277,	031.012,	031.179,	030.816 },
+vx_sharpness1   = { 000.000,	000.000,	000.000,	000.000 },
+vx_speed1       = { 000.000,	000.000,	000.000,	000.000 },
+vx_rotation1    = { 005.769,	-13.503,	-05.618,	-00.638 },
+
+-- pixel wave parameters (currently only 1 set defined)
+px_scale0       = { 000.946,	000.526,	000.806,	000.806 },
+px_speed0       = { 000.240,	000.160,	000.280,	000.360 },
+px_rotation0    = { 086.400,	104.400,	277.200,	266.400 }
+}
+
+mgr.waterTypeCreate( 7, newWaterType );
+
+
+newWaterType =
+{
+-- general water parameters
+subtype                        = TYPE_WATER,
+generate_waves                 = 1,
+wave_crest_foam                = 0,
+viscosity                      = 001.000,
+curvature                      = 000.060,
+color                          = { 000.380, 000.320, 000.210 },
+view_depth                     = 002.910,
+fresnel_min                    = 000.050,
+fresnel_max                    = 000.110,
+specular_coefficient           = 500.000,
+refraction_strength            = 017.000,
+transparency_fadein_depth      = 010.000,
+transparency_min               = 000.020,
+foam_displacement_factors      = { 000.000, 000.000 },
+foam_scale_factors             = { 000.003, 000.006 },
+foam_fadein_depth              = { 000.000, 000.000 },
+
+-- these values are used  for automatic wave generation
+amplitude_median               = 000.001,
+amplitude_deviation            = 000.000,
+wavelength_median              = 029.740,
+wavelength_deviation           = 029.740,
+sharpness_median               = 000.000,
+sharpness_deviation            = 000.000,
+speed_median                   = 000.000,
+speed_deviation                = 000.000,
+age_median                     = 010.000,
+age_deviation                  = 010.000,
+
+-- used textures
+bump0            = "fx/water_bump7.dds",
+bump1            = "fx/water_bump7.dds",
+bump2            = "fx/water_bump7.dds",
+bump3            = "fx/water_bump7.dds",
+foam0            = "fx/foam_soft.dds",
+foam1            = "fx/foam_hard.dds",
+
+-- vertex wave parameters (currently 2 sets making 8 waves total defined)
+vx_amplitude0   = { 000.000,	000.000,	000.000,	000.000 },
+vx_wavelength0  = { 058.340,	038.439,	037.375,	053.612 },
+vx_sharpness0   = { 000.000,	000.000,	000.000,	000.000 },
+vx_speed0       = { 000.000,	000.000,	000.000,	000.000 },
+vx_rotation0    = { 004.330,	-07.233,	003.042,	009.858 },
+vx_amplitude1   = { 000.000,	000.000,	000.000,	000.000 },
+vx_wavelength1  = { 029.914,	055.231,	042.365,	041.900 },
+vx_sharpness1   = { 000.000,	000.000,	000.000,	000.000 },
+vx_speed1       = { 000.000,	000.000,	000.000,	000.000 },
+vx_rotation1    = { 000.960,	-05.696,	-01.079,	-11.219 },
+
+-- pixel wave parameters (currently only 1 set defined)
+px_scale0       = { 000.736,	000.456,	000.456,	000.491 },
+px_speed0       = { 000.360,	000.160,	000.400,	000.160 },
+px_rotation0    = { 075.600,	277.200,	086.400,	262.800 }
+}
+
+mgr.waterTypeCreate( 8, newWaterType );
+
+
+newWaterType =
+{
+-- general water parameters
+subtype                        = TYPE_WATER,
+generate_waves                 = 1,
+wave_crest_foam                = 0,
+viscosity                      = 000.550,
+curvature                      = 000.050,
+color                          = { 000.130, 000.880, 001.000 },
+view_depth                     = 000.060,
+fresnel_min                    = 000.000,
+fresnel_max                    = 000.400,
+specular_coefficient           = 500.000,
+refraction_strength            = 027.000,
+transparency_fadein_depth      = 010.000,
+transparency_min               = 000.170,
+foam_displacement_factors      = { 000.000, 000.000 },
+foam_scale_factors             = { 000.003, 000.006 },
+foam_fadein_depth              = { 000.000, 000.000 },
+
+-- these values are used  for automatic wave generation
+amplitude_median               = 000.005,
+amplitude_deviation            = 000.000,
+wavelength_median              = 006.040,
+wavelength_deviation           = 001.540,
+sharpness_median               = 000.000,
+sharpness_deviation            = 000.000,
+speed_median                   = 002.160,
+speed_deviation                = 000.200,
+age_median                     = 002.700,
+age_deviation                  = 000.300,
+
+-- used textures
+bump0            = "fx/water_bump7.dds",
+bump1            = "fx/water_bump7.dds",
+bump2            = "fx/water_bump7.dds",
+bump3            = "fx/water_bump7.dds",
+foam0            = "fx/foam_soft.dds",
+foam1            = "fx/foam_hard.dds",
+
+-- vertex wave parameters (currently 2 sets making 8 waves total defined)
+vx_amplitude0   = { 000.005,	000.005,	000.005,	000.005 },
+vx_wavelength0  = { 006.713,	007.127,	006.467,	006.392 },
+vx_sharpness0   = { 000.000,	000.000,	000.000,	000.000 },
+vx_speed0       = { 002.197,	002.360,	002.259,	002.290 },
+vx_rotation0    = { 009.007,	008.442,	-14.578,	005.723 },
+vx_amplitude1   = { 000.005,	000.005,	000.005,	000.005 },
+vx_wavelength1  = { 007.069,	006.662,	006.556,	007.474 },
+vx_sharpness1   = { 000.000,	000.000,	000.000,	000.000 },
+vx_speed1       = { 002.161,	002.284,	002.293,	002.315 },
+vx_rotation1    = { -10.031,	-08.822,	-08.551,	008.169 },
+
+-- pixel wave parameters (currently only 1 set defined)
+px_scale0       = { 000.561,	000.456,	001.016,	000.596 },
+px_speed0       = { 000.640,	000.000,	000.360,	000.280 },
+px_rotation0    = { 000.000,	014.400,	180.000,	169.200 }
+}
+
+mgr.waterTypeCreate( 9, newWaterType );
+
+
+newWaterType =
+{
+-- general water parameters
+subtype                        = TYPE_WATER,
+generate_waves                 = 1,
+wave_crest_foam                = 0,
+blend_op_foam                  = 0,
+viscosity                      = 000.7000,
+curvature                      = 000.0500,
+color                          = { 000.1300, 000.1800, 000.0600 },
+view_depth                     = 002.9100,
+fresnel_min                    = 000.0000,
+fresnel_max                    = 000.0200,
+specular_coefficient           = 500.0000,
+refraction_strength            = 064.0000,
+transparency_fadein_depth      = 010.0000,
+transparency_min               = 000.0000,
+foam_displacement_factors      = { 000.0000, 000.0000 },
+foam_scale_factors             = { 000.0166, 000.0236 },
+foam_fadein_depth              = { 000.0000, 000.0000 },
+
+-- these values are used  for automatic wave generation
+amplitude_median               = 000.0076,
+amplitude_deviation            = 000.0016,
+wavelength_median              = 008.1400,
+wavelength_deviation           = 004.8400,
+sharpness_median               = 000.1000,
+sharpness_deviation            = 000.0000,
+speed_median                   = 000.7600,
+speed_deviation                = 000.7600,
+age_median                     = 010.0000,
+age_deviation                  = 000.3000,
+
+-- used textures
+bump0            = "fx/water_bump7.dds",
+bump1            = "fx/water_bump7.dds",
+bump2            = "fx/water_bump7.dds",
+bump3            = "fx/water_bump7.dds",
+foam0            = "fx/foam_soft.dds",
+foam1            = "fx/foam_hard.dds",
+
+-- vertex wave parameters (currently 2 sets making 8 waves total defined)
+vx_amplitude0   = { 000.0085,	000.0079,	000.0079,	000.0087 },
+vx_wavelength0  = { 009.9482,	009.0556,	010.9062,	011.2642 },
+vx_sharpness0   = { 000.1000,	000.1000,	000.1000,	000.1000 },
+vx_speed0       = { 001.4711,	000.8740,	001.0090,	001.0771 },
+vx_rotation0    = { 011.6917,	005.2281,	-09.4026,	012.7395 },
+vx_amplitude1   = { 000.0085,	000.0089,	000.0082,	000.0082 },
+vx_wavelength1  = { 009.7820,	011.0471,	010.6391,	008.8404 },
+vx_sharpness1   = { 000.1000,	000.1000,	000.1000,	000.1000 },
+vx_speed1       = { 000.9806,	001.3698,	001.4880,	000.8958 },
+vx_rotation1    = { 010.8268,	012.4679,	013.3865,	006.8334 },
+
+-- pixel wave parameters (currently only 1 set defined)
+px_scale0       = { 000.6660,	000.4560,	000.5960,	000.6660 },
+px_speed0       = { 000.3600,	000.4400,	000.2800,	000.1600 },
+px_rotation0    = { 000.0000,	176.4000,	180.0000,	010.8000 }
+}
+mgr.waterTypeCreate( 10, newWaterType );
+
+
+
+newWaterType =
+{
+-- general water parameters
+subtype                        = TYPE_WATER,
+generate_waves                 = 1,
+wave_crest_foam                = 0,
+viscosity                      = 000.950,
+curvature                      = 000.040,
+color                          = { 000.090, 000.160, 000.000 },
+view_depth                     = 000.690,
+fresnel_min                    = 000.000,
+fresnel_max                    = 000.180,
+specular_coefficient           = 500.000,
+refraction_strength            = 006.000,
+transparency_fadein_depth      = 010.000,
+transparency_min               = 000.070,
+foam_displacement_factors      = { 000.025, 000.020 },
+foam_scale_factors             = { 000.017, 000.024 },
+foam_fadein_depth              = { 000.100, 000.150 },
+
+-- these values are used  for automatic wave generation
+amplitude_median               = 000.017,
+amplitude_deviation            = 000.002,
+wavelength_median              = 006.340,
+wavelength_deviation           = 003.640,
+sharpness_median               = 000.100,
+sharpness_deviation            = 000.000,
+speed_median                   = 001.520,
+speed_deviation                = 001.520,
+age_median                     = 010.000,
+age_deviation                  = 000.300,
+
+-- used textures
+bump0            = "fx/water_bump7.dds",
+bump1            = "fx/water_bump7.dds",
+bump2            = "fx/water_bump7.dds",
+bump3            = "fx/water_bump7.dds",
+foam0            = "fx/foam_soft.dds",
+foam1            = "fx/foam_hard.dds",
+
+-- vertex wave parameters (currently 2 sets making 8 waves total defined)
+vx_amplitude0   = { 000.017,	000.017,	000.017,	000.018 },
+vx_wavelength0  = { 009.674,	008.968,	009.015,	007.003 },
+vx_sharpness0   = { 000.100,	000.100,	000.100,	000.100 },
+vx_speed0       = { 002.158,	002.788,	002.349,	002.959 },
+vx_rotation0    = { -00.725,	009.233,	-03.382,	000.111 },
+vx_amplitude1   = { 000.018,	000.018,	000.017,	000.017 },
+vx_wavelength1  = { 009.098,	006.776,	007.173,	007.379 },
+vx_sharpness1   = { 000.100,	000.100,	000.100,	000.100 },
+vx_speed1       = { 002.139,	002.630,	001.574,	002.757 },
+vx_rotation1    = { -11.021,	006.032,	-08.794,	-07.072 },
+
+-- pixel wave parameters (currently only 1 set defined)
+px_scale0       = { 001.016,	000.701,	000.316,	000.596 },
+px_speed0       = { 000.440,	000.240,	000.360,	000.360 },
+px_rotation0    = { 075.600,	255.600,	072.000,	255.600 }
+}
+
+mgr.waterTypeCreate( 11, newWaterType );
+
+
+
+newWaterType = {
+  subtype = TYPE_LAVA,
+  bump0 = "fx/lava_plate.dds",
+  bump1 = "fx/lava_fx.dds",
+  color	= {   1,	0.2, 	0 },   -- this is the glow color value
+  amplitude0 = { 0.1,  0.7,  0.01,  1 },  -- first: plate threshold  , liquid threshold
+  viscosity  = 1.0,
+  view_depth = 0.05
+}
+mgr.waterTypeCreate(12, newWaterType); -- typeid, parameters
+
+
+newWaterType = {
+  subtype = TYPE_LAVA,
+  bump0 = "fx/lava_plate.dds",
+  bump1 = "fx/lava_fx.dds",
+  color	= {   1,	0.4, 	0 },   -- this is the glow color value
+  amplitude0 = { 0.2,  0.99,  0.45,  0.2 },  -- first: plate threshold  , liquid threshold
+  viscosity  = 1.0,
+  view_depth = 0.2
+}
+mgr.waterTypeCreate(13, newWaterType); -- typeid, parameters
+
+
+newWaterType = {
+  subtype = TYPE_PLASMA,
+  bump0 = "fx/lava_plate.dds",
+  bump1 = "fx/lava_fx.dds",
+  color	= {   1,	0.4, 	0 },   -- this is the glow color value
+  amplitude0 = { 0.2,  0.99,  0.45,  0.2 },  -- first: plate threshold  , liquid threshold
+  viscosity  = 1.0,
+  view_depth = 0.2
+}
+mgr.waterTypeCreate(14, newWaterType); -- typeid, parameters
+
+newWaterType =
+{
+-- general water parameters
+subtype                        = TYPE_WATER,
+generate_waves                 = 0,
+wave_crest_foam                = 0,
+blend_op_foam                  = 2,
+viscosity                      = 001.1500,
+curvature                      = 000.0000,
+color                          = { 000.3900, 000.0000, 000.0000 },
+view_depth                     = 000.5400,
+fresnel_min                    = 000.0000,
+fresnel_max                    = 000.0000,
+specular_coefficient           = 500.0000,
+refraction_strength            = 000.0000,
+transparency_fadein_depth      = 010.0000,
+transparency_min               = 000.0000,
+foam_displacement_factors      = { 000.1000, 000.1000 },
+foam_scale_factors             = { 000.0101, 000.0051 },
+foam_fadein_depth              = { 005.0000, 000.5500 },
+
+-- these values are used  for automatic wave generation
+amplitude_median               = 000.1501,
+amplitude_deviation            = 000.1501,
+wavelength_median              = 000.9400,
+wavelength_deviation           = 000.0400,
+sharpness_median               = 001.0000,
+sharpness_deviation            = 000.3000,
+speed_median                   = 001.0000,
+speed_deviation                = 000.2800,
+age_median                     = 001.0000,
+age_deviation                  = 000.3000,
+
+-- used textures
+bump0            = "fx/wavesbump_0.dds",
+bump1            = "fx/wavesbump_0.dds",
+bump2            = "fx/wavesbump_0.dds",
+bump3            = "fx/wavesbump_0.dds",
+foam0            = "fx/foam_soft.dds",
+foam1            = "fx/foam_hard.dds",
+
+-- vertex wave parameters (currently 2 sets making 8 waves total defined)
+vx_amplitude0   = { 000.0886,	000.0991,	000.0991,	000.0991 },
+vx_wavelength0  = { 005.7400,	005.7400,	005.7400,	005.7400 },
+vx_sharpness0   = { 001.0000,	001.0000,	001.0000,	001.0000 },
+vx_speed0       = { 001.0000,	001.0000,	001.0000,	001.0000 },
+vx_rotation0    = { 000.0000,	000.0000,	000.0000,	000.0000 },
+vx_amplitude1   = { 000.0991,	000.0991,	000.0991,	000.0991 },
+vx_wavelength1  = { 005.7400,	005.7400,	005.7400,	005.7400 },
+vx_sharpness1   = { 001.0000,	001.0000,	001.0000,	001.0000 },
+vx_speed1       = { 001.0000,	001.0000,	001.0000,	001.0000 },
+vx_rotation1    = { 000.0000,	000.0000,	000.0000,	000.0000 },
+
+-- pixel wave parameters (currently only 1 set defined)
+px_scale0       = { 002.8010,	000.0010,	000.0010,	000.0010 },
+px_speed0       = { 000.0800,	000.0000,	000.0000,	000.0800 },
+px_rotation0    = { 000.0000,	000.0000,	000.0000,	000.0000 }
+}
+
+mgr.waterTypeCreate( 15, newWaterType );
+
+newWaterType =
+{
+-- general water parameters
+subtype                        = TYPE_WATER,
+generate_waves                 = 1,
+wave_crest_foam                = 0,
+viscosity                      = 002.250,
+curvature                      = 000.000,
+color                          = { 000.000, 000.350, 000.430 },
+view_depth                     = 000.540,
+fresnel_min                    = 000.020,
+fresnel_max                    = 000.170,
+specular_coefficient           = 500.000,
+refraction_strength            = 024.000,
+transparency_fadein_depth      = 005.600,
+transparency_min               = 000.000,
+foam_displacement_factors      = { 000.035, 000.005 },
+foam_scale_factors             = { 000.007, 000.004 },
+foam_fadein_depth              = { 002.150, 001.200 },
+
+-- these values are used  for automatic wave generation
+amplitude_median               = 000.000,
+amplitude_deviation            = 000.000,
+wavelength_median              = 007.240,
+wavelength_deviation           = 000.340,
+sharpness_median               = 000.000,
+sharpness_deviation            = 000.000,
+speed_median                   = 000.040,
+speed_deviation                = 000.240,
+age_median                     = 005.600,
+age_deviation                  = 003.400,
+
+-- used textures
+bump0            = "fx/water_bump7.dds",
+bump1            = "fx/water_bump7.dds",
+bump2            = "fx/water_bump7.dds",
+bump3            = "fx/water_bump7.dds",
+foam0            = "fx/foam_soft.dds",
+foam1            = "fx/foam_hard.dds",
+
+-- vertex wave parameters (currently 2 sets making 8 waves total defined)
+vx_amplitude0   = { 000.000,	000.000,	000.000,	000.000 },
+vx_wavelength0  = { 007.308,	007.580,	007.530,	007.305 },
+vx_sharpness0   = { 000.000,	000.000,	000.000,	000.000 },
+vx_speed0       = { 000.053,	000.244,	000.053,	000.255 },
+vx_rotation0    = { -01.180,	-00.698,	014.679,	005.797 },
+vx_amplitude1   = { 000.000,	000.000,	000.000,	000.000 },
+vx_wavelength1  = { 007.402,	007.501,	007.294,	007.310 },
+vx_sharpness1   = { 000.000,	000.000,	000.000,	000.000 },
+vx_speed1       = { 000.055,	000.258,	000.184,	000.133 },
+vx_rotation1    = { -07.110,	-07.107,	-03.817,	011.281 },
+
+-- pixel wave parameters (currently only 1 set defined)
+px_scale0       = { 000.666,	000.106,	000.211,	002.906 },
+px_speed0       = { 000.520,	000.040,	000.120,	000.160 },
+px_rotation0    = { 000.000,	000.000,	176.400,	201.600 }
+}
+
+mgr.waterTypeCreate( 16, newWaterType );
+
+newWaterType =
+{
+-- general water parameters
+subtype                        = TYPE_WATER,
+generate_waves                 = 1,
+wave_crest_foam                = 0,
+blend_op_foam                  = 0,
+viscosity                      = 000.700,
+curvature                      = 000.030,
+color                          = { 000.090, 000.410, 000.470 },
+view_depth                     = 000.960,
+fresnel_min                    = 000.000,
+fresnel_max                    = 000.150,
+specular_coefficient           = 500.000,
+refraction_strength            = 024.000,
+transparency_fadein_depth      = 005.600,
+transparency_min               = 000.000,
+foam_displacement_factors      = { 000.010, 000.005 },
+foam_scale_factors             = { 000.012, 000.004 },
+foam_fadein_depth              = { 000.400, 000.250 },
+
+-- these values are used  for automatic wave generation
+amplitude_median               = 000.011,
+amplitude_deviation            = 000.000,
+wavelength_median              = 002.740,
+wavelength_deviation           = 000.340,
+sharpness_median               = 000.000,
+sharpness_deviation            = 000.000,
+speed_median                   = 000.040,
+speed_deviation                = 000.040,
+age_median                     = 005.600,
+age_deviation                  = 003.400,
+
+-- used textures
+bump0            = "fx/water_bump7.dds",
+bump1            = "fx/water_bump7.dds",
+bump2            = "fx/water_bump7.dds",
+bump3            = "fx/water_bump7.dds",
+foam0            = "fx/foam_soft.dds",
+foam1            = "fx/foam_hard.dds",
+
+-- vertex wave parameters (currently 2 sets making 8 waves total defined)
+vx_amplitude0   = { 000.011,	000.011,	000.011,	000.011 },
+vx_wavelength0  = { 003.072,	002.813,	002.821,	003.013 },
+vx_sharpness0   = { 000.000,	000.000,	000.000,	000.000 },
+vx_speed0       = { 000.071,	000.042,	000.040,	000.070 },
+vx_rotation0    = { -07.644,	014.183,	003.070,	-00.961 },
+vx_amplitude1   = { 000.011,	000.011,	000.011,	000.011 },
+vx_wavelength1  = { 002.755,	002.955,	003.059,	002.793 },
+vx_sharpness1   = { 000.000,	000.000,	000.000,	000.000 },
+vx_speed1       = { 000.055,	000.061,	000.075,	000.067 },
+vx_rotation1    = { 010.985,	005.615,	-09.269,	-11.581 },
+
+-- pixel wave parameters (currently only 1 set defined)
+px_scale0       = { 000.596,	000.211,	000.211,	002.136 },
+px_speed0       = { 000.080,	000.080,	000.080,	000.080 },
+px_rotation0    = { 000.000,	000.000,	176.400,	201.600 }
+}
+
+mgr.waterTypeCreate( 17, newWaterType );
+
+newWaterType =
+{
+-- general water parameters
+subtype                        = TYPE_WATER,
+generate_waves                 = 1,
+wave_crest_foam                = 0,
+blend_op_foam                  = 0,
+viscosity                      = 000.700,
+curvature                      = 000.001,
+color                          = { 000.090, 000.410, 000.470 },
+view_depth                     = 000.960,
+fresnel_min                    = 000.000,
+fresnel_max                    = 000.150,
+specular_coefficient           = 500.000,
+refraction_strength            = 024.000,
+transparency_fadein_depth      = 005.600,
+transparency_min               = 000.000,
+foam_displacement_factors      = { 000.010, 000.005 },
+foam_scale_factors             = { 000.012, 000.004 },
+foam_fadein_depth              = { 000.400, 000.250 },
+
+-- these values are used  for automatic wave generation
+amplitude_median               = 000.011,
+amplitude_deviation            = 000.000,
+wavelength_median              = 002.740,
+wavelength_deviation           = 000.340,
+sharpness_median               = 000.000,
+sharpness_deviation            = 000.000,
+speed_median                   = 000.040,
+speed_deviation                = 000.040,
+age_median                     = 005.600,
+age_deviation                  = 003.400,
+
+-- used textures
+bump0            = "fx/water_bump7.dds",
+bump1            = "fx/water_bump7.dds",
+bump2            = "fx/water_bump7.dds",
+bump3            = "fx/water_bump7.dds",
+foam0            = "fx/foam_soft.dds",
+foam1            = "fx/foam_hard.dds",
+
+-- vertex wave parameters (currently 2 sets making 8 waves total defined)
+vx_amplitude0   = { 000.011,	000.011,	000.011,	000.011 },
+vx_wavelength0  = { 002.758,	002.930,	002.864,	002.907 },
+vx_sharpness0   = { 000.000,	000.000,	000.000,	000.000 },
+vx_speed0       = { 000.072,	000.051,	000.047,	000.070 },
+vx_rotation0    = { -05.618,	-01.630,	006.805,	012.330 },
+vx_amplitude1   = { 000.011,	000.011,	000.011,	000.011 },
+vx_wavelength1  = { 002.808,	003.022,	003.020,	002.766 },
+vx_sharpness1   = { 000.000,	000.000,	000.000,	000.000 },
+vx_speed1       = { 000.042,	000.053,	000.059,	000.042 },
+vx_rotation1    = { 004.901,	-06.950,	-03.159,	004.403 },
+
+-- pixel wave parameters (currently only 1 set defined)
+px_scale0       = { 000.596,	000.211,	000.211,	002.136 },
+px_speed0       = { 000.080,	000.080,	000.080,	000.080 },
+px_rotation0    = { 000.000,	000.000,	176.400,	201.600 }
+}
+
+mgr.waterTypeCreate( 18, newWaterType );
+
+newWaterType =
+{
+-- general water parameters
+subtype                        = TYPE_WATER,
+generate_waves                 = 1,
+wave_crest_foam                = 0,
+blend_op_foam                  = 0,
+viscosity                      = 000.700,
+curvature                      = 000.090,
+color                          = { 000.090, 000.410, 000.470 },
+view_depth                     = 000.960,
+fresnel_min                    = 000.000,
+fresnel_max                    = 000.150,
+specular_coefficient           = 500.000,
+refraction_strength            = 024.000,
+transparency_fadein_depth      = 005.600,
+transparency_min               = 000.000,
+foam_displacement_factors      = { 000.010, 000.005 },
+foam_scale_factors             = { 000.012, 000.004 },
+foam_fadein_depth              = { 000.400, 000.250 },
+
+-- these values are used  for automatic wave generation
+amplitude_median               = 000.011,
+amplitude_deviation            = 000.000,
+wavelength_median              = 002.740,
+wavelength_deviation           = 000.340,
+sharpness_median               = 000.000,
+sharpness_deviation            = 000.000,
+speed_median                   = 000.040,
+speed_deviation                = 000.040,
+age_median                     = 005.600,
+age_deviation                  = 003.400,
+
+-- used textures
+bump0            = "fx/water_bump7.dds",
+bump1            = "fx/water_bump7.dds",
+bump2            = "fx/water_bump7.dds",
+bump3            = "fx/water_bump7.dds",
+foam0            = "fx/foam_soft.dds",
+foam1            = "fx/foam_hard.dds",
+
+-- vertex wave parameters (currently 2 sets making 8 waves total defined)
+vx_amplitude0   = { 000.011,	000.011,	000.011,	000.011 },
+vx_wavelength0  = { 002.957,	002.933,	002.931,	002.745 },
+vx_sharpness0   = { 000.000,	000.000,	000.000,	000.000 },
+vx_speed0       = { 000.052,	000.052,	000.054,	000.054 },
+vx_rotation0    = { -06.750,	-00.807,	011.655,	007.809 },
+vx_amplitude1   = { 000.011,	000.011,	000.011,	000.011 },
+vx_wavelength1  = { 002.888,	002.986,	002.956,	002.774 },
+vx_sharpness1   = { 000.000,	000.000,	000.000,	000.000 },
+vx_speed1       = { 000.050,	000.050,	000.076,	000.051 },
+vx_rotation1    = { -06.033,	-11.992,	-05.476,	000.820 },
+
+-- pixel wave parameters (currently only 1 set defined)
+px_scale0       = { 000.596,	000.211,	000.211,	002.136 },
+px_speed0       = { 000.080,	000.080,	000.080,	000.080 },
+px_rotation0    = { 000.000,	000.000,	176.400,	201.600 }
+}
+
+mgr.waterTypeCreate( 19, newWaterType );
+
+newWaterType =
+{
+-- general water parameters
+subtype                        = TYPE_WATER,
+generate_waves                 = 1,
+wave_crest_foam                = 1,
+blend_op_foam                  = 0,
+viscosity                      = 000.750,
+curvature                      = 000.030,
+color                          = { 000.270, 000.610, 000.660 },
+view_depth                     = 000.630,
+fresnel_min                    = 000.050,
+fresnel_max                    = 000.230,
+specular_coefficient           = 500.000,
+refraction_strength            = 023.000,
+transparency_fadein_depth      = 009.800,
+transparency_min               = 000.240,
+foam_displacement_factors      = { 000.050, 000.035 },
+foam_scale_factors             = { 000.003, 000.005 },
+foam_fadein_depth              = { 000.550, 000.800 },
+
+-- these values are used  for automatic wave generation
+amplitude_median               = 000.035,
+amplitude_deviation            = 000.035,
+wavelength_median              = 010.840,
+wavelength_deviation           = 006.940,
+sharpness_median               = 001.080,
+sharpness_deviation            = 000.180,
+speed_median                   = 000.680,
+speed_deviation                = 000.280,
+age_median                     = 006.400,
+age_deviation                  = 001.900,
+
+-- used textures
+bump0            = "fx/water_bump7.dds",
+bump1            = "fx/water_bump7.dds",
+bump2            = "fx/water_bump7.dds",
+bump3            = "fx/water_bump7.dds",
+foam0            = "fx/foam_soft.dds",
+foam1            = "fx/foam_hard.dds",
+
+-- vertex wave parameters (currently 2 sets making 8 waves total defined)
+vx_amplitude0   = { 000.058,	000.065,	000.036,	000.063 },
+vx_wavelength0  = { 010.995,	016.814,	012.853,	012.048 },
+vx_sharpness0   = { 001.223,	001.221,	001.130,	001.123 },
+vx_speed0       = { 000.787,	000.759,	000.808,	000.861 },
+vx_rotation0    = { -02.385,	002.298,	006.217,	-14.376 },
+vx_amplitude1   = { 000.053,	000.049,	000.048,	000.053 },
+vx_wavelength1  = { 017.678,	011.258,	012.774,	011.253 },
+vx_sharpness1   = { 001.171,	001.213,	001.084,	001.149 },
+vx_speed1       = { 000.959,	000.758,	000.758,	000.766 },
+vx_rotation1    = { 004.376,	012.475,	000.979,	011.211 },
+
+-- pixel wave parameters (currently only 1 set defined)
+px_scale0       = { 001.016,	000.421,	000.701,	001.541 },
+px_speed0       = { 000.080,	000.120,	000.120,	000.120 },
+px_rotation0    = { 000.000,	180.000,	014.400,	190.800 }
+}
+
+mgr.waterTypeCreate( 20, newWaterType );
+
+newWaterType =
+{
+-- general water parameters
+subtype                        = TYPE_WATER,
+generate_waves                 = 1,
+wave_crest_foam                = 1,
+blend_op_foam                  = 0,
+viscosity                      = 000.750,
+curvature                      = 000.001,
+color                          = { 000.270, 000.610, 000.660 },
+view_depth                     = 000.630,
+fresnel_min                    = 000.050,
+fresnel_max                    = 000.230,
+specular_coefficient           = 500.000,
+refraction_strength            = 023.000,
+transparency_fadein_depth      = 009.800,
+transparency_min               = 000.240,
+foam_displacement_factors      = { 000.050, 000.035 },
+foam_scale_factors             = { 000.003, 000.005 },
+foam_fadein_depth              = { 000.550, 000.800 },
+
+-- these values are used  for automatic wave generation
+amplitude_median               = 000.035,
+amplitude_deviation            = 000.035,
+wavelength_median              = 010.840,
+wavelength_deviation           = 006.940,
+sharpness_median               = 001.080,
+sharpness_deviation            = 000.180,
+speed_median                   = 000.680,
+speed_deviation                = 000.280,
+age_median                     = 006.400,
+age_deviation                  = 001.900,
+
+-- used textures
+bump0            = "fx/water_bump7.dds",
+bump1            = "fx/water_bump7.dds",
+bump2            = "fx/water_bump7.dds",
+bump3            = "fx/water_bump7.dds",
+foam0            = "fx/foam_soft.dds",
+foam1            = "fx/foam_hard.dds",
+
+-- vertex wave parameters (currently 2 sets making 8 waves total defined)
+vx_amplitude0   = { 000.036,	000.063,	000.054,	000.055 },
+vx_wavelength0  = { 015.262,	010.962,	011.391,	012.775 },
+vx_sharpness0   = { 001.154,	001.154,	001.103,	001.235 },
+vx_speed0       = { 000.717,	000.867,	000.797,	000.727 },
+vx_rotation0    = { 006.148,	011.086,	000.854,	010.289 },
+vx_amplitude1   = { 000.046,	000.058,	000.063,	000.064 },
+vx_wavelength1  = { 016.097,	014.383,	014.812,	012.303 },
+vx_sharpness1   = { 001.190,	001.105,	001.177,	001.145 },
+vx_speed1       = { 000.943,	000.731,	000.685,	000.853 },
+vx_rotation1    = { -05.196,	-10.783,	011.805,	-01.499 },
+
+-- pixel wave parameters (currently only 1 set defined)
+px_scale0       = { 001.016,	000.421,	000.701,	001.541 },
+px_speed0       = { 000.080,	000.120,	000.120,	000.120 },
+px_rotation0    = { 000.000,	180.000,	014.400,	190.800 }
+}
+
+mgr.waterTypeCreate( 21, newWaterType );
+
+newWaterType =
+{
+-- general water parameters
+subtype                        = TYPE_WATER,
+generate_waves                 = 1,
+wave_crest_foam                = 1,
+blend_op_foam                  = 0,
+viscosity                      = 000.750,
+curvature                      = 000.090,
+color                          = { 000.270, 000.610, 000.660 },
+view_depth                     = 000.630,
+fresnel_min                    = 000.050,
+fresnel_max                    = 000.230,
+specular_coefficient           = 500.000,
+refraction_strength            = 023.000,
+transparency_fadein_depth      = 009.800,
+transparency_min               = 000.240,
+foam_displacement_factors      = { 000.050, 000.035 },
+foam_scale_factors             = { 000.003, 000.005 },
+foam_fadein_depth              = { 000.550, 000.800 },
+
+-- these values are used  for automatic wave generation
+amplitude_median               = 000.035,
+amplitude_deviation            = 000.035,
+wavelength_median              = 010.840,
+wavelength_deviation           = 006.940,
+sharpness_median               = 001.080,
+sharpness_deviation            = 000.180,
+speed_median                   = 000.680,
+speed_deviation                = 000.280,
+age_median                     = 006.400,
+age_deviation                  = 001.900,
+
+-- used textures
+bump0            = "fx/water_bump7.dds",
+bump1            = "fx/water_bump7.dds",
+bump2            = "fx/water_bump7.dds",
+bump3            = "fx/water_bump7.dds",
+foam0            = "fx/foam_soft.dds",
+foam1            = "fx/foam_hard.dds",
+
+-- vertex wave parameters (currently 2 sets making 8 waves total defined)
+vx_amplitude0   = { 000.069,	000.044,	000.050,	000.042 },
+vx_wavelength0  = { 016.292,	011.025,	012.133,	015.641 },
+vx_sharpness0   = { 001.230,	001.249,	001.169,	001.217 },
+vx_speed0       = { 000.692,	000.885,	000.841,	000.853 },
+vx_rotation0    = { -04.497,	000.777,	014.314,	000.059 },
+vx_amplitude1   = { 000.047,	000.059,	000.049,	000.064 },
+vx_wavelength1  = { 015.310,	016.894,	014.054,	011.709 },
+vx_sharpness1   = { 001.187,	001.141,	001.090,	001.137 },
+vx_speed1       = { 000.910,	000.854,	000.944,	000.828 },
+vx_rotation1    = { -11.436,	-06.389,	007.353,	000.536 },
+
+-- pixel wave parameters (currently only 1 set defined)
+px_scale0       = { 001.016,	000.421,	000.701,	001.541 },
+px_speed0       = { 000.080,	000.120,	000.120,	000.120 },
+px_rotation0    = { 000.000,	180.000,	014.400,	190.800 }
+}
+
+mgr.waterTypeCreate( 22, newWaterType );
+
+newWaterType =
+{
+-- general water parameters
+subtype                        = TYPE_WATER,
+generate_waves                 = 1,
+wave_crest_foam                = 1,
+blend_op_foam                  = 0,
+viscosity                      = 001.600,
+curvature                      = 000.030,
+color                          = { 000.160, 000.390, 000.460 },
+view_depth                     = 000.690,
+fresnel_min                    = 000.000,
+fresnel_max                    = 000.130,
+specular_coefficient           = 500.000,
+refraction_strength            = 023.000,
+transparency_fadein_depth      = 009.800,
+transparency_min               = 000.240,
+foam_displacement_factors      = { 000.050, 000.035 },
+foam_scale_factors             = { 000.003, 000.005 },
+foam_fadein_depth              = { 000.850, 001.400 },
+
+-- these values are used  for automatic wave generation
+amplitude_median               = 000.053,
+amplitude_deviation            = 000.044,
+wavelength_median              = 010.840,
+wavelength_deviation           = 006.940,
+sharpness_median               = 000.720,
+sharpness_deviation            = 000.180,
+speed_median                   = 001.440,
+speed_deviation                = 000.400,
+age_median                     = 006.400,
+age_deviation                  = 001.900,
+
+-- used textures
+bump0            = "fx/water_bump7.dds",
+bump1            = "fx/water_bump7.dds",
+bump2            = "fx/water_bump7.dds",
+bump3            = "fx/water_bump7.dds",
+foam0            = "fx/foam_soft.dds",
+foam1            = "fx/foam_hard.dds",
+
+-- vertex wave parameters (currently 2 sets making 8 waves total defined)
+vx_amplitude0   = { 000.056,	000.093,	000.053,	000.073 },
+vx_wavelength0  = { 013.940,	017.322,	012.392,	013.221 },
+vx_sharpness0   = { 000.739,	000.847,	000.786,	000.877 },
+vx_speed0       = { 001.811,	001.529,	001.521,	001.689 },
+vx_rotation0    = { 013.565,	010.146,	011.275,	-07.047 },
+vx_amplitude1   = { 000.071,	000.080,	000.085,	000.061 },
+vx_wavelength1  = { 014.579,	012.033,	013.801,	012.999 },
+vx_sharpness1   = { 000.860,	000.898,	000.735,	000.893 },
+vx_speed1       = { 001.775,	001.654,	001.702,	001.456 },
+vx_rotation1    = { -04.837,	009.057,	-02.824,	003.443 },
+
+-- pixel wave parameters (currently only 1 set defined)
+px_scale0       = { 000.106,	000.246,	000.106,	000.036 },
+px_speed0       = { 000.080,	000.120,	000.120,	000.200 },
+px_rotation0    = { 000.000,	180.000,	014.400,	190.800 }
+}
+
+mgr.waterTypeCreate( 23, newWaterType );
+
+newWaterType =
+{
+-- general water parameters
+subtype                        = TYPE_WATER,
+generate_waves                 = 1,
+wave_crest_foam                = 1,
+blend_op_foam                  = 0,
+viscosity                      = 001.600,
+curvature                      = 000.001,
+color                          = { 000.160, 000.390, 000.460 },
+view_depth                     = 000.690,
+fresnel_min                    = 000.000,
+fresnel_max                    = 000.130,
+specular_coefficient           = 500.000,
+refraction_strength            = 023.000,
+transparency_fadein_depth      = 009.800,
+transparency_min               = 000.240,
+foam_displacement_factors      = { 000.050, 000.035 },
+foam_scale_factors             = { 000.003, 000.005 },
+foam_fadein_depth              = { 000.850, 001.400 },
+
+-- these values are used  for automatic wave generation
+amplitude_median               = 000.053,
+amplitude_deviation            = 000.044,
+wavelength_median              = 010.840,
+wavelength_deviation           = 006.940,
+sharpness_median               = 000.720,
+sharpness_deviation            = 000.180,
+speed_median                   = 001.440,
+speed_deviation                = 000.400,
+age_median                     = 006.400,
+age_deviation                  = 001.900,
+
+-- used textures
+bump0            = "fx/water_bump7.dds",
+bump1            = "fx/water_bump7.dds",
+bump2            = "fx/water_bump7.dds",
+bump3            = "fx/water_bump7.dds",
+foam0            = "fx/foam_soft.dds",
+foam1            = "fx/foam_hard.dds",
+
+-- vertex wave parameters (currently 2 sets making 8 waves total defined)
+vx_amplitude0   = { 000.063,	000.084,	000.071,	000.069 },
+vx_wavelength0  = { 011.998,	013.996,	013.891,	014.072 },
+vx_sharpness0   = { 000.759,	000.751,	000.876,	000.816 },
+vx_speed0       = { 001.680,	001.622,	001.533,	001.678 },
+vx_rotation0    = { 005.416,	-01.752,	009.414,	-09.133 },
+vx_amplitude1   = { 000.063,	000.053,	000.065,	000.062 },
+vx_wavelength1  = { 014.119,	015.070,	014.593,	011.050 },
+vx_sharpness1   = { 000.853,	000.825,	000.841,	000.892 },
+vx_speed1       = { 001.443,	001.523,	001.568,	001.621 },
+vx_rotation1    = { -04.615,	006.303,	009.713,	012.753 },
+
+-- pixel wave parameters (currently only 1 set defined)
+px_scale0       = { 000.106,	000.246,	000.106,	000.036 },
+px_speed0       = { 000.080,	000.120,	000.120,	000.200 },
+px_rotation0    = { 000.000,	180.000,	014.400,	190.800 }
+}
+
+mgr.waterTypeCreate( 24, newWaterType );
+
+newWaterType =
+{
+-- general water parameters
+subtype                        = TYPE_WATER,
+generate_waves                 = 1,
+wave_crest_foam                = 1,
+blend_op_foam                  = 0,
+viscosity                      = 001.600,
+curvature                      = 000.090,
+color                          = { 000.160, 000.390, 000.460 },
+view_depth                     = 000.690,
+fresnel_min                    = 000.000,
+fresnel_max                    = 000.130,
+specular_coefficient           = 500.000,
+refraction_strength            = 023.000,
+transparency_fadein_depth      = 009.800,
+transparency_min               = 000.240,
+foam_displacement_factors      = { 000.050, 000.035 },
+foam_scale_factors             = { 000.003, 000.005 },
+foam_fadein_depth              = { 000.850, 001.400 },
+
+-- these values are used  for automatic wave generation
+amplitude_median               = 000.053,
+amplitude_deviation            = 000.044,
+wavelength_median              = 010.840,
+wavelength_deviation           = 006.940,
+sharpness_median               = 000.720,
+sharpness_deviation            = 000.180,
+speed_median                   = 001.440,
+speed_deviation                = 000.400,
+age_median                     = 006.400,
+age_deviation                  = 001.900,
+
+-- used textures
+bump0            = "fx/water_bump7.dds",
+bump1            = "fx/water_bump7.dds",
+bump2            = "fx/water_bump7.dds",
+bump3            = "fx/water_bump7.dds",
+foam0            = "fx/foam_soft.dds",
+foam1            = "fx/foam_hard.dds",
+
+-- vertex wave parameters (currently 2 sets making 8 waves total defined)
+vx_amplitude0   = { 000.092,	000.084,	000.071,	000.062 },
+vx_wavelength0  = { 011.283,	012.500,	015.666,	015.086 },
+vx_sharpness0   = { 000.754,	000.821,	000.791,	000.813 },
+vx_speed0       = { 001.562,	001.770,	001.825,	001.789 },
+vx_rotation0    = { 013.059,	007.971,	008.608,	011.765 },
+vx_amplitude1   = { 000.075,	000.081,	000.063,	000.055 },
+vx_wavelength1  = { 014.262,	014.001,	017.235,	017.425 },
+vx_sharpness1   = { 000.877,	000.837,	000.897,	000.747 },
+vx_speed1       = { 001.762,	001.455,	001.513,	001.668 },
+vx_rotation1    = { 012.622,	-00.086,	-12.525,	-04.631 },
+
+-- pixel wave parameters (currently only 1 set defined)
+px_scale0       = { 000.106,	000.246,	000.106,	000.036 },
+px_speed0       = { 000.080,	000.120,	000.120,	000.200 },
+px_rotation0    = { 000.000,	180.000,	014.400,	190.800 }
+}
+
+mgr.waterTypeCreate( 25, newWaterType );
+
+newWaterType =
+{
+-- general water parameters
+subtype                        = TYPE_WATER,
+generate_waves                 = 1,
+wave_crest_foam                = 0,
+blend_op_foam                  = 0,
+viscosity                      = 000.950,
+curvature                      = 000.060,
+color                          = { 000.000, 000.220, 000.200 },
+view_depth                     = 002.040,
+fresnel_min                    = 000.070,
+fresnel_max                    = 000.220,
+specular_coefficient           = 500.000,
+refraction_strength            = 031.000,
+transparency_fadein_depth      = 005.600,
+transparency_min               = 000.460,
+foam_displacement_factors      = { 000.100, 000.000 },
+foam_scale_factors             = { 000.013, 000.006 },
+foam_fadein_depth              = { 000.000, 000.000 },
+
+-- these values are used  for automatic wave generation
+amplitude_median               = 000.000,
+amplitude_deviation            = 000.000,
+wavelength_median              = 029.440,
+wavelength_deviation           = 001.540,
+sharpness_median               = 000.000,
+sharpness_deviation            = 000.000,
+speed_median                   = 000.000,
+speed_deviation                = 000.000,
+age_median                     = 007.700,
+age_deviation                  = 000.300,
+
+-- used textures
+bump0            = "fx/water_bump7.dds",
+bump1            = "fx/water_bump7.dds",
+bump2            = "fx/water_bump7.dds",
+bump3            = "fx/water_bump7.dds",
+foam0            = "fx/foam_soft.dds",
+foam1            = "fx/foam_hard.dds",
+
+-- vertex wave parameters (currently 2 sets making 8 waves total defined)
+vx_amplitude0   = { 000.000,	000.000,	000.000,	000.000 },
+vx_wavelength0  = { 030.909,	029.657,	030.156,	030.001 },
+vx_sharpness0   = { 000.000,	000.000,	000.000,	000.000 },
+vx_speed0       = { 000.000,	000.000,	000.000,	000.000 },
+vx_rotation0    = { 006.453,	002.326,	-10.242,	-10.719 },
+vx_amplitude1   = { 000.000,	000.000,	000.000,	000.000 },
+vx_wavelength1  = { 030.127,	030.214,	030.354,	029.978 },
+vx_sharpness1   = { 000.000,	000.000,	000.000,	000.000 },
+vx_speed1       = { 000.000,	000.000,	000.000,	000.000 },
+vx_rotation1    = { -12.385,	-10.883,	006.424,	-02.893 },
+
+-- pixel wave parameters (currently only 1 set defined)
+px_scale0       = { 000.946,	001.016,	001.121,	000.806 },
+px_speed0       = { 000.080,	000.080,	000.080,	000.080 },
+px_rotation0    = { 086.400,	104.400,	277.200,	266.400 }
+}
+
+mgr.waterTypeCreate( 26, newWaterType );
+
+newWaterType =
+{
+-- general water parameters
+subtype                        = TYPE_WATER,
+generate_waves                 = 1,
+wave_crest_foam                = 0,
+blend_op_foam                  = 0,
+viscosity                      = 000.950,
+curvature                      = 000.001,
+color                          = { 000.000, 000.220, 000.200 },
+view_depth                     = 002.040,
+fresnel_min                    = 000.070,
+fresnel_max                    = 000.220,
+specular_coefficient           = 500.000,
+refraction_strength            = 031.000,
+transparency_fadein_depth      = 005.600,
+transparency_min               = 000.460,
+foam_displacement_factors      = { 000.100, 000.000 },
+foam_scale_factors             = { 000.013, 000.006 },
+foam_fadein_depth              = { 000.000, 000.000 },
+
+-- these values are used  for automatic wave generation
+amplitude_median               = 000.000,
+amplitude_deviation            = 000.000,
+wavelength_median              = 029.440,
+wavelength_deviation           = 001.540,
+sharpness_median               = 000.000,
+sharpness_deviation            = 000.000,
+speed_median                   = 000.000,
+speed_deviation                = 000.000,
+age_median                     = 007.700,
+age_deviation                  = 000.300,
+
+-- used textures
+bump0            = "fx/water_bump7.dds",
+bump1            = "fx/water_bump7.dds",
+bump2            = "fx/water_bump7.dds",
+bump3            = "fx/water_bump7.dds",
+foam0            = "fx/foam_soft.dds",
+foam1            = "fx/foam_hard.dds",
+
+-- vertex wave parameters (currently 2 sets making 8 waves total defined)
+vx_amplitude0   = { 000.000,	000.000,	000.000,	000.000 },
+vx_wavelength0  = { 029.452,	029.682,	029.442,	030.351 },
+vx_sharpness0   = { 000.000,	000.000,	000.000,	000.000 },
+vx_speed0       = { 000.000,	000.000,	000.000,	000.000 },
+vx_rotation0    = { -10.377,	002.497,	007.512,	007.189 },
+vx_amplitude1   = { 000.000,	000.000,	000.000,	000.000 },
+vx_wavelength1  = { 029.539,	030.198,	030.022,	030.127 },
+vx_sharpness1   = { 000.000,	000.000,	000.000,	000.000 },
+vx_speed1       = { 000.000,	000.000,	000.000,	000.000 },
+vx_rotation1    = { -05.137,	013.393,	-07.804,	004.985 },
+
+-- pixel wave parameters (currently only 1 set defined)
+px_scale0       = { 000.946,	001.016,	001.121,	000.806 },
+px_speed0       = { 000.080,	000.080,	000.080,	000.080 },
+px_rotation0    = { 086.400,	104.400,	277.200,	266.400 }
+}
+
+mgr.waterTypeCreate( 27, newWaterType );
+
+newWaterType =
+{
+-- general water parameters
+subtype                        = TYPE_WATER,
+generate_waves                 = 1,
+wave_crest_foam                = 0,
+blend_op_foam                  = 0,
+viscosity                      = 001.000,
+curvature                      = 000.060,
+color                          = { 000.380, 000.320, 000.210 },
+view_depth                     = 002.910,
+fresnel_min                    = 000.050,
+fresnel_max                    = 000.110,
+specular_coefficient           = 500.000,
+refraction_strength            = 017.000,
+transparency_fadein_depth      = 010.000,
+transparency_min               = 000.020,
+foam_displacement_factors      = { 000.000, 000.000 },
+foam_scale_factors             = { 000.003, 000.006 },
+foam_fadein_depth              = { 000.000, 000.000 },
+
+-- these values are used  for automatic wave generation
+amplitude_median               = 000.000,
+amplitude_deviation            = 000.000,
+wavelength_median              = 029.440,
+wavelength_deviation           = 029.440,
+sharpness_median               = 000.000,
+sharpness_deviation            = 000.000,
+speed_median                   = 000.000,
+speed_deviation                = 000.000,
+age_median                     = 010.000,
+age_deviation                  = 010.000,
+
+-- used textures
+bump0            = "fx/water_bump7.dds",
+bump1            = "fx/water_bump7.dds",
+bump2            = "fx/water_bump7.dds",
+bump3            = "fx/water_bump7.dds",
+foam0            = "fx/foam_soft.dds",
+foam1            = "fx/foam_hard.dds",
+
+-- vertex wave parameters (currently 2 sets making 8 waves total defined)
+vx_amplitude0   = { 000.000,	000.000,	000.000,	000.000 },
+vx_wavelength0  = { 036.338,	032.648,	040.661,	045.222 },
+vx_sharpness0   = { 000.000,	000.000,	000.000,	000.000 },
+vx_speed0       = { 000.000,	000.000,	000.000,	000.000 },
+vx_rotation0    = { -10.684,	-03.892,	-13.616,	-11.608 },
+vx_amplitude1   = { 000.000,	000.000,	000.000,	000.000 },
+vx_wavelength1  = { 036.239,	042.391,	030.281,	046.177 },
+vx_sharpness1   = { 000.000,	000.000,	000.000,	000.000 },
+vx_speed1       = { 000.000,	000.000,	000.000,	000.000 },
+vx_rotation1    = { -01.427,	-00.490,	014.642,	001.369 },
+
+-- pixel wave parameters (currently only 1 set defined)
+px_scale0       = { 000.701,	000.456,	000.456,	000.491 },
+px_speed0       = { 000.120,	000.080,	000.080,	000.120 },
+px_rotation0    = { 075.600,	277.200,	086.400,	262.800 }
+}
+
+mgr.waterTypeCreate( 28, newWaterType );
+
+newWaterType =
+{
+-- general water parameters
+subtype                        = TYPE_WATER,
+generate_waves                 = 1,
+wave_crest_foam                = 0,
+blend_op_foam                  = 0,
+viscosity                      = 001.000,
+curvature                      = 000.001,
+color                          = { 000.380, 000.320, 000.210 },
+view_depth                     = 002.910,
+fresnel_min                    = 000.050,
+fresnel_max                    = 000.110,
+specular_coefficient           = 500.000,
+refraction_strength            = 017.000,
+transparency_fadein_depth      = 010.000,
+transparency_min               = 000.020,
+foam_displacement_factors      = { 000.000, 000.000 },
+foam_scale_factors             = { 000.003, 000.006 },
+foam_fadein_depth              = { 000.000, 000.000 },
+
+-- these values are used  for automatic wave generation
+amplitude_median               = 000.000,
+amplitude_deviation            = 000.000,
+wavelength_median              = 029.440,
+wavelength_deviation           = 029.440,
+sharpness_median               = 000.000,
+sharpness_deviation            = 000.000,
+speed_median                   = 000.000,
+speed_deviation                = 000.000,
+age_median                     = 010.000,
+age_deviation                  = 010.000,
+
+-- used textures
+bump0            = "fx/water_bump7.dds",
+bump1            = "fx/water_bump7.dds",
+bump2            = "fx/water_bump7.dds",
+bump3            = "fx/water_bump7.dds",
+foam0            = "fx/foam_soft.dds",
+foam1            = "fx/foam_hard.dds",
+
+-- vertex wave parameters (currently 2 sets making 8 waves total defined)
+vx_amplitude0   = { 000.000,	000.000,	000.000,	000.000 },
+vx_wavelength0  = { 042.909,	036.099,	048.349,	049.125 },
+vx_sharpness0   = { 000.000,	000.000,	000.000,	000.000 },
+vx_speed0       = { 000.000,	000.000,	000.000,	000.000 },
+vx_rotation0    = { -00.346,	013.579,	-11.125,	-10.330 },
+vx_amplitude1   = { 000.000,	000.000,	000.000,	000.000 },
+vx_wavelength1  = { 039.540,	039.467,	052.148,	043.086 },
+vx_sharpness1   = { 000.000,	000.000,	000.000,	000.000 },
+vx_speed1       = { 000.000,	000.000,	000.000,	000.000 },
+vx_rotation1    = { -07.047,	-12.424,	-07.801,	004.241 },
+
+-- pixel wave parameters (currently only 1 set defined)
+px_scale0       = { 000.701,	000.456,	000.456,	000.491 },
+px_speed0       = { 000.120,	000.080,	000.080,	000.120 },
+px_rotation0    = { 075.600,	277.200,	086.400,	262.800 }
+}
+
+mgr.waterTypeCreate( 29, newWaterType );
+
+newWaterType =
+{
+-- general water parameters
+subtype                        = TYPE_WATER,
+generate_waves                 = 1,
+wave_crest_foam                = 0,
+viscosity                      = 000.010,
+curvature                      = 000.000,
+color                          = { 000.130, 000.880, 001.000 },
+view_depth                     = 000.060,
+fresnel_min                    = 000.000,
+fresnel_max                    = 000.400,
+specular_coefficient           = 500.000,
+refraction_strength            = 027.000,
+transparency_fadein_depth      = 010.000,
+transparency_min               = 000.170,
+foam_displacement_factors      = { 000.000, 000.000 },
+foam_scale_factors             = { 000.003, 000.006 },
+foam_fadein_depth              = { 000.000, 000.000 },
+
+-- these values are used  for automatic wave generation
+amplitude_median               = 000.005,
+amplitude_deviation            = 000.000,
+wavelength_median              = 006.040,
+wavelength_deviation           = 001.540,
+sharpness_median               = 000.000,
+sharpness_deviation            = 000.000,
+speed_median                   = 002.160,
+speed_deviation                = 000.200,
+age_median                     = 002.700,
+age_deviation                  = 000.300,
+
+-- used textures
+bump0            = "fx/water_bump7.dds",
+bump1            = "fx/water_bump7.dds",
+bump2            = "fx/water_bump7.dds",
+bump3            = "fx/water_bump7.dds",
+foam0            = "fx/foam_soft.dds",
+foam1            = "fx/foam_hard.dds",
+
+-- vertex wave parameters (currently 2 sets making 8 waves total defined)
+vx_amplitude0   = { 000.005,	000.005,	000.005,	000.005 },
+vx_wavelength0  = { 007.514,	006.877,	006.289,	006.969 },
+vx_sharpness0   = { 000.000,	000.000,	000.000,	000.000 },
+vx_speed0       = { 002.285,	002.222,	002.218,	002.251 },
+vx_rotation0    = { 001.266,	-09.191,	-14.725,	-11.723 },
+vx_amplitude1   = { 000.005,	000.005,	000.005,	000.005 },
+vx_wavelength1  = { 007.188,	007.396,	006.070,	006.946 },
+vx_sharpness1   = { 000.000,	000.000,	000.000,	000.000 },
+vx_speed1       = { 002.188,	002.281,	002.300,	002.201 },
+vx_rotation1    = { -00.838,	-14.295,	013.780,	-10.031 },
+
+-- pixel wave parameters (currently only 1 set defined)
+px_scale0       = { 001.051,	001.121,	001.156,	000.001 },
+px_speed0       = { 000.080,	000.000,	000.000,	000.000 },
+px_rotation0    = { 000.000,	014.400,	180.000,	169.200 }
+}
+
+mgr.waterTypeCreate( 30, newWaterType );
+
+
+newWaterType =
+{
+-- general water parameters
+subtype                        = TYPE_TENERGY,
+generate_waves                 = 1,
+wave_crest_foam                = 0,
+viscosity                      = 000.010,
+curvature                      = 000.000,
+color                          = { 000.130, 000.880, 001.000 },
+view_depth                     = 000.060,
+fresnel_min                    = 000.000,
+fresnel_max                    = 000.400,
+specular_coefficient           = 500.000,
+refraction_strength            = 027.000,
+transparency_fadein_depth      = 010.000,
+transparency_min               = 000.170,
+foam_displacement_factors      = { 000.000, 000.000 },
+foam_scale_factors             = { 000.003, 000.006 },
+foam_fadein_depth              = { 000.000, 000.000 },
+
+-- these values are used  for automatic wave generation
+amplitude_median               = 000.005,
+amplitude_deviation            = 000.000,
+wavelength_median              = 006.040,
+wavelength_deviation           = 001.540,
+sharpness_median               = 000.000,
+sharpness_deviation            = 000.000,
+speed_median                   = 002.160,
+speed_deviation                = 000.200,
+age_median                     = 002.700,
+age_deviation                  = 000.300,
+
+-- used textures
+bump0            = "fx/water_bump7.dds",
+bump1            = "fx/water_bump7.dds",
+bump2            = "fx/water_bump7.dds",
+bump3            = "fx/water_bump7.dds",
+foam0            = "fx/foam_soft.dds",
+foam1            = "fx/foam_hard.dds",
+
+-- vertex wave parameters (currently 2 sets making 8 waves total defined)
+vx_amplitude0   = { 000.005,	000.005,	000.005,	000.005 },
+vx_wavelength0  = { 007.514,	006.877,	006.289,	006.969 },
+vx_sharpness0   = { 000.000,	000.000,	000.000,	000.000 },
+vx_speed0       = { 002.285,	002.222,	002.218,	002.251 },
+vx_rotation0    = { 001.266,	-09.191,	-14.725,	-11.723 },
+vx_amplitude1   = { 000.005,	000.005,	000.005,	000.005 },
+vx_wavelength1  = { 007.188,	007.396,	006.070,	006.946 },
+vx_sharpness1   = { 000.000,	000.000,	000.000,	000.000 },
+vx_speed1       = { 002.188,	002.281,	002.300,	002.201 },
+vx_rotation1    = { -00.838,	-14.295,	013.780,	-10.031 },
+
+-- pixel wave parameters (currently only 1 set defined)
+px_scale0       = { 001.051,	001.121,	001.156,	000.001 },
+px_speed0       = { 000.080,	000.000,	000.000,	000.000 },
+px_rotation0    = { 000.000,	014.400,	180.000,	169.200 }
+}
+
+mgr.waterTypeCreate( 31, newWaterType );
+
+newWaterType =
+{
+-- general water parameters
+subtype                        = TYPE_WATER,
+generate_waves                 = 0,
+wave_crest_foam                = 0,
+blend_op_foam                  = 2,
+viscosity                      = 001.1500,
+curvature                      = 000.0000,
+color                          = { 000.2200, 000.0000, 000.0000 },
+view_depth                     = 000.5400,
+fresnel_min                    = 000.0000,
+fresnel_max                    = 000.0000,
+specular_coefficient           = 500.0000,
+refraction_strength            = 000.0000,
+transparency_fadein_depth      = 010.0000,
+transparency_min               = 000.0000,
+foam_displacement_factors      = { 000.1000, 000.1000 },
+foam_scale_factors             = { 000.0101, 000.0051 },
+foam_fadein_depth              = { 005.0000, 000.5500 },
+
+-- these values are used  for automatic wave generation
+amplitude_median               = 000.1501,
+amplitude_deviation            = 000.1501,
+wavelength_median              = 000.9400,
+wavelength_deviation           = 000.0400,
+sharpness_median               = 001.0000,
+sharpness_deviation            = 000.3000,
+speed_median                   = 001.0000,
+speed_deviation                = 000.2800,
+age_median                     = 001.0000,
+age_deviation                  = 000.3000,
+
+-- used textures
+bump0            = "fx/wavesbump_0.dds",
+bump1            = "fx/wavesbump_0.dds",
+bump2            = "fx/wavesbump_0.dds",
+bump3            = "fx/wavesbump_0.dds",
+foam0            = "fx/foam-blood_soft.dds",
+foam1            = "fx/foam-blood_hard.dds",
+
+-- vertex wave parameters (currently 2 sets making 8 waves total defined)
+vx_amplitude0   = { 000.0886,	000.0991,	000.0991,	000.0991 },
+vx_wavelength0  = { 005.7400,	005.7400,	005.7400,	005.7400 },
+vx_sharpness0   = { 001.0000,	001.0000,	001.0000,	001.0000 },
+vx_speed0       = { 001.0000,	001.0000,	001.0000,	001.0000 },
+vx_rotation0    = { 000.0000,	000.0000,	000.0000,	000.0000 },
+vx_amplitude1   = { 000.0991,	000.0991,	000.0991,	000.0991 },
+vx_wavelength1  = { 005.7400,	005.7400,	005.7400,	005.7400 },
+vx_sharpness1   = { 001.0000,	001.0000,	001.0000,	001.0000 },
+vx_speed1       = { 001.0000,	001.0000,	001.0000,	001.0000 },
+vx_rotation1    = { 000.0000,	000.0000,	000.0000,	000.0000 },
+
+-- pixel wave parameters (currently only 1 set defined)
+px_scale0       = { 002.8010,	000.0010,	000.0010,	000.0010 },
+px_speed0       = { 000.0800,	000.0000,	000.0000,	000.0800 },
+px_rotation0    = { 000.0000,	000.0000,	000.0000,	000.0000 }
+}
+
+mgr.waterTypeCreate( 32, newWaterType );
+
+newWaterType =
+{
+-- general water parameters
+subtype                        = TYPE_WATER,
+generate_waves                 = 0,
+wave_crest_foam                = 0,
+blend_op_foam                  = 2,
+viscosity                      = 005.1000,
+curvature                      = 000.0000,
+color                          = { 000.2200, 000.0000, 000.0000 },
+view_depth                     = 000.5400,
+fresnel_min                    = 000.0300,
+fresnel_max                    = 000.0100,
+specular_coefficient           = 270.0000,
+refraction_strength            = 000.0000,
+transparency_fadein_depth      = 010.0000,
+transparency_min               = 000.0000,
+foam_displacement_factors      = { 000.0000, 000.0000 },
+foam_scale_factors             = { 000.0001, 000.0001 },
+foam_fadein_depth              = { 000.0000, 000.0000 },
+
+-- these values are used  for automatic wave generation
+amplitude_median               = 000.1486,
+amplitude_deviation            = 000.1486,
+wavelength_median              = 000.6400,
+wavelength_deviation           = 000.0400,
+sharpness_median               = 001.0000,
+sharpness_deviation            = 000.3000,
+speed_median                   = 001.0000,
+speed_deviation                = 000.2800,
+age_median                     = 001.0000,
+age_deviation                  = 000.3000,
+
+-- used textures
+bump0            = "fx/wavesbump_0.dds",
+bump1            = "fx/wavesbump_0.dds",
+bump2            = "fx/wavesbump_0.dds",
+bump3            = "fx/wavesbump_0.dds",
+foam0            = "fx/foam_soft.dds",
+foam1            = "fx/foam_hard.dds",
+
+-- vertex wave parameters (currently 2 sets making 8 waves total defined)
+vx_amplitude0   = { 000.0001,	000.0001,	000.0001,	000.0001 },
+vx_wavelength0  = { 000.0400,	000.0400,	000.0400,	000.0400 },
+vx_sharpness0   = { 000.0000,	000.0000,	000.0000,	000.0000 },
+vx_speed0       = { 000.0000,	000.0000,	000.0000,	000.0000 },
+vx_rotation0    = { 000.0000,	000.0000,	000.0000,	000.0000 },
+vx_amplitude1   = { 000.0001,	000.0001,	000.0001,	000.0001 },
+vx_wavelength1  = { 000.0400,	000.0400,	000.0400,	000.0400 },
+vx_sharpness1   = { 000.0000,	000.0000,	000.0000,	000.0000 },
+vx_speed1       = { 000.0000,	000.0000,	000.0000,	000.0000 },
+vx_rotation1    = { 000.0000,	000.0000,	000.0000,	000.0000 },
+
+-- pixel wave parameters (currently only 1 set defined)
+px_scale0       = { 000.2810,	000.2110,	000.0710,	000.0010 },
+px_speed0       = { 000.2400,	000.0000,	000.0000,	000.0000 },
+px_rotation0    = { 082.8000,	000.0000,	000.0000,	000.0000 }
+}
+
+mgr.waterTypeCreate( 33, newWaterType );
+
+newWaterType =
+{
+-- general water parameters
+subtype                        = TYPE_WATER,
+generate_waves                 = 0,
+wave_crest_foam                = 0,
+blend_op_foam                  = 2,
+viscosity                      = 005.1000,
+curvature                      = 000.0000,
+color                          = { 000.1500, 000.0000, 000.0000 },
+view_depth                     = 003.0000,
+fresnel_min                    = 000.0000,
+fresnel_max                    = 000.0000,
+specular_coefficient           = 500.0000,
+refraction_strength            = 100.0000,
+transparency_fadein_depth      = 010.0000,
+transparency_min               = 000.0000,
+foam_displacement_factors      = { 000.0000, 000.0000 },
+foam_scale_factors             = { 000.0001, 000.0001 },
+foam_fadein_depth              = { 000.0000, 000.0000 },
+
+-- these values are used  for automatic wave generation
+amplitude_median               = 000.1486,
+amplitude_deviation            = 000.1486,
+wavelength_median              = 000.6400,
+wavelength_deviation           = 000.0400,
+sharpness_median               = 001.0000,
+sharpness_deviation            = 000.3000,
+speed_median                   = 001.0000,
+speed_deviation                = 000.2800,
+age_median                     = 001.0000,
+age_deviation                  = 000.3000,
+
+-- used textures
+bump0            = "fx/wavesbump_0.dds",
+bump1            = "fx/wavesbump_0.dds",
+bump2            = "fx/wavesbump_0.dds",
+bump3            = "fx/wavesbump_0.dds",
+foam0            = "fx/foam_soft.dds",
+foam1            = "fx/foam_hard.dds",
+
+-- vertex wave parameters (currently 2 sets making 8 waves total defined)
+vx_amplitude0   = { 000.0001,	000.0001,	000.0001,	000.0001 },
+vx_wavelength0  = { 000.0400,	000.0400,	000.0400,	000.0400 },
+vx_sharpness0   = { 000.0000,	000.0000,	000.0000,	000.0000 },
+vx_speed0       = { 000.0000,	000.0000,	000.0000,	000.0000 },
+vx_rotation0    = { 000.0000,	000.0000,	000.0000,	000.0000 },
+vx_amplitude1   = { 000.0001,	000.0001,	000.0001,	000.0001 },
+vx_wavelength1  = { 000.0400,	000.0400,	000.0400,	000.0400 },
+vx_sharpness1   = { 000.0000,	000.0000,	000.0000,	000.0000 },
+vx_speed1       = { 000.0000,	000.0000,	000.0000,	000.0000 },
+vx_rotation1    = { 000.0000,	000.0000,	000.0000,	000.0000 },
+
+-- pixel wave parameters (currently only 1 set defined)
+px_scale0       = { 000.0010,	000.0010,	000.0010,	000.0010 },
+px_speed0       = { 000.0800,	000.0000,	000.0000,	000.0800 },
+px_rotation0    = { 000.0000,	000.0000,	000.0000,	000.0000 }
+}
+
+mgr.waterTypeCreate( 34, newWaterType );
+
+newWaterType =
+{
+-- general water parameters
+subtype                        = TYPE_WATER,
+generate_waves                 = 0,
+wave_crest_foam                = 0,
+blend_op_foam                  = 2,
+viscosity                      = 005.1000,
+curvature                      = 000.0000,
+color                          = { 000.3000, 000.0000, 000.0000 },
+view_depth                     = 003.0000,
+fresnel_min                    = 000.0000,
+fresnel_max                    = 000.0000,
+specular_coefficient           = 500.0000,
+refraction_strength            = 100.0000,
+transparency_fadein_depth      = 010.0000,
+transparency_min               = 000.0000,
+foam_displacement_factors      = { 000.0000, 000.0000 },
+foam_scale_factors             = { 000.0001, 000.0001 },
+foam_fadein_depth              = { 000.0000, 000.0000 },
+
+-- these values are used  for automatic wave generation
+amplitude_median               = 000.1486,
+amplitude_deviation            = 000.1486,
+wavelength_median              = 000.6400,
+wavelength_deviation           = 000.0400,
+sharpness_median               = 001.0000,
+sharpness_deviation            = 000.3000,
+speed_median                   = 001.0000,
+speed_deviation                = 000.2800,
+age_median                     = 001.0000,
+age_deviation                  = 000.3000,
+
+-- used textures
+bump0            = "fx/wavesbump_0.dds",
+bump1            = "fx/wavesbump_0.dds",
+bump2            = "fx/wavesbump_0.dds",
+bump3            = "fx/wavesbump_0.dds",
+foam0            = "fx/foam_soft.dds",
+foam1            = "fx/foam_hard.dds",
+
+-- vertex wave parameters (currently 2 sets making 8 waves total defined)
+vx_amplitude0   = { 000.0001,	000.0001,	000.0001,	000.0001 },
+vx_wavelength0  = { 000.0400,	000.0400,	000.0400,	000.0400 },
+vx_sharpness0   = { 000.0000,	000.0000,	000.0000,	000.0000 },
+vx_speed0       = { 000.0000,	000.0000,	000.0000,	000.0000 },
+vx_rotation0    = { 000.0000,	000.0000,	000.0000,	000.0000 },
+vx_amplitude1   = { 000.0001,	000.0001,	000.0001,	000.0001 },
+vx_wavelength1  = { 000.0400,	000.0400,	000.0400,	000.0400 },
+vx_sharpness1   = { 000.0000,	000.0000,	000.0000,	000.0000 },
+vx_speed1       = { 000.0000,	000.0000,	000.0000,	000.0000 },
+vx_rotation1    = { 000.0000,	000.0000,	000.0000,	000.0000 },
+
+-- pixel wave parameters (currently only 1 set defined)
+px_scale0       = { 000.0010,	000.0010,	000.0010,	000.0010 },
+px_speed0       = { 000.0800,	000.0000,	000.0000,	000.0800 },
+px_rotation0    = { 000.0000,	000.0000,	000.0000,	000.0000 }
+}
+
+mgr.waterTypeCreate( 35, newWaterType );
+
+

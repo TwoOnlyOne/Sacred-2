@@ -1,0 +1,7516 @@
+--
+-- BARD RELATIONS
+--
+
+-- to Bard
+relation = {
+	job1 = "JOB_BARD",
+	job2 = "JOB_BARD",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+-- to Beggar
+relation = {
+	job1 = "JOB_BARD",
+	job2 = "JOB_BEGGAR",
+	relation = "P"
+}
+mgr.addrelation(relation);
+
+-- to Thief (thief/poacher)
+relation = {
+	job1 = "JOB_BARD",
+	job2 = "JOB_THIEF",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_BARD",
+	job2 = "JOB_THIEF",
+	relation = "S"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_BARD",
+	job2 = "JOB_POACHER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_BARD",
+	job2 = "JOB_POACHER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+
+-- to Fieldworker sheperd/lumberman/charburner/mineworker/cattlefarmer/tailor
+relation = {
+	job1 = "JOB_BARD",
+	job2 = "JOB_SHEPERD",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_BARD",
+	job2 = "JOB_LUMBERMAN",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_BARD",
+	job2 = "JOB_CHARBURNER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_BARD",
+	job2 = "JOB_MINEWORKER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_BARD",
+	job2 = "JOB_CATTLEFARMER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_BARD",
+	job2 = "JOB_TAILOR",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to Innkeeper
+relation = {
+	job1 = "JOB_BARD",
+	job2 = "JOB_INNKEEPER",
+	relation = "P"
+}
+mgr.addrelation(relation);
+
+
+-- to Jeweler/Blacksmith
+relation = {
+	job1 = "JOB_BARD",
+	job2 = "JOB_JEWELER",
+	relation = "P"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_BARD",
+	job2 = "JOB_BLACKSMITH",
+	relation = "P"
+}
+mgr.addrelation(relation);
+
+
+-- to trader
+relation = {
+	job1 = "JOB_BARD",
+	job2 = "JOB_TRADER",
+	relation = "P"
+}
+mgr.addrelation(relation);
+
+
+-- to witch
+relation = {
+	job1 = "JOB_BARD",
+	job2 = "JOB_WITCH",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to hunter
+relation = {
+	job1 = "JOB_BARD",
+	job2 = "JOB_HUNTER",
+	relation = "P"
+}
+mgr.addrelation(relation);
+
+
+-- to artist
+relation = {
+	job1 = "JOB_BARD",
+	job2 = "JOB_ARTIST",
+	relation = "P"
+}
+mgr.addrelation(relation);
+
+
+-- to night watchman
+relation = {
+	job1 = "JOB_BARD",
+	job2 = "JOB_NIGHT_WATCHMAN",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_BARD",
+	job2 = "JOB_MERCENARY",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+
+-- to priest
+relation = {
+	job1 = "JOB_BARD",
+	job2 = "JOB_PRIEST",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to barmaid
+relation = {
+	job1 = "JOB_BARD",
+	job2 = "JOB_BARMAID",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to scribe
+relation = {
+	job1 = "JOB_BARD",
+	job2 = "JOB_SCRIBE",
+	relation = "P"
+}
+mgr.addrelation(relation);
+
+
+-- to statist poor
+relation = {
+	job1 = "JOB_BARD",
+	job2 = "JOB_POOR_STATIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to statist rich
+relation = {
+	job1 = "JOB_BARD",
+	job2 = "JOB_RICH_STATIST",
+	relation = "P"
+}
+mgr.addrelation(relation);
+
+
+-- to caster
+relation = {
+	job1 = "JOB_BARD",
+	job2 = "JOB_CASTER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+--
+-- BEGGAR RELATIONS
+--
+
+-- to Bard
+relation = {
+	job1 = "JOB_BEGGAR",
+	job2 = "JOB_BARD",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+-- to Beggar
+relation = {
+	job1 = "JOB_BEGGAR",
+	job2 = "JOB_BEGGAR",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to Thief (thief/poacher)
+relation = {
+	job1 = "JOB_BEGGAR",
+	job2 = "JOB_THIEF",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_BEGGAR",
+	job2 = "JOB_POACHER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to Fieldworker sheperd/lumberman/charburner/mineworker/cattlefarmer/tailor
+relation = {
+	job1 = "JOB_BEGGAR",
+	job2 = "JOB_SHEPERD",
+	relation = "O"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_BEGGAR",
+	job2 = "JOB_LUMBERMAN",
+	relation = "O"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_BEGGAR",
+	job2 = "JOB_CHARBURNER",
+	relation = "O"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_BEGGAR",
+	job2 = "JOB_MINEWORKER",
+	relation = "O"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_BEGGAR",
+	job2 = "JOB_CATTLEFARMER",
+	relation = "O"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_BEGGAR",
+	job2 = "JOB_TAILOR",
+	relation = "O"
+}
+mgr.addrelation(relation);
+
+
+-- to Innkeeper
+relation = {
+	job1 = "JOB_BEGGAR",
+	job2 = "JOB_INNKEEPER",
+	relation = "O"
+}
+mgr.addrelation(relation);
+
+
+-- to Jeweler/Blacksmith
+relation = {
+	job1 = "JOB_BEGGAR",
+	job2 = "JOB_JEWELER",
+	relation = "O"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_BEGGAR",
+	job2 = "JOB_BLACKSMITH",
+	relation = "O"
+}
+mgr.addrelation(relation);
+
+
+-- to trader
+relation = {
+	job1 = "JOB_BEGGAR",
+	job2 = "JOB_TRADER",
+	relation = "O"
+}
+mgr.addrelation(relation);
+
+
+-- to witch
+relation = {
+	job1 = "JOB_BEGGAR",
+	job2 = "JOB_WITCH",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to hunter
+relation = {
+	job1 = "JOB_BEGGAR",
+	job2 = "JOB_HUNTER",
+	relation = "O"
+}
+mgr.addrelation(relation);
+
+
+-- to artist
+relation = {
+	job1 = "JOB_BEGGAR",
+	job2 = "JOB_ARTIST",
+	relation = "O"
+}
+mgr.addrelation(relation);
+
+
+-- to night watchman
+relation = {
+	job1 = "JOB_BEGGAR",
+	job2 = "JOB_NIGHT_WATCHMAN",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_BEGGAR",
+	job2 = "JOB_MERCENARY",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+
+-- to priest
+relation = {
+	job1 = "JOB_BEGGAR",
+	job2 = "JOB_PRIEST",
+	relation = "O"
+}
+mgr.addrelation(relation);
+
+
+-- to barmaid
+relation = {
+	job1 = "JOB_BEGGAR",
+	job2 = "JOB_BARMAID",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to scribe
+relation = {
+	job1 = "JOB_BEGGAR",
+	job2 = "JOB_SCRIBE",
+	relation = "O"
+}
+mgr.addrelation(relation);
+
+
+-- to statist poor
+relation = {
+	job1 = "JOB_BEGGAR",
+	job2 = "JOB_POOR_STATIST",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to statist rich
+relation = {
+	job1 = "JOB_BEGGAR",
+	job2 = "JOB_RICH_STATIST",
+	relation = "O"
+}
+mgr.addrelation(relation);
+
+
+-- to caster
+relation = {
+	job1 = "JOB_BEGGAR",
+	job2 = "JOB_CASTER",
+	relation = "O"
+}
+mgr.addrelation(relation);
+
+
+
+
+--
+-- THIEF RELATIONS
+--
+
+-- to Bard
+relation = {
+	job1 = "JOB_THIEF",
+	job2 = "JOB_BARD",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+-- to Beggar
+relation = {
+	job1 = "JOB_THIEF",
+	job2 = "JOB_BEGGAR",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to Thief (thief/poacher)
+relation = {
+	job1 = "JOB_THIEF",
+	job2 = "JOB_THIEF",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_THIEF",
+	job2 = "JOB_POACHER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to Fieldworker sheperd/lumberman/charburner/mineworker/cattlefarmer/tailor
+relation = {
+	job1 = "JOB_THIEF",
+	job2 = "JOB_SHEPERD",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_THIEF",
+	job2 = "JOB_LUMBERMAN",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_THIEF",
+	job2 = "JOB_CHARBURNER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_THIEF",
+	job2 = "JOB_MINEWORKER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_THIEF",
+	job2 = "JOB_CATTLEFARMER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_THIEF",
+	job2 = "JOB_TAILOR",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to Innkeeper
+relation = {
+	job1 = "JOB_THIEF",
+	job2 = "JOB_INNKEEPER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to Jeweler/Blacksmith
+relation = {
+	job1 = "JOB_THIEF",
+	job2 = "JOB_JEWELER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_THIEF",
+	job2 = "JOB_BLACKSMITH",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to trader
+relation = {
+	job1 = "JOB_THIEF",
+	job2 = "JOB_TRADER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to witch
+relation = {
+	job1 = "JOB_THIEF",
+	job2 = "JOB_WITCH",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_THIEF",
+	job2 = "JOB_WITCH",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to hunter
+relation = {
+	job1 = "JOB_THIEF",
+	job2 = "JOB_HUNTER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_THIEF",
+	job2 = "JOB_HUNTER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to artist
+relation = {
+	job1 = "JOB_THIEF",
+	job2 = "JOB_ARTIST",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to night watchman
+relation = {
+	job1 = "JOB_THIEF",
+	job2 = "JOB_NIGHT_WATCHMAN",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_THIEF",
+	job2 = "JOB_MERCENARY",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+
+-- to priest
+relation = {
+	job1 = "JOB_THIEF",
+	job2 = "JOB_PRIEST",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to barmaid
+relation = {
+	job1 = "JOB_THIEF",
+	job2 = "JOB_BARMAID",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_THIEF",
+	job2 = "JOB_BARMAID",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to scribe
+relation = {
+	job1 = "JOB_THIEF",
+	job2 = "JOB_SCRIBE",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to statist poor
+relation = {
+	job1 = "JOB_THIEF",
+	job2 = "JOB_POOR_STATIST",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to statist rich
+relation = {
+	job1 = "JOB_THIEF",
+	job2 = "JOB_RICH_STATIST",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to caster
+relation = {
+	job1 = "JOB_THIEF",
+	job2 = "JOB_CASTER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+
+
+--
+-- POACHER RELATIONS
+--
+
+-- to Bard
+relation = {
+	job1 = "JOB_POACHER",
+	job2 = "JOB_BARD",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+-- to Beggar
+relation = {
+	job1 = "JOB_POACHER",
+	job2 = "JOB_BEGGAR",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to Thief (thief/poacher)
+relation = {
+	job1 = "JOB_POACHER",
+	job2 = "JOB_THIEF",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_POACHER",
+	job2 = "JOB_POACHER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to Fieldworker sheperd/lumberman/charburner/mineworker/cattlefarmer/tailor
+relation = {
+	job1 = "JOB_POACHER",
+	job2 = "JOB_SHEPERD",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_POACHER",
+	job2 = "JOB_LUMBERMAN",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_POACHER",
+	job2 = "JOB_CHARBURNER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_POACHER",
+	job2 = "JOB_MINEWORKER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_POACHER",
+	job2 = "JOB_CATTLEFARMER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_POACHER",
+	job2 = "JOB_TAILOR",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to Innkeeper
+relation = {
+	job1 = "JOB_POACHER",
+	job2 = "JOB_INNKEEPER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to Jeweler/Blacksmith
+relation = {
+	job1 = "JOB_POACHER",
+	job2 = "JOB_JEWELER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_POACHER",
+	job2 = "JOB_BLACKSMITH",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to trader
+relation = {
+	job1 = "JOB_POACHER",
+	job2 = "JOB_TRADER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to witch
+relation = {
+	job1 = "JOB_POACHER",
+	job2 = "JOB_WITCH",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_POACHER",
+	job2 = "JOB_WITCH",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to hunter
+relation = {
+	job1 = "JOB_POACHER",
+	job2 = "JOB_HUNTER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_POACHER",
+	job2 = "JOB_HUNTER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to artist
+relation = {
+	job1 = "JOB_POACHER",
+	job2 = "JOB_ARTIST",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to night watchman
+relation = {
+	job1 = "JOB_POACHER",
+	job2 = "JOB_NIGHT_WATCHMAN",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_POACHER",
+	job2 = "JOB_MERCENARY",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+
+-- to priest
+relation = {
+	job1 = "JOB_POACHER",
+	job2 = "JOB_PRIEST",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to barmaid
+relation = {
+	job1 = "JOB_POACHER",
+	job2 = "JOB_BARMAID",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_POACHER",
+	job2 = "JOB_BARMAID",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to scribe
+relation = {
+	job1 = "JOB_POACHER",
+	job2 = "JOB_SCRIBE",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to statist poor
+relation = {
+	job1 = "JOB_POACHER",
+	job2 = "JOB_POOR_STATIST",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to statist rich
+relation = {
+	job1 = "JOB_POACHER",
+	job2 = "JOB_RICH_STATIST",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to caster
+relation = {
+	job1 = "JOB_POACHER",
+	job2 = "JOB_CASTER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+
+
+--
+-- SHEPERD RELATIONS
+--
+
+-- to Bard
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_BARD",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+-- to Beggar
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_BEGGAR",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_BEGGAR",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_BEGGAR",
+	relation = "S"
+}
+mgr.addrelation(relation);
+
+
+-- to Thief (thief/poacher)
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_THIEF",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_THIEF",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_POACHER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_POACHER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to Fieldworker sheperd/lumberman/charburner/mineworker/cattlefarmer/tailor
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_SHEPERD",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_LUMBERMAN",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_CHARBURNER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_MINEWORKER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_CATTLEFARMER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_TAILOR",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to Innkeeper
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_INNKEEPER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_INNKEEPER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to Jeweler/Blacksmith
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_JEWELER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_JEWELER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_BLACKSMITH",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_BLACKSMITH",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to trader
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_TRADER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_TRADER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_TRADER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to witch
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_WITCH",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_WITCH",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_WITCH",
+	relation = "O"
+}
+mgr.addrelation(relation);
+
+
+-- to hunter
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_HUNTER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_HUNTER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to artist
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_ARTIST",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_ARTIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to night watchman
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_NIGHT_WATCHMAN",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_NIGHT_WATCHMAN",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_MERCENARY",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_MERCENARY",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+-- to priest
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_PRIEST",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to barmaid
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_BARMAID",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_BARMAID",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_BARMAID",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to scribe
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_SCRIBE",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_SCRIBE",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to statist poor
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_POOR_STATIST",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_POOR_STATIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to statist rich
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_RICH_STATIST",
+	relation = "O"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_RICH_STATIST",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to caster
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_CASTER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_CASTER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_SHEPERD",
+	job2 = "JOB_CASTER",
+	relation = "O"
+}
+mgr.addrelation(relation);
+
+
+
+
+
+--
+-- LUMBERMAN RELATIONS
+--
+
+-- to Bard
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_BARD",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+-- to Beggar
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_BEGGAR",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_BEGGAR",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_BEGGAR",
+	relation = "S"
+}
+mgr.addrelation(relation);
+
+
+-- to Thief (thief/poacher)
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_THIEF",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_THIEF",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_POACHER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_POACHER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to Fieldworker sheperd/lumberman/charburner/mineworker/cattlefarmer/tailor
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_SHEPERD",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_LUMBERMAN",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_CHARBURNER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_MINEWORKER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_CATTLEFARMER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_TAILOR",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to Innkeeper
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_INNKEEPER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_INNKEEPER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to Jeweler/Blacksmith
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_JEWELER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_JEWELER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_BLACKSMITH",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_BLACKSMITH",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to trader
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_TRADER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_TRADER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_TRADER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to witch
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_WITCH",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_WITCH",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_WITCH",
+	relation = "O"
+}
+mgr.addrelation(relation);
+
+
+-- to hunter
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_HUNTER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_HUNTER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to artist
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_ARTIST",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_ARTIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to night watchman
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_NIGHT_WATCHMAN",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_NIGHT_WATCHMAN",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_MERCENARY",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_MERCENARY",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+-- to priest
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_PRIEST",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to barmaid
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_BARMAID",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_BARMAID",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_BARMAID",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to scribe
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_SCRIBE",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_SCRIBE",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to statist poor
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_POOR_STATIST",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_POOR_STATIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to statist rich
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_RICH_STATIST",
+	relation = "O"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_RICH_STATIST",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to caster
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_CASTER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_CASTER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_LUMBERMAN",
+	job2 = "JOB_CASTER",
+	relation = "O"
+}
+mgr.addrelation(relation);
+
+
+
+
+
+--
+-- CHARBURNER RELATIONS
+--
+
+-- to Bard
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_BARD",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+-- to Beggar
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_BEGGAR",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_BEGGAR",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_BEGGAR",
+	relation = "S"
+}
+mgr.addrelation(relation);
+
+
+-- to Thief (thief/poacher)
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_THIEF",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_THIEF",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_POACHER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_POACHER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to Fieldworker sheperd/lumberman/charburner/mineworker/cattlefarmer/tailor
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_SHEPERD",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_LUMBERMAN",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_CHARBURNER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_MINEWORKER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_CATTLEFARMER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_TAILOR",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to Innkeeper
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_INNKEEPER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_INNKEEPER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to Jeweler/Blacksmith
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_JEWELER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_JEWELER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_BLACKSMITH",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_BLACKSMITH",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to trader
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_TRADER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_TRADER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_TRADER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to witch
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_WITCH",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_WITCH",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_WITCH",
+	relation = "O"
+}
+mgr.addrelation(relation);
+
+
+-- to hunter
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_HUNTER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_HUNTER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to artist
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_ARTIST",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_ARTIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to night watchman
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_NIGHT_WATCHMAN",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_NIGHT_WATCHMAN",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_MERCENARY",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_MERCENARY",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+-- to priest
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_PRIEST",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to barmaid
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_BARMAID",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_BARMAID",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_BARMAID",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to scribe
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_SCRIBE",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_SCRIBE",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to statist poor
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_POOR_STATIST",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_POOR_STATIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to statist rich
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_RICH_STATIST",
+	relation = "O"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_RICH_STATIST",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to caster
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_CASTER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_CASTER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CHARBURNER",
+	job2 = "JOB_CASTER",
+	relation = "O"
+}
+mgr.addrelation(relation);
+
+
+
+
+
+--
+-- MINEWORKER RELATIONS
+--
+
+-- to Bard
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_BARD",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+-- to Beggar
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_BEGGAR",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_BEGGAR",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_BEGGAR",
+	relation = "S"
+}
+mgr.addrelation(relation);
+
+
+-- to Thief (thief/poacher)
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_THIEF",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_THIEF",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_POACHER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_POACHER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to Fieldworker sheperd/lumberman/charburner/mineworker/cattlefarmer/tailor
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_SHEPERD",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_LUMBERMAN",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_CHARBURNER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_MINEWORKER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_CATTLEFARMER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_TAILOR",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to Innkeeper
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_INNKEEPER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_INNKEEPER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to Jeweler/Blacksmith
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_JEWELER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_JEWELER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_BLACKSMITH",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_BLACKSMITH",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to trader
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_TRADER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_TRADER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_TRADER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to witch
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_WITCH",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_WITCH",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_WITCH",
+	relation = "O"
+}
+mgr.addrelation(relation);
+
+
+-- to hunter
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_HUNTER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_HUNTER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to artist
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_ARTIST",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_ARTIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to night watchman
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_NIGHT_WATCHMAN",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_NIGHT_WATCHMAN",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_MERCENARY",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_MERCENARY",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+-- to priest
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_PRIEST",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to barmaid
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_BARMAID",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_BARMAID",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_BARMAID",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to scribe
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_SCRIBE",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_SCRIBE",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to statist poor
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_POOR_STATIST",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_POOR_STATIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to statist rich
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_RICH_STATIST",
+	relation = "O"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_RICH_STATIST",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to caster
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_CASTER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_CASTER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_MINEWORKER",
+	job2 = "JOB_CASTER",
+	relation = "O"
+}
+mgr.addrelation(relation);
+
+
+
+
+
+
+--
+-- CATTLEFARMER RELATIONS
+--
+
+-- to Bard
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_BARD",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+-- to Beggar
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_BEGGAR",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_BEGGAR",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_BEGGAR",
+	relation = "S"
+}
+mgr.addrelation(relation);
+
+
+-- to Thief (thief/poacher)
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_THIEF",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_THIEF",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_POACHER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_POACHER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to Fieldworker sheperd/lumberman/charburner/mineworker/cattlefarmer/tailor
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_SHEPERD",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_LUMBERMAN",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_CHARBURNER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_MINEWORKER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_CATTLEFARMER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_TAILOR",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to Innkeeper
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_INNKEEPER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_INNKEEPER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to Jeweler/Blacksmith
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_JEWELER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_JEWELER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_BLACKSMITH",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_BLACKSMITH",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to trader
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_TRADER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_TRADER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_TRADER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to witch
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_WITCH",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_WITCH",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_WITCH",
+	relation = "O"
+}
+mgr.addrelation(relation);
+
+
+-- to hunter
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_HUNTER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_HUNTER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to artist
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_ARTIST",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_ARTIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to night watchman
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_NIGHT_WATCHMAN",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_NIGHT_WATCHMAN",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_MERCENARY",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_MERCENARY",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+-- to priest
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_PRIEST",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to barmaid
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_BARMAID",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_BARMAID",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_BARMAID",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to scribe
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_SCRIBE",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_SCRIBE",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to statist poor
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_POOR_STATIST",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_POOR_STATIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to statist rich
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_RICH_STATIST",
+	relation = "O"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_RICH_STATIST",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to caster
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_CASTER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_CASTER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CATTLEFARMER",
+	job2 = "JOB_CASTER",
+	relation = "O"
+}
+mgr.addrelation(relation);
+
+
+
+
+
+
+--
+-- TAILOR RELATIONS
+--
+
+-- to Bard
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_BARD",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+-- to Beggar
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_BEGGAR",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_BEGGAR",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_BEGGAR",
+	relation = "S"
+}
+mgr.addrelation(relation);
+
+
+-- to Thief (thief/poacher)
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_THIEF",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_THIEF",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_POACHER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_POACHER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to Fieldworker sheperd/lumberman/charburner/mineworker/cattlefarmer/tailor
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_SHEPERD",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_LUMBERMAN",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_CHARBURNER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_MINEWORKER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_CATTLEFARMER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_TAILOR",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to Innkeeper
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_INNKEEPER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_INNKEEPER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to Jeweler/Blacksmith
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_JEWELER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_JEWELER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_BLACKSMITH",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_BLACKSMITH",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to trader
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_TRADER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_TRADER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_TRADER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to witch
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_WITCH",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_WITCH",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_WITCH",
+	relation = "O"
+}
+mgr.addrelation(relation);
+
+
+-- to hunter
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_HUNTER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_HUNTER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to artist
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_ARTIST",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_ARTIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to night watchman
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_NIGHT_WATCHMAN",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_NIGHT_WATCHMAN",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_MERCENARY",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_MERCENARY",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+-- to priest
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_PRIEST",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to barmaid
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_BARMAID",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_BARMAID",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_BARMAID",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to scribe
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_SCRIBE",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_SCRIBE",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to statist poor
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_POOR_STATIST",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_POOR_STATIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to statist rich
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_RICH_STATIST",
+	relation = "O"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_RICH_STATIST",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to caster
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_CASTER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_CASTER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_TAILOR",
+	job2 = "JOB_CASTER",
+	relation = "O"
+}
+mgr.addrelation(relation);
+
+
+
+
+
+
+--
+-- INNKEEPER RELATIONS
+--
+
+-- to Bard
+relation = {
+	job1 = "JOB_INNKEEPER",
+	job2 = "JOB_BARD",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+-- to Beggar
+relation = {
+	job1 = "JOB_INNKEEPER",
+	job2 = "JOB_BEGGAR",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_INNKEEPER",
+	job2 = "JOB_BEGGAR",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_INNKEEPER",
+	job2 = "JOB_BEGGAR",
+	relation = "S"
+}
+mgr.addrelation(relation);
+
+
+-- to Thief (thief/poacher)
+relation = {
+	job1 = "JOB_INNKEEPER",
+	job2 = "JOB_THIEF",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_INNKEEPER",
+	job2 = "JOB_THIEF",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_INNKEEPER",
+	job2 = "JOB_POACHER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_INNKEEPER",
+	job2 = "JOB_POACHER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to Fieldworker sheperd/lumberman/charburner/mineworker/cattlefarmer/tailor
+relation = {
+	job1 = "JOB_INNKEEPER",
+	job2 = "JOB_SHEPERD",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_INNKEEPER",
+	job2 = "JOB_LUMBERMAN",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_INNKEEPER",
+	job2 = "JOB_CHARBURNER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_INNKEEPER",
+	job2 = "JOB_MINEWORKER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_INNKEEPER",
+	job2 = "JOB_CATTLEFARMER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_INNKEEPER",
+	job2 = "JOB_TAILOR",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to Innkeeper
+relation = {
+	job1 = "JOB_INNKEEPER",
+	job2 = "JOB_INNKEEPER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to Jeweler/Blacksmith
+relation = {
+	job1 = "JOB_INNKEEPER",
+	job2 = "JOB_JEWELER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_INNKEEPER",
+	job2 = "JOB_BLACKSMITH",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to trader
+relation = {
+	job1 = "JOB_INNKEEPER",
+	job2 = "JOB_TRADER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to witch
+relation = {
+	job1 = "JOB_INNKEEPER",
+	job2 = "JOB_WITCH",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to hunter
+relation = {
+	job1 = "JOB_INNKEEPER",
+	job2 = "JOB_HUNTER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to artist
+relation = {
+	job1 = "JOB_INNKEEPER",
+	job2 = "JOB_ARTIST",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_INNKEEPER",
+	job2 = "JOB_ARTIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to night watchman
+relation = {
+	job1 = "JOB_INNKEEPER",
+	job2 = "JOB_NIGHT_WATCHMAN",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_INNKEEPER",
+	job2 = "JOB_NIGHT_WATCHMAN",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_INNKEEPER",
+	job2 = "JOB_MERCENARY",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_INNKEEPER",
+	job2 = "JOB_MERCENARY",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+-- to priest
+relation = {
+	job1 = "JOB_INNKEEPER",
+	job2 = "JOB_PRIEST",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to barmaid
+relation = {
+	job1 = "JOB_INNKEEPER",
+	job2 = "JOB_BARMAID",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_INNKEEPER",
+	job2 = "JOB_BARMAID",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_INNKEEPER",
+	job2 = "JOB_BARMAID",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to scribe
+relation = {
+	job1 = "JOB_INNKEEPER",
+	job2 = "JOB_SCRIBE",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_INNKEEPER",
+	job2 = "JOB_SCRIBE",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to statist poor
+relation = {
+	job1 = "JOB_INNKEEPER",
+	job2 = "JOB_POOR_STATIST",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_INNKEEPER",
+	job2 = "JOB_POOR_STATIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to statist rich
+relation = {
+	job1 = "JOB_INNKEEPER",
+	job2 = "JOB_RICH_STATIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_INNKEEPER",
+	job2 = "JOB_RICH_STATIST",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to caster
+relation = {
+	job1 = "JOB_INNKEEPER",
+	job2 = "JOB_CASTER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+
+
+
+--
+-- JEWELER RELATIONS
+--
+
+-- to Bard
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_BARD",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+-- to Beggar
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_BEGGAR",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_BEGGAR",
+	relation = "S"
+}
+mgr.addrelation(relation);
+
+
+-- to Thief (thief/poacher)
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_THIEF",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_THIEF",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_POACHER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_POACHER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to Fieldworker sheperd/lumberman/charburner/mineworker/cattlefarmer/tailor
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_SHEPERD",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_SHEPERD",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_LUMBERMAN",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_LUMBERMAN",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_CHARBURNER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_CHARBURNER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_MINEWORKER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_MINEWORKER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_CATTLEFARMER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_CATTLEFARMER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_TAILOR",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_TAILOR",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to Innkeeper
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_INNKEEPER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to Jeweler/Blacksmith
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_JEWELER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_JEWELER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_BLACKSMITH",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_BLACKSMITH",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to trader
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_TRADER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_TRADER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to witch
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_WITCH",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_WITCH",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to hunter
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_HUNTER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_HUNTER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_HUNTER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to artist
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_ARTIST",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_ARTIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to night watchman
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_NIGHT_WATCHMAN",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_NIGHT_WATCHMAN",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_MERCENARY",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_MERCENARY",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+-- to priest
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_PRIEST",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to barmaid
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_BARMAID",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_BARMAID",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_BARMAID",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to scribe
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_SCRIBE",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_SCRIBE",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to statist poor
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_POOR_STATIST",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_POOR_STATIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to statist rich
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_RICH_STATIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_RICH_STATIST",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to caster
+relation = {
+	job1 = "JOB_JEWELER",
+	job2 = "JOB_CASTER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+
+
+
+--
+-- BLACKSMITH RELATIONS
+--
+
+-- to Bard
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_BARD",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+-- to Beggar
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_BEGGAR",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_BEGGAR",
+	relation = "S"
+}
+mgr.addrelation(relation);
+
+
+-- to Thief (thief/poacher)
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_THIEF",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_THIEF",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_POACHER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_POACHER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to Fieldworker sheperd/lumberman/charburner/mineworker/cattlefarmer/tailor
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_SHEPERD",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_SHEPERD",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_LUMBERMAN",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_LUMBERMAN",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_CHARBURNER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_CHARBURNER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_MINEWORKER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_MINEWORKER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_CATTLEFARMER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_CATTLEFARMER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_TAILOR",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_TAILOR",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to Innkeeper
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_INNKEEPER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to Jeweler/Blacksmith
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_JEWELER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_JEWELER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_BLACKSMITH",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_BLACKSMITH",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to trader
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_TRADER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_TRADER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to witch
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_WITCH",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_WITCH",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to hunter
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_HUNTER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_HUNTER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_HUNTER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to artist
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_ARTIST",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_ARTIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to night watchman
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_NIGHT_WATCHMAN",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_NIGHT_WATCHMAN",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_MERCENARY",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_MERCENARY",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+-- to priest
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_PRIEST",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to barmaid
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_BARMAID",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_BARMAID",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_BARMAID",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to scribe
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_SCRIBE",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_SCRIBE",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to statist poor
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_POOR_STATIST",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_POOR_STATIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to statist rich
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_RICH_STATIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_RICH_STATIST",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to caster
+relation = {
+	job1 = "JOB_BLACKSMITH",
+	job2 = "JOB_CASTER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+
+
+
+--
+-- TRADER RELATIONS
+--
+
+-- to Bard
+relation = {
+	job1 = "JOB_TRADER",
+	job2 = "JOB_BARD",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_TRADER",
+	job2 = "JOB_BARD",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+-- to Beggar
+relation = {
+	job1 = "JOB_TRADER",
+	job2 = "JOB_BEGGAR",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_TRADER",
+	job2 = "JOB_BEGGAR",
+	relation = "S"
+}
+mgr.addrelation(relation);
+
+
+-- to Thief (thief/poacher)
+relation = {
+	job1 = "JOB_TRADER",
+	job2 = "JOB_THIEF",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_TRADER",
+	job2 = "JOB_THIEF",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_TRADER",
+	job2 = "JOB_POACHER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_TRADER",
+	job2 = "JOB_POACHER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to Fieldworker sheperd/lumberman/charburner/mineworker/cattlefarmer/tailor
+relation = {
+	job1 = "JOB_TRADER",
+	job2 = "JOB_SHEPERD",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_TRADER",
+	job2 = "JOB_LUMBERMAN",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_TRADER",
+	job2 = "JOB_CHARBURNER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_TRADER",
+	job2 = "JOB_MINEWORKER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_TRADER",
+	job2 = "JOB_CATTLEFARMER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_TRADER",
+	job2 = "JOB_TAILOR",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to Innkeeper
+relation = {
+	job1 = "JOB_TRADER",
+	job2 = "JOB_INNKEEPER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_TRADER",
+	job2 = "JOB_INNKEEPER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to Jeweler/Blacksmith
+relation = {
+	job1 = "JOB_TRADER",
+	job2 = "JOB_JEWELER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_TRADER",
+	job2 = "JOB_JEWELER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_TRADER",
+	job2 = "JOB_BLACKSMITH",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_TRADER",
+	job2 = "JOB_BLACKSMITH",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to trader
+relation = {
+	job1 = "JOB_TRADER",
+	job2 = "JOB_TRADER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_TRADER",
+	job2 = "JOB_TRADER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_TRADER",
+	job2 = "JOB_TRADER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+
+
+-- to witch
+relation = {
+	job1 = "JOB_TRADER",
+	job2 = "JOB_WITCH",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to hunter
+relation = {
+	job1 = "JOB_TRADER",
+	job2 = "JOB_HUNTER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_TRADER",
+	job2 = "JOB_HUNTER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to artist
+relation = {
+	job1 = "JOB_TRADER",
+	job2 = "JOB_ARTIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to night watchman
+relation = {
+	job1 = "JOB_TRADER",
+	job2 = "JOB_NIGHT_WATCHMAN",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_TRADER",
+	job2 = "JOB_NIGHT_WATCHMAN",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_TRADER",
+	job2 = "JOB_MERCENARY",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_TRADER",
+	job2 = "JOB_MERCENARY",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+-- to priest
+relation = {
+	job1 = "JOB_TRADER",
+	job2 = "JOB_PRIEST",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to barmaid
+relation = {
+	job1 = "JOB_TRADER",
+	job2 = "JOB_BARMAID",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_TRADER",
+	job2 = "JOB_BARMAID",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_TRADER",
+	job2 = "JOB_BARMAID",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to scribe
+relation = {
+	job1 = "JOB_TRADER",
+	job2 = "JOB_SCRIBE",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_TRADER",
+	job2 = "JOB_SCRIBE",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to statist poor
+relation = {
+	job1 = "JOB_TRADER",
+	job2 = "JOB_POOR_STATIST",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_TRADER",
+	job2 = "JOB_POOR_STATIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to statist rich
+relation = {
+	job1 = "JOB_TRADER",
+	job2 = "JOB_RICH_STATIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_TRADER",
+	job2 = "JOB_RICH_STATIST",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to caster
+relation = {
+	job1 = "JOB_TRADER",
+	job2 = "JOB_CASTER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+
+
+
+--
+-- WITCH RELATIONS
+--
+
+-- to Bard
+relation = {
+	job1 = "JOB_WITCH",
+	job2 = "JOB_BARD",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_WITCH",
+	job2 = "JOB_BARD",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+-- to Beggar
+relation = {
+	job1 = "JOB_WITCH",
+	job2 = "JOB_BEGGAR",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_WITCH",
+	job2 = "JOB_BEGGAR",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to Thief (thief/poacher)
+relation = {
+	job1 = "JOB_WITCH",
+	job2 = "JOB_THIEF",
+	relation = "S"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_WITCH",
+	job2 = "JOB_POACHER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+
+
+-- to Fieldworker sheperd/lumberman/charburner/mineworker/cattlefarmer/tailor
+relation = {
+	job1 = "JOB_WITCH",
+	job2 = "JOB_SHEPERD",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_WITCH",
+	job2 = "JOB_LUMBERMAN",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_WITCH",
+	job2 = "JOB_CHARBURNER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_WITCH",
+	job2 = "JOB_MINEWORKER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_WITCH",
+	job2 = "JOB_CATTLEFARMER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_WITCH",
+	job2 = "JOB_TAILOR",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to Innkeeper
+relation = {
+	job1 = "JOB_WITCH",
+	job2 = "JOB_INNKEEPER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to Jeweler/Blacksmith
+relation = {
+	job1 = "JOB_WITCH",
+	job2 = "JOB_JEWELER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_WITCH",
+	job2 = "JOB_JEWELER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_WITCH",
+	job2 = "JOB_BLACKSMITH",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_WITCH",
+	job2 = "JOB_BLACKSMITH",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to trader
+relation = {
+	job1 = "JOB_WITCH",
+	job2 = "JOB_TRADER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_WITCH",
+	job2 = "JOB_TRADER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to witch
+relation = {
+	job1 = "JOB_WITCH",
+	job2 = "JOB_WITCH",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to hunter
+relation = {
+	job1 = "JOB_WITCH",
+	job2 = "JOB_HUNTER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_WITCH",
+	job2 = "JOB_HUNTER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+
+
+-- to artist
+relation = {
+	job1 = "JOB_WITCH",
+	job2 = "JOB_ARTIST",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to night watchman
+relation = {
+	job1 = "JOB_WITCH",
+	job2 = "JOB_NIGHT_WATCHMAN",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_WITCH",
+	job2 = "JOB_MERCENARY",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to priest
+relation = {
+	job1 = "JOB_WITCH",
+	job2 = "JOB_PRIEST",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to barmaid
+relation = {
+	job1 = "JOB_WITCH",
+	job2 = "JOB_BARMAID",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+
+-- to scribe
+relation = {
+	job1 = "JOB_WITCH",
+	job2 = "JOB_SCRIBE",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to statist poor
+relation = {
+	job1 = "JOB_WITCH",
+	job2 = "JOB_POOR_STATIST",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to statist rich
+relation = {
+	job1 = "JOB_WITCH",
+	job2 = "JOB_RICH_STATIST",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to caster
+relation = {
+	job1 = "JOB_WITCH",
+	job2 = "JOB_CASTER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+
+
+
+
+
+--
+-- HUNTER RELATIONS
+--
+
+-- to Bard
+relation = {
+	job1 = "JOB_HUNTER",
+	job2 = "JOB_BARD",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to Beggar
+relation = {
+	job1 = "JOB_HUNTER",
+	job2 = "JOB_BEGGAR",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_HUNTER",
+	job2 = "JOB_BEGGAR",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_HUNTER",
+	job2 = "JOB_BEGGAR",
+	relation = "S"
+}
+mgr.addrelation(relation);
+
+
+-- to Thief (thief/poacher)
+relation = {
+	job1 = "JOB_HUNTER",
+	job2 = "JOB_THIEF",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_HUNTER",
+	job2 = "JOB_THIEF",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_HUNTER",
+	job2 = "JOB_POACHER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_HUNTER",
+	job2 = "JOB_POACHER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to Fieldworker sheperd/lumberman/charburner/mineworker/cattlefarmer/tailor
+relation = {
+	job1 = "JOB_HUNTER",
+	job2 = "JOB_SHEPERD",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_HUNTER",
+	job2 = "JOB_LUMBERMAN",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_HUNTER",
+	job2 = "JOB_CHARBURNER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_HUNTER",
+	job2 = "JOB_MINEWORKER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_HUNTER",
+	job2 = "JOB_CATTLEFARMER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_HUNTER",
+	job2 = "JOB_TAILOR",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to Innkeeper
+relation = {
+	job1 = "JOB_HUNTER",
+	job2 = "JOB_INNKEEPER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to Jeweler/Blacksmith
+relation = {
+	job1 = "JOB_HUNTER",
+	job2 = "JOB_JEWELER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_HUNTER",
+	job2 = "JOB_JEWELER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_HUNTER",
+	job2 = "JOB_JEWELER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_HUNTER",
+	job2 = "JOB_BLACKSMITH",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_HUNTER",
+	job2 = "JOB_BLACKSMITH",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_HUNTER",
+	job2 = "JOB_BLACKSMITH",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to trader
+relation = {
+	job1 = "JOB_HUNTER",
+	job2 = "JOB_TRADER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_HUNTER",
+	job2 = "JOB_TRADER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_HUNTER",
+	job2 = "JOB_TRADER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to witch
+relation = {
+	job1 = "JOB_HUNTER",
+	job2 = "JOB_WITCH",
+	relation = "S"
+}
+mgr.addrelation(relation);
+
+
+-- to hunter
+relation = {
+	job1 = "JOB_HUNTER",
+	job2 = "JOB_HUNTER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to artist
+relation = {
+	job1 = "JOB_HUNTER",
+	job2 = "JOB_ARTIST",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_HUNTER",
+	job2 = "JOB_ARTIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to night watchman
+relation = {
+	job1 = "JOB_HUNTER",
+	job2 = "JOB_NIGHT_WATCHMAN",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_HUNTER",
+	job2 = "JOB_NIGHT_WATCHMAN",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_HUNTER",
+	job2 = "JOB_MERCENARY",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_HUNTER",
+	job2 = "JOB_MERCENARY",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to priest
+relation = {
+	job1 = "JOB_HUNTER",
+	job2 = "JOB_PRIEST",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to barmaid
+relation = {
+	job1 = "JOB_HUNTER",
+	job2 = "JOB_BARMAID",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_HUNTER",
+	job2 = "JOB_BARMAID",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to scribe
+relation = {
+	job1 = "JOB_HUNTER",
+	job2 = "JOB_SCRIBE",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_HUNTER",
+	job2 = "JOB_SCRIBE",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to statist poor
+relation = {
+	job1 = "JOB_HUNTER",
+	job2 = "JOB_POOR_STATIST",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_HUNTER",
+	job2 = "JOB_POOR_STATIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to statist rich
+relation = {
+	job1 = "JOB_HUNTER",
+	job2 = "JOB_RICH_STATIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_HUNTER",
+	job2 = "JOB_RICH_STATIST",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to caster
+relation = {
+	job1 = "JOB_HUNTER",
+	job2 = "JOB_CASTER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_HUNTER",
+	job2 = "JOB_CASTER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+
+
+
+
+--
+-- ARTIST RELATIONS
+--
+
+-- to Bard
+relation = {
+	job1 = "JOB_ARTIST",
+	job2 = "JOB_BARD",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_ARTIST",
+	job2 = "JOB_BARD",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_ARTIST",
+	job2 = "JOB_BARD",
+	relation = "P"
+}
+mgr.addrelation(relation);
+
+
+-- to Beggar
+relation = {
+	job1 = "JOB_ARTIST",
+	job2 = "JOB_BEGGAR",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_ARTIST",
+	job2 = "JOB_BEGGAR",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_ARTIST",
+	job2 = "JOB_BEGGAR",
+	relation = "S"
+}
+mgr.addrelation(relation);
+
+
+-- to Thief (thief/poacher)
+relation = {
+	job1 = "JOB_ARTIST",
+	job2 = "JOB_THIEF",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_ARTIST",
+	job2 = "JOB_THIEF",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_ARTIST",
+	job2 = "JOB_POACHER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_ARTIST",
+	job2 = "JOB_POACHER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to Fieldworker sheperd/lumberman/charburner/mineworker/cattlefarmer/tailor
+relation = {
+	job1 = "JOB_ARTIST",
+	job2 = "JOB_SHEPERD",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_ARTIST",
+	job2 = "JOB_LUMBERMAN",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_ARTIST",
+	job2 = "JOB_CHARBURNER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_ARTIST",
+	job2 = "JOB_MINEWORKER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_ARTIST",
+	job2 = "JOB_CATTLEFARMER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_ARTIST",
+	job2 = "JOB_TAILOR",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to Innkeeper
+relation = {
+	job1 = "JOB_ARTIST",
+	job2 = "JOB_INNKEEPER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_ARTIST",
+	job2 = "JOB_INNKEEPER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_ARTIST",
+	job2 = "JOB_INNKEEPER",
+	relation = "P"
+}
+mgr.addrelation(relation);
+
+
+-- to Jeweler/Blacksmith
+relation = {
+	job1 = "JOB_ARTIST",
+	job2 = "JOB_JEWELER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_ARTIST",
+	job2 = "JOB_JEWELER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_ARTIST",
+	job2 = "JOB_BLACKSMITH",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_ARTIST",
+	job2 = "JOB_BLACKSMITH",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to trader
+relation = {
+	job1 = "JOB_ARTIST",
+	job2 = "JOB_TRADER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_ARTIST",
+	job2 = "JOB_TRADER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to witch
+relation = {
+	job1 = "JOB_ARTIST",
+	job2 = "JOB_WITCH",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to hunter
+relation = {
+	job1 = "JOB_ARTIST",
+	job2 = "JOB_HUNTER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_ARTIST",
+	job2 = "JOB_HUNTER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to artist
+relation = {
+	job1 = "JOB_ARTIST",
+	job2 = "JOB_ARTIST",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_ARTIST",
+	job2 = "JOB_ARTIST",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_ARTIST",
+	job2 = "JOB_ARTIST",
+	relation = "P"
+}
+mgr.addrelation(relation);
+
+
+-- to night watchman
+relation = {
+	job1 = "JOB_ARTIST",
+	job2 = "JOB_NIGHT_WATCHMAN",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_ARTIST",
+	job2 = "JOB_NIGHT_WATCHMAN",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_ARTIST",
+	job2 = "JOB_MERCENARY",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_ARTIST",
+	job2 = "JOB_MERCENARY",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to priest
+relation = {
+	job1 = "JOB_ARTIST",
+	job2 = "JOB_PRIEST",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to barmaid
+relation = {
+	job1 = "JOB_ARTIST",
+	job2 = "JOB_BARMAID",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_ARTIST",
+	job2 = "JOB_BARMAID",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to scribe
+relation = {
+	job1 = "JOB_ARTIST",
+	job2 = "JOB_SCRIBE",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_ARTIST",
+	job2 = "JOB_SCRIBE",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to statist poor
+relation = {
+	job1 = "JOB_ARTIST",
+	job2 = "JOB_POOR_STATIST",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to statist rich
+relation = {
+	job1 = "JOB_ARTIST",
+	job2 = "JOB_RICH_STATIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_ARTIST",
+	job2 = "JOB_RICH_STATIST",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to caster
+relation = {
+	job1 = "JOB_ARTIST",
+	job2 = "JOB_CASTER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_ARTIST",
+	job2 = "JOB_CASTER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+
+
+
+
+--
+-- NIGHT_WATCHMAN RELATIONS
+--
+
+-- to Bard
+relation = {
+	job1 = "JOB_NIGHT_WATCHMAN",
+	job2 = "JOB_BARD",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_NIGHT_WATCHMAN",
+	job2 = "JOB_BARD",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to Beggar
+relation = {
+	job1 = "JOB_NIGHT_WATCHMAN",
+	job2 = "JOB_BEGGAR",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_NIGHT_WATCHMAN",
+	job2 = "JOB_BEGGAR",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to Thief (thief/poacher)
+relation = {
+	job1 = "JOB_NIGHT_WATCHMAN",
+	job2 = "JOB_THIEF",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_NIGHT_WATCHMAN",
+	job2 = "JOB_THIEF",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_NIGHT_WATCHMAN",
+	job2 = "JOB_POACHER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_NIGHT_WATCHMAN",
+	job2 = "JOB_POACHER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to Fieldworker sheperd/lumberman/charburner/mineworker/cattlefarmer/tailor
+relation = {
+	job1 = "JOB_NIGHT_WATCHMAN",
+	job2 = "JOB_SHEPERD",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_NIGHT_WATCHMAN",
+	job2 = "JOB_SHEPERD",
+	relation = "S"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_NIGHT_WATCHMAN",
+	job2 = "JOB_LUMBERMAN",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_NIGHT_WATCHMAN",
+	job2 = "JOB_LUMBERMAN",
+	relation = "S"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_NIGHT_WATCHMAN",
+	job2 = "JOB_CHARBURNER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_NIGHT_WATCHMAN",
+	job2 = "JOB_CHARBURNER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_NIGHT_WATCHMAN",
+	job2 = "JOB_MINEWORKER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_NIGHT_WATCHMAN",
+	job2 = "JOB_MINEWORKER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_NIGHT_WATCHMAN",
+	job2 = "JOB_CATTLEFARMER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_NIGHT_WATCHMAN",
+	job2 = "JOB_CATTLEFARMER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_NIGHT_WATCHMAN",
+	job2 = "JOB_TAILOR",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_NIGHT_WATCHMAN",
+	job2 = "JOB_TAILOR",
+	relation = "S"
+}
+mgr.addrelation(relation);
+
+
+-- to Innkeeper
+relation = {
+	job1 = "JOB_NIGHT_WATCHMAN",
+	job2 = "JOB_INNKEEPER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to Jeweler/Blacksmith
+relation = {
+	job1 = "JOB_NIGHT_WATCHMAN",
+	job2 = "JOB_JEWELER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_NIGHT_WATCHMAN",
+	job2 = "JOB_JEWELER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_NIGHT_WATCHMAN",
+	job2 = "JOB_BLACKSMITH",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_NIGHT_WATCHMAN",
+	job2 = "JOB_BLACKSMITH",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to trader
+relation = {
+	job1 = "JOB_NIGHT_WATCHMAN",
+	job2 = "JOB_TRADER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_NIGHT_WATCHMAN",
+	job2 = "JOB_TRADER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to witch
+relation = {
+	job1 = "JOB_NIGHT_WATCHMAN",
+	job2 = "JOB_WITCH",
+	relation = "S"
+}
+mgr.addrelation(relation);
+
+
+-- to hunter
+relation = {
+	job1 = "JOB_NIGHT_WATCHMAN",
+	job2 = "JOB_HUNTER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_NIGHT_WATCHMAN",
+	job2 = "JOB_HUNTER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to artist
+relation = {
+	job1 = "JOB_NIGHT_WATCHMAN",
+	job2 = "JOB_ARTIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to night watchman
+relation = {
+	job1 = "JOB_NIGHT_WATCHMAN",
+	job2 = "JOB_NIGHT_WATCHMAN",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_NIGHT_WATCHMAN",
+	job2 = "JOB_MERCENARY",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to priest
+relation = {
+	job1 = "JOB_NIGHT_WATCHMAN",
+	job2 = "JOB_PRIEST",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to barmaid
+relation = {
+	job1 = "JOB_NIGHT_WATCHMAN",
+	job2 = "JOB_BARMAID",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_NIGHT_WATCHMAN",
+	job2 = "JOB_BARMAID",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to scribe
+relation = {
+	job1 = "JOB_NIGHT_WATCHMAN",
+	job2 = "JOB_SCRIBE",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to statist poor
+relation = {
+	job1 = "JOB_NIGHT_WATCHMAN",
+	job2 = "JOB_POOR_STATIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to statist rich
+relation = {
+	job1 = "JOB_NIGHT_WATCHMAN",
+	job2 = "JOB_RICH_STATIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_NIGHT_WATCHMAN",
+	job2 = "JOB_RICH_STATIST",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to caster
+relation = {
+	job1 = "JOB_NIGHT_WATCHMAN",
+	job2 = "JOB_CASTER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_NIGHT_WATCHMAN",
+	job2 = "JOB_CASTER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+
+
+
+
+--
+-- MERCENARY RELATIONS
+--
+
+-- to Bard
+relation = {
+	job1 = "JOB_MERCENARY",
+	job2 = "JOB_BARD",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_MERCENARY",
+	job2 = "JOB_BARD",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to Beggar
+relation = {
+	job1 = "JOB_MERCENARY",
+	job2 = "JOB_BEGGAR",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_MERCENARY",
+	job2 = "JOB_BEGGAR",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to Thief (thief/poacher)
+relation = {
+	job1 = "JOB_MERCENARY",
+	job2 = "JOB_THIEF",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_MERCENARY",
+	job2 = "JOB_THIEF",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_MERCENARY",
+	job2 = "JOB_POACHER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_MERCENARY",
+	job2 = "JOB_POACHER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to Fieldworker sheperd/lumberman/charburner/mineworker/cattlefarmer/tailor
+relation = {
+	job1 = "JOB_MERCENARY",
+	job2 = "JOB_SHEPERD",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_MERCENARY",
+	job2 = "JOB_SHEPERD",
+	relation = "S"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_MERCENARY",
+	job2 = "JOB_LUMBERMAN",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_MERCENARY",
+	job2 = "JOB_LUMBERMAN",
+	relation = "S"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_MERCENARY",
+	job2 = "JOB_CHARBURNER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_MERCENARY",
+	job2 = "JOB_CHARBURNER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_MERCENARY",
+	job2 = "JOB_MINEWORKER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_MERCENARY",
+	job2 = "JOB_MINEWORKER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_MERCENARY",
+	job2 = "JOB_CATTLEFARMER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_MERCENARY",
+	job2 = "JOB_CATTLEFARMER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_MERCENARY",
+	job2 = "JOB_TAILOR",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_MERCENARY",
+	job2 = "JOB_TAILOR",
+	relation = "S"
+}
+mgr.addrelation(relation);
+
+
+-- to Innkeeper
+relation = {
+	job1 = "JOB_MERCENARY",
+	job2 = "JOB_INNKEEPER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to Jeweler/Blacksmith
+relation = {
+	job1 = "JOB_MERCENARY",
+	job2 = "JOB_JEWELER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_MERCENARY",
+	job2 = "JOB_JEWELER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_MERCENARY",
+	job2 = "JOB_BLACKSMITH",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_MERCENARY",
+	job2 = "JOB_BLACKSMITH",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to trader
+relation = {
+	job1 = "JOB_MERCENARY",
+	job2 = "JOB_TRADER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_MERCENARY",
+	job2 = "JOB_TRADER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to witch
+relation = {
+	job1 = "JOB_MERCENARY",
+	job2 = "JOB_WITCH",
+	relation = "S"
+}
+mgr.addrelation(relation);
+
+
+-- to hunter
+relation = {
+	job1 = "JOB_MERCENARY",
+	job2 = "JOB_HUNTER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_MERCENARY",
+	job2 = "JOB_HUNTER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to artist
+relation = {
+	job1 = "JOB_MERCENARY",
+	job2 = "JOB_ARTIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to night watchman
+relation = {
+	job1 = "JOB_MERCENARY",
+	job2 = "JOB_NIGHT_WATCHMAN",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_MERCENARY",
+	job2 = "JOB_MERCENARY",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to priest
+relation = {
+	job1 = "JOB_MERCENARY",
+	job2 = "JOB_PRIEST",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to barmaid
+relation = {
+	job1 = "JOB_MERCENARY",
+	job2 = "JOB_BARMAID",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_MERCENARY",
+	job2 = "JOB_BARMAID",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to scribe
+relation = {
+	job1 = "JOB_MERCENARY",
+	job2 = "JOB_SCRIBE",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to statist poor
+relation = {
+	job1 = "JOB_MERCENARY",
+	job2 = "JOB_POOR_STATIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to statist rich
+relation = {
+	job1 = "JOB_MERCENARY",
+	job2 = "JOB_RICH_STATIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_MERCENARY",
+	job2 = "JOB_RICH_STATIST",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to caster
+relation = {
+	job1 = "JOB_MERCENARY",
+	job2 = "JOB_CASTER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_MERCENARY",
+	job2 = "JOB_CASTER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+
+
+
+
+--
+-- PRIEST RELATIONS
+--
+
+-- to Bard
+relation = {
+	job1 = "JOB_PRIEST",
+	job2 = "JOB_BARD",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to Beggar
+relation = {
+	job1 = "JOB_PRIEST",
+	job2 = "JOB_BEGGAR",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to Thief (thief/poacher)
+relation = {
+	job1 = "JOB_PRIEST",
+	job2 = "JOB_THIEF",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_PRIEST",
+	job2 = "JOB_THIEF",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_PRIEST",
+	job2 = "JOB_POACHER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_PRIEST",
+	job2 = "JOB_POACHER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to Fieldworker sheperd/lumberman/charburner/mineworker/cattlefarmer/tailor
+relation = {
+	job1 = "JOB_PRIEST",
+	job2 = "JOB_SHEPERD",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_PRIEST",
+	job2 = "JOB_LUMBERMAN",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_PRIEST",
+	job2 = "JOB_CHARBURNER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_PRIEST",
+	job2 = "JOB_MINEWORKER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_PRIEST",
+	job2 = "JOB_CATTLEFARMER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_PRIEST",
+	job2 = "JOB_TAILOR",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to Innkeeper
+relation = {
+	job1 = "JOB_PRIEST",
+	job2 = "JOB_INNKEEPER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to Jeweler/Blacksmith
+relation = {
+	job1 = "JOB_PRIEST",
+	job2 = "JOB_JEWELER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_PRIEST",
+	job2 = "JOB_BLACKSMITH",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to trader
+relation = {
+	job1 = "JOB_PRIEST",
+	job2 = "JOB_TRADER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to witch
+relation = {
+	job1 = "JOB_PRIEST",
+	job2 = "JOB_WITCH",
+	relation = "S"
+}
+mgr.addrelation(relation);
+
+
+-- to hunter
+relation = {
+	job1 = "JOB_PRIEST",
+	job2 = "JOB_HUNTER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to artist
+relation = {
+	job1 = "JOB_PRIEST",
+	job2 = "JOB_ARTIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to night watchman
+relation = {
+	job1 = "JOB_PRIEST",
+	job2 = "JOB_NIGHT_WATCHMAN",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_PRIEST",
+	job2 = "JOB_MERCENARY",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to priest
+relation = {
+	job1 = "JOB_PRIEST",
+	job2 = "JOB_PRIEST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_PRIEST",
+	job2 = "JOB_PRIEST",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to barmaid
+relation = {
+	job1 = "JOB_PRIEST",
+	job2 = "JOB_BARMAID",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_PRIEST",
+	job2 = "JOB_BARMAID",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to scribe
+relation = {
+	job1 = "JOB_PRIEST",
+	job2 = "JOB_SCRIBE",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to statist poor
+relation = {
+	job1 = "JOB_PRIEST",
+	job2 = "JOB_POOR_STATIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to statist rich
+relation = {
+	job1 = "JOB_PRIEST",
+	job2 = "JOB_RICH_STATIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to caster
+relation = {
+	job1 = "JOB_PRIEST",
+	job2 = "JOB_CASTER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+
+
+
+
+--
+-- BARMAID RELATIONS
+--
+
+-- to Bard
+relation = {
+	job1 = "JOB_BARMAID",
+	job2 = "JOB_BARD",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_BARMAID",
+	job2 = "JOB_BARD",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to Beggar
+relation = {
+	job1 = "JOB_BARMAID",
+	job2 = "JOB_BEGGAR",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_BARMAID",
+	job2 = "JOB_BEGGAR",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to Thief (thief/poacher)
+relation = {
+	job1 = "JOB_BARMAID",
+	job2 = "JOB_THIEF",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_BARMAID",
+	job2 = "JOB_THIEF",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_BARMAID",
+	job2 = "JOB_POACHER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_BARMAID",
+	job2 = "JOB_POACHER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to Fieldworker sheperd/lumberman/charburner/mineworker/cattlefarmer/tailor
+relation = {
+	job1 = "JOB_BARMAID",
+	job2 = "JOB_SHEPERD",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_BARMAID",
+	job2 = "JOB_LUMBERMAN",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_BARMAID",
+	job2 = "JOB_CHARBURNER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_BARMAID",
+	job2 = "JOB_MINEWORKER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_BARMAID",
+	job2 = "JOB_CATTLEFARMER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_BARMAID",
+	job2 = "JOB_TAILOR",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to Innkeeper
+relation = {
+	job1 = "JOB_BARMAID",
+	job2 = "JOB_INNKEEPER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to Jeweler/Blacksmith
+relation = {
+	job1 = "JOB_BARMAID",
+	job2 = "JOB_JEWELER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_BARMAID",
+	job2 = "JOB_BLACKSMITH",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to trader
+relation = {
+	job1 = "JOB_BARMAID",
+	job2 = "JOB_TRADER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to witch
+relation = {
+	job1 = "JOB_BARMAID",
+	job2 = "JOB_WITCH",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to hunter
+relation = {
+	job1 = "JOB_BARMAID",
+	job2 = "JOB_HUNTER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to artist
+relation = {
+	job1 = "JOB_BARMAID",
+	job2 = "JOB_ARTIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to night watchman
+relation = {
+	job1 = "JOB_BARMAID",
+	job2 = "JOB_NIGHT_WATCHMAN",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_BARMAID",
+	job2 = "JOB_MERCENARY",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to priest
+relation = {
+	job1 = "JOB_BARMAID",
+	job2 = "JOB_PRIEST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to barmaid
+relation = {
+	job1 = "JOB_BARMAID",
+	job2 = "JOB_BARMAID",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_BARMAID",
+	job2 = "JOB_BARMAID",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_BARMAID",
+	job2 = "JOB_BARMAID",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to scribe
+relation = {
+	job1 = "JOB_BARMAID",
+	job2 = "JOB_SCRIBE",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to statist poor
+relation = {
+	job1 = "JOB_BARMAID",
+	job2 = "JOB_POOR_STATIST",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to statist rich
+relation = {
+	job1 = "JOB_BARMAID",
+	job2 = "JOB_RICH_STATIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to caster
+relation = {
+	job1 = "JOB_BARMAID",
+	job2 = "JOB_CASTER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_BARMAID",
+	job2 = "JOB_CASTER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+
+
+--
+-- SCRIBE RELATIONS
+--
+
+-- to Bard
+relation = {
+	job1 = "JOB_SCRIBE",
+	job2 = "JOB_BARD",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to Beggar
+relation = {
+	job1 = "JOB_SCRIBE",
+	job2 = "JOB_BEGGAR",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to Thief (thief/poacher)
+relation = {
+	job1 = "JOB_SCRIBE",
+	job2 = "JOB_THIEF",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_SCRIBE",
+	job2 = "JOB_THIEF",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_SCRIBE",
+	job2 = "JOB_POACHER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_SCRIBE",
+	job2 = "JOB_POACHER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to Fieldworker sheperd/lumberman/charburner/mineworker/cattlefarmer/tailor
+relation = {
+	job1 = "JOB_SCRIBE",
+	job2 = "JOB_SHEPERD",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_SCRIBE",
+	job2 = "JOB_LUMBERMAN",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_SCRIBE",
+	job2 = "JOB_CHARBURNER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_SCRIBE",
+	job2 = "JOB_MINEWORKER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_SCRIBE",
+	job2 = "JOB_CATTLEFARMER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_SCRIBE",
+	job2 = "JOB_TAILOR",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to Innkeeper
+relation = {
+	job1 = "JOB_SCRIBE",
+	job2 = "JOB_INNKEEPER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to Jeweler/Blacksmith
+relation = {
+	job1 = "JOB_SCRIBE",
+	job2 = "JOB_JEWELER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_SCRIBE",
+	job2 = "JOB_JEWELER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_SCRIBE",
+	job2 = "JOB_BLACKSMITH",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_SCRIBE",
+	job2 = "JOB_BLACKSMITH",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to trader
+relation = {
+	job1 = "JOB_SCRIBE",
+	job2 = "JOB_TRADER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_SCRIBE",
+	job2 = "JOB_TRADER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to witch
+relation = {
+	job1 = "JOB_SCRIBE",
+	job2 = "JOB_WITCH",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_SCRIBE",
+	job2 = "JOB_WITCH",
+	relation = "S"
+}
+mgr.addrelation(relation);
+
+
+-- to hunter
+relation = {
+	job1 = "JOB_SCRIBE",
+	job2 = "JOB_HUNTER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to artist
+relation = {
+	job1 = "JOB_SCRIBE",
+	job2 = "JOB_ARTIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_SCRIBE",
+	job2 = "JOB_ARTIST",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to night watchman
+relation = {
+	job1 = "JOB_SCRIBE",
+	job2 = "JOB_NIGHT_WATCHMAN",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_SCRIBE",
+	job2 = "JOB_NIGHT_WATCHMAN",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_SCRIBE",
+	job2 = "JOB_MERCENARY",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_SCRIBE",
+	job2 = "JOB_MERCENARY",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to priest
+relation = {
+	job1 = "JOB_SCRIBE",
+	job2 = "JOB_PRIEST",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to barmaid
+relation = {
+	job1 = "JOB_SCRIBE",
+	job2 = "JOB_BARMAID",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_SCRIBE",
+	job2 = "JOB_BARMAID",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to scribe
+relation = {
+	job1 = "JOB_SCRIBE",
+	job2 = "JOB_SCRIBE",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_SCRIBE",
+	job2 = "JOB_SCRIBE",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to statist poor
+relation = {
+	job1 = "JOB_SCRIBE",
+	job2 = "JOB_POOR_STATIST",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to statist rich
+relation = {
+	job1 = "JOB_SCRIBE",
+	job2 = "JOB_RICH_STATIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_SCRIBE",
+	job2 = "JOB_RICH_STATIST",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to caster
+relation = {
+	job1 = "JOB_SCRIBE",
+	job2 = "JOB_CASTER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+
+
+--
+-- POOR STATIST RELATIONS
+--
+
+-- to Bard
+relation = {
+	job1 = "JOB_SCRIBE",
+	job2 = "JOB_BARD",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to Beggar
+relation = {
+	job1 = "JOB_POOR_STATIST",
+	job2 = "JOB_BEGGAR",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_POOR_STATIST",
+	job2 = "JOB_BEGGAR",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to Thief (thief/poacher)
+relation = {
+	job1 = "JOB_POOR_STATIST",
+	job2 = "JOB_THIEF",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_POOR_STATIST",
+	job2 = "JOB_THIEF",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_POOR_STATIST",
+	job2 = "JOB_POACHER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_POOR_STATIST",
+	job2 = "JOB_POACHER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to Fieldworker sheperd/lumberman/charburner/mineworker/cattlefarmer/tailor
+relation = {
+	job1 = "JOB_POOR_STATIST",
+	job2 = "JOB_SHEPERD",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_POOR_STATIST",
+	job2 = "JOB_LUMBERMAN",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_POOR_STATIST",
+	job2 = "JOB_CHARBURNER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_POOR_STATIST",
+	job2 = "JOB_MINEWORKER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_POOR_STATIST",
+	job2 = "JOB_CATTLEFARMER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_POOR_STATIST",
+	job2 = "JOB_TAILOR",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to Innkeeper
+relation = {
+	job1 = "JOB_POOR_STATIST",
+	job2 = "JOB_INNKEEPER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to Jeweler/Blacksmith
+relation = {
+	job1 = "JOB_POOR_STATIST",
+	job2 = "JOB_JEWELER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_POOR_STATIST",
+	job2 = "JOB_JEWELER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_POOR_STATIST",
+	job2 = "JOB_BLACKSMITH",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_POOR_STATIST",
+	job2 = "JOB_BLACKSMITH",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to trader
+relation = {
+	job1 = "JOB_POOR_STATIST",
+	job2 = "JOB_TRADER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_POOR_STATIST",
+	job2 = "JOB_TRADER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to witch
+relation = {
+	job1 = "JOB_POOR_STATIST",
+	job2 = "JOB_WITCH",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_POOR_STATIST",
+	job2 = "JOB_WITCH",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_POOR_STATIST",
+	job2 = "JOB_WITCH",
+	relation = "O"
+}
+mgr.addrelation(relation);
+
+
+-- to hunter
+relation = {
+	job1 = "JOB_POOR_STATIST",
+	job2 = "JOB_HUNTER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_POOR_STATIST",
+	job2 = "JOB_HUNTER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to artist
+relation = {
+	job1 = "JOB_POOR_STATIST",
+	job2 = "JOB_ARTIST",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_POOR_STATIST",
+	job2 = "JOB_ARTIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to night watchman
+relation = {
+	job1 = "JOB_POOR_STATIST",
+	job2 = "JOB_NIGHT_WATCHMAN",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_POOR_STATIST",
+	job2 = "JOB_MERCENARY",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to priest
+relation = {
+	job1 = "JOB_POOR_STATIST",
+	job2 = "JOB_PRIEST",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to barmaid
+relation = {
+	job1 = "JOB_POOR_STATIST",
+	job2 = "JOB_BARMAID",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_POOR_STATIST",
+	job2 = "JOB_BARMAID",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_POOR_STATIST",
+	job2 = "JOB_BARMAID",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to scribe
+relation = {
+	job1 = "JOB_POOR_STATIST",
+	job2 = "JOB_SCRIBE",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_POOR_STATIST",
+	job2 = "JOB_SCRIBE",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to statist poor
+relation = {
+	job1 = "JOB_POOR_STATIST",
+	job2 = "JOB_POOR_STATIST",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_POOR_STATIST",
+	job2 = "JOB_POOR_STATIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to statist rich
+relation = {
+	job1 = "JOB_POOR_STATIST",
+	job2 = "JOB_RICH_STATIST",
+	relation = "O"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_POOR_STATIST",
+	job2 = "JOB_RICH_STATIST",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to caster
+relation = {
+	job1 = "JOB_POOR_STATIST",
+	job2 = "JOB_CASTER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_POOR_STATIST",
+	job2 = "JOB_CASTER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_POOR_STATIST",
+	job2 = "JOB_CASTER",
+	relation = "O"
+}
+mgr.addrelation(relation);
+
+
+
+
+--
+-- RICH STATIST RELATIONS
+--
+
+-- to Bard
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_BARD",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_BARD",
+	relation = "P"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_BARD",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to Beggar
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_BEGGAR",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_BEGGAR",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to Thief (thief/poacher)
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_THIEF",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_THIEF",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_POACHER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_POACHER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to Fieldworker sheperd/lumberman/charburner/mineworker/cattlefarmer/tailor
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_SHEPERD",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_LUMBERMAN",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_CHARBURNER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_MINEWORKER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_CATTLEFARMER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_TAILOR",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to Innkeeper
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_INNKEEPER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_INNKEEPER",
+	relation = "P"
+}
+mgr.addrelation(relation);
+
+
+-- to Jeweler/Blacksmith
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_JEWELER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_JEWELER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_JEWELER",
+	relation = "P"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_BLACKSMITH",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_BLACKSMITH",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_BLACKSMITH",
+	relation = "P"
+}
+mgr.addrelation(relation);
+
+
+-- to trader
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_TRADER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_TRADER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_TRADER",
+	relation = "P"
+}
+mgr.addrelation(relation);
+
+
+-- to witch
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_WITCH",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_WITCH",
+	relation = "S"
+}
+mgr.addrelation(relation);
+
+
+-- to hunter
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_HUNTER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_HUNTER",
+	relation = "P"
+}
+mgr.addrelation(relation);
+
+
+-- to artist
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_ARTIST",
+	relation = "P"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_ARTIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to night watchman
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_NIGHT_WATCHMAN",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_NIGHT_WATCHMAN",
+	relation = "P"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_MERCENARY",
+	relation = "R"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_MERCENARY",
+	relation = "P"
+}
+mgr.addrelation(relation);
+
+
+-- to priest
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_PRIEST",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to barmaid
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_BARMAID",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_BARMAID",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_BARMAID",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to scribe
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_SCRIBE",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_SCRIBE",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to statist poor
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_POOR_STATIST",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to statist rich
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_RICH_STATIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_RICH_STATIST",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+-- to caster
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_CASTER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_RICH_STATIST",
+	job2 = "JOB_CASTER",
+	relation = "R"
+}
+mgr.addrelation(relation);
+
+
+
+
+--
+-- CASTER RELATIONS
+--
+
+-- to Bard
+relation = {
+	job1 = "JOB_CASTER",
+	job2 = "JOB_BARD",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CASTER",
+	job2 = "JOB_BARD",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to Beggar
+relation = {
+	job1 = "JOB_CASTER",
+	job2 = "JOB_BEGGAR",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CASTER",
+	job2 = "JOB_BEGGAR",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to Thief (thief/poacher)
+relation = {
+	job1 = "JOB_CASTER",
+	job2 = "JOB_THIEF",
+	relation = "S"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_CASTER",
+	job2 = "JOB_POACHER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+
+
+-- to Fieldworker sheperd/lumberman/charburner/mineworker/cattlefarmer/tailor
+relation = {
+	job1 = "JOB_CASTER",
+	job2 = "JOB_SHEPERD",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_CASTER",
+	job2 = "JOB_LUMBERMAN",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_CASTER",
+	job2 = "JOB_CHARBURNER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_CASTER",
+	job2 = "JOB_MINEWORKER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_CASTER",
+	job2 = "JOB_CATTLEFARMER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_CASTER",
+	job2 = "JOB_TAILOR",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to Innkeeper
+relation = {
+	job1 = "JOB_CASTER",
+	job2 = "JOB_INNKEEPER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to Jeweler/Blacksmith
+relation = {
+	job1 = "JOB_CASTER",
+	job2 = "JOB_JEWELER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_CASTER",
+	job2 = "JOB_BLACKSMITH",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to trader
+relation = {
+	job1 = "JOB_CASTER",
+	job2 = "JOB_TRADER",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to witch
+relation = {
+	job1 = "JOB_CASTER",
+	job2 = "JOB_WITCH",
+	relation = "S"
+}
+mgr.addrelation(relation);
+
+
+-- to hunter
+relation = {
+	job1 = "JOB_CASTER",
+	job2 = "JOB_HUNTER",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to artist
+relation = {
+	job1 = "JOB_CASTER",
+	job2 = "JOB_ARTIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to night watchman
+relation = {
+	job1 = "JOB_CASTER",
+	job2 = "JOB_NIGHT_WATCHMAN",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+relation = {
+	job1 = "JOB_CASTER",
+	job2 = "JOB_MERCENARY",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to priest
+relation = {
+	job1 = "JOB_CASTER",
+	job2 = "JOB_PRIEST",
+	relation = "I"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CASTER",
+	job2 = "JOB_PRIEST",
+	relation = "S"
+}
+mgr.addrelation(relation);
+
+
+-- to barmaid
+relation = {
+	job1 = "JOB_CASTER",
+	job2 = "JOB_BARMAID",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to scribe
+relation = {
+	job1 = "JOB_CASTER",
+	job2 = "JOB_SCRIBE",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to statist poor
+relation = {
+	job1 = "JOB_CASTER",
+	job2 = "JOB_POOR_STATIST",
+	relation = "I"
+}
+mgr.addrelation(relation);
+
+
+-- to statist rich
+relation = {
+	job1 = "JOB_CASTER",
+	job2 = "JOB_RICH_STATIST",
+	relation = "F"
+}
+mgr.addrelation(relation);
+
+
+-- to caster
+relation = {
+	job1 = "JOB_CASTER",
+	job2 = "JOB_CASTER",
+	relation = "S"
+}
+mgr.addrelation(relation);
+relation = {
+	job1 = "JOB_CASTER",
+	job2 = "JOB_CASTER",
+	relation = "R"
+}
+mgr.addrelation(relation);

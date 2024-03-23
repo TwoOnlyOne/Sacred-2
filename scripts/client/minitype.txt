@@ -1,0 +1,1006 @@
+---------------------------------------------------------------------
+-- types *=> SYNC WITH TERRAINMINIOBJ.H, MO_CLASS_XXX*
+---------------------------------------------------------------------
+TYPE_GRASS = 1;
+TYPE_FLOWER = 2;
+TYPE_MUSHROOM = 3;
+TYPE_FLOWEREX = 4;
+TYPE_STONES = 5;
+TYPE_BRANCHES = 6;
+TYPE_LEAVES = 7;
+TYPE_BLOODBONES = 8;
+
+---------------------------------------------------------------------
+-- Minitypes
+---------------------------------------------------------------------
+newMini = {
+	name         = "Flowers 1",
+	type         = TYPE_FLOWER,
+	groundType   = "PATCH_GTYPE_FLOWERS",
+	texture0Name = "miniobj/grassBleibtNichtSo.tga",
+	scale        = 1,
+	editorGroup  = "Blumen",
+}
+mgr.miniCreate(14, newMini);
+
+newMini = {
+	name         = "Flowers 1",
+	type         = TYPE_FLOWER,
+	groundType   = "PATCH_GTYPE_FLOWERS",
+	texture0Name = "miniobj/i_graeser01.tga",
+	scale        = 1,
+	editorGroup  = "#obsolete",
+}
+mgr.miniCreate(15, newMini);
+
+newMini = {
+	name         = "Grass 2",
+	type         = TYPE_FLOWER,
+	groundType   = "PATCH_GTYPE_GRASS_DEEP",
+	texture0Name = "miniobj/i_graeser02.tga",
+	scale        = 1,
+	editorGroup  = "Gras",
+}
+mgr.miniCreate(16, newMini);
+
+newMini = {
+	name         = "Grass 3",
+	type         = TYPE_FLOWER,
+	groundType   = "PATCH_GTYPE_GRASS_DEEP",
+	texture0Name = "miniobj/i_graeser03.tga",
+	scale        = 1,
+	editorGroup  = "Gras",
+}
+mgr.miniCreate(17, newMini);
+
+newMini = {
+	name         = "Flowers 4",
+	type         = TYPE_FLOWER,
+	groundType   = "PATCH_GTYPE_FLOWERS",
+	texture0Name = "miniobj/i_graeser04.tga",
+	scale        = 1,
+	editorGroup  = "Blumen",
+}
+mgr.miniCreate(18, newMini);
+
+newMini = {
+	name         = "Wheat",
+	type         = TYPE_FLOWER,
+	texture0Name = "miniobj/r_weizen001.tga",
+	scale        = 2,
+	editorGroup  = "Getreide",
+}
+mgr.miniCreate(19, newMini);
+
+newMini = {
+	name         = "Longgrass 2 sys",
+	type         = TYPE_FLOWEREX,
+	groundType   = "PATCH_GTYPE_GRASS_DEEP",
+	texture0Name = "miniobj/r_graeser_lang001.tga",
+	scale        = 3,
+	editorGroup  = "Gras",
+}
+mgr.miniCreate(20, newMini);
+
+newMini = {
+	name         = "Pilze",
+	type         = TYPE_MUSHROOM,
+	texture0Name = "miniobj/l_natpilz_d.tga",
+	scale        = 1,
+	editorGroup  = "Pilze",
+}
+mgr.miniCreate(21, newMini);
+
+newMini = {
+	name         = "Flowers 6",
+	type         = TYPE_FLOWER,
+	groundType   = "PATCH_GTYPE_FLOWERS",
+	texture0Name = "miniobj/i_graeser06.tga",
+	scale        = 1,
+	editorGroup  = "#obsolete",
+}
+mgr.miniCreate(22, newMini);
+
+newMini = {
+	name         = "Flowers 7",
+	type         = TYPE_FLOWER,
+	groundType   = "PATCH_GTYPE_FLOWERS",
+	texture0Name = "miniobj/i_graeser07.tga",
+	scale        = 1,
+	editorGroup  = "#obsolete",
+}
+mgr.miniCreate(23, newMini);
+
+newMini = {
+	name         = "Longgrass 3 sys",
+	type         = TYPE_FLOWEREX,
+	groundType   = "PATCH_GTYPE_GRASS_DEEP",
+	texture0Name = "miniobj/r_graeser_lang002.tga",
+	scale        = 3,
+	editorGroup  = "Gras",
+}
+mgr.miniCreate(24, newMini);
+
+newMini = {
+	name         = "Flowers 1 B",
+	type         = TYPE_FLOWER,
+	groundType   = "PATCH_GTYPE_FLOWERS",
+	texture0Name = "miniobj/grassBleibtNichtSo_B.tga",
+	scale        = 1,
+	editorGroup  = "Blumen",
+}
+mgr.miniCreate(25, newMini);
+
+newMini = {
+	name         = "Flowers 4 B",
+	type         = TYPE_FLOWER,
+	groundType   = "PATCH_GTYPE_FLOWERS",
+	texture0Name = "miniobj/i_graeser04b.tga",
+	scale        = 1,
+	editorGroup  = "Blumen",
+}
+mgr.miniCreate(26, newMini);
+
+newMini = {
+	name         = "Grass 1 Sys",
+	type         = TYPE_FLOWEREX,
+	groundType   = "PATCH_GTYPE_GRASS_DEEP",
+	texture0Name = "miniobj/i_graeser_sys01.tga",
+	scale        = 1.5,
+	editorGroup  = "Gras",
+}
+mgr.miniCreate(27, newMini);
+
+newMini = {
+	name         = "Grass 6 Sys",
+	type         = TYPE_FLOWEREX,
+	groundType   = "PATCH_GTYPE_GRASS_DEEP",
+	texture0Name = "miniobj/i_graeser_sys06.tga",
+	scale        = 2,
+	editorGroup  = "Gras",
+}
+mgr.miniCreate(28, newMini);
+
+newMini = {
+	name         = "Grass 7 Sys",
+	type         = TYPE_FLOWEREX,
+	groundType   = "PATCH_GTYPE_GRASS_DEEP",
+	texture0Name = "miniobj/i_graeser_sys07.tga",
+	scale        = 1,
+	editorGroup  = "Gras",
+}
+mgr.miniCreate(29, newMini);
+
+newMini = {
+	name         = "Longgrass 6 sys",
+	type         = TYPE_FLOWEREX,
+	groundType   = "PATCH_GTYPE_GRASS_DEEP",
+	texture0Name = "miniobj/r_graeser_lang001-6.tga",
+	scale        = 3,
+	editorGroup  = "Gras",
+}
+mgr.miniCreate(30, newMini);
+
+newMini = {
+	name         = "Longgrass 7 sys",
+	type         = TYPE_FLOWEREX,
+	groundType   = "PATCH_GTYPE_GRASS_DEEP",
+	texture0Name = "miniobj/r_graeser_lang001-7.tga",
+	scale        = 3,
+	editorGroup  = "Gras",
+}
+mgr.miniCreate(31, newMini);
+
+newMini = {
+	name         = "Reed 1 Sys",
+	type         = TYPE_FLOWEREX,
+	groundType   = "PATCH_GTYPE_GRASS_DEEP",
+	texture0Name = "miniobj/r_reed001.tga",
+	scale        = 2.5,
+	editorGroup  = "Gras",
+}
+mgr.miniCreate(32, newMini);
+
+newMini = {
+	name         = "Grass 1 Sys GEM",
+	type         = TYPE_FLOWEREX,
+	groundType   = "PATCH_GTYPE_GRASS_DEEP",
+	texture0Name = "miniobj/i_graeser01_gem.tga",
+	scale        = 1.5,
+	editorGroup  = "Gras",
+}
+mgr.miniCreate(33, newMini);
+
+newMini = {
+	name         = "Grass 1 Sys Hell",
+	type         = TYPE_FLOWEREX,
+	groundType   = "PATCH_GTYPE_GRASS_DEEP",
+	texture0Name = "miniobj/i_graeser_sys01hell.tga",
+	scale        = 1.5,
+	editorGroup  = "Gras",
+}
+mgr.miniCreate(34, newMini);
+
+newMini = {
+	name         = "Grass 1 Sys Dark",
+	type         = TYPE_FLOWEREX,
+	groundType   = "PATCH_GTYPE_GRASS_DEEP",
+	texture0Name = "miniobj/i_graeser_sys01dark.tga",
+	scale        = 1.5,
+	editorGroup  = "Gras",
+}
+mgr.miniCreate(35, newMini);
+
+newMini = {
+	name         = "Flowers 5",
+	type         = TYPE_FLOWER,
+	groundType   = "PATCH_GTYPE_FLOWERS",
+	texture0Name = "miniobj/i_graeser05.tga",
+	scale        = 1,
+	editorGroup  = "#obsolete",
+}
+mgr.miniCreate(36, newMini);
+
+newMini = {
+	name         = "Grass 1 Sys Mini",
+	type         = TYPE_FLOWEREX,
+	groundType   = "PATCH_GTYPE_GRASS_DEEP",
+	texture0Name = "miniobj/i_graeser_sys01.tga",
+	scale        = 1,
+	editorGroup  = "Gras",
+}
+mgr.miniCreate(37, newMini);
+
+newMini = {
+	name         = "Grass 8 Sys",
+	type         = TYPE_FLOWEREX,
+	groundType   = "PATCH_GTYPE_GRASS_DEEP",
+	texture0Name = "miniobj/i_graeser_sys08.tga",
+	scale        = 1.5,
+	editorGroup  = "Gras",
+}
+mgr.miniCreate(38, newMini);
+
+newMini = {
+	name         = "Grass 9 Sys",
+	type         = TYPE_FLOWEREX,
+	groundType   = "PATCH_GTYPE_GRASS_DEEP",
+	texture0Name = "miniobj/i_graeser_sys09.tga",
+	scale        = 1.5,
+	editorGroup  = "Gras",
+}
+mgr.miniCreate(39, newMini);
+
+newMini = {
+	name         = "Flowers 1 C",
+	type         = TYPE_FLOWER,
+	groundType   = "PATCH_GTYPE_FLOWERS",
+	texture0Name = "miniobj/grassBleibtNichtSo_C.tga",
+	scale        = 1,
+	editorGroup  = "Blumen",
+}
+mgr.miniCreate(40, newMini);
+
+newMini = {
+	name         = "Grass 10 Sys",
+	type         = TYPE_FLOWEREX,
+	groundType   = "PATCH_GTYPE_GRASS_DEEP",
+	texture0Name = "miniobj/i_graeser_sys10.tga",
+	scale        = 1.5,
+	editorGroup  = "Gras",
+}
+mgr.miniCreate(41, newMini);
+
+newMini = {
+	name         = "Grass 10 Sys Mini",
+	type         = TYPE_FLOWEREX,
+	groundType   = "PATCH_GTYPE_GRASS_DEEP",
+	texture0Name = "miniobj/i_graeser_sys10.tga",
+	scale        = 1,
+	editorGroup  = "Gras",
+}
+mgr.miniCreate(42, newMini);
+
+newMini = {
+	name         = "Grass 11 Sys Mini",
+	type         = TYPE_FLOWEREX,
+	groundType   = "PATCH_GTYPE_GRASS_DEEP",
+	texture0Name = "miniobj/i_graeser_sys11.tga",
+	scale        = 1,
+	editorGroup  = "Gras",
+}
+mgr.miniCreate(43, newMini);
+
+newMini = {
+	name         = "Grass 11 Sys",
+	type         = TYPE_FLOWEREX,
+	groundType   = "PATCH_GTYPE_GRASS_DEEP",
+	texture0Name = "miniobj/i_graeser_sys11.tga",
+	scale        = 1.5,
+	editorGroup  = "Gras",
+}
+mgr.miniCreate(44, newMini);
+
+newMini = {
+	name         = "Flowers 10 A",
+	type         = TYPE_FLOWER,
+	groundType   = "PATCH_GTYPE_FLOWERS",
+	texture0Name = "miniobj/j_flower01a.tga",
+	scale        = 1.3,
+	editorGroup  = "Blumen",
+}
+mgr.miniCreate(45, newMini);
+
+newMini = {
+	name         = "Flowers 11 A",
+	type         = TYPE_FLOWER,
+	groundType   = "PATCH_GTYPE_FLOWERS",
+	texture0Name = "miniobj/j_flower02a.tga",
+	scale        = 1.3,
+	editorGroup  = "Blumen",
+}
+mgr.miniCreate(46, newMini);
+
+newMini = {
+	name         = "Flowers 12 Rose",
+	type         = TYPE_FLOWER,
+	groundType   = "PATCH_GTYPE_FLOWERS",
+	texture0Name = "miniobj/j_flower03a.tga",
+	scale        = 1.3,
+	editorGroup  = "Blumen",
+}
+mgr.miniCreate(47, newMini);
+
+newMini = {
+	name         = "Waterplant 1",
+	type         = TYPE_FLOWEREX,
+	texture0Name = "miniobj/j_flower04a.tga",
+	scale        = 2,
+	editorGroup  = "Gras",
+}
+mgr.miniCreate(48, newMini);
+
+newMini = {
+	name         = "Grass 12 Sys Rasen",
+	type         = TYPE_FLOWEREX,
+	groundType   = "PATCH_GTYPE_GRASS_DEEP",
+	texture0Name = "miniobj/i_graeser_sys12.tga",
+	scale        = 1.1,
+	editorGroup  = "Gras",
+}
+mgr.miniCreate(49, newMini);
+
+newMini = {
+	name         = "test rasen steve",
+	type         = TYPE_GRASS,
+	groundType   = "PATCH_GTYPE_GRASS_DEEP",
+	texture0Name = "miniobj/i_graeser_sys12.tga",
+	scale        = 1,
+	editorGroup  = "Rasen",
+}
+mgr.miniCreate(50, newMini);
+
+newMini = {
+	name         = "Grass 13 Sys Desert",
+	type         = TYPE_FLOWEREX,
+	groundType   = "PATCH_GTYPE_GRASS_DEEP",
+	texture0Name = "miniobj/i_graeser_sys13.tga",
+	scale        = 1.5,
+	editorGroup  = "Gras",
+}
+mgr.miniCreate(51, newMini);
+
+newMini = {
+	name         = "Kiesel Rot Klein",
+	type         = TYPE_STONES,
+	texture0Name = "miniobj/stones_set01.tga",
+	scale        = 1,
+	editorGroup  = "Steine",
+}
+mgr.miniCreate(52, newMini);
+
+newMini = {
+	name         = "Kiesel Rot Gross",
+	type         = TYPE_STONES,
+	texture0Name = "miniobj/stones_set01.tga",
+	scale        = 2,
+	editorGroup  = "Steine",
+}
+mgr.miniCreate(53, newMini);
+
+newMini = {
+	name         = "Kiesel Gelb Klein",
+	type         = TYPE_STONES,
+	texture0Name = "miniobj/stones_set02.tga",
+	scale        = 1,
+	editorGroup  = "Steine",
+}
+mgr.miniCreate(54, newMini);
+
+newMini = {
+	name         = "Kiesel Gelb Gross",
+	type         = TYPE_STONES,
+	texture0Name = "miniobj/stones_set02.tga",
+	scale        = 2,
+	editorGroup  = "Steine",
+}
+mgr.miniCreate(55, newMini);
+
+newMini = {
+	name         = "Kiesel Grau Gross",
+	type         = TYPE_STONES,
+	texture0Name = "miniobj/stones_set11.tga",
+	scale        = 2,
+	editorGroup  = "Steine",
+}
+mgr.miniCreate(56, newMini);
+
+newMini = {
+	name         = "Kiesel Grau Klein",
+	type         = TYPE_STONES,
+	texture0Name = "miniobj/stones_set11.tga",
+	scale        = 1,
+	editorGroup  = "Steine",
+}
+mgr.miniCreate(57, newMini);
+
+newMini = {
+	name         = "Kiesel Braun Gross",
+	type         = TYPE_STONES,
+	texture0Name = "miniobj/stones_set12.tga",
+	scale        = 2,
+	editorGroup  = "Steine",
+}
+mgr.miniCreate(58, newMini);
+
+newMini = {
+	name         = "Kiesel Braun Klein",
+	type         = TYPE_STONES,
+	texture0Name = "miniobj/stones_set12.tga",
+	scale        = 1,
+	editorGroup  = "Steine",
+}
+mgr.miniCreate(59, newMini);
+
+newMini = {
+	name         = "Grosse Aeste",
+	type         = TYPE_BRANCHES,
+	texture0Name = "miniobj/branches.tga",
+	scale        = 6,
+	editorGroup  = "Gehoelz",
+}
+mgr.miniCreate(60, newMini);
+
+newMini = {
+	name         = "Kleine Aeste",
+	type         = TYPE_BRANCHES,
+	texture0Name = "miniobj/branches.tga",
+	scale        = 3,
+	editorGroup  = "Gehoelz",
+}
+mgr.miniCreate(61, newMini);
+
+newMini = {
+	name         = "Kiesel Braun2 Klein",
+	type         = TYPE_STONES,
+	texture0Name = "miniobj/stones_set03.tga",
+	scale        = 1,
+	editorGroup  = "Steine",
+}
+mgr.miniCreate(62, newMini);
+
+newMini = {
+	name         = "Kiesel Braun2 Gross",
+	type         = TYPE_STONES,
+	texture0Name = "miniobj/stones_set03.tga",
+	scale        = 2,
+	editorGroup  = "Steine",
+}
+mgr.miniCreate(63, newMini);
+
+newMini = {
+	name         = "Kiesel Rot2 Klein",
+	type         = TYPE_STONES,
+	texture0Name = "miniobj/stones_set04.tga",
+	scale        = 1,
+	editorGroup  = "Steine",
+}
+mgr.miniCreate(64, newMini);
+
+newMini = {
+	name         = "Kiesel Rot2 Gross",
+	type         = TYPE_STONES,
+	texture0Name = "miniobj/stones_set04.tga",
+	scale        = 2,
+	editorGroup  = "Steine",
+}
+mgr.miniCreate(65, newMini);
+
+newMini = {
+	name         = "Pilze 1 a",
+	type         = TYPE_MUSHROOM,
+	texture0Name = "miniobj/l_natpilz_d.tga",
+	scale        = 1,
+	editorGroup  = "Pilze",
+}
+mgr.miniCreate(66, newMini);
+
+newMini = {
+	name         = "Pilze 2 a",
+	type         = TYPE_MUSHROOM,
+	texture0Name = "miniobj/l_natpilz_d.tga",
+	scale        = 1,
+	editorGroup  = "Pilze",
+}
+mgr.miniCreate(67, newMini);
+
+newMini = {
+	name         = "Pilze 3 a",
+	type         = TYPE_MUSHROOM,
+	texture0Name = "miniobj/l_natpilz_d.tga",
+	scale        = 1,
+	editorGroup  = "Pilze",
+}
+mgr.miniCreate(68, newMini);
+
+newMini = {
+	name         = "Pilze 4 a",
+	type         = TYPE_MUSHROOM,
+	texture0Name = "miniobj/l_natpilz_d.tga",
+	scale        = 1,
+	editorGroup  = "Pilze",
+}
+mgr.miniCreate(69, newMini);
+
+newMini = {
+	name         = "Blaetter 1",
+	type         = TYPE_LEAVES,
+	texture0Name = "miniobj/leaves0.tga",
+	scale        = 9,
+	editorGroup  = "Bodenlaub",
+}
+mgr.miniCreate(70, newMini);
+
+newMini = {
+	name         = "Blaetter 2",
+	type         = TYPE_LEAVES,
+	texture0Name = "miniobj/leaves1.tga",
+	scale        = 9,
+	editorGroup  = "Bodenlaub",
+}
+mgr.miniCreate(71, newMini);
+
+newMini = {
+	name         = "Blaetter 3",
+	type         = TYPE_LEAVES,
+	texture0Name = "miniobj/leaves2.tga",
+	scale        = 9,
+	editorGroup  = "Bodenlaub",
+}
+mgr.miniCreate(72, newMini);
+
+newMini = {
+	name         = "Pilze 5 a",
+	type         = TYPE_MUSHROOM,
+	texture0Name = "miniobj/l_natpilz_d.tga",
+	scale        = 1,
+	editorGroup  = "Pilze",
+}
+mgr.miniCreate(73, newMini);
+
+newMini = {
+	name         = "Grosse Aeste 1",
+	type         = TYPE_BRANCHES,
+	texture0Name = "miniobj/branches0.tga",
+	scale        = 6,
+	editorGroup  = "Gehoelz",
+}
+mgr.miniCreate(74, newMini);
+
+newMini = {
+	name         = "Grosse Aeste 2",
+	type         = TYPE_BRANCHES,
+	texture0Name = "miniobj/branches1.tga",
+	scale        = 6,
+	editorGroup  = "Gehoelz",
+}
+mgr.miniCreate(75, newMini);
+
+newMini = {
+	name         = "Grosse Aeste 3",
+	type         = TYPE_BRANCHES,
+	texture0Name = "miniobj/branches2.tga",
+	scale        = 6,
+	editorGroup  = "Gehoelz",
+}
+mgr.miniCreate(76, newMini);
+
+newMini = {
+	name         = "Grosse Aeste 5",
+	type         = TYPE_BRANCHES,
+	texture0Name = "miniobj/branches3.tga",
+	scale        = 6,
+	editorGroup  = "Gehoelz",
+}
+mgr.miniCreate(77, newMini);
+
+newMini = {
+	name         = "Kleine Aeste 1",
+	type         = TYPE_BRANCHES,
+	texture0Name = "miniobj/branches0.tga",
+	scale        = 3,
+	editorGroup  = "Gehoelz",
+}
+mgr.miniCreate(78, newMini);
+
+newMini = {
+	name         = "Kleine Aeste 2",
+	type         = TYPE_BRANCHES,
+	texture0Name = "miniobj/branches1.tga",
+	scale        = 3,
+	editorGroup  = "Gehoelz",
+}
+mgr.miniCreate(79, newMini);
+
+newMini = {
+	name         = "Kleine Aeste 3",
+	type         = TYPE_BRANCHES,
+	texture0Name = "miniobj/branches2.tga",
+	scale        = 3,
+	editorGroup  = "Gehoelz",
+}
+mgr.miniCreate(80, newMini);
+
+newMini = {
+	name         = "Kleine Aeste 4",
+	type         = TYPE_BRANCHES,
+	texture0Name = "miniobj/branches3.tga",
+	scale        = 3,
+	editorGroup  = "Gehoelz",
+}
+mgr.miniCreate(81, newMini);
+
+newMini = {
+	name         = "Flowers 4 C",
+	type         = TYPE_FLOWER,
+	groundType   = "PATCH_GTYPE_FLOWERS",
+	texture0Name = "miniobj/i_graeser04c.tga",
+	scale        = 1,
+	editorGroup  = "Blumen",
+}
+mgr.miniCreate(82, newMini);
+
+newMini = {
+	name         = "Flowers 4 D",
+	type         = TYPE_FLOWER,
+	groundType   = "PATCH_GTYPE_FLOWERS",
+	texture0Name = "miniobj/i_graeser04d.tga",
+	scale        = 1,
+	editorGroup  = "Blumen",
+}
+mgr.miniCreate(83, newMini);
+
+newMini = {
+	name         = "FlowersTile8",
+	type         = TYPE_FLOWER,
+	groundType   = "PATCH_GTYPE_FLOWERS",
+	texture0Name = "miniobj/i_graeser_20_NSYS.tga",
+	scale        = 1,
+	editorGroup  = "Gras",
+	tiles        = 8,
+}
+mgr.miniCreate(84, newMini);
+
+newMini = {
+	name         = "Grass 21 Mini Orc",
+	type         = TYPE_FLOWEREX,
+	groundType   = "PATCH_GTYPE_GRASS_DEEP",
+	texture0Name = "miniobj/i_graeser01_21.tga",
+	scale        = 1,
+	editorGroup  = "Gras",
+}
+mgr.miniCreate(85, newMini);
+
+newMini = {
+	name         = "Grass 22 Mini Orc",
+	type         = TYPE_FLOWEREX,
+	groundType   = "PATCH_GTYPE_GRASS_DEEP",
+	texture0Name = "miniobj/i_graeser01_22.tga",
+	scale        = 1,
+	editorGroup  = "Gras",
+}
+mgr.miniCreate(86, newMini);
+
+newMini = {
+	name         = "Reed 2 Sys",
+	type         = TYPE_FLOWEREX,
+	groundType   = "PATCH_GTYPE_GRASS_DEEP",
+	texture0Name = "miniobj/r_reed002.tga",
+	scale        = 3,
+	editorGroup  = "Gras",
+}
+mgr.miniCreate(87, newMini);
+
+newMini = {
+	name         = "Grass 14 Swamp",
+	type         = TYPE_FLOWEREX,
+	groundType   = "PATCH_GTYPE_GRASS_DEEP",
+	texture0Name = "miniobj/i_graeser_sys14.tga",
+	scale        = 1.5,
+	editorGroup  = "Gras",
+}
+mgr.miniCreate(88, newMini);
+
+newMini = {
+	name         = "Grass 15 Swamp",
+	type         = TYPE_FLOWEREX,
+	groundType   = "PATCH_GTYPE_GRASS_DEEP",
+	texture0Name = "miniobj/i_graeser_sys15.tga",
+	scale        = 1.5,
+	editorGroup  = "Gras",
+}
+mgr.miniCreate(89, newMini);
+
+newMini = {
+	name         = "Grass 16 Swamp",
+	type         = TYPE_FLOWEREX,
+	groundType   = "PATCH_GTYPE_GRASS_DEEP",
+	texture0Name = "miniobj/i_graeser_sys16.tga",
+	scale        = 1.5,
+	editorGroup  = "Gras",
+}
+mgr.miniCreate(90, newMini);
+
+newMini = {
+	name         = "Kiesel Schwarz Gross",
+	type         = TYPE_STONES,
+	texture0Name = "miniobj/stones_set13.tga",
+	scale        = 2,
+	editorGroup  = "Steine",
+}
+mgr.miniCreate(91, newMini);
+
+newMini = {
+	name         = "Kiesel Schwarz Klein",
+	type         = TYPE_STONES,
+	texture0Name = "miniobj/stones_set13.tga",
+	scale        = 1,
+	editorGroup  = "Steine",
+}
+mgr.miniCreate(92, newMini);
+
+newMini = {
+	name         = "Flowers Ringelblume",
+	type         = TYPE_FLOWER,
+	groundType   = "PATCH_GTYPE_FLOWERS",
+	texture0Name = "miniobj/ma_calendula01.tga",
+	scale        = 1,
+	editorGroup  = "Blumen",
+	tiles        = 1,
+}
+mgr.miniCreate(93, newMini);
+
+newMini = {
+	name         = "FlowersTile8-te",
+	type         = TYPE_FLOWER,
+	groundType   = "PATCH_GTYPE_FLOWERS",
+	texture0Name = "miniobj/mg_graeser_20_NSYS.tga",
+	scale        = 1,
+	editorGroup  = "Gras-te",
+	tiles        = 8,
+}
+mgr.miniCreate(94, newMini);
+
+newMini = {
+	name         = "Longgrass 2 sys-te",
+	type         = TYPE_FLOWEREX,
+	groundType   = "PATCH_GTYPE_GRASS_DEEP",
+	texture0Name = "miniobj/mg_graeser_lang001.tga",
+	scale        = 3,
+	editorGroup  = "Gras-te",
+}
+mgr.miniCreate(95, newMini);
+
+newMini = {
+	name         = "Longgrass 3 sys-te",
+	type         = TYPE_FLOWEREX,
+	groundType   = "PATCH_GTYPE_GRASS_DEEP",
+	texture0Name = "miniobj/mg_graeser_lang002.tga",
+	scale        = 3,
+	editorGroup  = "Gras-te",
+}
+mgr.miniCreate(96, newMini);
+
+newMini = {
+	name         = "Grass 1 Sys-te",
+	type         = TYPE_FLOWEREX,
+	groundType   = "PATCH_GTYPE_GRASS_DEEP",
+	texture0Name = "miniobj/mg_graeser_sys01.tga",
+	scale        = 1.5,
+	editorGroup  = "Gras-te",
+}
+mgr.miniCreate(97, newMini);
+
+newMini = {
+	name         = "Grass 12 Sys Rasen-te",
+	type         = TYPE_FLOWEREX,
+	groundType   = "PATCH_GTYPE_GRASS_DEEP",
+	texture0Name = "miniobj/mg_graeser_sys12.tga",
+	scale        = 1.1,
+	editorGroup  = "Gras-te",
+}
+mgr.miniCreate(98, newMini);
+
+newMini = {
+	name         = "Grass 14 Swamp-te",
+	type         = TYPE_FLOWEREX,
+	groundType   = "PATCH_GTYPE_GRASS_DEEP",
+	texture0Name = "miniobj/mg_graeser_sys14.tga",
+	scale        = 1.5,
+	editorGroup  = "Gras-te",
+}
+mgr.miniCreate(99, newMini);
+
+newMini = {
+	name         = "Kiesel Grau Gross Snow",
+	type         = TYPE_STONES,
+	texture0Name = "miniobj/stones_set11-snow.dds",
+	scale        = 2,
+	editorGroup  = "Steine Snow",
+}
+mgr.miniCreate(100, newMini);
+
+newMini = {
+	name         = "Kiesel Grau Klein Snow",
+	type         = TYPE_STONES,
+	texture0Name = "miniobj/stones_set11-snow.dds",
+	scale        = 1,
+	editorGroup  = "Steine Snow",
+}
+mgr.miniCreate(101, newMini);
+
+newMini = {
+	name         = "Grass 21 Mini Orc Snow",
+	type         = TYPE_FLOWEREX,
+	groundType   = "PATCH_GTYPE_GRASS_DEEP",
+	texture0Name = "miniobj/i_graeser01_21-snow.dds",
+	scale        = 1,
+	editorGroup  = "Gras Snow",
+}
+mgr.miniCreate(102, newMini);
+
+newMini = {
+	name         = "Grass_30_BWald",
+	type         = TYPE_FLOWEREX,
+	groundType   = "PATCH_GTYPE_GRASS_DEEP",
+	texture0Name = "miniobj/jt_Grass_30_Bwald.tga",
+	scale        = 1.5,
+	editorGroup  = "Gras",
+}
+mgr.miniCreate(103, newMini);
+
+newMini = {
+	name         = "Grass_31_BWald",
+	type         = TYPE_FLOWEREX,
+	groundType   = "PATCH_GTYPE_GRASS_DEEP",
+	texture0Name = "miniobj/jt_Grass_31_Bwald.tga",
+	scale        = 1.5,
+	editorGroup  = "Gras",
+}
+mgr.miniCreate(104, newMini);
+
+newMini = {
+	name         = "Grass_32_BWald",
+	type         = TYPE_FLOWEREX,
+	groundType   = "PATCH_GTYPE_GRASS_DEEP",
+	texture0Name = "miniobj/jt_Grass_32_Bwald.tga",
+	scale        = 1.5,
+	editorGroup  = "Gras",
+}
+mgr.miniCreate(105, newMini);
+
+newMini = {
+	name         = "Blaetter_5_BWald",
+	type         = TYPE_LEAVES,
+	texture0Name = "miniobj/jt_Blaetter_5_Bwald.tga",
+	scale        = 9,
+	editorGroup  = "Bodenlaub",
+}
+mgr.miniCreate(106, newMini);
+
+newMini = {
+	name         = "Kiesel_Grau_Gross_BWald",
+	type         = TYPE_STONES,
+	texture0Name = "miniobj/jt_Kiesel_Grau_Gross_Bwald.tga",
+	scale        = 2,
+	editorGroup  = "Steine",
+}
+mgr.miniCreate(107, newMini);
+
+newMini = {
+	name         = "Kiesel_Braun_Gross_BWald",
+	type         = TYPE_STONES,
+	texture0Name = "miniobj/jt_Kiesel_Grau_Gross_Bwald.tga",
+	scale        = 2,
+	editorGroup  = "Steine",
+}
+mgr.miniCreate(108, newMini);
+
+newMini = {
+	name         = "Pilze_30_BWald",
+	type         = TYPE_MUSHROOM,
+	texture0Name = "miniobj/jt_Pilze_30_Bwald.tga",
+	scale        = 1,
+	editorGroup  = "Pilze",
+}
+mgr.miniCreate(109, newMini);
+
+newMini = {
+	name         = "Crystal Grass Mini",
+	type         = TYPE_FLOWEREX,
+	groundType   = "PATCH_GTYPE_GRASS_DEEP",
+	texture0Name = "miniobj/t_crystal-standard-mini.tga",
+	scale        = 1,
+	editorGroup  = "Addon",
+}
+mgr.miniCreate(110, newMini);
+
+newMini = {
+	name         = "Blood_Bones_Set1",
+	type         = TYPE_BLOODBONES,
+	texture0Name = "miniobj/t_blood-bones_d.tga",
+	scale        = 2,
+	editorGroup  = "Bloodbones",
+}
+mgr.miniCreate(111, newMini);
+
+newMini = {
+	name         = "Crystal Grass Mini Attack",
+	type         = TYPE_FLOWEREX,
+	groundType   = "PATCH_GTYPE_GRASS_DEEP",
+	texture0Name = "miniobj/t_crystal-attack-mini.tga",
+	scale        = 1,
+	editorGroup  = "Addon",
+}
+mgr.miniCreate(112, newMini);
+
+newMini = {
+	name         = "Crystal Grass Mini Levitate",
+	type         = TYPE_FLOWEREX,
+	groundType   = "PATCH_GTYPE_GRASS_DEEP",
+	texture0Name = "miniobj/t_crystal-levitate-mini.tga",
+	scale        = 1,
+	editorGroup  = "Addon",
+}
+mgr.miniCreate(113, newMini);
+
+newMini = {
+	name         = "Crystal Graeser Beige",
+	type         = TYPE_FLOWEREX,
+	groundType   = "PATCH_GTYPE_GRASS_DEEP",
+	texture0Name = "miniobj/t_crystal-graeser-beige.tga",
+	scale        = 1.5,
+	editorGroup  = "Addon",
+}
+mgr.miniCreate(114, newMini);
+
+newMini = {
+	name         = "Crystal Graeser Blue",
+	type         = TYPE_FLOWEREX,
+	groundType   = "PATCH_GTYPE_GRASS_DEEP",
+	texture0Name = "miniobj/t_crystal-graeser-Blue.tga",
+	scale        = 1.5,
+	editorGroup  = "Addon",
+}
+mgr.miniCreate(115, newMini);
+
+newMini = {
+	name         = "Ice Grass Mini",
+	type         = TYPE_FLOWEREX,
+	groundType   = "PATCH_GTYPE_GRASS_DEEP",
+	texture0Name = "miniobj/t_icecrystals.tga",
+	scale        = 1,
+	editorGroup  = "Addon",
+}
+mgr.miniCreate(116, newMini);
+

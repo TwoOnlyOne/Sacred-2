@@ -1,0 +1,200 @@
+-----------------------------------------------------------------------------------------------------
+-- POI_PLACE_TENERGIEFELD and POI_AREA_TENERGIE mixed up
+-- POI_PLACE_HOCHELFENAUSSENPOSTENA and POI_PLACE_HOCHELFENAUSSENPOSTENB mixed up
+-- POI_PLACE_ALTERKRIEGSHAFEN screenx=850
+-- POI_TOWN_WEITBLICK screeny=1035 instead of 1053
+-- POI_TOWN_RUKA screenx=658 instead of screenx=6585
+-----------------------------------------------------------------------------------------------------
+
+mgr.addPoIData( { id="POI_REGION_CANYON", offx=0.000488, offy=0.000977, widx=0.114746, widy=0.438477, screenx=108, screeny=1005} );
+mgr.addPoIData( { id="POI_TOWN_THARUM", offx=0.510742, offy=0.796875, widx=0.036621, widy=0.080078, screenx=959, screeny=1438} );
+mgr.addPoIData( { id="POI_TOWN_KHORUM", offx=0.000488, offy=0.441406, widx=0.062988, widy=0.139648, screenx=1238, screeny=1410} );
+mgr.addPoIData( { id="POI_TOWN_ELDARRAG", offx=0.618652, offy=0.399414, widx=0.033203, widy=0.066406, screenx=1422, screeny=1394} );
+mgr.addPoIData( { id="POI_TOWN_SULINAR", offx=0.618652, offy=0.273438, widx=0.036133, widy=0.073242, screenx=1459, screeny=1496} );
+mgr.addPoIData( { id="POI_TOWN_ELOETHSUN", offx=0.225098, offy=0.639648, widx=0.027344, widy=0.075195, screenx=529, screeny=1535} );
+mgr.addPoIData( { id="POI_TOWN_DYRLAIGH", offx=0.346680, offy=0.214844, widx=0.075195, widy=0.155273, screenx=398, screeny=1685} );
+mgr.addPoIData( { id="POI_TOWN_AERENDYR", offx=0.225098, offy=0.790039, widx=0.025391, widy=0.062500, screenx=585, screeny=1905} );
+mgr.addPoIData( { id="POI_TOWN_SCHLEHENFURT", offx=0.510742, offy=0.478516, widx=0.042480, widy=0.079102, screenx=644, screeny=1127} );
+mgr.addPoIData( { id="POI_TOWN_ZWEIBACH", offx=0.578125, offy=0.764648, widx=0.031250, widy=0.067383, screenx=690, screeny=1027} );
+mgr.addPoIData( { id="POI_TOWN_WEITBLICK", offx=0.618652, offy=0.522461, widx=0.027832, widy=0.059570, screenx=953, screeny=1035} );
+mgr.addPoIData( { id="POI_TOWN_BLAUSINGEN", offx=0.657227, offy=0.333984, widx=0.026855, widy=0.052734, screenx=1206, screeny=1016} );
+mgr.addPoIData( { id="POI_TOWN_TRAENENBACH", offx=0.225098, offy=0.365234, widx=0.030762, widy=0.103516, screenx=1171, screeny=1216} );
+mgr.addPoIData( { id="POI_TOWN_THYLYSIUM", offx=0.346680, offy=0.000977, widx=0.092285, widy=0.211914, screenx=787, screeny=1156} );
+mgr.addPoIData( { id="POI_PLACE_CELIOTHSTURM", offx=0.618652, offy=0.643555, widx=0.023926, widy=0.057617, screenx=579, screeny=1228} );
+mgr.addPoIData( { id="POI_PLACE_HIMMELSAUGE", offx=0.687988, offy=0.000977, widx=0.028809, widy=0.047852, screenx=589, screeny=1067} );
+mgr.addPoIData( { id="POI_TOWN_SONNENWIND", offx=0.618652, offy=0.467773, widx=0.032227, widy=0.052734, screenx=1182, screeny=1157} );
+mgr.addPoIData( { id="POI_PLACE_VERGESSENEGAERTEN", offx=0.657227, offy=0.498047, widx=0.024414, widy=0.043945, screenx=373, screeny=1265} );
+mgr.addPoIData( { id="POI_PLACE_NADEL", offx=0.657227, offy=0.543945, widx=0.021973, widy=0.041992, screenx=1073, screeny=520} );
+mgr.addPoIData( { id="POI_TOWN_WARGFELS", offx=0.225098, offy=0.470703, widx=0.029297, widy=0.083984, screenx=916, screeny=705} );
+mgr.addPoIData( { id="POI_TOWN_ORKENPFAD", offx=0.064453, offy=0.536133, widx=0.050293, widy=0.088867, screenx=853, screeny=594} );
+mgr.addPoIData( { id="POI_TOWN_URTHAKSTRUTZ", offx=0.064453, offy=0.725586, widx=0.035156, widy=0.085938, screenx=990, screeny=525} );
+mgr.addPoIData( { id="POI_TOWN_ARTAMARKSTOR", offx=0.439941, offy=0.333008, widx=0.051270, widy=0.108398, screenx=1231, screeny=465} );
+mgr.addPoIData( { id="POI_TOWN_GREIFENBURG", offx=0.510742, offy=0.000977, widx=0.066406, widy=0.107422, screenx=1291, screeny=783} );
+mgr.addPoIData( { id="POI_TOWN_BRANDECK", offx=0.000488, offy=0.583008, widx=0.055176, widy=0.100586, screenx=1230, screeny=643} );
+mgr.addPoIData( { id="POI_TOWN_SCHWARZEICHEN", offx=0.000488, offy=0.685547, widx=0.054688, widy=0.096680, screenx=1040, screeny=789} );
+mgr.addPoIData( { id="POI_PLACE_DRACHENSCHLUND", offx=0.618652, offy=0.148438, widx=0.037109, widy=0.064453, screenx=1061, screeny=915} );
+mgr.addPoIData( { id="POI_TOWN_BURGKUFFERATH", offx=0.578125, offy=0.358398, widx=0.035645, widy=0.073242, screenx=1031, screeny=636} );
+mgr.addPoIData( { id="POI_TOWN_FESTEREIKENSTEIN", offx=0.510742, offy=0.559570, widx=0.041992, widy=0.069336, screenx=1006, screeny=875} );
+mgr.addPoIData( { id="POI_TOWN_RUKA", offx=0.439941, offy=0.805664, widx=0.043945, widy=0.093750, screenx=658, screeny=496} );
+mgr.addPoIData( { id="POI_TOWN_THARAK", offx=0.439941, offy=0.708008, widx=0.046387, widy=0.095703, screenx=560, screeny=423} );
+mgr.addPoIData( { id="POI_TOWN_KARAGH", offx=0.510742, offy=0.176758, widx=0.046387, widy=0.065430, screenx=498, screeny=315} );
+mgr.addPoIData( { id="POI_TOWN_TOLRUMAZIL", offx=0.225098, offy=0.916992, widx=0.022949, widy=0.054688, screenx=268, screeny=410} );
+mgr.addPoIData( { id="POI_TOWN_ZAZURUIK", offx=0.578125, offy=0.569336, widx=0.035156, widy=0.070313, screenx=276, screeny=471} );
+mgr.addPoIData( { id="POI_TOWN_ENTRUAG", offx=0.439941, offy=0.901367, widx=0.043457, widy=0.091797, screenx=487, screeny=526} );
+mgr.addPoIData( { id="POI_TOWN_SLOPTOK", offx=0.657227, offy=0.279297, widx=0.026855, widy=0.052734, screenx=475, screeny=438} );
+mgr.addPoIData( { id="POI_PLACE_RINGELBLUMENFELDER", offx=0.000488, offy=0.784180, widx=0.054688, widy=0.079102, screenx=1547, screeny=984} );
+mgr.addPoIData( { id="POI_TOWN_SARTHAZ", offx=0.193848, offy=0.687500, widx=0.019531, widy=0.043945, screenx=1592, screeny=954} );
+mgr.addPoIData( { id="POI_TOWN_ASUITHAZ", offx=0.618652, offy=0.848633, widx=0.023438, widy=0.035156, screenx=1761, screeny=864} );
+mgr.addPoIData( { id="POI_TOWN_SETHIAZ", offx=0.510742, offy=0.958008, widx=0.020996, widy=0.041016, screenx=1920, screeny=832} );
+mgr.addPoIData( { id="POI_PLACE_SCHAEDELFELSEN", offx=0.687988, offy=0.261719, widx=0.025391, widy=0.047852, screenx=1943, screeny=900} );
+mgr.addPoIData( { id="POI_TOWN_NEITHUTHAZ", offx=0.657227, offy=0.631836, widx=0.020508, widy=0.041016, screenx=1882, screeny=954} );
+mgr.addPoIData( { id="POI_TOWN_HISSILTA", offx=0.225098, offy=0.252930, widx=0.039063, widy=0.110352, screenx=1739, screeny=1030} );
+mgr.addPoIData( { id="POI_TOWN_LIZURATH", offx=0.618652, offy=0.078125, widx=0.037109, widy=0.068359, screenx=1864, screeny=1195} );
+mgr.addPoIData( { id="POI_TOWN_HISUISUL", offx=0.657227, offy=0.587891, widx=0.020508, widy=0.041992, screenx=1594, screeny=1044} );
+mgr.addPoIData( { id="POI_REGION_MULTIPLAYSTART", offx=0.346680, offy=0.458008, widx=0.072754, widy=0.145508, screenx=151, screeny=1520} );
+mgr.addPoIData( { id="POI_TOWN_BADAWI", offx=0.346680, offy=0.372070, widx=0.074219, widy=0.083984, screenx=1124, screeny=1332} );
+mgr.addPoIData( { id="POI_TOWN_RAJAB", offx=0.578125, offy=0.069336, widx=0.039063, widy=0.063477, screenx=1135, screeny=1620} );
+mgr.addPoIData( { id="POI_TOWN_DARALBAJDA", offx=0.510742, offy=0.878906, widx=0.036133, widy=0.077148, screenx=1459, screeny=1601} );
+mgr.addPoIData( { id="POI_PLACE_GRUNWALD", offx=0.439941, offy=0.120117, widx=0.065918, widy=0.132813, screenx=656, screeny=724} );
+mgr.addPoIData( { id="POI_PLACE_NAGASHSNEST", offx=0.439941, offy=0.443359, widx=0.051270, widy=0.095703, screenx=846, screeny=802} );
+mgr.addPoIData( { id="POI_AREA_SIECHENINSEL", offx=0.322266, offy=0.348633, widx=0.021973, widy=0.048828, screenx=959, screeny=467} );
+mgr.addPoIData( { id="POI_PLACE_GUTTRALLHEIM", offx=0.618652, offy=0.583984, widx=0.027832, widy=0.057617, screenx=1007, screeny=711} );
+mgr.addPoIData( { id="POI_PLACE_ARKENMARKSREFUGIUM", offx=0.657227, offy=0.388672, widx=0.024902, widy=0.052734, screenx=1210, screeny=512} );
+mgr.addPoIData( { id="POI_PLACE_SANDDERTAUSENDFUEHLER", offx=0.578125, offy=0.134766, widx=0.038574, widy=0.065430, screenx=1547, screeny=1343} );
+mgr.addPoIData( { id="POI_PLACE_LOGAEIAR", offx=0.510742, offy=0.421875, widx=0.044434, widy=0.054688, screenx=461, screeny=1844} );
+mgr.addPoIData( { id="POI_PLACE_HESHETH", offx=0.578125, offy=0.433594, widx=0.035645, widy=0.069336, screenx=1687, screeny=1023} );
+mgr.addPoIData( { id="POI_PLACE_CIRIADELITH", offx=0.116211, offy=0.756836, widx=0.076172, widy=0.150391, screenx=1084, screeny=1799} );
+mgr.addPoIData( { id="POI_PLACE_TEMPELDERTRAENEN", offx=0.510742, offy=0.110352, widx=0.054199, widy=0.064453, screenx=1284, screeny=1777} );
+mgr.addPoIData( { id="POI_TOWN_NAFIAN", offx=0.578125, offy=0.641602, widx=0.033691, widy=0.063477, screenx=973, screeny=1782} );
+mgr.addPoIData( { id="POI_PLACE_SERATURM", offx=0.225098, offy=0.716797, widx=0.026367, widy=0.071289, screenx=994, screeny=150} );
+mgr.addPoIData( { id="POI_PLACE_GOETTERTEMPELB", offx=0.618652, offy=0.801758, widx=0.023438, widy=0.044922, screenx=560, screeny=1039} );
+mgr.addPoIData( { id="POI_PLACE_GOETTERTEMPELC", offx=0.618652, offy=0.754883, widx=0.023926, widy=0.044922, screenx=1591, screeny=691} );
+mgr.addPoIData( { id="POI_PLACE_GOETTERTEMPELD", offx=0.322266, offy=0.448242, widx=0.020020, widy=0.042969, screenx=1245, screeny=832} );
+mgr.addPoIData( { id="POI_PLACE_GOETTERTEMPELE", offx=0.193848, offy=0.629883, widx=0.020508, widy=0.055664, screenx=445, screeny=654} );
+mgr.addPoIData( { id="POI_PLACE_GOETTERTEMPELF", offx=0.322266, offy=0.399414, widx=0.021484, widy=0.046875, screenx=1382, screeny=1739} );
+mgr.addPoIData( { id="POI_PLACE_GOETTERTEMPELG", offx=0.578125, offy=0.882813, widx=0.028320, widy=0.059570, screenx=763, screeny=748} );
+mgr.addPoIData( { id="POI_PLACE_GOETTERTEMPELI", offx=0.578125, offy=0.202148, widx=0.038086, widy=0.076172, screenx=1022, screeny=1374} );
+mgr.addPoIData( { id="POI_PLACE_GOETTERTEMPELJ", offx=0.687988, offy=0.210938, widx=0.025879, widy=0.048828, screenx=1560, screeny=876} );
+mgr.addPoIData( { id="POI_PLACE_GOETTERTEMPELK", offx=0.000488, offy=0.865234, widx=0.054688, widy=0.072266, screenx=1699, screeny=1281} );
+mgr.addPoIData( { id="POI_PLACE_GOETTERTEMPELL", offx=0.322266, offy=0.218750, widx=0.023438, widy=0.063477, screenx=447, screeny=1870} );
+mgr.addPoIData( { id="POI_PLACE_GOETTERTEMPELM", offx=0.225098, offy=0.556641, widx=0.027832, widy=0.081055, screenx=1027, screeny=69} );
+mgr.addPoIData( { id="POI_PLACE_GOETTERTEMPELN", offx=0.618652, offy=0.885742, widx=0.022949, widy=0.045898, screenx=1014, screeny=1312} );
+mgr.addPoIData( { id="POI_PLACE_GOETTERTEMPELO", offx=0.657227, offy=0.115234, widx=0.029297, widy=0.050781, screenx=1436, screeny=998} );
+mgr.addPoIData( { id="POI_PLACE_GOETTERTEMPELP", offx=0.439941, offy=0.541016, widx=0.048340, widy=0.082031, screenx=103, screeny=1110} );
+mgr.addPoIData( { id="POI_PLACE_FESTEDERWINDE", offx=0.346680, offy=0.726563, widx=0.061523, widy=0.139648, screenx=142, screeny=1164} );
+mgr.addPoIData( { id="POI_PLACE_BIGMACHINE", offx=0.439941, offy=0.000977, widx=0.069824, widy=0.117188, screenx=67, screeny=989} );
+mgr.addPoIData( { id="POI_PLACE_LUGHAIDH", offx=0.687988, offy=0.311523, widx=0.020996, widy=0.041016, screenx=501, screeny=1927} );
+mgr.addPoIData( { id="POI_PLACE_ZUMSCHLAEFRIGENDACHS", offx=0.618652, offy=0.933594, widx=0.022949, widy=0.043945, screenx=614, screeny=1180} );
+mgr.addPoIData( { id="POI_PLACE_TEMPELSTART", offx=0.064453, offy=0.890625, widx=0.027832, widy=0.070313, screenx=751, screeny=1139} );
+mgr.addPoIData( { id="POI_PLACE_SERASTART", offx=0.161133, offy=0.909180, widx=0.027832, widy=0.087891, screenx=549, screeny=1115} );
+mgr.addPoIData( { id="POI_PLACE_SHADOWSTART", offx=0.322266, offy=0.284180, widx=0.022461, widy=0.062500, screenx=539, screeny=1221} );
+mgr.addPoIData( { id="POI_AREA_MOUNTISLE", offx=0.116211, offy=0.629883, widx=0.076660, widy=0.125000, screenx=606, screeny=184} );
+mgr.addPoIData( { id="POI_PLACE_TENERGIEFELD", offx=0.266602, offy=0.890625, widx=0.032227, widy=0.081055, screenx=439, screeny=998} );
+mgr.addPoIData( { id="POI_PLACE_DRACHENHORTA", offx=0.266602, offy=0.401367, widx=0.045410, widy=0.177734, screenx=1953, screeny=1134} );
+mgr.addPoIData( { id="POI_PLACE_SSUIL", offx=0.687988, offy=0.050781, widx=0.026367, widy=0.049805, screenx=1714, screeny=1140} );
+mgr.addPoIData( { id="POI_PLACE_RITUALPLATZDERBLUTDRYADENA", offx=0.657227, offy=0.167969, widx=0.029297, widy=0.048828, screenx=528, screeny=1683} );
+mgr.addPoIData( { id="POI_PLACE_RITUALPLATZDERBLUTDRYADENB", offx=0.578125, offy=0.833984, widx=0.031250, widy=0.046875, screenx=524, screeny=1603} );
+mgr.addPoIData( { id="POI_PLACE_RITUALPLATZDERBLUTDRYADENC", offx=0.687988, offy=0.102539, widx=0.026367, widy=0.052734, screenx=432, screeny=1592} );
+mgr.addPoIData( { id="POI_PLACE_RITUALPLATZDERBLUTDRYADEND", offx=0.618652, offy=0.348633, widx=0.033203, widy=0.048828, screenx=438, screeny=1662} );
+mgr.addPoIData( { id="POI_PLACE_DRACHENHORTB", offx=0.510742, offy=0.630859, widx=0.039551, widy=0.081055, screenx=1514, screeny=1625} );
+mgr.addPoIData( { id="POI_PLACE_AMANSAB", offx=0.000488, offy=0.939453, widx=0.036621, widy=0.053711, screenx=1401, screeny=1612} );
+mgr.addPoIData( { id="POI_PLACE_TWITTYTISTER", offx=0.439941, offy=0.254883, widx=0.063965, widy=0.076172, screenx=988, screeny=1666} );
+mgr.addPoIData( { id="POI_PLACE_NAMBARAH", offx=0.578125, offy=0.707031, widx=0.033691, widy=0.055664, screenx=1039, screeny=1482} );
+mgr.addPoIData( { id="POI_PLACE_TURBAK", offx=0.578125, offy=0.944336, widx=0.028320, widy=0.051758, screenx=907, screeny=1579} );
+mgr.addPoIData( { id="POI_PLACE_OSTTURBAK", offx=0.657227, offy=0.443359, widx=0.024414, widy=0.052734, screenx=975, screeny=1592} );
+mgr.addPoIData( { id="POI_PLACE_FESTEDERSTUERME", offx=0.510742, offy=0.244141, widx=0.044922, widy=0.085938, screenx=164, screeny=1321} );
+mgr.addPoIData( { id="POI_AREA_TENERGIE", offx=0.116211, offy=0.252930, widx=0.107910, widy=0.224609, screenx=1238, screeny=1092} );
+mgr.addPoIData( { id="POI_PLACE_NORIATHWINKEL", offx=0.225098, offy=0.854492, widx=0.023438, widy=0.060547, screenx=503, screeny=950} );
+mgr.addPoIData( { id="POI_PLACE_ALTERKRIEGSHAFEN", offx=0.064453, offy=0.441406, widx=0.050293, widy=0.092773, screenx=850, screeny=1329} );
+mgr.addPoIData( { id="POI_PLACE_KOBOLDLAGER", offx=0.618652, offy=0.214844, widx=0.036621, widy=0.056641, screenx=557, screeny=986} );
+mgr.addPoIData( { id="POI_PLACE_GOBLINLAGER", offx=0.657227, offy=0.058594, widx=0.029785, widy=0.054688, screenx=777, screeny=1059} );
+mgr.addPoIData( { id="POI_PLACE_HOCHELFENAUSSENPOSTENB", offx=0.687988, offy=0.157227, widx=0.026367, widy=0.051758, screenx=781, screeny=1100} );
+mgr.addPoIData( { id="POI_PLACE_ARENADERSERAPHIM", offx=0.116211, offy=0.909180, widx=0.043945, widy=0.088867, screenx=1001, screeny=325} );
+mgr.addPoIData( { id="POI_PLACE_DRACHENHORTC", offx=0.578125, offy=0.280273, widx=0.035645, widy=0.076172, screenx=611, screeny=748} );
+mgr.addPoIData( { id="POI_PLACE_TEMPELDESDUNKLENKULTS", offx=0.657227, offy=0.000977, widx=0.029785, widy=0.055664, screenx=681, screeny=707} );
+mgr.addPoIData( { id="POI_PLACE_GOLEM", offx=0.578125, offy=0.000977, widx=0.039551, widy=0.066406, screenx=803, screeny=586} );
+mgr.addPoIData( { id="POI_PLACE_SKORPION", offx=0.439941, offy=0.625000, widx=0.047852, widy=0.081055, screenx=1068, screeny=1627} );
+mgr.addPoIData( { id="POI_PLACE_KRAKE", offx=0.618652, offy=0.000977, widx=0.037598, widy=0.075195, screenx=262, screeny=348} );
+mgr.addPoIData( { id="POI_PLACE_KRISTALLWACHE", offx=0.064453, offy=0.813477, widx=0.028809, widy=0.075195, screenx=355, screeny=1485} );
+mgr.addPoIData( { id="POI_PLACE_FLUGVIECH", offx=0.578125, offy=0.504883, widx=0.035645, widy=0.062500, screenx=1107, screeny=1844} );
+mgr.addPoIData( { id="POI_PLACE_NEBELMONSTER", offx=0.657227, offy=0.218750, widx=0.028320, widy=0.058594, screenx=1520, screeny=1152} );
+mgr.addPoIData( { id="POI_PLACE_ENDPLACE", offx=0.346680, offy=0.605469, widx=0.070801, widy=0.119141, screenx=57, screeny=986} );
+mgr.addPoIData( { id="POI_PLACE_FEUERDAEMON", offx=0.266602, offy=0.794922, widx=0.032227, widy=0.093750, screenx=1262, screeny=269} );
+mgr.addPoIData( { id="POI_PLACE_HOEHLEDESCARNACH", offx=0.116211, offy=0.479492, widx=0.098145, widy=0.148438, screenx=1018, screeny=131} );
+mgr.addPoIData( { id="POI_PLACE_CHRONISTENTURM", offx=0.510742, offy=0.332031, widx=0.044434, widy=0.087891, screenx=1220, screeny=1092} );
+mgr.addPoIData( { id="POI_PLACE_ORDAURCIL", offx=0.266602, offy=0.218750, widx=0.054688, widy=0.180664, screenx=1031, screeny=55} );
+mgr.addPoIData( { id="POI_PLACE_NIMDRUAIL", offx=0.116211, offy=0.000977, widx=0.149414, widy=0.250000, screenx=1195, screeny=113} );
+mgr.addPoIData( { id="POI_PLACE_XANTHIAR", offx=0.266602, offy=0.000977, widx=0.079102, widy=0.215820, screenx=1321, screeny=38} );
+mgr.addPoIData( { id="POI_PLACE_AUSSENPOSTEN", offx=0.064453, offy=0.626953, widx=0.039063, widy=0.096680, screenx=1454, screeny=228} );
+mgr.addPoIData( { id="POI_AREA_LABYRINTH", offx=0.346680, offy=0.868164, widx=0.054199, widy=0.110352, screenx=1240, screeny=36} );
+mgr.addPoIData( { id="POI_PLACE_BLULUTUZ", offx=0.618652, offy=0.703125, widx=0.023926, widy=0.049805, screenx=349, screeny=297} );
+mgr.addPoIData( { id="POI_PLACE_SCHLUNZUM", offx=0.266602, offy=0.696289, widx=0.038086, widy=0.096680, screenx=297, screeny=607} );
+mgr.addPoIData( { id="POI_PLACE_GUTWEIHENFELS", offx=0.510742, offy=0.713867, widx=0.039551, widy=0.081055, screenx=1073, screeny=1122} );
+mgr.addPoIData( { id="POI_AREA_GRENZWALL", offx=0.266602, offy=0.581055, widx=0.044434, widy=0.113281, screenx=766, screeny=534} );
+
+mgr.addPoIData( { id="POI_SEA_SEEDERTRAEUME", offx=0.8808594, offy=0.021484375, widx=0.06689453, widy=0.06542969			, screenx=54, screeny=122} );
+mgr.addPoIData( { id="POI_PLACE_DASALTELAGER", offx=0.7885742, offy=0.143554688, widx=0.0229492188, widy=0.02734375			, screenx=60, screeny=69} );
+mgr.addPoIData( { id="POI_PLACE_DASLABORATORIUM", offx=0.819335938, offy=0.352539063, widx=0.0151367188, widy=0.025390625	, screenx=219, screeny=47} );
+mgr.addPoIData( { id="POI_PLACE_HAFENGEFLUEGELTE", offx=0.7441406, offy=0.091796875, widx=0.0180664063, widy=0.0390625		, screenx=385, screeny=130} );
+mgr.addPoIData( { id="POI_PLACE_SUEDLICHERAUSSENPOSTEN", offx=0.8701172, offy=0.23046875, widx=0.0122070313, widy=0.025390625, screenx=86, screeny=223} );
+mgr.addPoIData( { id="POI_PLACE_KRISTALLHUETTEN", offx=0.7558594, offy=0.177734375, widx=0.0166015625, widy=0.017578125		, screenx=174, screeny=368} );
+mgr.addPoIData( { id="POI_AREA_HORTDESPHOENIX", offx=0.8066406, offy=0.046875, widx=0.0244140625, widy=0.07421875			, screenx=58, screeny=294} );
+mgr.addPoIData( { id="POI_AREA_DEREISSEE", offx=0.7841797, offy=0.291015625, widx=0.0258789063, widy=0.0400390625			, screenx=120, screeny=372} );
+mgr.addPoIData( { id="POI_PLACE_NANTHAR", offx=0.81640625, offy=0.217773438, widx=0.01953125, widy=0.0439453125				, screenx=1785, screeny=1972} );
+mgr.addPoIData( { id="POI_AREA_DIAANJASREFUG", offx=0.858398438, offy=0.168945313, widx=0.0180664063, widy=0.0361328125		, screenx=1710, screeny=1636} );
+mgr.addPoIData( { id="POI_PLACE_VERFALLENERGUTSHOF", offx=0.78125, offy=0.224609375, widx=0.0161132813, widy=0.0263671875	, screenx=1778, screeny=1743} );
+mgr.addPoIData( { id="POI_PLACE_ZERSTOERTESDORF", offx=0.8496094, offy=0.333984375, widx=0.017578125, widy=0.0283203125		, screenx=1915, screeny=1666} );
+mgr.addPoIData( { id="POI_PLACE_VERBRANNTHAUS", offx=0.86328125, offy=0.274414063, widx=0.0146484375, widy=0.025390625		, screenx=1878, screeny=1562} );
+mgr.addPoIData( { id="POI_PLACE_RUINENDORF", offx=0.8745117, offy=0.109375, widx=0.0170898438, widy=0.0283203125				, screenx=1819, screeny=1643} );
+mgr.addPoIData( { id="POI_ABISHAI", offx=0.738769531, offy=0.311523438, widx=0.025390625, widy=0.0595703125					, screenx=1814, screeny=1548} );
+
+-----------------------------------------------------------------------------------------------------
+-- NOTE: These are added by hand, so please merge the file manually when adding new poi data above!!!
+-- richPresenceId is used to display current location in the gamer profile for XBox Live, these need to match
+-- the definitions in the .xlast file
+-----------------------------------------------------------------------------------------------------
+mgr.addRegionData( { area="POI_REGION_MULTIPLAYSTART", startx=0, starty=0, endx=9, endy=18, richPresenceId=10 } );
+
+mgr.addRegionData( { area="POI_REGION_DRYADE", startx=10, starty=0, endx=24, endy=18, richPresenceId=8 } );
+
+mgr.addRegionData( { area="POI_REGION_JUNGLE", startx=25, starty=0, endx=34, endy=9, richPresenceId=7 } );
+mgr.addRegionData( { area="POI_REGION_JUNGLE", startx=35, starty=0, endx=63, endy=10, richPresenceId=7 } );
+
+mgr.addRegionData( { area="POI_REGION_DESERT", startx=25, starty=10, endx=30, endy=18, richPresenceId=6 } );
+mgr.addRegionData( { area="POI_REGION_DESERT", startx=31, starty=10, endx=34, endy=20, richPresenceId=6 } );
+mgr.addRegionData( { area="POI_REGION_DESERT", startx=35, starty=11, endx=40, endy=21, richPresenceId=6 } );
+mgr.addRegionData( { area="POI_REGION_DESERT", startx=41, starty=11, endx=43, endy=22, richPresenceId=6 } );
+mgr.addRegionData( { area="POI_REGION_DESERT", startx=44, starty=11, endx=52, endy=24, richPresenceId=6 } );
+
+mgr.addRegionData( { area="POI_REGION_CANYON", startx=0, starty=19, endx=10, endy=34, richPresenceId=9 } );
+
+mgr.addRegionData( { area="POI_REGION_HIGHELF", startx=11, starty=19, endx=27, endy=34, richPresenceId=0 } );
+mgr.addRegionData( { area="POI_REGION_HIGHELF", startx=28, starty=19, endx=30, endy=35, richPresenceId=0 } );
+mgr.addRegionData( { area="POI_REGION_HIGHELF", startx=31, starty=21, endx=32, endy=34, richPresenceId=0 } );
+mgr.addRegionData( { area="POI_REGION_HIGHELF", startx=33, starty=21, endx=34, endy=29, richPresenceId=0 } );
+mgr.addRegionData( { area="POI_REGION_HIGHELF", startx=33, starty=30, endx=46, endy=33, richPresenceId=0 } );
+mgr.addRegionData( { area="POI_REGION_HIGHELF", startx=35, starty=22, endx=40, endy=29, richPresenceId=0 } );
+mgr.addRegionData( { area="POI_REGION_HIGHELF", startx=41, starty=23, endx=43, endy=29, richPresenceId=0 } );
+mgr.addRegionData( { area="POI_REGION_HIGHELF", startx=44, starty=25, endx=45, endy=29, richPresenceId=0 } );
+
+mgr.addRegionData( { area="POI_REGION_SWAMP", startx=46, starty=25, endx=51, endy=29, richPresenceId=5 } );
+mgr.addRegionData( { area="POI_REGION_SWAMP", startx=47, starty=30, endx=51, endy=36, richPresenceId=5 } );
+mgr.addRegionData( { area="POI_REGION_SWAMP", startx=52, starty=11, endx=63, endy=63, richPresenceId=5 } );
+
+mgr.addRegionData( { area="POI_REGION_SERAPHIM", startx=24, starty=51, endx=35, endy=63, richPresenceId=3 } );
+mgr.addRegionData( { area="POI_REGION_SERAPHIM", startx=36, starty=51, endx=51, endy=63, richPresenceId=3 } );
+
+mgr.addRegionData( { area="POI_REGION_ORC", startx=0, starty=35, endx=15, endy=63, richPresenceId=2 } );
+mgr.addRegionData( { area="POI_REGION_ORC", startx=16, starty=42, endx=23, endy=63, richPresenceId=2 } );
+mgr.addRegionData( { area="POI_REGION_ORC", startx=24, starty=44, endx=24, endy=50, richPresenceId=2 } );
+mgr.addRegionData( { area="POI_REGION_ORC", startx=25, starty=46, endx=25, endy=50, richPresenceId=2 } );
+mgr.addRegionData( { area="POI_REGION_ORC", startx=26, starty=47, endx=27, endy=50, richPresenceId=2 } );
+
+mgr.addRegionData( { area="POI_REGION_HUMAN", startx=16, starty=35, endx=27, endy=41, richPresenceId=1 } );
+mgr.addRegionData( { area="POI_REGION_HUMAN", startx=24, starty=42, endx=27, endy=43, richPresenceId=1 } );
+mgr.addRegionData( { area="POI_REGION_HUMAN", startx=25, starty=44, endx=27, endy=45, richPresenceId=1 } );
+mgr.addRegionData( { area="POI_REGION_HUMAN", startx=26, starty=46, endx=27, endy=46, richPresenceId=1 } );
+mgr.addRegionData( { area="POI_REGION_HUMAN", startx=28, starty=36, endx=30, endy=50, richPresenceId=1 } );
+mgr.addRegionData( { area="POI_REGION_HUMAN", startx=31, starty=35, endx=32, endy=50, richPresenceId=1 } );
+mgr.addRegionData( { area="POI_REGION_HUMAN", startx=33, starty=34, endx=46, endy=50, richPresenceId=1 } );
+mgr.addRegionData( { area="POI_REGION_HUMAN", startx=47, starty=37, endx=51, endy=50, richPresenceId=1 } );
